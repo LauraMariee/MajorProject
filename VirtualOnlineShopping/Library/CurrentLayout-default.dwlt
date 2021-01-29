@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1308
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 56
+  controlID: 124
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 518
     height: 1308
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 57
+  controlID: 125
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 58
+  controlID: 126
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -326,7 +326,7 @@ MonoBehaviour:
     height: 464
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: player
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -338,20 +338,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Mannequins
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Mannequins
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Laura\Documents\MajorProject\VirtualOnlineShopping
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f83b000000ca9a3b
+    m_SelectedIDs: ea410000
+    m_LastClickedID: 16874
+    m_ExpandedIDs: 00000000143c00001e3c0000923c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f83b0000
+    m_ExpandedIDs: 00000000143c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -423,7 +423,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -502,9 +502,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a0e1ffff
-      m_LastClickedID: -7776
-      m_ExpandedIDs: 5efbffffea370000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: dab4ffff56c8ffff3cfbffff3efbffffe4370000e8370000f2370000805b0000865d000090700000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -564,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -18.50375, y: -5.1498094, z: 7.927203}
+    m_Target: {x: 2.1965752, y: 5.8617187, z: 3.1247277}
     speed: 2
-    m_Value: {x: -18.50375, y: -5.1498094, z: 7.927203}
+    m_Value: {x: 2.1965752, y: 5.8617187, z: 3.1247277}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -612,13 +612,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0884223, y: 0.6898537, z: -0.08549824, w: -0.71343184}
+    m_Target: {x: -0.12298511, y: -0.49817142, z: 0.0716331, w: -0.85532844}
     speed: 2
-    m_Value: {x: -0.08842179, y: 0.6898498, z: -0.08549775, w: -0.7134278}
+    m_Value: {x: -0.12298399, y: -0.49816692, z: 0.07163245, w: -0.8553207}
   m_Size:
-    m_Target: 25.084047
+    m_Target: 8.421655
     speed: 2
-    m_Value: 25.084047
+    m_Value: 8.421655
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -715,17 +715,17 @@ MonoBehaviour:
       y: 21
       width: 1535
       height: 781
-    m_Scale: {x: 1.7761121, y: 1.7761122}
-    m_Translation: {x: 767.49976, y: 390.5}
+    m_Scale: {x: 1.7761139, y: 1.7761122}
+    m_Translation: {x: 767.5004, y: 390.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -432.1235
+      x: -432.12344
       y: -219.86224
-      width: 864.24725
+      width: 864.2464
       height: 439.7245
     m_MinimalGUI: 1
   m_defaultScale: 1
