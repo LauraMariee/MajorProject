@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 124
+  controlID: 27
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 125
+  controlID: 28
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 126
+  controlID: 29
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,20 +338,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/SteamVR/InteractionSystem/Teleport/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/SteamVR/InteractionSystem/Teleport/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Laura\Documents\MajorProject\VirtualOnlineShopping
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ea410000
-    m_LastClickedID: 16874
-    m_ExpandedIDs: 00000000143c00001e3c0000923c000000ca9a3b
+    m_SelectedIDs: 04410000
+    m_LastClickedID: 16644
+    m_ExpandedIDs: 000000007a3c00008a3c0000ea3c00000241000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000143c0000
+    m_ExpandedIDs: 000000007a3c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -434,7 +434,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 115
+  m_DirectoriesAreaWidth: 188
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -504,7 +504,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: dab4ffff56c8ffff3cfbffff3efbffffe4370000e8370000f2370000805b0000865d000090700000
+      m_ExpandedIDs: 48f8ffff503800005e38000092380000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -564,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.1965752, y: 5.8617187, z: 3.1247277}
+    m_Target: {x: 1.1407193, y: 2.8394487, z: 2.181429}
     speed: 2
-    m_Value: {x: 2.1965752, y: 5.8617187, z: 3.1247277}
+    m_Value: {x: 1.1407193, y: 2.8394487, z: 2.181429}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -612,13 +612,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.12298511, y: -0.49817142, z: 0.0716331, w: -0.85532844}
+    m_Target: {x: 0.13555697, y: -0.7634758, z: 0.17016499, w: 0.6081086}
     speed: 2
-    m_Value: {x: -0.12298399, y: -0.49816692, z: 0.07163245, w: -0.8553207}
+    m_Value: {x: 0.13646738, y: -0.7632109, z: 0.17130807, w: 0.6078976}
   m_Size:
-    m_Target: 8.421655
+    m_Target: 17.237522
     speed: 2
-    m_Value: 8.421655
+    m_Value: 18.04976
   m_Ortho:
     m_Target: 0
     speed: 2
