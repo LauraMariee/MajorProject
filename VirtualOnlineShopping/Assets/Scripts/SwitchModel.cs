@@ -46,7 +46,7 @@ public class SwitchModel : MonoBehaviour
         //if (!checkCurrentModel("Male"))
         //{
         removeModel();
-        Instantiate(maleModel, spawnPosition, Quaternion.Euler(0, 0, 0));
+        Instantiate(maleModel, new Vector3(-10.89f, 4.39f, 7.71f), Quaternion.Euler(0, 0, 0));
         //}
 
     }
