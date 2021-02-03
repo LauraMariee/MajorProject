@@ -6,7 +6,8 @@ public class SwitchModel : MonoBehaviour
 {
 
     public Vector3 spawnPosition;
-    public GameObject model;
+    public GameObject femaleModel;
+    public GameObject maleModel;
 
     // Start is called before the first frame update
     void Start()
@@ -30,23 +31,23 @@ public class SwitchModel : MonoBehaviour
     //  return false;
     //}
 
-    public void spawnModel()
+    public void spawnModelFemale()
     {
         //if (!checkCurrentModel("Female"))
         //{
             removeModel();
-            Instantiate(model, spawnPosition, Quaternion.Euler(0, 0, 0));
+            Instantiate(femaleModel, spawnPosition, Quaternion.Euler(0, 0, 0));
         //}
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void spawnModelMale()
     {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            spawnModel();
-        }
+        //if (!checkCurrentModel("Male"))
+        //{
+        removeModel();
+        Instantiate(maleModel, spawnPosition, Quaternion.Euler(0, 0, 0));
+        //}
 
     }
 }
