@@ -4,36 +4,50 @@ using UnityEngine;
 
 public class ModelSliders : MonoBehaviour
 {
-    private int defaultBustSize;
-    private int defaultWaistSize;
-    private int defaultHipSize;
+    public int defaultValue;
+    public int currentValue;
 
-    public int minBustSize;
-    public int maxBustSize;
+    public int minSize;
+    public int maxSize;
 
-    public int minWaistSize;
-    public int maxWaistSize;
-
-    public int minHipSize;
-    public int maxHipSize;
+    public GameObject physicalHandle;
 
     // Start is called before the first frame update
     void Start()
     {
-        defaultBustSize = 35;
-        defaultWaistSize = 28;
-        defaultHipSize = 37;  
-}
+        currentValue = defaultValue; 
+    }
 
 // Update is called once per frame
-void Update()
+    void Update()
     {
-        //check position 
+        updateValue();
         //Get value from the range
     }
 
-    public void checkPosition()
+    public float getXPosition()
     {
+        float handlePosition = physicalHandle.GetComponent<Transform>().position.x;
+        return handlePosition;
+        
+    }
 
+    private void updateValue()
+    {
+        if(getXPosition() > defaultValue)
+        {
+            currentValue++;
+        }
+        else if(getXPosition() < defaultValue)
+        {
+            currentValue--; 
+        }
+        else
+        {
+            Debug.Log("No Change"); 
+        }
+        
+        //x position increase value
+        //Increment by 1
     }
 }
