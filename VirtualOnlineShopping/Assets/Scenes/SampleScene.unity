@@ -3075,10 +3075,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7259f82430916f4eb8aac44c82388c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultValue: 35
+  defaultValue: 1
   currentValue: 0
-  minSize: 0
-  maxSize: 20
+  minSize: 1
+  maxSize: 35
   physicalHandle: {fileID: 4771984072831422213}
 --- !u!33 &5254717853266499470
 MeshFilter:

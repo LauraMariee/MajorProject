@@ -19,9 +19,8 @@ public class ModelSliders : MonoBehaviour
     }
 
 // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        updateValue();
         //Get value from the range
     }
 
@@ -32,15 +31,43 @@ public class ModelSliders : MonoBehaviour
         
     }
 
+
+    private bool checkBounds()
+    {
+        Debug.Log("checkBounds"); 
+        if (currentValue == maxSize)
+        {
+            return false;
+        }
+        else if(currentValue == minSize)
+        {
+            return false; 
+        }
+        return true; 
+    }
+
     private void updateValue()
     {
-        if(getXPosition() > defaultValue)
+        Debug.Log("UpdateValue");
+        if (getXPosition() > defaultValue)
         {
-            currentValue++;
+            Debug.Log("Bigger Value");
+            if (checkBounds())
+            {
+                currentValue++;
+                Debug.Log("Value goes up");
+            }
+            
         }
         else if(getXPosition() < defaultValue)
         {
-            currentValue--; 
+            Debug.Log("Smaller Value");
+            if (checkBounds())
+            {
+                currentValue--;
+                Debug.Log("Value goes down");
+            }
+            
         }
         else
         {
@@ -49,5 +76,12 @@ public class ModelSliders : MonoBehaviour
         
         //x position increase value
         //Increment by 1
+    }
+
+
+
+    public void checkHandleValue()
+    {
+
     }
 }
