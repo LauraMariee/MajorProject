@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using UnityEngine;   
 
 public class ModelSliders : MonoBehaviour
 {
@@ -12,6 +12,12 @@ public class ModelSliders : MonoBehaviour
 
     public GameObject physicalHandle;
 
+    public List<float, int> handleValueList = new List<float, int>();
+
+    public void Start()
+    {
+        assignData();
+    }
 
     public float getXPosition()
     {
@@ -28,8 +34,26 @@ public class ModelSliders : MonoBehaviour
         return increment; 
     }
 
+    public void assignData()
+    {
+        var iteration = calculateHandleDifference();
+        var currentValue = minSize;
+
+        for (int i = 0, i < (maxSize - minSize), i++)
+        {
+            var handleValue = startPoint + iteration;
+            saveData(handleValue, currentValue);
+        }
+
+    }
+
+    public void saveData(float pos, int value)
+    {
+        handleValueList.Add(pos, value);
+    }
+
     public void Update()
     {
-        calculateHandleDifference();
+
     }
 }
