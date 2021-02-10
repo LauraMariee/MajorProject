@@ -15,16 +15,21 @@ public class ModelSliders : MonoBehaviour
 
     public float getXPosition()
     {
-        float handlePosition = physicalHandle.GetComponent<Transform>().position.x;
+        var handlePosition = physicalHandle.GetComponent<Transform>().position.x;
         return handlePosition;
     }
 
-    public int calculateHandleDifference()
+    public float calculateHandleDifference()
     {
-        var physicalDifference = startPoint - endPoint;
-        var valueDifference = maxSize - minSize;
+        var physicalDifference = startPoint.GetComponent<Transform>().position.x - endPoint.GetComponent<Transform>().position.x;
+        float valueDifference = maxSize - minSize;
 
         var increment = physicalDifference / valueDifference;
         return increment; 
+    }
+
+    public void Update()
+    {
+        calculateHandleDifference();
     }
 }
