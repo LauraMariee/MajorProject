@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using UnityEngine;   
 
 public class ModelSliders : MonoBehaviour
@@ -7,20 +9,22 @@ public class ModelSliders : MonoBehaviour
     public int minSize;
     public int maxSize;
 
-    public GameObject startPoint;
-    public GameObject endPoint;
+    private GameObject startPoint;
+    private GameObject endPoint;
 
     public GameObject physicalHandle;
-
-
-    private readonly List<(float physicalPos, int valuePos)> handleValueList = new List<(float physicalPos, int valuePos)>();
+    
+    private Dictionary<float, int> handleValueList = new Dictionary<float, int>();
 
     public void Start()
     {
+        startPoint = GameObject.Find("Start");
+        endPoint = GameObject.Find("End");
+        
         AssignData();
     }
 
-    public float GetxPosition()
+    private float GetHandlePosition()
     {
         var handlePosition = physicalHandle.GetComponent<Transform>().position.x;
         return handlePosition;
@@ -41,22 +45,43 @@ public class ModelSliders : MonoBehaviour
         var currentValue = minSize;
         var newHandleValue = startPoint.GetComponent<Transform>().position.x;
 
-        for (var i = 0; i < (maxSize - minSize); i++)
+        for (var i = 0; i <= (maxSize - minSize); i++)
         {
             var handleValue = newHandleValue + iteration;
             SaveData(handleValue, currentValue);
+            //Debug.Log(currentValue);
 
             currentValue++;
-            //newHandleValue = startPoint++; 
+            newHandleValue = handleValue; 
         }
+    }
+
+    private int GetDataForHandlePos()
+    {
+        //get handle position
+        //Search through List until values match
+        var value = handleValueList[GetHandlePosition()];//get value
+        return value;
     }
 
     private void SaveData(float pos, int value)
     {
-        handleValueList.Add((pos, value));
+        handleValueList.Add(pos, value);
     }
+
+    private void DisplayData()
+    {
+        foreach (var key in handleValueList)
+        {
+            Debug.Log("Handle pos is " + GetHandlePosition());
+            Debug.Log("Value is " + GetDataForHandlePos());
+            Debug.Log("Dictionary data is " + key);
+        }
+    }
+
     public void Update()
     {
-
+        DisplayData();
+       
     }
 }

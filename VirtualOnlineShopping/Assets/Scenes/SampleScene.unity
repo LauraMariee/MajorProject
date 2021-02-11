@@ -1217,12 +1217,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
---- !u!1 &837285330 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4771984072614255335, guid: dbf6ec933be09384591783d7d059c5dc,
-    type: 3}
-  m_PrefabInstance: {fileID: 4771984072831422212}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &908225051
 GameObject:
   m_ObjectHideFlags: 0
@@ -2264,12 +2258,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395747815}
   m_CullTransparentMesh: 0
---- !u!1 &1426007871 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4771984072153993333, guid: dbf6ec933be09384591783d7d059c5dc,
-    type: 3}
-  m_PrefabInstance: {fileID: 4771984072831422212}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1450400953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2722,6 +2710,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3396fe603f0304b4ca036d0e747958ee, type: 3}
+--- !u!1 &1585223100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4771984072154676515, guid: dbf6ec933be09384591783d7d059c5dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4771984072831422212}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1612393883
 GameObject:
   m_ObjectHideFlags: 0
@@ -3089,9 +3083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSize: 1
   maxSize: 35
-  startPoint: {fileID: 837285330}
-  endPoint: {fileID: 1426007871}
-  physicalHandle: {fileID: 4771984072831422213}
+  physicalHandle: {fileID: 1585223100}
 --- !u!33 &5254717853266499470
 MeshFilter:
   m_ObjectHideFlags: 0
