@@ -12,20 +12,21 @@ public class ModelSliders : MonoBehaviour
 
     public GameObject physicalHandle;
 
-    public List<float, int> handleValueList = new List<float, int>();
+
+    private readonly List<(float physicalPos, int valuePos)> handleValueList = new List<(float physicalPos, int valuePos)>();
 
     public void Start()
     {
-        assignData();
+        AssignData();
     }
 
-    public float getXPosition()
+    public float GetxPosition()
     {
         var handlePosition = physicalHandle.GetComponent<Transform>().position.x;
         return handlePosition;
     }
 
-    public float calculateHandleDifference()
+    private float CalculateHandleDifference()
     {
         var physicalDifference = startPoint.GetComponent<Transform>().position.x - endPoint.GetComponent<Transform>().position.x;
         float valueDifference = maxSize - minSize;
@@ -34,24 +35,26 @@ public class ModelSliders : MonoBehaviour
         return increment; 
     }
 
-    public void assignData()
+    private void AssignData()
     {
-        var iteration = calculateHandleDifference();
+        var iteration = CalculateHandleDifference();
         var currentValue = minSize;
+        var newHandleValue = startPoint.GetComponent<Transform>().position.x;
 
-        for (int i = 0, i < (maxSize - minSize), i++)
+        for (var i = 0; i < (maxSize - minSize); i++)
         {
-            var handleValue = startPoint + iteration;
-            saveData(handleValue, currentValue);
+            var handleValue = newHandleValue + iteration;
+            SaveData(handleValue, currentValue);
+
+            currentValue++;
+            //newHandleValue = startPoint++; 
         }
-
     }
 
-    public void saveData(float pos, int value)
+    private void SaveData(float pos, int value)
     {
-        handleValueList.Add(pos, value);
+        handleValueList.Add((pos, value));
     }
-
     public void Update()
     {
 
