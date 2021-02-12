@@ -60,8 +60,10 @@ public class ModelSliders : MonoBehaviour
     {
         //get handle position
         //Search through List until values match
+        if (!handleValueList.Any()) return 0;
         var value = handleValueList[GetHandlePosition()];//get value
         return value;
+
     }
 
     private void SaveData(float pos, int value)
