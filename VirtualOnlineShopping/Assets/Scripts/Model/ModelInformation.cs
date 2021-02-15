@@ -1,20 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class ModelInformation : MonoBehaviour
+namespace Model
 {
-    public string gender; 
-
-    // Start is called before the first frame update
-    void Start()
+    public class ModelInformation : MonoBehaviour
     {
-        
-    }
+        public int hips;
+        public int waist;
+        public int bust;
+        public int shoulder;
+        public int neck;
 
-    // Update is called once per frame
-    void Update()
-    {
+        // Start is called before the first frame update
+        void Start()
+        {
         
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+        
+        }
     }
 }
