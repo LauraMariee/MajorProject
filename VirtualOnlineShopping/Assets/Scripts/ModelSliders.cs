@@ -1,53 +1,54 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using System.Linq;
+using System.Linq.Expressions;
+using UnityEngine;   
 
 public class ModelSliders : MonoBehaviour
 {
-    public int defaultValue;
-    public int currentValue;
-
     public int minSize;
     public int maxSize;
 
+    private GameObject startPoint;
+    private GameObject endPoint;
+
     public GameObject physicalHandle;
-
-    // Start is called before the first frame update
-    void Start()
+    
+    private int PositionToValue(Vector3 position)
     {
-        currentValue = defaultValue; 
+        var startPosition = startPoint.GetComponent<Transform>().position;
+        var endPosition = endPoint.GetComponent<Transform>().position;
+        var fraction = (position - startPosition).magnitude / (endPosition - startPosition).magnitude;
+
+        var value = minSize + fraction * (maxSize - minSize);
+        return (int)Math.Round(value);
     }
 
-// Update is called once per frame
-    void Update()
+    private Vector3 ValueToPosition(float value)
     {
-        updateValue();
-        //Get value from the range
+        var fraction = (value - minSize) / (maxSize - minSize);
+
+        var startPosition = startPoint.GetComponent<Transform>().position;
+        var endPosition = endPoint.GetComponent<Transform>().position;
+        var position = startPosition + (endPosition - startPosition) * fraction;
+        return position;
+    }
+    
+    public void Start()
+    {
+        startPoint = GameObject.Find("Start");
+        endPoint = GameObject.Find("End");
     }
 
-    public float getXPosition()
+    private Vector3 GetHandlePosition()
     {
-        float handlePosition = physicalHandle.GetComponent<Transform>().position.x;
+        var handlePosition = physicalHandle.GetComponent<Transform>().position;
         return handlePosition;
-        
     }
 
-    private void updateValue()
+    public void Update()
     {
-        if(getXPosition() > defaultValue)
-        {
-            currentValue++;
-        }
-        else if(getXPosition() < defaultValue)
-        {
-            currentValue--; 
-        }
-        else
-        {
-            Debug.Log("No Change"); 
-        }
-        
-        //x position increase value
-        //Increment by 1
+        Debug.Log(PositionToValue(GetHandlePosition()));
     }
 }
