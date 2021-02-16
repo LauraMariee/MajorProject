@@ -849,7 +849,7 @@ MonoBehaviour:
   endPosition: {fileID: 1473035564}
   linearMapping: {fileID: 1568095859}
   repositionGameObject: 1
-  maintainMomemntum: 1
+  maintainMomemntum: 0
   momemtumDampenRate: 5
 --- !u!114 &207416742
 MonoBehaviour:
@@ -1636,7 +1636,7 @@ MonoBehaviour:
   endPosition: {fileID: 1083100999}
   linearMapping: {fileID: 696018996}
   repositionGameObject: 1
-  maintainMomemntum: 1
+  maintainMomemntum: 0
   momemtumDampenRate: 5
 --- !u!114 &590081366
 MonoBehaviour:
@@ -2548,7 +2548,7 @@ MonoBehaviour:
   endPosition: {fileID: 623264091}
   linearMapping: {fileID: 929905890}
   repositionGameObject: 1
-  maintainMomemntum: 1
+  maintainMomemntum: 0
   momemtumDampenRate: 5
 --- !u!114 &911642306
 MonoBehaviour:
@@ -2769,7 +2769,7 @@ MonoBehaviour:
   endPosition: {fileID: 2079194511}
   linearMapping: {fileID: 1612393885}
   repositionGameObject: 1
-  maintainMomemntum: 1
+  maintainMomemntum: 0
   momemtumDampenRate: 5
 --- !u!114 &924320066
 MonoBehaviour:
@@ -4681,7 +4681,7 @@ MonoBehaviour:
   endPosition: {fileID: 1076623415}
   linearMapping: {fileID: 1222180660}
   repositionGameObject: 1
-  maintainMomemntum: 1
+  maintainMomemntum: 0
   momemtumDampenRate: 5
 --- !u!114 &1520565066
 MonoBehaviour:
