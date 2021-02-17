@@ -47,6 +47,16 @@ namespace Model
             var handlePosition = physicalHandle.GetComponent<Transform>().position;
             return handlePosition;
         }
+        
+        public int GetMinSize()
+        {
+            return minSize;
+        }
+        
+        public int GetMaxSize()
+        {
+            return maxSize; 
+        }
 
         private void Update()
         {
