@@ -17,7 +17,7 @@ namespace Model
         public List<string> bodyObjectList = new List<string>(){ "BustHandle", "HipHandle", "WaistHandle", "ShoulderHandle", "NeckHandle"}; //Keep this order
         public List<string> integerNameList = new List<string>() {"bust", "hips", "waist", "shoulder", "neck"}; //keep this order
 
-        public List<GameObject> chest = new List<GameObject>(); //get game objects for the chest
+        public List<GameObject> chestObject = new List<GameObject>(); //get game objects for the chest
         
         private ModelSliders modelSlider;
         
@@ -26,9 +26,9 @@ namespace Model
             foreach (var key in bodyObjectList)
             {
                 var keyObject = GameObject.Find(CreateString(Root, key));//create and find new gameObject
-                modelSlider = keyObject.GetComponent<ModelSliders>();
                 foreach (var integerName in integerNameList)
                 {
+                    modelSlider = keyObject.GetComponent<ModelSliders>();
                     switch (integerName)
                     {
                         case "bust":
@@ -59,13 +59,13 @@ namespace Model
 
 
         // Update is called once per frame
-        private void FixedUpdate()
+        private void Update()
         {
             CreateGameObjects();
         }
 
 
-        private static void EditBust(ModelSliders modelSliderObject, int currentValue)
+        private void EditBust(ModelSliders modelSliderObject, int currentValue)
         {
             _bust = modelSliderObject.AssignText();
             
@@ -78,7 +78,15 @@ namespace Model
             var fraction = (currentValue - minSize) / (maxSize - minSize);
 
             var value = minScale + fraction * (maxScale - minScale);//change scale
-            Debug.Log(value);
+            ScaleByValue(value);
+        }
+
+        private void ScaleByValue(float scaleValue)
+        {
+            foreach (var bone in chestObject)
+            {
+                Debug.Log(bone.GetComponent<Transform>().localScale = new Vector3(scaleValue, scaleValue, scaleValue));
+            }
         }
         
     }

@@ -2333,6 +2333,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
+--- !u!1 &814235353 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7496397928626280539, guid: 4ef7633d63cbcc044a1c97d999076185,
+    type: 3}
+  m_PrefabInstance: {fileID: 3925076009146236541}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &863333538
 GameObject:
   m_ObjectHideFlags: 0
@@ -3556,6 +3562,12 @@ Transform:
   m_Father: {fileID: 1096529817}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1337728605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7481452821698542628, guid: 4ef7633d63cbcc044a1c97d999076185,
+    type: 3}
+  m_PrefabInstance: {fileID: 3925076009146236541}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1352914228
 GameObject:
   m_ObjectHideFlags: 0
@@ -6127,6 +6139,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.3
       objectReference: {fileID: 0}
+    - target: {fileID: 3925076009953456392, guid: 4ef7633d63cbcc044a1c97d999076185,
+        type: 3}
+      propertyPath: chestObject.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3925076009953456392, guid: 4ef7633d63cbcc044a1c97d999076185,
+        type: 3}
+      propertyPath: chestObject.Array.data[0]
+      value: 
+      objectReference: {fileID: 1337728605}
+    - target: {fileID: 3925076009953456392, guid: 4ef7633d63cbcc044a1c97d999076185,
+        type: 3}
+      propertyPath: chestObject.Array.data[1]
+      value: 
+      objectReference: {fileID: 814235353}
     - target: {fileID: 4600574105100347773, guid: 4ef7633d63cbcc044a1c97d999076185,
         type: 3}
       propertyPath: m_Name
