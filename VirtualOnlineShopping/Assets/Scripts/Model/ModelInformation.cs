@@ -1,87 +1,72 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
+using Valve.VR;
 
 namespace Model
 {
     public class ModelInformation : MonoBehaviour
     {
-        private static int _bust;
+        private int bust;
         public int hips;
         public int waist;
         public int shoulder;
         public int neck;
 
-        private const string Root = "stand/";
-
-        public List<string> bodyObjectList = new List<string>(){ "BustHandle", "HipHandle", "WaistHandle", "ShoulderHandle", "NeckHandle"}; //Keep this order
-        public List<string> integerNameList = new List<string>() {"bust", "hips", "waist", "shoulder", "neck"}; //keep this order
-
         public List<GameObject> chestObject = new List<GameObject>(); //get game objects for the chest
+
+        private GameObject bustObject;
+        private GameObject hipObject; 
+        private GameObject waistObject; 
+        private GameObject shoulderObject; 
+        private GameObject neckObject; 
         
-        private ModelSliders modelSlider;
-        
+        public void Start()
+        {
+            CreateGameObjects();
+            SetHandleValue(0.8f, 1.3f, bustObject.GetComponent<ModelSliders>(), bust);
+            SetHandleValue(0.8f, 1.3f, hipObject.GetComponent<ModelSliders>(), hips); 
+            SetHandleValue(0.8f, 1.3f, waistObject.GetComponent<ModelSliders>(), waist); 
+            SetHandleValue(0.8f, 1.3f, shoulderObject.GetComponent<ModelSliders>(), shoulder); 
+            SetHandleValue(0.8f, 1.3f, neckObject.GetComponent<ModelSliders>(), neck); 
+        }
+
         private void CreateGameObjects()
         {
-            foreach (var key in bodyObjectList)
-            {
-                var keyObject = GameObject.Find(CreateString(Root, key));//create and find new gameObject
-                foreach (var integerName in integerNameList)
-                {
-                    modelSlider = keyObject.GetComponent<ModelSliders>();
-                    switch (integerName)
-                    {
-                        case "bust":
-                            EditBust(modelSlider, _bust);
-                            break;
-                        case "hips":
-                            hips = keyObject.GetComponent<ModelSliders>().AssignText();
-                            break;
-                        case "waist":
-                            waist = keyObject.GetComponent<ModelSliders>().AssignText();
-                            break;
-                        case "shoulder":
-                            shoulder = keyObject.GetComponent<ModelSliders>().AssignText();
-                            break;
-                        case "neck":
-                            neck = keyObject.GetComponent<ModelSliders>().AssignText();
-                            break;
-                    }
-                }
-            }
+            bustObject = GameObject.Find("BustHandle");
+            hipObject = GameObject.Find("HipHandle");
+            waistObject = GameObject.Find("WaistHandle");
+            shoulderObject = GameObject.Find("ShoulderHandle");
+            neckObject = GameObject.Find("NeckHandle");
         }
         
-        private static string CreateString(string rootString, string key)
-        {
-            var newString = rootString + key;
-            return newString;
-        }
-
 
         // Update is called once per frame
         private void Update()
         {
-            CreateGameObjects();
+            UpdateHandleValue(bustObject.GetComponent<ModelSliders>());
         }
 
 
-        private void EditBust(ModelSliders modelSliderObject, int currentValue)
+        private static float SetHandleValue(float minScale, float maxScale, ModelSliders handle, int currentValue)
         {
-            _bust = modelSliderObject.AssignText();
-            
-            const float minScale = 0.8f; //set range of scale - min and max 
-            const float maxScale = 1.3f; //set range of scale - min and max 
-
-            float minSize = modelSliderObject.GetMinSize();//set range of values - min and max
-            float maxSize = modelSliderObject.GetMaxSize();//set range of values - min and max
-
+            float minSize = handle.minSize;//set range of values - min and max
+            float maxSize = handle.maxSize;//set range of values - min and max
             var fraction = (currentValue - minSize) / (maxSize - minSize);
-
-            var value = minScale + fraction * (maxScale - minScale);//change scale
-            ScaleByValue(value);
+            var value = minScale + fraction * (maxScale - minScale); //change scale
+            return value;
         }
 
-        private void ScaleByValue(float scaleValue)
+        private void UpdateHandleValue(ModelSliders handle)
+        {
+            bust = handle.AssignText();
+            ScaleChestByValue(SetHandleValue(0.8f, 1.3f, handle.GetComponent<ModelSliders>(), bust));
+            
+        }
+
+        
+
+        private void ScaleChestByValue(float scaleValue)
         {
             foreach (var bone in chestObject)
             {
