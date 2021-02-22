@@ -55,15 +55,17 @@ namespace Model
             UpdateHandleValue(bustObject, hipObject, waistObject, shoulderObject, neckObject);
         }
 
-        private static float SetHandleValue(float minScale, float maxScale, ModelSliders handle, int currentValue)
+        private float SetHandleValue(float minScale, float maxScale, ModelSliders handle, int currentValue)
         {
             //set range of values - min and max
-            float minSize = handle.minSize;
-            float maxSize = handle.maxSize;
+            float minSize = handle.GetMinSize();
+            float maxSize = handle.GetMaxSize();
+            
+            //Debug.Log(minSize + " for " + handle.name );
+            //Debug.Log(maxSize + " for " + handle.name );
             
             var fraction = (currentValue - minSize) / (maxSize - minSize);
             var value = minScale + fraction * (maxScale - minScale); //change scale
-            Debug.Log("Value is " + value);
             return value;
         }
 
@@ -107,7 +109,7 @@ namespace Model
         {
             foreach (var bone in bones)
             {
-                Debug.Log(bone.GetComponent<Transform>().localScale = new Vector3(scaleValue, scaleValue, scaleValue));
+                bone.GetComponent<Transform>().localScale = new Vector3(scaleValue, scaleValue, scaleValue);
             }
         }
     }

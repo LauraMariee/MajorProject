@@ -1514,8 +1514,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7259f82430916f4eb8aac44c82388c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSize: 16
-  maxSize: 33
+  minSize: 31
+  maxSize: 44
   physicalHandle: {fileID: 207416737}
   handleText: {fileID: 1514965303}
 --- !u!1 &340522699
@@ -1833,29 +1833,6 @@ Transform:
   m_Father: {fileID: 924320062}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 4.9230003, y: 14.653001, z: -5.6670003}
---- !u!1 &498027791 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -8215471462004856617, guid: eaf22f4cfa8f9ff4fba56b163039307d,
-    type: 3}
-  m_PrefabInstance: {fileID: 705584250}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &498027793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498027791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aa3b0b7b7d35d641a7eba0ddb8b8426, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bustBones: []
-  hipBones: []
-  waistBones: []
-  shoulderBones: []
-  neckBones: []
 --- !u!1 &545054809
 GameObject:
   m_ObjectHideFlags: 0
@@ -2684,20 +2661,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7844364483838154888}
     m_Modifications:
+    - target: {fileID: -7237251124226842655, guid: eaf22f4cfa8f9ff4fba56b163039307d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.377
+      objectReference: {fileID: 0}
+    - target: {fileID: -5716681864270162303, guid: eaf22f4cfa8f9ff4fba56b163039307d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: eaf22f4cfa8f9ff4fba56b163039307d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.59648955
+      value: -0.58288
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: eaf22f4cfa8f9ff4fba56b163039307d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.34532723
+      value: -0.7755
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: eaf22f4cfa8f9ff4fba56b163039307d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0044458318
+      value: -0.019409
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: eaf22f4cfa8f9ff4fba56b163039307d,
         type: 3}
@@ -2742,17 +2729,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: eaf22f4cfa8f9ff4fba56b163039307d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.0439441
+      value: 3.6222937
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: eaf22f4cfa8f9ff4fba56b163039307d,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.0439436
+      value: 3.622293
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: eaf22f4cfa8f9ff4fba56b163039307d,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.0439441
+      value: 3.6222937
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: eaf22f4cfa8f9ff4fba56b163039307d,
         type: 3}
@@ -3723,8 +3710,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7259f82430916f4eb8aac44c82388c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSize: 24
-  maxSize: 30
+  minSize: 31
+  maxSize: 44
   physicalHandle: {fileID: 590081361}
   handleText: {fileID: 1746481215}
 --- !u!1 &1083100998
@@ -3804,8 +3791,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7259f82430916f4eb8aac44c82388c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSize: 24
-  maxSize: 46
+  minSize: 31
+  maxSize: 44
   physicalHandle: {fileID: 1520565061}
   handleText: {fileID: 1259944742}
 --- !u!1 &1102076596
@@ -7250,7 +7237,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7844364483838154889}
   m_LocalRotation: {x: -0, y: 0.032962516, z: -0, w: 0.99945664}
-  m_LocalPosition: {x: -2.378413, y: 0.23000002, z: 7.15327}
+  m_LocalPosition: {x: -2.378413, y: 0.64, z: 7.15327}
   m_LocalScale: {x: 0.83978313, y: 0.8397832, z: 0.83978313}
   m_Children:
   - {fileID: 1607253920}
