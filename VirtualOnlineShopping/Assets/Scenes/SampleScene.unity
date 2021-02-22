@@ -7681,14 +7681,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8296172668479145331}
-  m_LocalRotation: {x: 0, y: 0.41902974, z: 0, w: 0.90797246}
-  m_LocalPosition: {x: 0.031131716, y: 0.5474143, z: 0.014374576}
-  m_LocalScale: {x: 1.136572, y: -25.506943, z: 1.136572}
+  m_LocalRotation: {x: -0, y: 0.70675236, z: -0, w: 0.7074611}
+  m_LocalPosition: {x: -0.64999986, y: -0.61, z: 0.09999989}
+  m_LocalScale: {x: 3.6222935, y: 3.6222928, z: 3.6222935}
   m_Children:
   - {fileID: 8778850930863373550}
   - {fileID: 1986120912191603611}
-  m_Father: {fileID: 7844364482997969788}
-  m_RootOrder: 0
+  m_Father: {fileID: 7844364483838154888}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 93.72, z: 0}
 --- !u!4 &5009229304573632795
 Transform:
@@ -8478,11 +8478,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7844364482997969789}
-  m_LocalRotation: {x: -0, y: 0.34526446, z: -0, w: 0.93850553}
-  m_LocalPosition: {x: -0.755252, y: -0.6977605, z: 0.1294096}
-  m_LocalScale: {x: 3.1870341, y: -0.14201204, z: 3.1870341}
-  m_Children:
-  - {fileID: 5006512735510853472}
+  m_LocalRotation: {x: -0, y: 0.34526443, z: -0, w: 0.93850553}
+  m_LocalPosition: {x: -0.755252, y: -0.63060814, z: 0.1294096}
+  m_LocalScale: {x: 3.187034, y: -0.14201204, z: 3.187034}
+  m_Children: []
   m_Father: {fileID: 7844364483838154888}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 40.396004, z: 0}
@@ -8555,6 +8554,7 @@ Transform:
   m_LocalScale: {x: 0.83978313, y: 0.8397832, z: 0.83978313}
   m_Children:
   - {fileID: 7844364482997969788}
+  - {fileID: 5006512735510853472}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 3.778, z: 0}
@@ -8677,7 +8677,7 @@ MonoBehaviour:
   onFrozenDistanceThreshold:
     m_PersistentCalls:
       m_Calls: []
-  minAngle: -45
+  minAngle: -180
   freezeOnMin: 0
   onMinAngle:
     m_PersistentCalls:
@@ -8758,7 +8758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f8e9e70f68ee3418ad85992778c116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 50
+  value: 0
 --- !u!136 &8296172668479145335
 CapsuleCollider:
   m_ObjectHideFlags: 0
