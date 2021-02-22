@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.VirtualOnlineShopping.iml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../../:\Users\Laura\Documents\MajorProject\VirtualOnlineShopping\.idea\.idea.VirtualOnlineShopping\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
