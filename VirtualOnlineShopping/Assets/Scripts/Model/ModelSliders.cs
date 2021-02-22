@@ -18,12 +18,13 @@ namespace Model
 
         private int PositionToValue(Vector3 position)
         {
-            var startPosition = startPoint.GetComponent<Transform>().position;
-            var endPosition = endPoint.GetComponent<Transform>().position;
-            var fraction = (position - startPosition).magnitude / (endPosition - startPosition).magnitude;
+            var newPosition = position.x;
+            var startPosition = startPoint.GetComponent<Transform>().position.x;
+            var endPosition = endPoint.GetComponent<Transform>().position.x;
+            var fraction = (newPosition - startPosition) / (endPosition - startPosition);
 
             var value = minSize + fraction * (maxSize - minSize);
-            return (int)Math.Round(value);
+            return Mathf.RoundToInt(value);
         }
 
         private Vector3 ValueToPosition(float value)
@@ -65,8 +66,10 @@ namespace Model
 
         public int AssignText()
         {
-            handleText.text = PositionToValue(GetHandlePosition()).ToString();
-            return Convert.ToInt32(handleText.text);
+            var positionValue = PositionToValue(GetHandlePosition());
+            handleText.text = positionValue.ToString(); 
+            Debug.Log(positionValue);
+            return positionValue;
         }
 
     }

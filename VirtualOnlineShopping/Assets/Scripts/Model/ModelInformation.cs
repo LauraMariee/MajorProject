@@ -55,15 +55,17 @@ namespace Model
             UpdateHandleValue(bustObject, hipObject, waistObject, shoulderObject, neckObject);
         }
 
-        private static float SetHandleValue(float minScale, float maxScale, ModelSliders handle, int currentValue)
+        private float SetHandleValue(float minScale, float maxScale, ModelSliders handle, int currentValue)
         {
             //set range of values - min and max
-            float minSize = handle.minSize;
-            float maxSize = handle.maxSize;
+            float minSize = handle.GetMinSize();
+            float maxSize = handle.GetMaxSize();
+            
+            //Debug.Log(minSize + " for " + handle.name );
+            //Debug.Log(maxSize + " for " + handle.name );
             
             var fraction = (currentValue - minSize) / (maxSize - minSize);
             var value = minScale + fraction * (maxScale - minScale); //change scale
-            Debug.Log("Value is " + value);
             return value;
         }
 
@@ -89,7 +91,7 @@ namespace Model
                         break;
                     case "shoulder":
                         shoulder = shoulderHandle.AssignText();
-                        ScaleByValue(SetHandleValue(MINScale, MAXScale, shoulderHandle, shoulder), shoulderBones);
+                        ScaleByValueShoulder(SetHandleValue(MINScale, MAXScale, shoulderHandle, shoulder), shoulderBones);
                         break;
                     case "neck":
                         neck = neckHandle.AssignText();
@@ -107,7 +109,18 @@ namespace Model
         {
             foreach (var bone in bones)
             {
-                Debug.Log(bone.GetComponent<Transform>().localScale = new Vector3(scaleValue, scaleValue, scaleValue));
+                bone.GetComponent<Transform>().localScale = new Vector3(scaleValue, scaleValue, scaleValue);
+            }
+        }
+        
+        private static void ScaleByValueShoulder(float scaleValue, IEnumerable<GameObject> bones)
+        {
+            foreach (var bone in bones)
+            {
+                bone.transform.localScale *= scaleValue;
+                //to keep this child the same size you would need to do the following;
+                bone.GetComponentInChildren<Transform>().localScale *= 1.0f / scaleValue;
+                // 1.5f could (and should) obviously be a variable instead of a number
             }
         }
     }
