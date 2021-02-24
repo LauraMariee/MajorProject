@@ -91,7 +91,7 @@ namespace Model
                         break;
                     case "shoulder":
                         shoulder = shoulderHandle.AssignText();
-                        ScaleByValueShoulder(SetHandleValue(MINScale, MAXScale, shoulderHandle, shoulder), shoulderBones);
+                        ScaleByValueShoulder(SetHandleValue(0.1961863f, 0.3f, shoulderHandle, shoulder), shoulderBones);
                         break;
                     case "neck":
                         neck = neckHandle.AssignText();
@@ -117,10 +117,7 @@ namespace Model
         {
             foreach (var bone in bones)
             {
-                bone.transform.localScale *= scaleValue;
-                //to keep this child the same size you would need to do the following;
-                bone.GetComponentInChildren<Transform>().localScale *= 1.0f / scaleValue;
-                // 1.5f could (and should) obviously be a variable instead of a number
+                bone.GetComponent<Transform>().position = new Vector3(scaleValue, bone.GetComponent<Transform>().position.y, bone.GetComponent<Transform>().position.z );
             }
         }
     }

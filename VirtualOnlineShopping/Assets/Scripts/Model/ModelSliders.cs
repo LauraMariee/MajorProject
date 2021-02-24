@@ -68,7 +68,7 @@ namespace Model
         {
             var positionValue = PositionToValue(GetHandlePosition());
             handleText.text = positionValue.ToString(); 
-            Debug.Log(positionValue);
+            //Debug.Log(positionValue);
             return positionValue;
         }
 
