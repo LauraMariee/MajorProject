@@ -91,7 +91,8 @@ namespace Model
                         break;
                     case "shoulder":
                         shoulder = shoulderHandle.AssignText();
-                        ScaleByValueShoulder(SetHandleValue(MINScale, MAXScale, shoulderHandle, shoulder), shoulderBones);
+                        ScaleByValueShoulder(SetHandleValue(0.1961863f, 0.5f, shoulderHandle, shoulder),
+                            SetHandleValue(-0.1961863f, -0.5f, shoulderHandle, shoulder), shoulderBones);
                         break;
                     case "neck":
                         neck = neckHandle.AssignText();
@@ -113,14 +114,20 @@ namespace Model
             }
         }
         
-        private static void ScaleByValueShoulder(float scaleValue, IEnumerable<GameObject> bones)
+        private static void ScaleByValueShoulder(float xValueLeft, float xValueRight, IEnumerable<GameObject> bones)
         {
             foreach (var bone in bones)
             {
-                bone.transform.localScale *= scaleValue;
-                //to keep this child the same size you would need to do the following;
-                bone.GetComponentInChildren<Transform>().localScale *= 1.0f / scaleValue;
-                // 1.5f could (and should) obviously be a variable instead of a number
+                var position = bone.transform.localPosition;
+                switch (bone.name)
+                {
+                    case "leftUpperArm":
+                        bone.GetComponent<Transform>().localPosition = new Vector3(xValueLeft, position.y, position.z );
+                        break;
+                    case "rightUpperArm":
+                        bone.GetComponent<Transform>().localPosition = new Vector3(xValueRight, position.y, position.z );
+                        break;
+                }
             }
         }
     }
