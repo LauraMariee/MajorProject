@@ -117,7 +117,9 @@ namespace Model
         {
             foreach (var bone in bones)
             {
-                bone.GetComponent<Transform>().position = new Vector3(scaleValue, bone.GetComponent<Transform>().position.y, bone.GetComponent<Transform>().position.z );
+                var position = bone.transform.localPosition;
+                bone.GetComponent<Transform>().localPosition = new Vector3(scaleValue, position.y, position.z );
+                Debug.Log(scaleValue);
             }
         }
     }
