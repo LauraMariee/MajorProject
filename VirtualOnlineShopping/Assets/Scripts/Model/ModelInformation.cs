@@ -79,15 +79,15 @@ namespace Model
                 {
                     case "bust":
                         bust = bustHandle.AssignText();
-                        ScaleByValue(SetHandleValue(MINScale, MAXScale, bustHandle, bust), bustBones);
+                        ScaleByValue(SetHandleValue(0.8f, 1.5f, bustHandle, bust), bustBones);
                         break;
                     case "hips":
                         hips = hipHandle.AssignText();
-                        ScaleByValue(SetHandleValue(MINScale, MAXScale, hipHandle, hips), hipBones);
+                        ScaleByValue(SetHandleValue(0.8f, 1.8f, hipHandle, hips), hipBones);
                         break;
                     case "waist":
                         waist = waistHandle.AssignText();
-                        ScaleByValue(SetHandleValue(MINScale, MAXScale, waistHandle, waist), waistBones);
+                        ScaleByValue(SetHandleValue(0.8f, 1.6f, waistHandle, waist), waistBones);
                         break;
                     case "shoulder":
                         shoulder = shoulderHandle.AssignText();
@@ -96,7 +96,7 @@ namespace Model
                         break;
                     case "neck":
                         neck = neckHandle.AssignText();
-                        ScaleByValue(SetHandleValue(MINScale, MAXScale, neckHandle, neck), neckBones);
+                        ScaleByValue(SetHandleValue(MINScale, 2, neckHandle, neck), neckBones);
                         break;
                     default:
                         Debug.Log("No available handle to scale");
