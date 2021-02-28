@@ -28,24 +28,28 @@ namespace Clothing
             using (var r = new StreamReader(filename + ".json"))// Read in json file
             {
                 var json = r.ReadToEnd();
-                var item = JsonConvert.DeserializeObject<ClothingObject>(json);// separate strings on file
-                LoadedClothes.Add(item);
-                //Debug.Log(item + " created");
+                var items = JsonConvert.DeserializeObject<CategorySearchResult>(json);// separate strings on file
+                if (items == null)
+                {
+                    // todo some error handling
+                    Debug.Log( "Error");
+                }
+                else
+                {
+                    LoadedClothes.AddRange(items.products);
+                }
             }
-            ShowListData();
+
+            ShowListData(); 
         }
 
         private static void ShowListData()
         {
             foreach (var item in LoadedClothes)
             {
-                Debug.Log(item);
+                Debug.Log(item.name + " : " + item.colour);
             }
         }
-            
-        
-        
-
         // Update is called once per frame
         void Update()
         {

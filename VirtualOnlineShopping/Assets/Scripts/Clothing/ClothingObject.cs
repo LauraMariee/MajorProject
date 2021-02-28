@@ -1,29 +1,25 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using UnityEngine;
 
 namespace Clothing
 {
-    public class ClothingObject : MonoBehaviour
+    [Serializable]
+    public class CategorySearchResult
     {
-        private int id; 
-        private string name;
-        private string colour;
-        private string brandName;
-        private int productCode;
-        private string url;
-        private string imageUrl; 
-        
+        public List<ClothingObject> products { get; set; }
+    }
     
-    
-        // Start is called before the first frame update
-        void Start()
-        {
+    [Serializable]
+    public class ClothingObject
+    {
+        public int id { get; set; } 
+        public string name{get; set;}
+        public string colour{get; set;}
+        public string brandName{get; set;}
+        public int productCode{get; set;}
+        public string url{get; set;}
+        public string imageUrl{get; set;} 
         
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
     }
 }
