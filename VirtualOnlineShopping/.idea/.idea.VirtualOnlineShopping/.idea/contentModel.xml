@@ -7,6 +7,10 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Clothing" t="Include">
+            <e p="ClothesMasterScript.cs" t="Include" />
+            <e p="ClothingObject.cs" t="Include" />
+          </e>
           <e p="Model" t="Include">
             <e p="ModelInformation.cs" t="Include" />
             <e p="ModelSliders.cs" t="Include" />
