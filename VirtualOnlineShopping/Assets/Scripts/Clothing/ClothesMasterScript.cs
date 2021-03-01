@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using UnityEngine;
 using Valve.Newtonsoft.Json;
 
@@ -11,10 +12,9 @@ namespace Clothing
         private readonly List<string> filenames = new List<string>()
             {"18797", "11321", "8799", "7616", "5668", "4208", "4169", "3630"};
 
+        public static List<GameObject> clothingGameObjects = new List<GameObject>(); 
         private static readonly List<ClothingObject> LoadedClothes = new List<ClothingObject>();
-        
-        
-        // Start is called before the first frame update
+
         private void Start()
         {
             foreach (var filename in filenames)
@@ -22,7 +22,6 @@ namespace Clothing
                 ReadInJson(filename);
             }
         }
-        
         private static void ReadInJson(string filename)
         {
             using (var r = new StreamReader(filename + ".json"))// Read in json file
@@ -39,21 +38,26 @@ namespace Clothing
                     LoadedClothes.AddRange(items.products);
                 }
             }
-
-            ShowListData(); 
+            AssignToGameObjects();
         }
-
-        private static void ShowListData()
+        private static void AssignToGameObjects()
         {
-            foreach (var item in LoadedClothes)
+           
+            foreach (var loadedCloth in LoadedClothes)
             {
-                Debug.Log(item.name + " : " + item.colour);
+                if (!(Resources.Load("Clothes/" + loadedCloth.id, typeof(GameObject)) is GameObject foundClothes))
+                    continue;
+                
+                var clothingDetailObject = foundClothes.GetComponent<ClothingDetail>();
+                
+                clothingDetailObject.id = loadedCloth.id;
+                clothingDetailObject.itemName = loadedCloth.name;
+                clothingDetailObject.colour = loadedCloth.colour;
+                clothingDetailObject.brandName = loadedCloth.brandName;
+                clothingDetailObject.productCode = loadedCloth.productCode;
+                clothingDetailObject.url = loadedCloth.url;
+                clothingDetailObject.imageUrl = loadedCloth.imageUrl;
             }
-        }
-        // Update is called once per frame
-        void Update()
-        {
-        
         }
     }
 }
