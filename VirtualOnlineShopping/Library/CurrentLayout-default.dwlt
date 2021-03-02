@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 88
+  controlID: 27
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 89
+  controlID: 28
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,11 +338,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Clothes
+    - Assets/SteamVR/InteractionSystem/Teleport/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources/Clothes
+  - Assets/SteamVR/InteractionSystem/Teleport/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Laura\Documents\MajorProject\VirtualOnlineShopping
   m_LockTracker:
@@ -564,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.1882794, y: 3.4394906, z: 10.152817}
+    m_Target: {x: 2.4763882, y: 1.5876031, z: 9.607269}
     speed: 2
-    m_Value: {x: 1.1882794, y: 3.4394906, z: 10.152817}
+    m_Value: {x: 2.4763882, y: 1.5876031, z: 9.607269}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -612,13 +612,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.094280094, y: 0.87125236, z: -0.1846216, w: -0.4449835}
+    m_Target: {x: -0.23857065, y: 0.71783596, z: -0.29282957, w: -0.5849038}
     speed: 2
-    m_Value: {x: -0.09427704, y: 0.8712241, z: -0.18461561, w: -0.4449691}
+    m_Value: {x: -0.23768526, y: 0.7182508, z: -0.29174283, w: -0.5852417}
   m_Size:
-    m_Target: 1.5433016
+    m_Target: 3.6433012
     speed: 2
-    m_Value: 1.5433016
+    m_Value: 3.3433013
   m_Ortho:
     m_Target: 0
     speed: 2
