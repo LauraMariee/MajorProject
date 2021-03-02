@@ -18,7 +18,7 @@ namespace Model
 
         private static void RemoveModel()
         {
-            GameObject currentModel = GameObject.FindGameObjectWithTag("Model");
+            var currentModel = GameObject.FindGameObjectWithTag("Model");
             Destroy(currentModel); 
         }
 
@@ -28,20 +28,19 @@ namespace Model
         //    if(currentModel.GetComponent<ModelInformation>().gender == newModelGender)
         //    {
         //        return true;
-        //    }
-        //  return false;
+        //
+    //}
+    //return false;
         //}
 
         public void SpawnModelFemale()
         {
-            if (!SteamVR_Actions._default.GrabPinch.GetStateDown(SteamVR_Input_Sources.Any)) return;
             RemoveModel();
             Instantiate(femaleModel, spawnPosition, Quaternion.Euler(0, 0, 0));
         }
 
         public void SpawnModelMale()
         {
-            if (!SteamVR_Actions._default.GrabPinch.GetStateDown(SteamVR_Input_Sources.Any)) return;
             RemoveModel();
             Instantiate(maleModel, new Vector3(-10.89f, 4.39f, 7.71f), Quaternion.Euler(0, 0, 0));
         }

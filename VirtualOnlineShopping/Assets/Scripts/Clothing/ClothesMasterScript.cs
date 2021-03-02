@@ -11,8 +11,7 @@ namespace Clothing
 
         private readonly List<string> filenames = new List<string>()
             {"18797", "11321", "8799", "7616", "5668", "4208", "4169", "3630"};
-
-        public static List<GameObject> clothingGameObjects = new List<GameObject>(); 
+        
         private static readonly List<ClothingObject> LoadedClothes = new List<ClothingObject>();
 
         private void Start()

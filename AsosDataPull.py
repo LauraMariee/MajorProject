@@ -15,9 +15,9 @@ import requests
 
 url = "https://asos2.p.rapidapi.com/products/v2/list"
 
-clothingCategory = ["11321", "4169", "3630", "8799", "7616", "4208", "5668", "18797"]
+clothingCategory = ["11321", "4169", "3630", "8799", "7616", "4208", "5668", "18797"] #make modular
 for x in clothingCategory:
-    querystring = {"offset": "0", "categoryId": x, "limit": "48", "store": "US", "country": "US",
+    querystring = {"offset": "0", "categoryId": x, "limit": "5", "store": "US", "country": "US",
                    "currency": "USD", "sort": "", "lang": "en-US", "sizeSchema": "US"}  # shoes, boots and sneakers
 
     headers = {
