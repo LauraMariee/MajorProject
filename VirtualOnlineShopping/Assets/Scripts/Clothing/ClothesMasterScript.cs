@@ -9,18 +9,30 @@ namespace Clothing
     public class ClothesMasterScript : MonoBehaviour
     {
 
-        private readonly List<string> filenames = new List<string>()
-            {"18797", "11321", "8799", "7616", "5668", "4208", "4169", "3630"};
-        
+        private List<string> filenames = new List<string>();
+
         private static readonly List<ClothingObject> LoadedClothes = new List<ClothingObject>();
 
         private void Start()
         {
+            filenames = ReadInCategories(); 
             foreach (var filename in filenames)
             {
+                //Debug.Log(filename);
                 ReadInJson(filename);
             }
         }
+
+        private static List<string> ReadInCategories()
+        {
+            using (var r = new StreamReader("categories.json"))// Read in json file
+            {
+                var json = r.ReadToEnd();
+                var filenames = JsonConvert.DeserializeObject<List<string>>(json);// separate strings on file
+                return filenames;
+            }
+        }
+
         private static void ReadInJson(string filename)
         {
             using (var r = new StreamReader(filename + ".json"))// Read in json file

@@ -6,133 +6,15 @@
       <change beforePath="$PROJECT_DIR$/AsosDataPull.py" beforeDir="false" afterPath="$PROJECT_DIR$/AsosDataPull.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Assets/Scripts/Clothing/ClothesMasterScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Assets/Scripts/Clothing/ClothesMasterScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Assets/Scripts/Model/SwitchModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Assets/Scripts/Model/SwitchModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Assets/SteamVR_Resources/Resources/SteamVR_Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Assets/SteamVR_Resources/Resources/SteamVR_Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Assets/Scripts/Model/ModelSliders.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Assets/Scripts/Model/ModelSliders.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/Artifacts/0b/0b26578c85b1f609108b98ca3c183f42" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/Artifacts/15/15d6d9be5d9d77a06d7fd7173b290b36" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/Artifacts/1c/1c1e1512f23d147cb4753203c584f21e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/Artifacts/46/46bc77c2f4dd01ae4c34115bc9c23cef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/Artifacts/4c/4c88da027e9d5c1cc963e5f20a4f6306" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/Artifacts/9a/9a48f569bca97a4bcf9ca8d1a87b108d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/Artifacts/f2/f2b911d38676ddbca85a9eaa9a6e9b9c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/Artifacts/f2/f2d8ba9d6ec0d276d4b06cdb1e554447" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/CHANGELOG.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Editor/OpenVRBuildProcessor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Editor/OpenVRBuildProcessor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Editor/OpenVRLoaderMetadata.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Editor/OpenVRLoaderMetadata.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Editor/OpenVRSettingsCopier.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Editor/OpenVRSettingsCopier.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Editor/OpenVRSettingsEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Editor/OpenVRSettingsEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Editor/Unity.XR.OpenVR.Editor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Editor/Unity.XR.OpenVR.Editor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/LICENSE.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/DeviceLayouts.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/DeviceLayouts.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/OpenVREvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/OpenVREvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/OpenVRHelpers.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/OpenVRHelpers.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/OpenVRLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/OpenVRLoader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/OpenVRSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/OpenVRSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/Unity.XR.OpenVR.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/Unity.XR.OpenVR.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/UnitySubsystemsManifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/UnitySubsystemsManifest.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/openvr_api.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/openvr_api.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/XRSDKOpenVR.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/XRSDKOpenVR.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/XRSDKOpenVR.dll.sig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/XRSDKOpenVR.dll.sig.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/XRSDKOpenVR.exp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/XRSDKOpenVR.exp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/XRSDKOpenVR.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/XRSDKOpenVR.lib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/lib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/lib/x64.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/lib/x64/libopenvr_api.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/lib/x64/libopenvr_api.so.dbg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/lib/x64/libopenvr_api.so.dbg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/lib/x64/libopenvr_api.so.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/libXRSDKOpenVR.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/libXRSDKOpenVR.so.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/libopenvr_api.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/libopenvr_api.so.dbg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/libopenvr_api.so.dbg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/libopenvr_api.so.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/openvr_api.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/openvr_api.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/openvr_api.dll.sig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/openvr_api.dll.sig.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/openvr_api.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/openvr_api.lib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/ucrtbased.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x64/ucrtbased.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/XRSDKOpenVR.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/XRSDKOpenVR.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/XRSDKOpenVR.dll.sig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/XRSDKOpenVR.dll.sig.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/XRSDKOpenVR.exp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/XRSDKOpenVR.exp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/XRSDKOpenVR.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/XRSDKOpenVR.lib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/openvr_api.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/openvr_api.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/openvr_api.dll.sig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/openvr_api.dll.sig.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/openvr_api.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/openvr_api.lib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/ucrtbased.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/Runtime/x86/ucrtbased.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/PackageCache/com.valvesoftware.unity.openvr@6012c7ccdf7c-1611920578759/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/Artifacts/1e/1e09f1f4436a4e1befac978ca90abd91" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/Artifacts/74/74665e7889b8faf73cf5d6d67e5236f6" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/SteamVR.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/SteamVR.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/SteamVR_Actions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/SteamVR_Actions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/SteamVR_Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/SteamVR_Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/SteamVR_Input_Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/SteamVR_Input_Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/SteamVR_Windows_EditorHelper.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/SteamVR_Windows_EditorHelper.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.XR.Management.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.XR.Management.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.XR.OpenVR.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.XR.OpenVR.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.XR.OpenVR.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/Unity.XR.OpenVR.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/StateCache/Hierarchy/b8f668-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/StateCache/Hierarchy/b8f668-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/StateCache/SceneView/08a2ff-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/StateCache/SceneView/08a2ff-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/obj/Debug/SteamVR.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/obj/Debug/SteamVR.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VirtualOnlineShopping/obj/Debug/SteamVR_Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualOnlineShopping/obj/Debug/SteamVR_Editor.csprojAssemblyReference.cache" afterDir="false" />
@@ -224,22 +106,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="420" y="471" key="FileChooserDialogImpl/0.0.2560.1400/3840.555.1536.824@0.0.2560.1400" timestamp="1614346592627" />
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1614356037145">
+    <state width="2539" height="400" key="GridCell.Tab.0.bottom" timestamp="1614870153301">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.555.1536.824@0.0.2560.1400" timestamp="1614356037145" />
-    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1614356037145">
+    <state width="2539" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.555.1536.824@0.0.2560.1400" timestamp="1614870153301" />
+    <state width="2539" height="400" key="GridCell.Tab.0.center" timestamp="1614870153301">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/3840.555.1536.824@0.0.2560.1400" timestamp="1614356037145" />
-    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1614356037145">
+    <state width="2539" height="400" key="GridCell.Tab.0.center/0.0.2560.1400/3840.555.1536.824@0.0.2560.1400" timestamp="1614870153301" />
+    <state width="2539" height="400" key="GridCell.Tab.0.left" timestamp="1614870153301">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/3840.555.1536.824@0.0.2560.1400" timestamp="1614356037145" />
-    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1614356037145">
+    <state width="2539" height="400" key="GridCell.Tab.0.left/0.0.2560.1400/3840.555.1536.824@0.0.2560.1400" timestamp="1614870153301" />
+    <state width="2539" height="400" key="GridCell.Tab.0.right" timestamp="1614870153301">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/3840.555.1536.824@0.0.2560.1400" timestamp="1614356037145" />
+    <state width="2539" height="400" key="GridCell.Tab.0.right/0.0.2560.1400/3840.555.1536.824@0.0.2560.1400" timestamp="1614870153301" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1614711451985">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
