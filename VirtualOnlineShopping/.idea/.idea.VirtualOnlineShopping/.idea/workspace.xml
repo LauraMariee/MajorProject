@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ab07c5-3983-4822-be13-3f52bc908caf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3d/3d2b7460227417bf4c8911d30dcc5562" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4e/4ed9b282e2da2cc09a5714d4438828e6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/50/5026efa444a50764268de261dd0ab229" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/52/52df04aef1f7da7cc417c541cde17290" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/54/54890d53a0503c49bbfd59d35423d2ed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/56/560416032f4d39181428a791a9fa4184" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5f/5facba488cc9a8a834f765cf77a6d2cf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/62/627e27a27a7987133c3bc9eaa874b109" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/68/684e5715e2a3b02185295e237d2371a9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/6b/6b0800489ac9d59c30d8539d72566dba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7f/7f47f550971fd08b737b7beeabeb74aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/87/879d10a8f55ea2ff809038cc43e65d6e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/88/885a6b0d8e4d5cf6fe543b881cc5f3bf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/88/8891963cf12173d4481915e960cf5101" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/91/9137ce4223d28b71c082be534fac3172" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/98/9810a2a0e5b52413d1b5e239d9a4571e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9f/9f4fc56e129c9a8943f3760e89bf359d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a0/a0c016e69009b3c801d6778c525b6a9d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a4/a4759023f6021795c9a13cde1c778a07" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d3/d352ed19e30681cdd7b0a45ff3614890" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/08a2ff-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/08a2ff-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7616.json" beforeDir="false" afterPath="$PROJECT_DIR$/7616.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +54,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="55936">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="55936" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
