@@ -67,6 +67,8 @@ namespace Model
 
         public void FindAndAssignBones()
         {
+            //Find current model 
+            //Link all relevant bones
             
         }
             

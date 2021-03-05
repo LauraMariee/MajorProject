@@ -10,28 +10,22 @@ namespace Model
         public GameObject femaleModel;
         public GameObject maleModel;
 
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
-
         private static void RemoveModel()
         {
             var currentModel = GameObject.FindGameObjectWithTag("Model");
             Destroy(currentModel); 
         }
 
-        //public bool checkLoadingSameModel(string newModelGender)
-        //{
-        //    GameObject currentModel = GameObject.FindGameObjectWithTag("Model");
-        //    if(currentModel.GetComponent<ModelInformation>().gender == newModelGender)
-        //    {
-        //        return true;
-        //
-    //}
-    //return false;
-        //}
+        public bool CheckLoadingSameModel(string newModelGender)
+        {
+            var currentModel = GameObject.FindGameObjectWithTag("Model");
+            if(currentModel.GetComponent<ModelInformation>().gender == newModelGender)
+            {
+                
+                return true;
+            }
+            return false;
+        }
 
         public void SpawnModelFemale()
         {

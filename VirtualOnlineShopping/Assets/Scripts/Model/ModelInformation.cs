@@ -8,6 +8,8 @@ namespace Model
 {
     public class ModelInformation : MonoBehaviour
     {
+        public string gender; 
+        
         private int bust;
         private int hips;
         private int waist;
@@ -55,7 +57,7 @@ namespace Model
             UpdateHandleValue(bustObject, hipObject, waistObject, shoulderObject, neckObject);
         }
 
-        private float SetHandleValue(float minScale, float maxScale, ModelSliders handle, int currentValue)
+        private static float SetHandleValue(float minScale, float maxScale, ModelSliders handle, int currentValue)
         {
             //set range of values - min and max
             float minSize = handle.GetMinSize();
