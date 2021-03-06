@@ -19,11 +19,11 @@ namespace Model
         private const float MINScale = 0.8f;
         private const float MAXScale = 1.8f;
 
-        public List<GameObject> bustBones = new List<GameObject>(); //get game objects for the chest
-        public List<GameObject> hipBones = new List<GameObject>(); //get game objects for the chest
-        public List<GameObject> waistBones = new List<GameObject>(); //get game objects for the chest
-        public List<GameObject> shoulderBones = new List<GameObject>();
-        public List<GameObject> neckBones = new List<GameObject>();
+        private readonly List<GameObject> bustBones = new List<GameObject>();
+        private readonly List<GameObject> hipBones = new List<GameObject>(); 
+        private readonly List<GameObject> waistBones = new List<GameObject>(); 
+        private readonly List<GameObject> shoulderBones = new List<GameObject>();
+        private readonly List<GameObject> neckBones = new List<GameObject>();
         
         private ModelSliders bustObject;
         private ModelSliders hipObject; 
@@ -35,12 +35,13 @@ namespace Model
         
         public void Start()
         {
+            FindAndAssignBones();
             CreateGameObjects();
             SetHandleValue(MINScale, MAXScale, bustObject, bust);
             SetHandleValue(MINScale, MAXScale, hipObject, hips); 
             SetHandleValue(MINScale, MAXScale, waistObject, waist); 
             SetHandleValue(MINScale, MAXScale, shoulderObject, shoulder); 
-            SetHandleValue(MINScale, MAXScale, neckObject, neck); 
+            SetHandleValue(MINScale, MAXScale, neckObject, neck);
         }
 
         private void CreateGameObjects()
@@ -131,6 +132,94 @@ namespace Model
                         break;
                 }
             }
+        }
+
+
+        private void SetFemaleBones()
+        {
+            var bustBoneOne = GameObject.Find("FemaleModel/woman/armature/spine/stomach/chestLeft");
+            var bustBoneTwo = GameObject.Find("FemaleModel/woman/armature/spine/stomach/chestRight");
+            
+            var hipBoneOne = GameObject.Find("FemaleModel/woman/armature/spine/hipLeft");
+            var hipBoneTwo = GameObject.Find("FemaleModel/woman/armature/spine/hipRight");
+            
+            var waistBoneOne = GameObject.Find("FemaleModel/woman/armature/spine/pelvis/waistLeft");
+            var waistBoneTwo = GameObject.Find("FemaleModel/woman/armature/spine/pelvis/waistRight");
+            
+            var shoulderBoneOne = GameObject.Find("FemaleModel/woman/armature/spine/stomach/chest/leftUpperArm");
+            var shoulderBoneTwo = GameObject.Find("FemaleModel/woman/armature/spine/stomach/chest/rightUpperArm");
+            
+            var neckBoneOne = GameObject.Find("FemaleModel/woman/armature/spine/stomach/chest/neck/neckLeft");
+            var neckBoneTwo = GameObject.Find("FemaleModel/woman/armature/spine/stomach/chest/neck/neckRight");
+            
+            bustBones.Add(bustBoneOne);
+            bustBones.Add(bustBoneTwo);
+            
+            hipBones.Add(hipBoneOne);
+            hipBones.Add(hipBoneTwo);
+            
+            waistBones.Add(waistBoneOne);
+            waistBones.Add(waistBoneTwo);
+            
+            shoulderBones.Add(shoulderBoneOne);
+            shoulderBones.Add(shoulderBoneTwo);
+            
+            neckBones.Add(neckBoneOne);
+            neckBones.Add(neckBoneTwo);
+        }
+        
+        
+        private void SetMaleBones()
+        {
+            var bustBoneOne = GameObject.Find("MaleModel/male/armature/Stomach/chestLeft");
+            var bustBoneTwo = GameObject.Find("MaleModel/male/armature/Stomach/chestRight");
+            
+            var hipBoneOne = GameObject.Find("MaleModel/male/armature/HipLeft");
+            var hipBoneTwo = GameObject.Find("MaleModel/male/armature/HipRight");
+            
+            var waistBoneOne = GameObject.Find("MaleModel/male/armature/WaistLeft");
+            var waistBoneTwo = GameObject.Find("MaleModel/male/armature/WaistRight");
+            
+            var shoulderBoneOne = GameObject.Find("MaleModel/male/armature/LeftShoulderTop");
+            var shoulderBoneTwo = GameObject.Find("MaleModel/male/armature/RightShoulderTop");
+            
+            var neckBoneOne = GameObject.Find("MaleModel/male/armature/NeckLeft");
+            var neckBoneTwo = GameObject.Find("MaleModel/male/armature/NeckRight");
+            
+            bustBones.Add(bustBoneOne);
+            bustBones.Add(bustBoneTwo);
+            
+            hipBones.Add(hipBoneOne);
+            hipBones.Add(hipBoneTwo);
+            
+            waistBones.Add(waistBoneOne);
+            waistBones.Add(waistBoneTwo);
+            
+            shoulderBones.Add(shoulderBoneOne);
+            shoulderBones.Add(shoulderBoneTwo);
+            
+            neckBones.Add(neckBoneOne);
+            neckBones.Add(neckBoneTwo);
+        }
+        
+
+        private void FindAndAssignBones()
+        {
+            Debug.Log(name);
+            //Remove "(Clone)"
+            switch (this.name)
+            {
+                // check current name
+                case "FemaleModel":
+                    SetFemaleBones();
+                    break;
+                case "MaleModel":
+                    SetMaleBones();
+                    break;
+            }
+
+            //Find current model 
+            //Link all relevant bones
         }
     }
 }

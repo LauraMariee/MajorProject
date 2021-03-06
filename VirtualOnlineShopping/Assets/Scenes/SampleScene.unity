@@ -260,7 +260,7 @@ MonoBehaviour:
   spawnPosition: {x: -1.11, y: 0.565, z: 8.056}
   femaleModel: {fileID: 8830536151222678570, guid: b4812cf909ca3bd45901ee96c3fe8fec,
     type: 3}
-  maleModel: {fileID: 1668989375288751813, guid: 464c9fcef020c4b408dbe0fd1d2c0994,
+  maleModel: {fileID: 1853904323799025368, guid: 6363adf5bbd70454c9c1a8b10dd0093a,
     type: 3}
 --- !u!4 &19589281
 Transform:
@@ -5582,6 +5582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5134788
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607954633995396054, guid: b4812cf909ca3bd45901ee96c3fe8fec,
+        type: 3}
+      propertyPath: gender
+      value: Female
       objectReference: {fileID: 0}
     - target: {fileID: 6040666009240915384, guid: b4812cf909ca3bd45901ee96c3fe8fec,
         type: 3}
