@@ -13,6 +13,9 @@
             <e p="ClothingObject.cs" t="Include" />
           </e>
           <e p="Model" t="Include">
+            <e p="FemaleModel.cs" t="Include" />
+            <e p="MaleModel.cs" t="Include" />
+            <e p="ModelController.cs" t="Include" />
             <e p="ModelInformation.cs" t="Include" />
             <e p="ModelSliders.cs" t="Include" />
             <e p="SwitchModel.cs" t="Include" />

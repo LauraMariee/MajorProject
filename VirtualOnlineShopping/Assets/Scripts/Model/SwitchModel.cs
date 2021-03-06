@@ -21,7 +21,6 @@ namespace Model
             var currentModel = GameObject.FindGameObjectWithTag("Model");
             if(currentModel.GetComponent<ModelInformation>().gender == newModelGender)
             {
-                
                 return true;
             }
             return false;
