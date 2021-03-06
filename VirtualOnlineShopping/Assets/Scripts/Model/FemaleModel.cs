@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -6,8 +7,6 @@ namespace Model
 {
     public class FemaleModel : MonoBehaviour
     {
-        private readonly List<GameObject> returnList = new List<GameObject>();
-        
         private readonly Dictionary<string, string> boneDictionary = new Dictionary<string, string>()
         {
             {"FemaleModel/woman/armature/spine/stomach/chestLeft", "FemaleModel/woman/armature/spine/stomach/chestRight"},
@@ -16,32 +15,40 @@ namespace Model
             {"FemaleModel/woman/armature/spine/stomach/chest/leftUpperArm","FemaleModel/woman/armature/spine/stomach/chest/rightUpperArm"}, 
             {"FemaleModel/woman/armature/spine/stomach/chest/neck/neckLeft","FemaleModel/woman/armature/spine/stomach/chest/neck/neckRight"}
         };
-        
-        
+
+        private readonly ModelInformation modelInformation = new ModelInformation();
         
         private GameObject boneOne;
         private GameObject boneTwo;
 
-        private List<GameObject> BoneList(string boneOneAddress, string boneTwoAddress)
+        public void Start()
         {
-            returnList.Clear();
-            
+            AssignBones();
+            modelInformation.Start();
+        }
+
+        private void BoneList(string boneOneAddress, string boneTwoAddress, ICollection<GameObject> boneTotalList)
+        {
             boneOne = GameObject.Find(boneOneAddress);
             boneTwo = GameObject.Find(boneTwoAddress);
             
-            returnList.Add(boneOne);
-            returnList.Add(boneTwo);
-
-            return returnList;
+            boneTotalList.Add(boneOne);
+            boneTotalList.Add(boneTwo);
         }
 
-
-        public void AssignFemaleBones()
+        private void AssignBones()
         {
-            foreach (var body in boneDictionary)
-            {
-                BoneList(body.Key, body.Value); 
-            }
+            BoneList(boneDictionary.ElementAt(0).Key, boneDictionary.ElementAt(0).Value, modelInformation.bustBones);
+            BoneList(boneDictionary.ElementAt(1).Key, boneDictionary.ElementAt(1).Value, modelInformation.hipBones);
+            BoneList(boneDictionary.ElementAt(2).Key, boneDictionary.ElementAt(2).Value, modelInformation.waistBones);
+            BoneList(boneDictionary.ElementAt(3).Key, boneDictionary.ElementAt(3).Value, modelInformation.shoulderBones);
+            BoneList(boneDictionary.ElementAt(4).Key, boneDictionary.ElementAt(4).Value, modelInformation.neckBones);
+        }
+
+        public void Update()
+        {
+            modelInformation.UpdateHandleValue(modelInformation.bustObject, modelInformation.hipObject, 
+                modelInformation.waistObject, modelInformation.shoulderObject, modelInformation.neckObject);
         }
     }
 }

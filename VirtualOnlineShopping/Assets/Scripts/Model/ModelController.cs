@@ -10,6 +10,11 @@ namespace Model
         
         }
 
+        public void moveModel()
+        {
+            //Move model from back spot to front spot 
+        }
+
         // Update is called once per frame
         void Update()
         {

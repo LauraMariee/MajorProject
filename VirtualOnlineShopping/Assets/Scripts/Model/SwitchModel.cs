@@ -16,15 +16,7 @@ namespace Model
             Destroy(currentModel); 
         }
 
-        public bool CheckLoadingSameModel(string newModelGender)
-        {
-            var currentModel = GameObject.FindGameObjectWithTag("Model");
-            if(currentModel.GetComponent<ModelInformation>().gender == newModelGender)
-            {
-                return true;
-            }
-            return false;
-        }
+     
 
         public void SpawnModelFemale()
         {

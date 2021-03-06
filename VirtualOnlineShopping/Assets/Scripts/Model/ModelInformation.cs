@@ -6,10 +6,8 @@ using Valve.VR;
 
 namespace Model
 {
-    public class ModelInformation : MonoBehaviour
+    public class ModelInformation
     {
-        public string gender; 
-        
         private int bust;
         private int hips;
         private int waist;
@@ -19,23 +17,22 @@ namespace Model
         private const float MINScale = 0.8f;
         private const float MAXScale = 1.8f;
 
-        private readonly List<GameObject> bustBones = new List<GameObject>();
-        private readonly List<GameObject> hipBones = new List<GameObject>(); 
-        private readonly List<GameObject> waistBones = new List<GameObject>(); 
-        private readonly List<GameObject> shoulderBones = new List<GameObject>();
-        private readonly List<GameObject> neckBones = new List<GameObject>();
+        public readonly List<GameObject> bustBones = new List<GameObject>();
+        public readonly List<GameObject> hipBones = new List<GameObject>(); 
+        public readonly List<GameObject> waistBones = new List<GameObject>(); 
+        public readonly List<GameObject> shoulderBones = new List<GameObject>();
+        public readonly List<GameObject> neckBones = new List<GameObject>();
         
-        private ModelSliders bustObject;
-        private ModelSliders hipObject; 
-        private ModelSliders waistObject; 
-        private ModelSliders shoulderObject; 
-        private ModelSliders neckObject;
+        public ModelSliders bustObject;
+        public ModelSliders hipObject; 
+        public ModelSliders waistObject; 
+        public ModelSliders shoulderObject; 
+        public ModelSliders neckObject;
 
         private readonly List<string> modelVariables = new List<string>() { "bust", "hips", "waist", "shoulder", "neck"};
         
         public void Start()
         {
-            FindAndAssignBones();
             CreateGameObjects();
             SetHandleValue(MINScale, MAXScale, bustObject, bust);
             SetHandleValue(MINScale, MAXScale, hipObject, hips); 
@@ -52,11 +49,6 @@ namespace Model
             shoulderObject = GameObject.Find("ShoulderHandle").GetComponent<ModelSliders>();
             neckObject = GameObject.Find("NeckHandle").GetComponent<ModelSliders>();
         }
-        
-        private void Update()
-        {
-            UpdateHandleValue(bustObject, hipObject, waistObject, shoulderObject, neckObject);
-        }
 
         private static float SetHandleValue(float minScale, float maxScale, ModelSliders handle, int currentValue)
         {
@@ -72,7 +64,7 @@ namespace Model
             return value;
         }
 
-        private void UpdateHandleValue(ModelSliders bustHandle, ModelSliders hipHandle, ModelSliders waistHandle, ModelSliders shoulderHandle, ModelSliders neckHandle)
+        public void UpdateHandleValue(ModelSliders bustHandle, ModelSliders hipHandle, ModelSliders waistHandle, ModelSliders shoulderHandle, ModelSliders neckHandle)
         {
             foreach (var key in modelVariables)
             {
@@ -133,14 +125,6 @@ namespace Model
                 }
             }
         }
-
         
-        
-        
-        private void FindAndAssignBones()
-        {
-            //Find current model 
-            //Link all relevant bones
-        }
     }
 }
