@@ -65,12 +65,6 @@ namespace Model
         }
 
 
-        public void FindAndAssignBones()
-        {
-            
-        }
-            
-
         public int AssignText()
         {
             var positionValue = PositionToValue(GetHandlePosition());
