@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq.Expressions;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
-using Valve.VR;
+
 
 namespace Model
 {
@@ -65,7 +62,8 @@ namespace Model
             return value;
         }
 
-        public void UpdateHandleValue(ModelSliders bustHandle, ModelSliders hipHandle, ModelSliders waistHandle, ModelSliders shoulderHandle, ModelSliders neckHandle, float minScale, float maxScale, float minShoulder, float maxShoulder)
+        public void UpdateHandleValue(ModelSliders bustHandle, ModelSliders hipHandle, ModelSliders waistHandle, ModelSliders shoulderHandle, 
+            ModelSliders neckHandle, float minScale, float maxScale, float minShoulder, float maxShoulder)
         {
             foreach (var key in modelVariables)
             {

@@ -10,7 +10,7 @@ namespace Model
         private readonly Dictionary<string, string> boneDictionary = new Dictionary<string, string>()
         {
             {"MaleModel/male/armature/Stomach/ChestLeft", "MaleModel/male/armature/Stomach/ChestRight"},
-            {"FemaleModel/woman/armature/spine/hipLeft","FemaleModel/woman/armature/spine/hipRight"},
+            {"MaleModel/male/armature/HipLeft","MaleModel/male/armature/HipRight"},
             {"MaleModel/male/armature/WaistLeft","MaleModel/male/armature/WaistRight"},
             {"MaleModel/male/armature/LeftShoulderTop","MaleModel/male/armature/RightShoulderTop"}, 
             {"MaleModel/male/armature/NeckLeft","MaleModel/male/armature/NeckRight"}

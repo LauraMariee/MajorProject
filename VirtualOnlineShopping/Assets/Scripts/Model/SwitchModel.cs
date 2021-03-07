@@ -16,8 +16,6 @@ namespace Model
             Destroy(currentModel); 
         }
 
-     
-
         public void SpawnModelFemale()
         {
             RemoveModel();
