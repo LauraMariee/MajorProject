@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq.Expressions;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -64,7 +65,7 @@ namespace Model
             return value;
         }
 
-        public void UpdateHandleValue(ModelSliders bustHandle, ModelSliders hipHandle, ModelSliders waistHandle, ModelSliders shoulderHandle, ModelSliders neckHandle)
+        public void UpdateHandleValue(ModelSliders bustHandle, ModelSliders hipHandle, ModelSliders waistHandle, ModelSliders shoulderHandle, ModelSliders neckHandle, float minScale, float maxScale, float minShoulder, float maxShoulder)
         {
             foreach (var key in modelVariables)
             {
@@ -74,24 +75,24 @@ namespace Model
                 {
                     case "bust":
                         bust = bustHandle.AssignText();
-                        ScaleByValue(SetHandleValue(0.8f, 1.5f, bustHandle, bust), bustBones);
+                        ScaleByValue(SetHandleValue(minScale, maxScale, bustHandle, bust), bustBones);
                         break;
                     case "hips":
                         hips = hipHandle.AssignText();
-                        ScaleByValue(SetHandleValue(0.8f, 1.8f, hipHandle, hips), hipBones);
+                        ScaleByValue(SetHandleValue(minScale, maxScale, hipHandle, hips), hipBones);
                         break;
                     case "waist":
                         waist = waistHandle.AssignText();
-                        ScaleByValue(SetHandleValue(0.8f, 1.6f, waistHandle, waist), waistBones);
+                        ScaleByValue(SetHandleValue(minScale, maxScale, waistHandle, waist), waistBones);
                         break;
                     case "shoulder":
                         shoulder = shoulderHandle.AssignText();
-                        ScaleByValueShoulder(SetHandleValue(0.1961863f, 0.5f, shoulderHandle, shoulder),
-                            SetHandleValue(-0.1961863f, -0.5f, shoulderHandle, shoulder), shoulderBones);
+                        ScaleByValueShoulder(SetHandleValue(minShoulder, maxShoulder, shoulderHandle, shoulder),
+                            SetHandleValue(-minShoulder, -maxShoulder, shoulderHandle, shoulder), shoulderBones);
                         break;
                     case "neck":
                         neck = neckHandle.AssignText();
-                        ScaleByValue(SetHandleValue(MINScale, 2, neckHandle, neck), neckBones);
+                        ScaleByValue(SetHandleValue(minScale, minShoulder, neckHandle, neck), neckBones);
                         break;
                     default:
                         Debug.Log("No available handle to scale");
@@ -100,7 +101,7 @@ namespace Model
             }
             
         }
-        
+
         private static void ScaleByValue(float scaleValue, IEnumerable<GameObject> bones)
         {
             foreach (var bone in bones)

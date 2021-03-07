@@ -1957,7 +1957,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8830536151222678571}
-  - component: {fileID: 1607954633995396054}
+  - component: {fileID: 3571487467666110892}
   m_Layer: 0
   m_Name: FemaleModel
   m_TagString: Model
@@ -1981,7 +1981,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 3.778, z: 0}
---- !u!114 &1607954633995396054
+--- !u!114 &3571487467666110892
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1990,22 +1990,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8830536151222678570}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aa3b0b7b7d35d641a7eba0ddb8b8426, type: 3}
+  m_Script: {fileID: 11500000, guid: c30ca8f97758643489cd3c923ff9aefd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gender: 
-  hipBones:
-  - {fileID: 5301830431191395103}
-  - {fileID: 1216470738661293561}
-  waistBones:
-  - {fileID: 3908558959318936941}
-  - {fileID: 4138245863544134693}
-  shoulderBones:
-  - {fileID: 2923522994817976312}
-  - {fileID: 3726475436303241725}
-  neckBones:
-  - {fileID: 8600384238942608640}
-  - {fileID: 2944822805544884307}
 --- !u!1 &9051683479843453027
 GameObject:
   m_ObjectHideFlags: 0

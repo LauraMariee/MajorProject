@@ -266,7 +266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1365070642728819810}
-  - component: {fileID: 8575745017070127311}
+  - component: {fileID: 4222220113117291743}
   m_Layer: 0
   m_Name: MaleModel
   m_TagString: Model
@@ -291,7 +291,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 3.778, z: 0}
---- !u!114 &8575745017070127311
+--- !u!114 &4222220113117291743
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -300,10 +300,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1853904323799025368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aa3b0b7b7d35d641a7eba0ddb8b8426, type: 3}
+  m_Script: {fileID: 11500000, guid: 67a0359389585734083234c311667fee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gender: Male
 --- !u!1 &1899259400903993098
 GameObject:
   m_ObjectHideFlags: 0
