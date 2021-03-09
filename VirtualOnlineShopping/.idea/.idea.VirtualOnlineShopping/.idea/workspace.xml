@@ -2,36 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ab07c5-3983-4822-be13-3f52bc908caf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DissPoster.pub" beforeDir="false" afterPath="$PROJECT_DIR$/../DissPoster.pub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mannequins/ManRig.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mannequins/ManRig.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mannequins/ManRig.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mannequins/ManRig.blend1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mannequins/woman-rig.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mannequins/woman-rig.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mannequins/woman-rig.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mannequins/woman-rig.blend1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/MaleModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/MaleModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/ModelInformation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/ModelInformation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/SwitchModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/SwitchModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/10/1005b6e850e191e85fb0e4d5adceef9b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/12/124e167a58f2dd425c6fb1bd275a3e00" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/17/17a6f98959e6737f018c76d59c91f050" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1c/1c141030d135bb0d4ad9389539104152" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/30/30a3eb69f4a73dff3a74c58813aa3d81" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4a/4a9ceded5043703d5ef5b68b7a74311c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/52/52eefe37334cc393257080beac99615c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5f/5fdd0fa6b109d69758b1bb86982070d9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7d/7dc4f46d9a1799c6f3da32869e359db7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8e/8ee40a3b20c1007524e5e77757c319e9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9d/9d4db1c7dad107ef160fc65dc0d32327" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9d/9db56a9958a2e3b1979dcccb02a090df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b7/b70c340552a17f99e42de7745c3305b0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c7/c7504a67317bf6dd0aef5465215c08c0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ce/cefa083325d4c8db92c73464fe0dfde5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4b/4b28ef2339d69087f7237765193d5a68" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/58/58afc3ea751a087b512e0f117d062e26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5d/5df0d4c0cf05d73885f7bb7e42bc21d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5f/5f7b154a78871d775b6d9da437b0cd31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/83/8376828c7b1a55e4705123996411ac73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8b/8bff43de4c3f33b2828943d59446a11e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9e/9ed250aff36666f29317e937c6247bc4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a7/a736a3c1690c7e579899fcdec35c737c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c4/c479d499519a5e33b24ea20bfe0616c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c4/c48eca44be860f7706cce9c0180443f9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e2/e2c859cfe14560b905f3467551e44e5e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-6363adf5bbd70454c9.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-6363adf5bbd70454c9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-b4812cf909ca3bd459.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-b4812cf909ca3bd459.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/08a2ff-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/08a2ff-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +50,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/SwitchModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/FemaleModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/ModelInformation.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/MaleModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oL2WvdJNIR2XK0r6scNu5JCUfc" />
@@ -115,7 +109,7 @@
       <workItem from="1614510433551" duration="3314000" />
       <workItem from="1614706734898" duration="2024000" />
       <workItem from="1614864991459" duration="2993000" />
-      <workItem from="1615021733396" duration="30085000" />
+      <workItem from="1615021733396" duration="33093000" />
     </task>
     <servers />
   </component>

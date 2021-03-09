@@ -5,6 +5,7 @@ namespace Model
     public class ModelController : MonoBehaviour
     {
         public GameObject activeBody;
+        public GameObject inActiveBody; 
         
         // Start is called before the first frame update
         void Start()
