@@ -1,27 +1,32 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 
 namespace Model
 {
     public class ModelController : MonoBehaviour
     {
-        public GameObject activeBody;
-        
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
 
+        public List<GameObject> models;
+        public Vector3 spawnPosition;
+        
+        
         public void MoveModel()
         {
-            //Move model from back spot to front spot
-            activeBody.GetComponent<Transform>().position = new Vector3(0, 0, 0);
-        }
+            foreach (var model in models.Where(model => model.GetComponent<ModelInformation>().isActive))
+            {
+                if (model.GetComponent<FemaleModel>())
+                {
+                    model.GetComponent<Transform>().position =
+                        new Vector3(spawnPosition.x, spawnPosition.y, spawnPosition.z);
+                }
+                else if (model.GetComponent<MaleModel>())
+                {
+                    model.GetComponent<Transform>().position =
+                        new Vector3(-10.89f, 4.39f, 7.71f);
+                }
 
-        // Update is called once per frame
-        void Update()
-        {
-        
+            }
         }
     }
 }

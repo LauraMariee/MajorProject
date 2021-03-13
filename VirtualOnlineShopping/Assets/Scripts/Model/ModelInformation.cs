@@ -6,6 +6,8 @@ namespace Model
 {
     public class ModelInformation
     {
+        public bool isActive;
+        
         private int bust;
         private int hips;
         private int waist;
