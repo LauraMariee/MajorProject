@@ -6,7 +6,7 @@ namespace Model
 {
     public class ModelInformation : MonoBehaviour
     {
-        public bool isActive;
+        public bool isActive = false;
         
         private int bust;
         private int hips;
@@ -126,6 +126,5 @@ namespace Model
                 }
             }
         }
-        
     }
 }

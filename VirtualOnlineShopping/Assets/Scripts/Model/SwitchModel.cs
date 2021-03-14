@@ -17,7 +17,7 @@ namespace Model
 
         public GameObject GETActiveModel()
         {
-            return model;
+            return model.GetComponent<ModelInformation>().isActive ? model : null;
         }
     }
 }
