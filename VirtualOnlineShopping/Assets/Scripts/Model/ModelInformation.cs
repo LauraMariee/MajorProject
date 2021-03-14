@@ -4,8 +4,10 @@ using UnityEngine;
 
 namespace Model
 {
-    public class ModelInformation
+    public class ModelInformation : MonoBehaviour
     {
+        public bool isActive;
+        
         private int bust;
         private int hips;
         private int waist;

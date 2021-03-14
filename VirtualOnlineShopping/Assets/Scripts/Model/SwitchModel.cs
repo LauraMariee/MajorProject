@@ -1,31 +1,23 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using Valve.VR;
 
 namespace Model
 {
     public class SwitchModel : MonoBehaviour
     {
+        public GameObject model;
 
-        public Vector3 spawnPosition;
-        public GameObject femaleModel;
-        public GameObject maleModel;
-
-        private static void RemoveModel()
+        public void OnMouseClicked()
         {
-            var currentModel = GameObject.FindGameObjectWithTag("Model");
-            Destroy(currentModel); 
+            Debug.Log("Clicked");
+            model.GetComponent<ModelInformation>().isActive = true;
+            GETActiveModel();
         }
 
-        public void SpawnModelFemale()
+        public GameObject GETActiveModel()
         {
-            RemoveModel();
-            Instantiate(femaleModel, spawnPosition, Quaternion.Euler(0, 0, 0));
-        }
-
-        public void SpawnModelMale()
-        {
-            RemoveModel();
-            Instantiate(maleModel, new Vector3(-10.89f, 4.39f, 7.71f), Quaternion.Euler(0, 0, 0));
+            return model;
         }
     }
 }
