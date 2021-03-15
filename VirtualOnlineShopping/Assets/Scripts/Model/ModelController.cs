@@ -7,13 +7,20 @@ namespace Model
 {
     public class ModelController : MonoBehaviour
     {
-        public Vector3 spawnPosition;
+        private Vector3 spawnPosition;
         
         public GameObject activeModel;
         private Vector3 activeModelOrigin;
         
         public List<GameObject> buttons;
-        
+
+
+        public void Start()
+        {
+            var spawnPositionObject = GameObject.Find("PodiumPosition");
+            spawnPosition = spawnPositionObject.GetComponent<Transform>().position; 
+        }
+
         public void Update()
         {
             foreach (var button in buttons)
