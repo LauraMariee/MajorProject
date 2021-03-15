@@ -54,11 +54,12 @@ namespace Model
                 // WE WANT TO MOVE IT, MOVE IT! MOVE IT!
                 if (newActive.GetComponent<FemaleModel>())
                 {
-                    newActive.GetComponent<Transform>().position = spawnPosition; //Replace with vector3
+                    newActive.GetComponent<Transform>().localPosition = spawnPosition; //Replace with vector3
                 }
                 else if (newActive.GetComponent<MaleModel>())
                 {
-                    newActive.GetComponent<Transform>().position = new Vector3(-10.89f, 4.39f, 7.71f); //Replace with vector3
+                    newActive.GetComponent<Transform>().localPosition = spawnPosition; //Replace with vector3
+                    //newActive.GetComponent<Transform>().position = new Vector3(-10.89f, 4.39f, 7.71f); //Replace with vector3
                 }
             }
             //DisplayCurrentModel();

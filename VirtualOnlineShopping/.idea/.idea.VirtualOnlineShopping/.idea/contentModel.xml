@@ -18,7 +18,6 @@
             <e p="ModelController.cs" t="Include" />
             <e p="ModelInformation.cs" t="Include" />
             <e p="ModelSliders.cs" t="Include" />
-            <e p="SwitchModel.cs" t="Include" />
           </e>
         </e>
         <e p="SteamVR" t="Include">
