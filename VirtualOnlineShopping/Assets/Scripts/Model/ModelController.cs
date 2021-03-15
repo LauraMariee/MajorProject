@@ -10,42 +10,53 @@ namespace Model
         public Vector3 spawnPosition;
         
         public GameObject activeModel;
-        public GameObject previousActiveModel; 
-
+        private Vector3 activeModelOrigin;
+        
         public List<GameObject> buttons;
         
         public void Update()
         {
-            previousActiveModel = activeModel;
             foreach (var button in buttons)
             {
-                activeModel = button.GetComponent<SwitchModel>().GETActiveModel();
+                var switchButton = button.GetComponent<SwitchModel>();
+                if (switchButton.HasButtonBeenPressed())
+                {
+                    var oldActive = activeModel;
+                    activeModel = switchButton.GETModel();
+                    switchButton.ResetButton();
+                    // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
+                    MoveModel(oldActive, activeModel);
+                }
             }
-            previousActiveModel.GetComponent<ModelInformation>().isActive = false;
         }
 
-        public void MoveModel()
+        public void MoveModel(GameObject previousActive, GameObject newActive)
         {
+            // move old active model back to where it was 
+            if (previousActive != null)
+            {
+                previousActive.GetComponent<Transform>().position = activeModelOrigin;
+            }
+
+            // move active model into spotlight
+            if (newActive != null)
+            {
+                // remember where it came from so that we can move it back there
+                activeModelOrigin = newActive.GetComponent<Transform>().position;
+                
+                // WE WANT TO MOVE IT, MOVE IT! MOVE IT!
+                if (newActive.GetComponent<FemaleModel>())
+                {
+                    newActive.GetComponent<Transform>().position = spawnPosition; //Replace with vector3
+                }
+                else if (newActive.GetComponent<MaleModel>())
+                {
+                    newActive.GetComponent<Transform>().position = new Vector3(-10.89f, 4.39f, 7.71f); //Replace with vector3
+                }
+            }
             //DisplayCurrentModel();
             
-            if (activeModel.GetComponent<FemaleModel>())
-            {
-                activeModel.GetComponent<Transform>().position =
-                    new Vector3(spawnPosition.x, spawnPosition.y, spawnPosition.z); //Replace with vector3
-            }
-            else if (activeModel.GetComponent<MaleModel>())
-            {
-                activeModel.GetComponent<Transform>().position =
-                    new Vector3(-10.89f, 4.39f, 7.71f); //Replace with vector3
-            }
+            
         }
-        
-        private void DisplayCurrentModel()
-        {
-            Debug.Log("Current active is " + activeModel + "and it is " + activeModel.GetComponent<ModelInformation>().isActive);
-        }
-        
-        
-        
     }
 }

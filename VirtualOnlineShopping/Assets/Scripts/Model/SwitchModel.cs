@@ -7,17 +7,27 @@ namespace Model
     public class SwitchModel : MonoBehaviour
     {
         public GameObject model;
+        private bool clicked = false;
 
         public void OnMouseClicked()
         {
             Debug.Log("Clicked");
-            model.GetComponent<ModelInformation>().isActive = true;
-            GETActiveModel();
+            clicked = true;
         }
 
-        public GameObject GETActiveModel()
+        public bool HasButtonBeenPressed()
         {
-            return model.GetComponent<ModelInformation>().isActive ? model : null;
+            return clicked;
+        }
+
+        public void ResetButton()
+        {
+            clicked = false;
+        }
+
+        public GameObject GETModel()
+        {
+            return model;
         }
     }
 }
