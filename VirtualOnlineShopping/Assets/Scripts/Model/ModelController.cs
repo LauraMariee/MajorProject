@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -6,27 +7,50 @@ namespace Model
 {
     public class ModelController : MonoBehaviour
     {
+        private Vector3 spawnPosition;
+        
+        public GameObject activeModel;
+        private Vector3 activeModelOrigin;
+        
+        public List<GameObject> buttons;
 
-        public List<GameObject> models;
-        public Vector3 spawnPosition;
-        
-        
-        public void MoveModel()
+
+        public void Start()
         {
-            foreach (var model in models.Where(model => model.GetComponent<ModelInformation>().isActive))
-            {
-                if (model.GetComponent<FemaleModel>())
-                {
-                    model.GetComponent<Transform>().position =
-                        new Vector3(spawnPosition.x, spawnPosition.y, spawnPosition.z);
-                }
-                else if (model.GetComponent<MaleModel>())
-                {
-                    model.GetComponent<Transform>().position =
-                        new Vector3(-10.89f, 4.39f, 7.71f);
-                }
+            var spawnPositionObject = GameObject.Find("PodiumPosition");
+            spawnPosition = spawnPositionObject.GetComponent<Transform>().position; 
+        }
 
+        public void Update()
+        {
+            foreach (var button in buttons)
+            {
+                var switchButton = button.GetComponent<SwitchModel>();
+                if (!switchButton.HasButtonBeenPressed()) continue;
+                var oldActive = activeModel;
+                activeModel = switchButton.GETModel();
+                switchButton.ResetButton();
+                // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
+                MoveModel(oldActive, activeModel);
             }
+        }
+
+        public void MoveModel(GameObject previousActive, GameObject newActive)
+        {
+            // move old active model back to where it was 
+            if (previousActive != null)
+            {
+                previousActive.GetComponent<Transform>().position = activeModelOrigin;
+            }
+
+            // move active model into spotlight
+            if (newActive == null) return;
+            // remember where it came from so that we can move it back there
+            activeModelOrigin = newActive.GetComponent<Transform>().position;
+                
+            // WE WANT TO MOVE IT, MOVE IT! MOVE IT!
+            newActive.GetComponent<Transform>().position = spawnPosition; //Replace with vector3
+            Debug.Log(spawnPosition + "Female");
         }
     }
 }

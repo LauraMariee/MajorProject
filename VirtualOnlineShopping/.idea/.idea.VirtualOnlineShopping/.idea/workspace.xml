@@ -2,36 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ab07c5-3983-4822-be13-3f52bc908caf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Models/Mannequins/ManRig.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mannequins/ManRig.blend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Models/Mannequins/ManRig.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mannequins/ManRig.blend1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FemaleModel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FemaleModel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/maleModel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/maleModel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/MaleModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/MaleModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/ModelInformation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/ModelInformation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/SwitchModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/SwitchModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/10/1005b6e850e191e85fb0e4d5adceef9b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/12/124e167a58f2dd425c6fb1bd275a3e00" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/17/17a6f98959e6737f018c76d59c91f050" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1c/1c141030d135bb0d4ad9389539104152" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/30/30a3eb69f4a73dff3a74c58813aa3d81" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4a/4a9ceded5043703d5ef5b68b7a74311c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/52/52eefe37334cc393257080beac99615c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5f/5fdd0fa6b109d69758b1bb86982070d9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7d/7dc4f46d9a1799c6f3da32869e359db7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8e/8ee40a3b20c1007524e5e77757c319e9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9d/9d4db1c7dad107ef160fc65dc0d32327" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9d/9db56a9958a2e3b1979dcccb02a090df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b7/b70c340552a17f99e42de7745c3305b0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c7/c7504a67317bf6dd0aef5465215c08c0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ce/cefa083325d4c8db92c73464fe0dfde5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-6363adf5bbd70454c9.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-6363adf5bbd70454c9.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-b4812cf909ca3bd459.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-b4812cf909ca3bd459.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/b8f668-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/08a2ff-b4812cf909ca3bd459.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/08a2ff-b4812cf909ca3bd459.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/08a2ff-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/08a2ff-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +32,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/FemaleModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/SwitchModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E5B75411-C8CD-4BFA-A9E7-60BE20206F29/2a/8e4be1e0/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingDetail.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -53,9 +43,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingDetail.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/ModelSliders.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Model/SwitchModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/FemaleModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/ModelInformation.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Model/SwitchModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/MaleModel.cs" />
     </changedPaths>
@@ -86,10 +76,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="34844">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="34844" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -115,7 +105,12 @@
       <workItem from="1614510433551" duration="3314000" />
       <workItem from="1614706734898" duration="2024000" />
       <workItem from="1614864991459" duration="2993000" />
-      <workItem from="1615021733396" duration="30085000" />
+      <workItem from="1615021733396" duration="33093000" />
+      <workItem from="1615754031148" duration="6273000" />
+      <workItem from="1615806191593" duration="532000" />
+      <workItem from="1615806742741" duration="4760000" />
+      <workItem from="1615823398256" duration="2317000" />
+      <workItem from="1615903920628" duration="3953000" />
     </task>
     <servers />
   </component>

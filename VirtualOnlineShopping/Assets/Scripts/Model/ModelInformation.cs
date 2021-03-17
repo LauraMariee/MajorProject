@@ -6,7 +6,6 @@ namespace Model
 {
     public class ModelInformation
     {
-        public bool isActive;
         
         private int bust;
         private int hips;
@@ -126,6 +125,5 @@ namespace Model
                 }
             }
         }
-        
     }
 }
