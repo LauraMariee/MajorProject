@@ -10,11 +10,11 @@ namespace Model
 
         private readonly Dictionary<string, string> boneDictionary = new Dictionary<string, string>()
         {
-            {"FemaleModel/woman/armature/spine/stomach/chestLeft", "FemaleModel/woman/armature/spine/stomach/chestRight"},
-            {"FemaleModel/woman/armature/spine/hipLeft","FemaleModel/woman/armature/spine/hipRight"},
-            {"FemaleModel/woman/armature/spine/pelvis/waistLeft","FemaleModel/woman/armature/spine/pelvis/waistRight"},
-            {"FemaleModel/woman/armature/spine/stomach/chest/leftUpperArm","FemaleModel/woman/armature/spine/stomach/chest/rightUpperArm"}, 
-            {"FemaleModel/woman/armature/spine/stomach/chest/neck/neckLeft","FemaleModel/woman/armature/spine/stomach/chest/neck/neckRight"}
+            {"FemaleModel/armature/spine/stomach/chestLeft", "FemaleModel/armature/spine/stomach/chestRight"},
+            {"FemaleModel/armature/spine/hipLeft","FemaleModel/armature/spine/hipRight"},
+            {"FemaleModel/armature/spine/pelvis/waistLeft","FemaleModel/armature/spine/pelvis/waistRight"},
+            {"FemaleModel/armature/spine/stomach/chest/leftUpperArm","FemaleModel/armature/spine/stomach/chest/rightUpperArm"}, 
+            {"FemaleModel/armature/spine/stomach/chest/neck/neckLeft","FemaleModel/armature/spine/stomach/chest/neck/neckRight"}
         };
 
         private readonly ModelInformation modelInformation = new ModelInformation();
