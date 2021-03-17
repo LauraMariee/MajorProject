@@ -7,6 +7,7 @@ namespace Model
 {
     public class FemaleModel : MonoBehaviour
     {
+
         private readonly Dictionary<string, string> boneDictionary = new Dictionary<string, string>()
         {
             {"FemaleModel/woman/armature/spine/stomach/chestLeft", "FemaleModel/woman/armature/spine/stomach/chestRight"},
