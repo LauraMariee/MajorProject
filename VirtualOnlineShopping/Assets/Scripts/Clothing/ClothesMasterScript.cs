@@ -9,22 +9,24 @@ namespace Clothing
     {
 
         private List<string> filenames = new List<string>();
+        private string root; 
 
         private static readonly List<ClothingObject> LoadedClothes = new List<ClothingObject>();
 
         private void Start()
         {
+            root = "Assets/AsosData/"; 
             filenames = ReadInCategories(); 
             foreach (var filename in filenames)
             {
                 //Debug.Log(filename);
-                ReadInJson(filename);
+                ReadInJson(root + filename);
             }
         }
 
         private static List<string> ReadInCategories()
         {
-            using (var r = new StreamReader("categories.json"))// Read in json file
+            using (var r = new StreamReader("Assets/AsosData/categories.json"))// Read in json file
             {
                 var json = r.ReadToEnd();
                 var filenames = JsonConvert.DeserializeObject<List<string>>(json);// separate strings on file
