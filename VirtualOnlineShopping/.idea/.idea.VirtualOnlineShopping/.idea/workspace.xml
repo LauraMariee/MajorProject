@@ -2,22 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ab07c5-3983-4822-be13-3f52bc908caf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/maleModel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/maleModel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VirtualOnlineShopping.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VirtualOnlineShopping.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/MaleModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/MaleModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11321.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11321.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18797.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18797.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3630.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3630.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4169.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4169.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4208.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4208.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5668.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5668.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7616.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7616.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8799.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8799.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsosDataPull.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextFiles.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/02/025f72e4c4e8328c9a1cb2e0d9d7f538" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a1/a17a8c75390de24a2fdb94569a64ac41" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Artifacts/45/4540152e678581d8b7720f204d323e12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a7/a7d4a724d5beabc9c9facadc0c01b5ce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/12/12c78a2ae4c1b088ce9cd7b6325153c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4b/4bf022759a14bf31db7854a9d3f9c399" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5d/5d83057837434b9a723410030054e41c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9c/9c8c2a11515317cd5fef74227fd22b63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/de/de21ee94f15c50670fa3127a7efc3d45" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/f4c75b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/f4c75b-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +59,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingDetail.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/ModelSliders.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/FemaleModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/SwitchModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/ModelInformation.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/MaleModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oL2WvdJNIR2XK0r6scNu5JCUfc" />
@@ -110,7 +129,7 @@
       <workItem from="1615823398256" duration="2317000" />
       <workItem from="1615903920628" duration="3953000" />
       <workItem from="1616066198367" duration="1669000" />
-      <workItem from="1616074657630" duration="6433000" />
+      <workItem from="1616074657630" duration="7261000" />
     </task>
     <servers />
   </component>
