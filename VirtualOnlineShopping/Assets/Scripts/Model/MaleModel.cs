@@ -12,7 +12,7 @@ namespace Model
             {"MaleModel/armature/Stomach/ChestLeft", "MaleModel/armature/Stomach/ChestRight"},
             {"MaleModel/armature/HipLeft","MaleModel/armature/HipRight"},
             {"MaleModel/armature/WaistLeft","MaleModel/armature/WaistRight"},
-            {"MaleModel/armature/LeftShoulderTop","MaleModel/armature/RightShoulderTop"}, 
+            {"MaleModel/armature/leftUpperArm","MaleModel/armature/rightUpperArm"}, 
             {"MaleModel/armature/NeckLeft","MaleModel/armature/NeckRight"}
         };
 
@@ -48,7 +48,7 @@ namespace Model
         public void Update()
         {
             modelInformation.UpdateHandleValue(modelInformation.bustObject, modelInformation.hipObject, modelInformation.waistObject, 
-                modelInformation.shoulderObject, modelInformation.neckObject, 0.8f, 1.7f, 0.1961863f, 0.5f);
+                modelInformation.shoulderObject, modelInformation.neckObject, 1f, 1.7f, 0.002f, 0.0035f);
         }
     }
 }
