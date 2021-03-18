@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace Model
@@ -41,15 +39,6 @@ namespace Model
             if (previousActive != null)
             {
                 previousActive.GetComponent<Transform>().position = activeModelOrigin;
-                /*switch (CheckModelGender())
-                {
-                    case "FemaleModel":
-                        previousActive.GetComponent<FemaleModel>().enabled = false;
-                        break;
-                    case "MaleModel":
-                        previousActive.GetComponent<MaleModel>().enabled = false;
-                        break;
-              } */ 
             }
 
             // move active model into spotlight
@@ -59,25 +48,6 @@ namespace Model
 
             // WE WANT TO MOVE IT, MOVE IT! MOVE IT!
             newActive.GetComponent<Transform>().position = spawnPosition;
-            
-/*switch (CheckModelGender())
-{
-    case "FemaleModel":
-        activeModel.GetComponent<FemaleModel>().enabled = true;
-        break;
-    case "MaleModel":
-        activeModel.GetComponent<MaleModel>().enabled = true;
-        break;
-}*/
-}
-
-private string CheckModelGender()
-{
-if(activeModel.GetComponent<FemaleModel>())
-{
-    return "FemaleModel"; 
-}
-return activeModel.GetComponent<MaleModel>() ? "MaleModel" : "Blank";
-}
-}
+        }
+    }
 }

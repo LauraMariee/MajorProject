@@ -9,11 +9,11 @@ namespace Model
         
         private readonly Dictionary<string, string> boneDictionary = new Dictionary<string, string>()
         {
-            {"MaleModel/armature/Stomach/ChestLeft", "MaleModel/armature/Stomach/ChestRight"},
-            {"MaleModel/armature/HipLeft","MaleModel/armature/HipRight"},
-            {"MaleModel/armature/WaistLeft","MaleModel/armature/WaistRight"},
+            {"MaleModel/armature/stomach/chestLeft", "MaleModel/armature/stomach/chestRight"},
+            {"MaleModel/armature/hipLeft","MaleModel/armature/hipRight"},
+            {"MaleModel/armature/waistLeft","MaleModel/armature/waistRight"},
             {"MaleModel/armature/leftUpperArm","MaleModel/armature/rightUpperArm"}, 
-            {"MaleModel/armature/NeckLeft","MaleModel/armature/NeckRight"}
+            {"MaleModel/armature/neckLeft","MaleModel/armature/neckRight"}
         };
 
         private GameObject boneOne;
