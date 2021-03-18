@@ -9,6 +9,7 @@ namespace Model
         public GameObject model;
         private bool clicked = false;
 
+
         public void OnMouseClicked()
         {
             Debug.Log("Clicked");
@@ -24,7 +25,7 @@ namespace Model
         {
             clicked = false;
         }
-
+        
         public GameObject GETModel()
         {
             return model;

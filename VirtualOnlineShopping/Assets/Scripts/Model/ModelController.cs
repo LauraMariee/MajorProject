@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace Model
@@ -13,12 +11,12 @@ namespace Model
         private Vector3 activeModelOrigin;
         
         public List<GameObject> buttons;
-
+        
 
         public void Start()
         {
             var spawnPositionObject = GameObject.Find("PodiumPosition");
-            spawnPosition = spawnPositionObject.GetComponent<Transform>().position; 
+            spawnPosition = spawnPositionObject.GetComponent<Transform>().position;
         }
 
         public void Update()
@@ -47,10 +45,9 @@ namespace Model
             if (newActive == null) return;
             // remember where it came from so that we can move it back there
             activeModelOrigin = newActive.GetComponent<Transform>().position;
-                
+
             // WE WANT TO MOVE IT, MOVE IT! MOVE IT!
-            newActive.GetComponent<Transform>().position = spawnPosition; //Replace with vector3
-            Debug.Log(spawnPosition + "Female");
+            newActive.GetComponent<Transform>().position = spawnPosition;
         }
     }
 }

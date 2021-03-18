@@ -9,11 +9,11 @@ namespace Model
         
         private readonly Dictionary<string, string> boneDictionary = new Dictionary<string, string>()
         {
-            {"MaleModel/armature/Stomach/ChestLeft", "MaleModel/armature/Stomach/ChestRight"},
-            {"MaleModel/armature/HipLeft","MaleModel/armature/HipRight"},
-            {"MaleModel/armature/WaistLeft","MaleModel/armature/WaistRight"},
-            {"MaleModel/armature/LeftShoulderTop","MaleModel/armature/RightShoulderTop"}, 
-            {"MaleModel/armature/NeckLeft","MaleModel/armature/NeckRight"}
+            {"MaleModel/armature/stomach/chestLeft", "MaleModel/armature/stomach/chestRight"},
+            {"MaleModel/armature/hipLeft","MaleModel/armature/hipRight"},
+            {"MaleModel/armature/waistLeft","MaleModel/armature/waistRight"},
+            {"MaleModel/armature/leftUpperArm","MaleModel/armature/rightUpperArm"}, 
+            {"MaleModel/armature/neckLeft","MaleModel/armature/neckRight"}
         };
 
         private GameObject boneOne;
@@ -48,7 +48,7 @@ namespace Model
         public void Update()
         {
             modelInformation.UpdateHandleValue(modelInformation.bustObject, modelInformation.hipObject, modelInformation.waistObject, 
-                modelInformation.shoulderObject, modelInformation.neckObject, 0.8f, 1.7f, 0.1961863f, 0.5f);
+                modelInformation.shoulderObject, modelInformation.neckObject, 1f, 1.9f, 0.002f, 0.0035f);
         }
     }
 }

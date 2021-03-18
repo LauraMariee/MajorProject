@@ -91,7 +91,7 @@ namespace Model
                         break;
                     case "neck":
                         neck = neckHandle.AssignText();
-                        ScaleByValue(SetHandleValue(minScale, minShoulder, neckHandle, neck), neckBones);
+                        ScaleByValue(SetHandleValue(minScale, maxScale, neckHandle, neck), neckBones);
                         break;
                     default:
                         Debug.Log("No available handle to scale");
