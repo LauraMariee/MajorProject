@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 96
+  controlID: 28
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 101
+  controlID: 136
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 102
+  controlID: 137
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,20 +338,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials/SliderLabels
+    - Assets/Models/Mannequins
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials/SliderLabels
+  - Assets/Models/Mannequins
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Laura\Documents\MajorProject\VirtualOnlineShopping
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9c420000
-    m_LastClickedID: 17052
-    m_ExpandedIDs: 00000000484100004a4100004c4100006e410000704100007841000000ca9a3b
+    m_SelectedIDs: 92410000
+    m_LastClickedID: 16786
+    m_ExpandedIDs: 000000002c4100002e41000030410000424100004441000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000484100004a4100004c410000
+    m_ExpandedIDs: 000000002c4100002e41000030410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -407,7 +407,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300002073000064420000
+    m_ExpandedInstanceIDs: c6230000207300006442000096420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,9 +502,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c0c9ffff
-      m_LastClickedID: -13888
-      m_ExpandedIDs: 00f4ffff5efaffff2a390000523900002a3a0000
+      m_SelectedIDs: 8c390000
+      m_LastClickedID: 14732
+      m_ExpandedIDs: 3cfbfffff63800001e390000fe390000003a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -564,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.6574755, y: 3.169848, z: 3.1071477}
+    m_Target: {x: -5.8904243, y: 3.4358382, z: 0.49617052}
     speed: 2
-    m_Value: {x: -6.6574755, y: 3.169848, z: 3.1071477}
+    m_Value: {x: -5.8904243, y: 3.4358382, z: 0.49617052}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -612,13 +612,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.06264046, y: 0.7051664, z: -0.06279049, w: -0.70347655}
+    m_Target: {x: 0.041965254, y: -0.78340495, z: 0.05319866, w: 0.6178398}
     speed: 2
-    m_Value: {x: -0.062640294, y: 0.70516455, z: -0.06279033, w: -0.7034747}
+    m_Value: {x: 0.041964404, y: -0.7833891, z: 0.053197585, w: 0.6178273}
   m_Size:
-    m_Target: 3.227632
+    m_Target: 2.5144327
     speed: 2
-    m_Value: 3.227632
+    m_Value: 2.5144327
   m_Ortho:
     m_Target: 0
     speed: 2
