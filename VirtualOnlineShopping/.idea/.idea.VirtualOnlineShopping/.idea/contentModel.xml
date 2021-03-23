@@ -6,6 +6,33 @@
     <e p="C:\Users\Laura\Documents\MajorProject\VirtualOnlineShopping" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="EZhex1991" t="Include">
+          <e p="EZSoftBone" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Attributes" t="Include">
+                <e p="EZCurveRectDrawer.cs" t="Include" />
+                <e p="EZNestedEditorDrawer.cs" t="Include" />
+              </e>
+              <e p="EZhex1991.EZSoftBone.Editor.asmdef" t="Include" />
+              <e p="EZSoftBoneForceEditor.cs" t="Include" />
+              <e p="EZSoftBoneInspector.cs" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="Attributes" t="Include">
+                <e p="EZCurveRectAttribute.cs" t="Include" />
+                <e p="EZNestedEditorAttribute.cs" t="Include" />
+              </e>
+              <e p="EZhex1991.EZSoftBone.asmdef" t="Include" />
+              <e p="EZSoftBone.cs" t="Include" />
+              <e p="EZSoftBoneCollider.cs" t="Include" />
+              <e p="EZSoftBoneColliderBase.cs" t="Include" />
+              <e p="EZSoftBoneColliderCylinder.cs" t="Include" />
+              <e p="EZSoftBoneForce.cs" t="Include" />
+              <e p="EZSoftBoneMaterial.cs" t="Include" />
+              <e p="EZSoftBoneUtility.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Clothing" t="Include">
             <e p="ClothesMasterScript.cs" t="Include" />
@@ -355,6 +382,8 @@
           </e>
         </e>
       </e>
+      <e p="EZhex1991.EZSoftBone.csproj" t="IncludeRecursive" />
+      <e p="EZhex1991.EZSoftBone.Editor.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="SteamVR.csproj" t="IncludeRecursive" />
