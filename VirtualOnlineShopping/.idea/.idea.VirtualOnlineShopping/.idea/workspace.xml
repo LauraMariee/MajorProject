@@ -2,41 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ab07c5-3983-4822-be13-3f52bc908caf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11321.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11321.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/18797.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/18797.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3630.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3630.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4169.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4169.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4208.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4208.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5668.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5668.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7616.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7616.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8799.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8799.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AsosDataPull.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextFiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Clothes/23451670.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Clothes/23451670.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VirtualOnlineShopping.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VirtualOnlineShopping.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/12/12c78a2ae4c1b088ce9cd7b6325153c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4b/4bf022759a14bf31db7854a9d3f9c399" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5d/5d83057837434b9a723410030054e41c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9c/9c8c2a11515317cd5fef74227fd22b63" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/de/de21ee94f15c50670fa3127a7efc3d45" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/70/7092c72837b6092ff8848f44da6f32d8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/85/85ec0c67e03fd83d1520c14d0aaae445" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/f4c75b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/f4c75b-mainStage.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,10 +69,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="23948">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="23948" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -130,6 +106,8 @@
       <workItem from="1615903920628" duration="3953000" />
       <workItem from="1616066198367" duration="1669000" />
       <workItem from="1616074657630" duration="7261000" />
+      <workItem from="1616496527270" duration="473000" />
+      <workItem from="1616511682099" duration="1000" />
     </task>
     <servers />
   </component>
