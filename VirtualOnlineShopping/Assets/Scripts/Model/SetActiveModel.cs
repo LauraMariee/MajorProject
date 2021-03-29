@@ -7,9 +7,9 @@ namespace Model
         private void OnTriggerEnter(Collider other)
         {
             var modelObject = other.gameObject;
-            Debug.Log(modelObject + "Enter");
+            Debug.Log(modelObject + " Entered");
             
-            if (!modelObject.tag.Equals("Model")) return;
+            //if (!modelObject.tag.Equals("Model")) return;
         
             if(modelObject.GetComponentInParent(typeof(MaleModel)) as MaleModel)
             {
@@ -25,9 +25,9 @@ namespace Model
 
         private void OnTriggerExit(Collider other)
         {
-            Debug.Log(other + "Exit");
+            Debug.Log(other + " Exited");
             
-            if (!other.gameObject.tag.Equals("Model")) return;
+            //if (!other.gameObject.tag.Equals("Model")) return;
         
             if(other.gameObject.GetComponentInParent(typeof(MaleModel)) as MaleModel)
             {

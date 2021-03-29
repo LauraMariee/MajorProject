@@ -10,7 +10,7 @@ namespace Model
         private bool clicked = false;
 
 
-        public void OnMouseClicked()
+        public void OnButtonPressed()
         {
             Debug.Log("Clicked");
             clicked = true;

@@ -47,8 +47,8 @@ namespace Model
 
         public void Update()
         {
-            modelInformation.UpdateHandleValue(modelInformation.bustObject, modelInformation.hipObject, modelInformation.waistObject, 
-                modelInformation.shoulderObject, modelInformation.neckObject, 1f, 1.9f, 0.002f, 0.0035f);
+            modelInformation.UpdateHandleValue(modelInformation.bustSliderObject, modelInformation.hipSliderObject, modelInformation.waistSliderObject, 
+                modelInformation.shoulderSliderObject, modelInformation.neckSliderObject, 1f, 1.9f, 0.002f, 0.0035f);
         }
     }
 }
