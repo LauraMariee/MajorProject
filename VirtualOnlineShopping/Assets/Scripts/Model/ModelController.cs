@@ -7,11 +7,10 @@ namespace Model
     {
         private Vector3 spawnPosition;
         
-        public GameObject activeModel;
+        public GameObject activeModel; //find models in hierarchy
         private Vector3 activeModelOrigin;
         
-        public List<GameObject> buttons;
-        
+        public List<GameObject> switchModelButtons;
 
         public void Start()
         {
@@ -21,7 +20,7 @@ namespace Model
 
         public void Update()
         {
-            foreach (var button in buttons)
+            foreach (var button in switchModelButtons)
             {
                 var switchButton = button.GetComponent<SwitchModel>();
                 if (!switchButton.HasButtonBeenPressed()) continue;
@@ -33,7 +32,7 @@ namespace Model
             }
         }
 
-        public void MoveModel(GameObject previousActive, GameObject newActive)
+        private void MoveModel(GameObject previousActive, GameObject newActive)
         {
             // move old active model back to where it was 
             if (previousActive != null)

@@ -7,11 +7,11 @@ namespace Model
     public class ModelInformation
     {
         
-        private int bust;
-        private int hips;
-        private int waist;
-        private int shoulder;
-        private int neck;
+        private int bustMeasurement;
+        private int hipsMeasurement;
+        private int waistMeasurement;
+        private int shoulderMeasurement;
+        private int neckMeasurement;
 
         private const float MINScale = 0.8f;
         private const float MAXScale = 1.8f;
@@ -22,34 +22,34 @@ namespace Model
         public readonly List<GameObject> shoulderBones = new List<GameObject>();
         public readonly List<GameObject> neckBones = new List<GameObject>();
         
-        public ModelSliders bustObject;
-        public ModelSliders hipObject; 
-        public ModelSliders waistObject; 
-        public ModelSliders shoulderObject; 
-        public ModelSliders neckObject;
+        public ModelSlider bustSliderObject;
+        public ModelSlider hipSliderObject; 
+        public ModelSlider waistSliderObject; 
+        public ModelSlider shoulderSliderObject; 
+        public ModelSlider neckSliderObject;
 
         private readonly List<string> modelVariables = new List<string>() { "bust", "hips", "waist", "shoulder", "neck"};
         
         public void Start()
         {
-            CreateGameObjects();
-            SetHandleValue(MINScale, MAXScale, bustObject, bust);
-            SetHandleValue(MINScale, MAXScale, hipObject, hips); 
-            SetHandleValue(MINScale, MAXScale, waistObject, waist); 
-            SetHandleValue(MINScale, MAXScale, shoulderObject, shoulder); 
-            SetHandleValue(MINScale, MAXScale, neckObject, neck);
+            CreateSliderObjects();
+            SetHandleValue(MINScale, MAXScale, bustSliderObject, bustMeasurement);
+            SetHandleValue(MINScale, MAXScale, hipSliderObject, hipsMeasurement); 
+            SetHandleValue(MINScale, MAXScale, waistSliderObject, waistMeasurement); 
+            SetHandleValue(MINScale, MAXScale, shoulderSliderObject, shoulderMeasurement); 
+            SetHandleValue(MINScale, MAXScale, neckSliderObject, neckMeasurement);
         }
 
-        private void CreateGameObjects()
+        private void CreateSliderObjects()
         {
-            bustObject = GameObject.Find("BustHandle").GetComponent<ModelSliders>();
-            hipObject = GameObject.Find("HipHandle").GetComponent<ModelSliders>();
-            waistObject = GameObject.Find("WaistHandle").GetComponent<ModelSliders>();
-            shoulderObject = GameObject.Find("ShoulderHandle").GetComponent<ModelSliders>();
-            neckObject = GameObject.Find("NeckHandle").GetComponent<ModelSliders>();
+            bustSliderObject = GameObject.Find("BustHandle").GetComponent<ModelSlider>();
+            hipSliderObject = GameObject.Find("HipHandle").GetComponent<ModelSlider>();
+            waistSliderObject = GameObject.Find("WaistHandle").GetComponent<ModelSlider>();
+            shoulderSliderObject = GameObject.Find("ShoulderHandle").GetComponent<ModelSlider>();
+            neckSliderObject = GameObject.Find("NeckHandle").GetComponent<ModelSlider>();
         }
 
-        private static float SetHandleValue(float minScale, float maxScale, ModelSliders handle, int currentValue)
+        private static float SetHandleValue(float minScale, float maxScale, ModelSlider handle, int currentValue)
         {
             //set range of values - min and max
             float minSize = handle.GetMinSize();
@@ -63,8 +63,8 @@ namespace Model
             return value;
         }
 
-        public void UpdateHandleValue(ModelSliders bustHandle, ModelSliders hipHandle, ModelSliders waistHandle, ModelSliders shoulderHandle, 
-            ModelSliders neckHandle, float minScale, float maxScale, float minShoulder, float maxShoulder)
+        public void UpdateHandleValue(ModelSlider bustHandle, ModelSlider hipHandle, ModelSlider waistHandle, ModelSlider shoulderHandle, 
+            ModelSlider neckHandle, float minScale, float maxScale, float minShoulder, float maxShoulder)
         {
             foreach (var key in modelVariables)
             {
@@ -73,25 +73,25 @@ namespace Model
                 switch (caseSwitch)
                 {
                     case "bust":
-                        bust = bustHandle.AssignText();
-                        ScaleByValue(SetHandleValue(minScale, maxScale, bustHandle, bust), bustBones);
+                        bustMeasurement = bustHandle.AssignText();
+                        ScaleByValue(SetHandleValue(minScale, maxScale, bustHandle, bustMeasurement), bustBones);
                         break;
                     case "hips":
-                        hips = hipHandle.AssignText();
-                        ScaleByValue(SetHandleValue(minScale, maxScale, hipHandle, hips), hipBones);
+                        hipsMeasurement = hipHandle.AssignText();
+                        ScaleByValue(SetHandleValue(minScale, maxScale, hipHandle, hipsMeasurement), hipBones);
                         break;
                     case "waist":
-                        waist = waistHandle.AssignText();
-                        ScaleByValue(SetHandleValue(minScale, maxScale, waistHandle, waist), waistBones);
+                        waistMeasurement = waistHandle.AssignText();
+                        ScaleByValue(SetHandleValue(minScale, maxScale, waistHandle, waistMeasurement), waistBones);
                         break;
                     case "shoulder":
-                        shoulder = shoulderHandle.AssignText();
-                        ScaleByValueShoulder(SetHandleValue(minShoulder, maxShoulder, shoulderHandle, shoulder),
-                            SetHandleValue(-minShoulder, -maxShoulder, shoulderHandle, shoulder), shoulderBones);
+                        shoulderMeasurement = shoulderHandle.AssignText();
+                        ScaleByValueShoulder(SetHandleValue(minShoulder, maxShoulder, shoulderHandle, shoulderMeasurement),
+                            SetHandleValue(-minShoulder, -maxShoulder, shoulderHandle, shoulderMeasurement), shoulderBones);
                         break;
                     case "neck":
-                        neck = neckHandle.AssignText();
-                        ScaleByValue(SetHandleValue(minScale, maxScale, neckHandle, neck), neckBones);
+                        neckMeasurement = neckHandle.AssignText();
+                        ScaleByValue(SetHandleValue(minScale, maxScale, neckHandle, neckMeasurement), neckBones);
                         break;
                     default:
                         Debug.Log("No available handle to scale");

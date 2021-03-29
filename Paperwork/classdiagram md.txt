@@ -1,0 +1,87 @@
+classDiagram
+    MaleModel <|-- ModelInformation
+    FemaleModel <|-- ModelInformation
+    ModelInformation <|-- ModelSlider
+    ModelController  <|-- ModelInformation
+    ModelController  <|-- SwitchModel
+
+    class SwitchModel{
+    +GameObject model
+    -bool clicked
+    +OnButtonPressed()
+    +HasButtonBeenPressed()
+    +ResetButton()
+    +GETModel()
+    }
+
+   class ModelSlider{
+    -GameObject startPoint
+    -GameObject endPoint
+    +int minSize
+    +int maxSize
+    +GameObject physicalHandle
+    +Text handleText
+    -PositionToValue(Vector3 position)
+    -ValueToPosition(float value)
+    -GetHandlePosition()
+    -AssignText()
+    -Start()
+    -Update()
+    -GetMinSize()
+    -GetMaxSize()
+    }
+
+
+    class ModelController{
+    -Vector3 spawnPosition
+    -Vector3 activeModelOrigin
+    +GameObject activeModel
+    +List<GameObject> switchModelButtons
+    +Start()
+    +Update()
+    -MoveModel(GameObject previousActive, GameObject newActive)
+    }
+    
+    class ModelInformation{
+    -int bustMeasurement
+    -int hipsMeasurement
+    -int waistMeasurement
+    -int shoulderMeasurement
+    -int neckMeasurement
+    -float MINScale
+    -float MAXScale
+    -List<string> modelVariables
+    +List<GameObject> bustBones
+    +List<GameObject> hipBones
+    +List<GameObject> waistBones
+    +List<GameObject> shoulderBones
+    +List<GameObject> neckBones  
+    +ModelSlider bustSliderObject
+    +ModelSlider hipSliderObject
+    +ModelSlider waistSliderObject
+    +ModelSlider shoulderSliderObject
+    +ModelSlider neckSliderObject
+    -CreateSliderObjects()
+    -SetHandleValue(float minScale, float maxScale, ModelSlider handle, int currentValue)
+    -ScaleByValue(float scaleValue, IEnumerable<GameObject> bones)
+    -ScaleByValueShoulder(float xValueLeft, float xValueRight, IEnumerable<GameObject> bones)
+    +Start()
+    +UpdateHandleValue(ModelSlider bustHandle, ModelSlider hipHandle, ModelSlider waistHandle, ModelSlider shoulderHandle, ModelSlider neckHandle, <br>float minScale, float maxScale, float minShoulder, float maxShoulder)</br>
+    }
+
+    class MaleModel{
+      -readonly Dictionary boneDictionary <string, string>
+      +Update()
+      +Start()
+      -FindAndAddBoneToList()
+      -AssignBones()
+    }
+
+    class FemaleModel{
+      -readonly Dictionary boneDictionary <string, string>
+      +Update()
+      +Start()
+      -FindAndAddBoneToList()
+      -AssignBones()
+    }
+            
