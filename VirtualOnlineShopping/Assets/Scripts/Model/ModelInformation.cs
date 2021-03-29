@@ -73,7 +73,7 @@ namespace Model
                 switch (caseSwitch)
                 {
                     case "bust":
-                        bustMeasurement = bustHandle.AssignText();
+                        bustMeasurement = bustHandle.AssignText(); //getters and setters
                         ScaleByValue(SetHandleValue(minScale, maxScale, bustHandle, bustMeasurement), bustBones);
                         break;
                     case "hips":
