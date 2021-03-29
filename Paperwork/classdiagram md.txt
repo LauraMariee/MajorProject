@@ -2,7 +2,8 @@ classDiagram
     MaleModel <|-- ModelInformation
     FemaleModel <|-- ModelInformation
     ModelInformation <|-- ModelSlider
-    ModelController  <|-- ModelInformation
+    ModelController  <|-- FemaleModel
+    ModelController  <|-- MaleModel
     ModelController  <|-- SwitchModel
 
     class SwitchModel{
