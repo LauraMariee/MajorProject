@@ -14,7 +14,7 @@ namespace Model
 
         public void Start()
         {
-            var spawnPositionObject = GameObject.Find("PodiumPosition");
+            var spawnPositionObject = GameObject.Find("CurrentModelController");
             spawnPosition = spawnPositionObject.GetComponent<Transform>().position;
         }
 
