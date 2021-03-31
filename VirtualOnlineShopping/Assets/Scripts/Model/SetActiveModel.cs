@@ -10,17 +10,11 @@ namespace Model
             Debug.Log(modelObject + " Entered");
             
             //if (!modelObject.tag.Equals("Model")) return;
-        
-            if(modelObject.GetComponentInParent(typeof(MaleModel)) as MaleModel)
-            {
-                Debug.Log("Male is enabled");
-                modelObject.GetComponentInParent<MaleModel>().enabled = true; 
-            }
-            if(modelObject.GetComponentInParent(typeof(FemaleModel)) as FemaleModel)
-            {
-                Debug.Log("Female is enabled");
-                modelObject.GetComponentInParent<FemaleModel>().enabled = true; 
-            }
+
+            if (!(modelObject.GetComponentInParent(typeof(AbstractModel)) as AbstractModel)) return;
+            Debug.Log("Model is enabled");
+            modelObject.GetComponentInParent<AbstractModel>().enabled = true;
+
         }
 
         private void OnTriggerExit(Collider other)
@@ -29,17 +23,10 @@ namespace Model
             Debug.Log(other + " Exited");
             
             //if (!other.gameObject.tag.Equals("Model")) return;
-        
-            if(modelObject.GetComponentInParent(typeof(MaleModel)) as MaleModel)
-            {
-                Debug.Log("Male is disabled");
-                modelObject.GetComponentInParent<MaleModel>().enabled = false; 
-            }
-            if(modelObject.GetComponentInParent(typeof(FemaleModel)) as FemaleModel)
-            {
-                Debug.Log("Female is disabled");
-                modelObject.GetComponentInParent<FemaleModel>().enabled = false; 
-            }
+
+            if (!(modelObject.GetComponentInParent(typeof(AbstractModel)) as AbstractModel)) return;
+            Debug.Log("Model is disabled");
+            modelObject.GetComponentInParent<AbstractModel>().enabled = false;
         }
     }
 }
