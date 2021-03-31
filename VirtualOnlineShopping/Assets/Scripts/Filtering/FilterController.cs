@@ -1,18 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class FilterController : MonoBehaviour
+namespace Filtering
 {
-    // Start is called before the first frame update
-    void Start()
+    public class FilterController : MonoBehaviour
     {
         
-    }
+        //Go through all loaded clothes, check each for details,
+        //put in new list, load new list of clothes into the machine
+        //show two at a time
+        
+        
+        // Start is called before the first frame update
+        void Start()
+        {
+        
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
+        // Update is called once per frame
+        void Update()
+        {
         
+        }
     }
 }
