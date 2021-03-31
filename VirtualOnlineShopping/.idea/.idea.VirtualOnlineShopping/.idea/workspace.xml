@@ -2,34 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ab07c5-3983-4822-be13-3f52bc908caf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Paperwork/classdiagram md.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/BlueWalls.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/BlueWalls.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VirtualOnlineShopping.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VirtualOnlineShopping.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/23/23cd1b39af0b3fb6934a7d7920bafe2b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/36/36ba7859e719732fa976a990d1013f52" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/37/374c732e2c738dc4353ace71de2b0272" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/58/582619b58fbb6077141faea8d1cf4737" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/63/639e87cce9379affdf4d1c7a773eba72" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/6f/6f72e8244fb45a24a468040cdc4395af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/92/92d4221b94639dd6ee399c2f38b30fa2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e3/e368a2e4d1d290cdd6684b379efc4638" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ec/ecdd84f67c98db1d5a58900188363cb6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f9/f9ed80f5643bdaaf3e11e94b0067b293" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/f4c75b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/f4c75b-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingDetail.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/SetActiveModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/dd/cc3b36ba/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Filtering/FilterButton.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -71,6 +55,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/SetActiveModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/ModelInformation.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterButton.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oL2WvdJNIR2XK0r6scNu5JCUfc" />
@@ -141,7 +126,7 @@
       <workItem from="1616670591701" duration="6486000" />
       <workItem from="1616953584016" duration="1920000" />
       <workItem from="1617010848808" duration="5482000" />
-      <workItem from="1617020151352" duration="4997000" />
+      <workItem from="1617020151352" duration="5761000" />
     </task>
     <servers />
   </component>
