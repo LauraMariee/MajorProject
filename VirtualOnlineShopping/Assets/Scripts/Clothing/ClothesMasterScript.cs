@@ -11,7 +11,7 @@ namespace Clothing
         private List<string> filenames = new List<string>();
         private string root; 
 
-        private static readonly List<ClothingObject> LoadedClothes = new List<ClothingObject>();
+        public static readonly List<ClothingObject> LoadedClothes = new List<ClothingObject>();
 
         private void Start()
         {
@@ -33,7 +33,6 @@ namespace Clothing
                 return filenames;
             }
         }
-
         private static void ReadInJson(string filename)
         {
             using (var r = new StreamReader(filename + ".json"))// Read in json file
@@ -70,6 +69,11 @@ namespace Clothing
                 clothingDetailObject.url = loadedCloth.url;
                 clothingDetailObject.imageUrl = loadedCloth.imageUrl;
             }
+        }
+
+        public List<ClothingObject> GetLoadedClothes()
+        {
+            return LoadedClothes;
         }
     }
 }
