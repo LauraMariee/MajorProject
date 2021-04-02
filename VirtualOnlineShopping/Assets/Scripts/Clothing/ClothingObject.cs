@@ -10,11 +10,18 @@ namespace Clothing
         public List<ClothingObject> products { get; set; }
     }
     
+    public abstract class Price
+    {
+        public int value { get; set; }
+        public string text { get; set; }
+    }
+    
     [Serializable]
     public class ClothingObject
     {
         public int id { get; set; } 
         public string name{get; set;}
+        public Price price{get; set;}
         public string colour{get; set;}
         public string brandName{get; set;}
         public int productCode{get; set;}

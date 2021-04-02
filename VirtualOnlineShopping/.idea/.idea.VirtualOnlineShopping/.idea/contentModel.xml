@@ -6,6 +6,9 @@
     <e p="C:\Users\Laura\Documents\MajorProject\VirtualOnlineShopping" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AsosData" t="Include">
+          <e p="itemColours.txt" t="Include" />
+        </e>
         <e p="EZhex1991" t="Include">
           <e p="EZSoftBone" t="Include">
             <e p="Editor" t="Include">

@@ -63,6 +63,7 @@ namespace Clothing
                 
                 clothingDetailObject.id = loadedCloth.id;
                 clothingDetailObject.itemName = loadedCloth.name;
+                clothingDetailObject.price = loadedCloth.price;
                 clothingDetailObject.colour = loadedCloth.colour;
                 clothingDetailObject.brandName = loadedCloth.brandName;
                 clothingDetailObject.productCode = loadedCloth.productCode;
@@ -70,7 +71,6 @@ namespace Clothing
                 clothingDetailObject.imageUrl = loadedCloth.imageUrl;
             }
         }
-
         public List<ClothingObject> GetLoadedClothes()
         {
             return LoadedClothes;

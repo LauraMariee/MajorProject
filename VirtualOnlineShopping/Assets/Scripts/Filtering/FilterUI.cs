@@ -7,6 +7,7 @@ namespace Filtering
     {
         private string colour;
         private string brandName;
+        private int price;
 
 
         // Start is called before the first frame update
@@ -15,6 +16,20 @@ namespace Filtering
         
         }
 
+        public float LowerRangeCheck()
+        {
+            const float minPrice = 0;
+            DetailMenuCheck(); //Check if detail menu open
+            return minPrice;//Get minprice
+        }
+        
+        public float UpperRangeCheck()
+        {
+            const float maxPrice = 1;
+            DetailMenuCheck(); //Check if detail menu open
+            return maxPrice;//Get maxprice
+        }
+        
         public void ColourCLick()
         {
             DetailMenuCheck(); //Check if detail menu open 
@@ -26,7 +41,7 @@ namespace Filtering
         private static bool DetailMenuCheck()
         {
             var detailPanel = GameObject.Find("UI/Canvas/FilterUI/detailsMenu");
-            if(detailPanel)
+            return true;
             //find detail model check
             //if detail model is active return true
             //if detail model is not active then return false

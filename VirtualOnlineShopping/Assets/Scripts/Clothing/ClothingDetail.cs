@@ -7,6 +7,7 @@ namespace Clothing
     {
         public int id { get; set; } 
         public string itemName{get; set;}
+        public Price price{get; set;}
         public string colour{get; set;}
         public string brandName{get; set;}
         public int productCode{get; set;}

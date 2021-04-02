@@ -7,11 +7,14 @@ namespace Filtering
     
     public class FilterController : MonoBehaviour
     {
-        private GameObject environmentController;
+        private GameObject clothesMasterScriptObject;
+        private GameObject filterScriptObject;
+        
         private List<ClothingObject> clothesList;
         private List<ClothingObject> filteredClothesList;
         
-        private ClothesMasterScript clothesMasterScript; 
+        private ClothesMasterScript clothesMasterScript;
+        private FilterUI filterUIScript;
         
         //Filter variables
         private string colour; //Get from FilterUI
@@ -21,9 +24,12 @@ namespace Filtering
         
         private void Start()
         {
-            environmentController = GameObject.Find("Environment");
-            clothesMasterScript = environmentController.GetComponent<ClothesMasterScript>();//Find ClothesMasterScript
+            clothesMasterScriptObject = GameObject.Find("Environment");
+            clothesMasterScript = clothesMasterScriptObject.GetComponent<ClothesMasterScript>();//Find ClothesMasterScript
             clothesMasterScript.GetLoadedClothes();
+
+            filterScriptObject = GameObject.Find("UI/Canvas/FilterUI");
+            filterUIScript = filterScriptObject.GetComponent<FilterUI>();
         }
         
         public void CheckForDetails(){
@@ -45,7 +51,12 @@ namespace Filtering
                     filteredClothesList.Add(clothItem);
                     break; //put in new list
                 }
-                
+                else if(clothItem.price.value < filterUIScript.LowerRangeCheck() && clothItem.price.value > 
+                    filterUIScript.UpperRangeCheck())//Get two values and check if model price is between the two prices
+                {
+                    filteredClothesList.Add(clothItem);
+                    break; //put in new list
+                }
                 //load new list of clothes into the machine
                 //show two at a time
             }
