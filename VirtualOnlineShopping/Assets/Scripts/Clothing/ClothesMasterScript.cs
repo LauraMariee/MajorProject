@@ -49,9 +49,9 @@ namespace Clothing
                     LoadedClothes.AddRange(items.products);
                 }
             }
-            AssignToGameObjects();
+            AssignToGameObjects(filename);
         }
-        private static void AssignToGameObjects()
+        private static void AssignToGameObjects(string itemType)
         {
            
             foreach (var loadedCloth in LoadedClothes)
@@ -63,15 +63,16 @@ namespace Clothing
                 
                 clothingDetailObject.id = loadedCloth.id;
                 clothingDetailObject.itemName = loadedCloth.name;
-                clothingDetailObject.price = loadedCloth.price;
+                clothingDetailObject.price = loadedCloth.price.current.value;
                 clothingDetailObject.colour = loadedCloth.colour;
                 clothingDetailObject.brandName = loadedCloth.brandName;
                 clothingDetailObject.productCode = loadedCloth.productCode;
                 clothingDetailObject.url = loadedCloth.url;
                 clothingDetailObject.imageUrl = loadedCloth.imageUrl;
+                clothingDetailObject.itemType = itemType; 
             }
         }
-        public List<ClothingObject> GetLoadedClothes()
+        public static List<ClothingObject> GetLoadedClothes()
         {
             return LoadedClothes;
         }

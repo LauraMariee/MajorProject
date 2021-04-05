@@ -26,14 +26,14 @@ namespace Filtering
         {
             clothesMasterScriptObject = GameObject.Find("Environment");
             clothesMasterScript = clothesMasterScriptObject.GetComponent<ClothesMasterScript>();//Find ClothesMasterScript
-            clothesMasterScript.GetLoadedClothes();
+            ClothesMasterScript.GetLoadedClothes();
 
             filterScriptObject = GameObject.Find("UI/Canvas/FilterUI");
             filterUIScript = filterScriptObject.GetComponent<FilterUI>();
         }
         
         public void CheckForDetails(){
-            clothesList = clothesMasterScript.GetLoadedClothes();
+            clothesList = ClothesMasterScript.GetLoadedClothes();
             foreach (var clothItem in clothesList)//Go through all loaded clothes,
             {
                 if (clothItem.colour == colour)//check each for details,
@@ -51,7 +51,7 @@ namespace Filtering
                     filteredClothesList.Add(clothItem);
                     break; //put in new list
                 }
-                else if(clothItem.price.value < filterUIScript.LowerRangeCheck() && clothItem.price.value > 
+                else if(clothItem.price.current.value < filterUIScript.LowerRangeCheck() && clothItem.price.current.value > 
                     filterUIScript.UpperRangeCheck())//Get two values and check if model price is between the two prices
                 {
                     filteredClothesList.Add(clothItem);
