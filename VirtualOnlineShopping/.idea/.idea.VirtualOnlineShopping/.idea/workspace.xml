@@ -4,37 +4,33 @@
     <list default="true" id="94ab07c5-3983-4822-be13-3f52bc908caf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AsosData/11321.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsosData/11321.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AsosData/18797.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsosData/18797.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AsosData/3630.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsosData/3630.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AsosData/4169.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsosData/4169.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AsosData/4208.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsosData/4208.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AsosData/5668.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsosData/5668.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AsosData/7616.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsosData/7616.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AsosData/8799.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsosData/8799.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AsosData/AsosDataPull.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsosData/AsosDataPull.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingDetail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingDetail.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/20/20a3015250ba755b42ea2c902ccae88f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2e/2e8645cd1a01769ecdc2e0ba0a0c25ce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/35/35dbcae8cec19473995ff4791647673f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/38/38b65c272d670237f7c7ebd9641ae404" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4a/4a6766e4108c2f4240b4bd2318f8052c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/75/755d56a3ebcba2863325cf58b42e0f9c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a9/a95d12dea91ced04accc72548922137e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b4/b49bd6f835eadc478760ff529dbf7148" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b8/b8d574f9c17d02d2a23aed9e70cce3c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c7/c73cd0501ab0abf56bcf8e9a5e0411bc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d9/d988bb0f3bd9725c7ea32633287c8ac3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/da/daaf34c9cca5d62cd8896540c6613074" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e8/e86d1d26ba25aa98bec925fc66bd6c52" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ee/eee7b26bca5036338730cd38bb1d4bd0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/16/16ba75aca9fc92ebfdb318db3e04024e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/22/22e07a786ef24396c9152c9b8bf2dd52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/26/26dc4e564b4f56b6b51d5901ea876c5d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/29/2929026468aa1447702a478ca7f7e74b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/43/433827148663b97c6362aab3bab2fa1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/6f/6fab6394f27b58e89b65e6d032e9cb5d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7f/7f4bd2a1b11cf2c32f16991fc7383c18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/87/87c9795a35bc90bc54b827b9ae895456" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/90/90547b79849391d3e462357c2e0e7b3f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a4/a48864e04395c465a3d30914f8456d79" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bb/bbe65525de34f32ce2dd86d5d399b797" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c2/c22eb445a96765ad8870932b9392a5a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c9/c91e237d6c29673155a5bef64acc246b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d6/d65cd46d6d23964280707534e8e62917" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/dc/dcd59fa723a03ea801566b8482508ebc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/dd/dd479dfa1084cbf3f4d86d9b6dd95b6c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f0/f0011f9a8ae2e713ac818e20f6ef8289" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fc/fcc89b700a35addd55538d8826b5ab9b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fc/fcd8611f00afa3376797c4672608feab" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/f4c75b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/f4c75b-mainStage.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +50,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/3b/cbf823b7/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A1747C51-3770-49B2-BDA8-60AB1BD2B1AC/35/6318b647/Price.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E5B75411-C8CD-4BFA-A9E7-60BE20206F29/2a/8e4be1e0/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,6 +64,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Filtering/ClothesMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/SetActiveModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/dd/cc3b36ba/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Filtering/Buttons/ColourDetails.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -83,16 +81,16 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/ClothesMachine.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/SwitchModel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingDetail.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/ButtonDetails/ColourDetails.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/Buttons/ColourDetails.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" />
       <option value="$PROJECT_DIR$/Assets/AsosData/4208.json" />
       <option value="$PROJECT_DIR$/Assets/AsosData/18797.json" />
       <option value="$PROJECT_DIR$/Assets/AsosData/8799.json" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingDetail.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oL2WvdJNIR2XK0r6scNu5JCUfc" />
@@ -121,10 +119,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="33760">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="62184">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="33760" />
+      <option name="pid" value="62184" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -166,7 +164,7 @@
       <workItem from="1617020151352" duration="4997000" />
       <workItem from="1617203017044" duration="5701000" />
       <workItem from="1617269161267" duration="18022000" />
-      <workItem from="1617616921756" duration="20103000" />
+      <workItem from="1617616921756" duration="23191000" />
     </task>
     <servers />
   </component>

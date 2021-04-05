@@ -12,7 +12,7 @@ namespace Filtering
         private GameObject filterScriptObject;
         
         private List<ClothingObject> clothesList;
-        private List<ClothingObject> filteredClothesList;
+        private List<ClothingObject> filteredClothesList = new List<ClothingObject>();
         
         private ClothesMasterScript clothesMasterScript;
         private FilterUI filterUIScript;
@@ -64,34 +64,31 @@ namespace Filtering
             clothesList = ClothesMasterScript.GetLoadedClothes();
             foreach (var clothItem in clothesList)//Go through all loaded clothes,
             {
-                Debug.Log("Colour is " +  clothItem.colour);
-                if (filterColours.Any(colour => clothItem.colour == colour))
+                if (clothItem.customColours.Any(cloth => filterColours.Any(colour => cloth == colour)))
                 {
-                    Debug.Log("Added to filtered list!");
-                    filteredClothesList.Add(clothItem);
-                    break;
+                    Debug.Log("Added to filtered list: " + clothItem.name);;
+                    filteredClothesList?.Add(clothItem);
                 }
                 else if(clothItem.brandName == brandName)
                 {
-                    filteredClothesList.Add(clothItem);
-                    break; //put in new list
+                    filteredClothesList?.Add(clothItem); //put in new list
                 }
                 else if(clothItem.name == name)
                 {
-                    filteredClothesList.Add(clothItem);
-                    break; //put in new list
+                    filteredClothesList?.Add(clothItem); //put in new list
                 }
                 else if(clothItem.price.current.value < filterUIScript.LowerRangeCheck() && clothItem.price.current.value > 
                     filterUIScript.UpperRangeCheck())//Get two values and check if model price is between the two prices
                 {
-                    filteredClothesList.Add(clothItem);
-                    break; //put in new list
+                    filteredClothesList?.Add(clothItem); //put in new list
                 }
 
+                if (filteredClothesList == null) continue;
                 foreach (var clothing in filteredClothesList)
                 {
-                    Debug.Log(clothing);
+                    Debug.Log(clothing.name);
                 }
+
                 //load new list of clothes into the machine
                 //show two at a time
             }

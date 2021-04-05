@@ -64,12 +64,12 @@ namespace Clothing
                 clothingDetailObject.id = loadedCloth.id;
                 clothingDetailObject.itemName = loadedCloth.name;
                 clothingDetailObject.price = loadedCloth.price.current.value;
-                clothingDetailObject.colour = loadedCloth.colour;
                 clothingDetailObject.brandName = loadedCloth.brandName;
                 clothingDetailObject.productCode = loadedCloth.productCode;
                 clothingDetailObject.url = loadedCloth.url;
                 clothingDetailObject.imageUrl = loadedCloth.imageUrl;
                 clothingDetailObject.itemType = itemType; 
+                clothingDetailObject.customColours = loadedCloth.customColours;
             }
         }
         public static List<ClothingObject> GetLoadedClothes()
