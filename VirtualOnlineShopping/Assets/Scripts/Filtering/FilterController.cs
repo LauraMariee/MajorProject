@@ -16,6 +16,9 @@ namespace Filtering
         private ClothesMasterScript clothesMasterScript;
         private FilterUI filterUIScript;
         
+        private string colourMenu;
+        private GameObject colourMenuObject;
+        
         //Filter variables
         private string colour; //Get from FilterUI
         private string brandName; //Get from FilterUI
@@ -30,6 +33,21 @@ namespace Filtering
 
             filterScriptObject = GameObject.Find("UI/Canvas/FilterUI");
             filterUIScript = filterScriptObject.GetComponent<FilterUI>();
+
+            colourMenu = "Colour1";
+
+        }
+        
+        private static bool DetailMenuCheck()
+        {
+            var detailPanel = GameObject.Find("UI/Canvas/FilterUI/detailsMenu");//find detail model check
+            return detailPanel.activeInHierarchy;//if detail model is active return true else false
+        }
+        
+        public void OpenColourDetailPanel()
+        {
+            colourMenuObject = GameObject.Find("DetailsMenu/Viewport/Content/" + colourMenu); //find gameobject on name
+           //Hide other open colours
         }
         
         public void CheckForDetails(){
