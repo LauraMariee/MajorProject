@@ -9,12 +9,25 @@ namespace Clothing
     {
         public List<ClothingObject> products { get; set; }
     }
+    public class Price
+    {
+        public Current current;
+    }
+    
+    [Serializable] 
+    public class Current
+    {
+        public float value { get; set; }
+        public string text { get; set; }
+    }
+    
     
     [Serializable]
     public class ClothingObject
     {
         public int id { get; set; } 
         public string name{get; set;}
+        public Price price{get; set;}
         public string colour{get; set;}
         public string brandName{get; set;}
         public int productCode{get; set;}

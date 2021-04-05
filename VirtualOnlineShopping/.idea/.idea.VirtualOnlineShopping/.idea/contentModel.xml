@@ -6,6 +6,9 @@
     <e p="C:\Users\Laura\Documents\MajorProject\VirtualOnlineShopping" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AsosData" t="Include">
+          <e p="itemColours.txt" t="Include" />
+        </e>
         <e p="EZhex1991" t="Include">
           <e p="EZSoftBone" t="Include">
             <e p="Editor" t="Include">
@@ -38,6 +41,11 @@
             <e p="ClothesMasterScript.cs" t="Include" />
             <e p="ClothingDetail.cs" t="Include" />
             <e p="ClothingObject.cs" t="Include" />
+          </e>
+          <e p="Filtering" t="Include">
+            <e p="ClothesMachine.cs" t="Include" />
+            <e p="FilterController.cs" t="Include" />
+            <e p="FilterUI.cs" t="Include" />
           </e>
           <e p="Model" t="Include">
             <e p="AbstractModel.cs" t="Include" />
