@@ -31,23 +31,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f056e82-9e8a-4fa4-b58f-8df911b43c15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/11321.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11321.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/18797.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/18797.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3630.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3630.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4169.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4169.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4208.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4208.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5668.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5668.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7616.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7616.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8799.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8799.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AsosDataPull.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AsosData/18797.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsosData/18797.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AsosData/4208.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsosData/4208.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AsosData/8799.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsosData/8799.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AsosData/AsosDataPull.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsosData/AsosDataPull.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/20/20a3015250ba755b42ea2c902ccae88f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2e/2e8645cd1a01769ecdc2e0ba0a0c25ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/35/35dbcae8cec19473995ff4791647673f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/38/38b65c272d670237f7c7ebd9641ae404" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4a/4a6766e4108c2f4240b4bd2318f8052c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/75/755d56a3ebcba2863325cf58b42e0f9c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a9/a95d12dea91ced04accc72548922137e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b4/b49bd6f835eadc478760ff529dbf7148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b8/b8d574f9c17d02d2a23aed9e70cce3c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c7/c73cd0501ab0abf56bcf8e9a5e0411bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d9/d988bb0f3bd9725c7ea32633287c8ac3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/da/daaf34c9cca5d62cd8896540c6613074" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e8/e86d1d26ba25aa98bec925fc66bd6c52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ee/eee7b26bca5036338730cd38bb1d4bd0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/f4c75b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/f4c75b-mainStage.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +76,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets/AsosData" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,5 +99,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1061" y="456" key="FileChooserDialogImpl" timestamp="1617642373339">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="456" key="FileChooserDialogImpl/0.0.2560.1400/3840.555.1536.824@0.0.2560.1400" timestamp="1617642373339" />
   </component>
 </project>

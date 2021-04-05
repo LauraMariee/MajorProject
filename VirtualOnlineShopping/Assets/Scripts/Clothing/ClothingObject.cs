@@ -28,11 +28,11 @@ namespace Clothing
         public int id { get; set; } 
         public string name{get; set;}
         public Price price{get; set;}
-        public string colour{get; set;}
         public string brandName{get; set;}
         public int productCode{get; set;}
         public string url{get; set;}
-        public string imageUrl{get; set;} 
-        
+        public string imageUrl{get; set;}
+        public List<string> customColours{get; set;}
+
     }
 }

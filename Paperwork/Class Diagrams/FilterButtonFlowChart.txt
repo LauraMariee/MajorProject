@@ -1,0 +1,6 @@
+graph TD
+    A[Button] -->|Button Clicked| B
+    B[FilterUI Script] --> |Mark as selected| C
+    C[FilterController Script] -->|Search through items with filter| D[ClothesMachine Script]
+    C[FilterController Script] -->|Send matched list to script| D
+    D[ClothesMachine Script] -->|Display clothing in | E[Clothes Machine]
