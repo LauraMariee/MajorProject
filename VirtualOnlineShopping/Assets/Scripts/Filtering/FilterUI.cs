@@ -13,12 +13,6 @@ namespace Filtering
 
         public List<string> selectedColours;
 
-
-        // Start is called before the first frame update
-        void Start()
-        {
-        }
-
         public float LowerRangeCheck()
         {
             const float minPrice = 0;
@@ -42,14 +36,14 @@ namespace Filtering
                  selectedColours.Remove(colour);
                  colorButtonBlock.selectedColor = Color.red; //Remove highlight
                  colourButton.colors = colorButtonBlock;
-                 Debug.Log(colour);
+                 //Debug.Log("Removed " + colour);
              }
              else if (!selectedColours.Contains(colour))
              {
                  selectedColours.Add(colour);
                  colorButtonBlock.selectedColor = Color.green; //Add highlight
                  colourButton.colors = colorButtonBlock;
-                 Debug.Log(colour);
+                 //Debug.Log("Added " + colour);
              }
         }
     }

@@ -25,7 +25,6 @@ namespace Filtering
         private string brandName; //Get from FilterUI
         private string name; //Get from FilterUI
         
-        
         private void Start()
         {
             clothesMasterScriptObject = GameObject.Find("Environment");
@@ -37,12 +36,17 @@ namespace Filtering
 
             colourMenu = "Colour1";
         }
-        
         private void GetColours()
         {
             filterColours = filterUIScript.selectedColours;
         }
         
+        public void Search()
+        {
+            Debug.Log("Search Clicked");
+            GetColours();
+            CheckForDetails();
+        }
         
         private static bool DetailMenuCheck()
         {
@@ -55,13 +59,15 @@ namespace Filtering
             colourMenuObject = GameObject.Find("DetailsMenu/Viewport/Content/" + colourMenu); //find gameobject on name
             //Hide other open colours
         }
-        
-        public void CheckForDetails(){
+
+        private void CheckForDetails(){
             clothesList = ClothesMasterScript.GetLoadedClothes();
             foreach (var clothItem in clothesList)//Go through all loaded clothes,
             {
+                Debug.Log("Colour is " +  clothItem.colour);
                 if (filterColours.Any(colour => clothItem.colour == colour))
                 {
+                    Debug.Log("Added to filtered list!");
                     filteredClothesList.Add(clothItem);
                     break;
                 }
@@ -81,6 +87,11 @@ namespace Filtering
                     filteredClothesList.Add(clothItem);
                     break; //put in new list
                 }
+
+                foreach (var clothing in filteredClothesList)
+                {
+                    Debug.Log(clothing);
+                }
                 //load new list of clothes into the machine
                 //show two at a time
             }
@@ -89,7 +100,7 @@ namespace Filtering
         
 
         // Update is called once per frame
-        void Update()
+        private void Update()
         {
             GetColours();
         }
