@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Clothing;
 using UnityEngine;
 
@@ -20,7 +21,7 @@ namespace Filtering
         private GameObject colourMenuObject;
         
         //Filter variables
-        private string colour; //Get from FilterUI
+        private List<string> filterColours; //Get from FilterUI
         private string brandName; //Get from FilterUI
         private string name; //Get from FilterUI
         
@@ -35,8 +36,13 @@ namespace Filtering
             filterUIScript = filterScriptObject.GetComponent<FilterUI>();
 
             colourMenu = "Colour1";
-
         }
+        
+        private void GetColours()
+        {
+            filterColours = filterUIScript.selectedColours;
+        }
+        
         
         private static bool DetailMenuCheck()
         {
@@ -47,17 +53,17 @@ namespace Filtering
         public void OpenColourDetailPanel()
         {
             colourMenuObject = GameObject.Find("DetailsMenu/Viewport/Content/" + colourMenu); //find gameobject on name
-           //Hide other open colours
+            //Hide other open colours
         }
         
         public void CheckForDetails(){
             clothesList = ClothesMasterScript.GetLoadedClothes();
             foreach (var clothItem in clothesList)//Go through all loaded clothes,
             {
-                if (clothItem.colour == colour)//check each for details,
+                if (filterColours.Any(colour => clothItem.colour == colour))
                 {
                     filteredClothesList.Add(clothItem);
-                    break; //put in new list
+                    break;
                 }
                 else if(clothItem.brandName == brandName)
                 {
@@ -79,11 +85,13 @@ namespace Filtering
                 //show two at a time
             }
         }
+        
+        
 
         // Update is called once per frame
         void Update()
         {
-        
+            GetColours();
         }
     }
 }

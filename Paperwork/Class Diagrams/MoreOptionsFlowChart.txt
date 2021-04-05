@@ -1,0 +1,4 @@
+graph TB
+    A['More options' Button] --> |Button Clicked|B
+    B[FilterController Script]-->|'Disable previous ClourList| C
+    C[Empty List] -->|Get next list child and enable |D[Next list option]

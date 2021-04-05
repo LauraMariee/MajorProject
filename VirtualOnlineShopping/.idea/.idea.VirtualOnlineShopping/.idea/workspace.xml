@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ab07c5-3983-4822-be13-3f52bc908caf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/05/05e649e2cc77341804fbb780479ef9e1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/09/0928d3459d9adcf4c6bcb5d2ab588e41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1c/1c325de7e313fd4da4b780b837eca27e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5a/5a9eea27e9179e7cf609d8b3eae585ed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a8/a82b7d8c22d5d3f08e7c4641c9c31cbd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b2/b29d83605c6fee98d200900465acd037" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c6/c6f78f26c1c0a129a0197d45dcd5c728" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f3/f31c917e0f512f8c33619163fefc5a43" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Filtering/ClothesMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/SetActiveModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/dd/cc3b36ba/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Filtering/Buttons/ColourDetails.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -62,6 +69,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingDetail.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/ButtonDetails/ColourDetails.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/Buttons/ColourDetails.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" />
     </changedPaths>
@@ -137,7 +146,7 @@
       <workItem from="1617020151352" duration="4997000" />
       <workItem from="1617203017044" duration="5701000" />
       <workItem from="1617269161267" duration="18022000" />
-      <workItem from="1617616921756" duration="11980000" />
+      <workItem from="1617616921756" duration="17173000" />
     </task>
     <servers />
   </component>

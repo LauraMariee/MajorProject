@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace Filtering
@@ -8,6 +10,8 @@ namespace Filtering
         private string colour;
         private string brandName;
         private int price;
+
+        public List<string> selectedColours;
 
 
         // Start is called before the first frame update
@@ -27,19 +31,26 @@ namespace Filtering
             return maxPrice;//Get maxprice
         }
         
-        public void ColourCLick()
+        public void ColourClick()
         {
-        }
-
-        
-        
-        public void BrandCLick()
-        {
-        }
-        
-        private void Save()
-        {
-        
+            colour = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
+            var colourButton = GameObject.Find(colour).GetComponent<Button>();
+            var colorButtonBlock = colourButton.colors; 
+            
+             if (selectedColours.Contains(colour))
+             {
+                 selectedColours.Remove(colour);
+                 colorButtonBlock.selectedColor = Color.red; //Remove highlight
+                 colourButton.colors = colorButtonBlock;
+                 Debug.Log(colour);
+             }
+             else if (!selectedColours.Contains(colour))
+             {
+                 selectedColours.Add(colour);
+                 colorButtonBlock.selectedColor = Color.green; //Add highlight
+                 colourButton.colors = colorButtonBlock;
+                 Debug.Log(colour);
+             }
         }
     }
 }

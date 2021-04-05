@@ -43,6 +43,9 @@
             <e p="ClothingObject.cs" t="Include" />
           </e>
           <e p="Filtering" t="Include">
+            <e p="Buttons" t="Include">
+              <e p="ColourDetails.cs" t="Include" />
+            </e>
             <e p="ClothesMachine.cs" t="Include" />
             <e p="FilterController.cs" t="Include" />
             <e p="FilterUI.cs" t="Include" />
