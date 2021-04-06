@@ -45,7 +45,7 @@ namespace Filtering
         {
             Debug.Log("Search Clicked");
             GetColours();
-            CheckForDetails();
+            FilterClothes();
         }
         
         private static bool DetailMenuCheck()
@@ -60,27 +60,39 @@ namespace Filtering
             //Hide other open colours
         }
 
-        private void CheckForDetails(){
+        private void FilterClothes(){
             clothesList = ClothesMasterScript.GetLoadedClothes();
             foreach (var clothItem in clothesList)//Go through all loaded clothes,
             {
                 if (clothItem.customColours.Any(cloth => filterColours.Any(colour => cloth == colour)))
                 {
                     Debug.Log("Added to filtered list: " + clothItem.name);;
-                    filteredClothesList?.Add(clothItem);
+                    if (!IsInList(clothItem))
+                    {
+                        filteredClothesList?.Add(clothItem);
+                    }
                 }
                 else if(clothItem.brandName == brandName)
                 {
-                    filteredClothesList?.Add(clothItem); //put in new list
+                    if (!IsInList(clothItem))
+                    {
+                        filteredClothesList?.Add(clothItem);
+                    }
                 }
                 else if(clothItem.name == name)
                 {
-                    filteredClothesList?.Add(clothItem); //put in new list
+                    if (!IsInList(clothItem))
+                    {
+                        filteredClothesList?.Add(clothItem);
+                    }
                 }
                 else if(clothItem.price.current.value < filterUIScript.LowerRangeCheck() && clothItem.price.current.value > 
                     filterUIScript.UpperRangeCheck())//Get two values and check if model price is between the two prices
                 {
-                    filteredClothesList?.Add(clothItem); //put in new list
+                    if (!IsInList(clothItem))
+                    {
+                        filteredClothesList?.Add(clothItem);
+                    }
                 }
 
                 if (filteredClothesList == null) continue;
@@ -88,14 +100,15 @@ namespace Filtering
                 {
                     Debug.Log(clothing.name);
                 }
-
                 //load new list of clothes into the machine
                 //show two at a time
             }
         }
-        
-        
 
+        private bool IsInList(ClothingObject cloth)
+        {
+            return filteredClothesList.Contains(cloth);
+        }
         // Update is called once per frame
         private void Update()
         {
