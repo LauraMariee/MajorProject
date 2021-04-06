@@ -88,8 +88,8 @@ namespace Filtering
                         filteredClothesList?.Add(clothItem);
                     }
                 }
-                else if(clothItem.price.current.value < filterUIScript.LowerRangeCheck() && clothItem.price.current.value > 
-                    filterUIScript.UpperRangeCheck())//Get two values and check if model price is between the two prices
+                else if(clothItem.price.current.value >= filterUIScript.lowerPrice && clothItem.price.current.value <= 
+                    filterUIScript.upperPrice)//Get two values and check if model price is between the two prices
                 {
                     if (!IsInList(clothItem))
                     {
