@@ -22,7 +22,7 @@ namespace Filtering
         
         //Filter variables
         private List<string> filterColours; //Get from FilterUI
-        private string brandName; //Get from FilterUI
+        private List<string> filterBrandNames; //Get from FilterUI
         private string name; //Get from FilterUI
         
         private void Start()
@@ -34,17 +34,18 @@ namespace Filtering
             filterScriptObject = GameObject.Find("UI/Canvas/FilterUI");
             filterUIScript = filterScriptObject.GetComponent<FilterUI>();
 
-            colourMenu = "Colour1";
+            colourMenu = "Colour";
         }
-        private void GetColours()
+        private void GetFilterLists()
         {
             filterColours = filterUIScript.selectedColours;
+            filterBrandNames = filterUIScript.selectedBrands;
         }
         
         public void Search()
         {
             Debug.Log("Search Clicked");
-            GetColours();
+            GetFilterLists();
             FilterClothes();
         }
         
@@ -72,8 +73,9 @@ namespace Filtering
                         filteredClothesList?.Add(clothItem);
                     }
                 }
-                else if(clothItem.brandName == brandName)
+                else if (filterBrandNames.Any(brand => clothItem.brandName == brand))
                 {
+                    Debug.Log("Added to filtered list: " + clothItem.name);;
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
@@ -112,7 +114,7 @@ namespace Filtering
         // Update is called once per frame
         private void Update()
         {
-            GetColours();
+            GetFilterLists();
         }
     }
 }

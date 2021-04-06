@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -12,7 +13,8 @@ namespace Filtering
         private int price;
 
         public List<string> selectedColours;
-
+        public List<string> selectedBrands;
+        
         public float LowerRangeCheck()
         {
             const float minPrice = 0;
@@ -24,7 +26,32 @@ namespace Filtering
             const float maxPrice = 1;
             return maxPrice;//Get maxprice
         }
-        
+
+
+        public void BrandClick()
+        {
+            brandName = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
+            var brandButton = GameObject.Find(brandName).GetComponent<Button>();
+            var brandButtonBlock = brandButton.colors; 
+            
+            if (selectedBrands.Contains(brandName))
+            {
+                selectedBrands.Remove(brandName);
+                brandButtonBlock.selectedColor = Color.red; //Remove highlight
+                brandButton.colors = brandButtonBlock;
+                Debug.Log("Removed " + colour);
+            }
+            else if (!selectedBrands.Contains(brandName))
+            {
+                selectedBrands.Add(brandName);
+                brandButtonBlock.selectedColor = Color.green; //Add highlight
+                brandButton.colors = brandButtonBlock;
+                Debug.Log("Added " + colour);
+            }
+            
+        }
+
+
         public void ColourClick()
         {
             colour = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
