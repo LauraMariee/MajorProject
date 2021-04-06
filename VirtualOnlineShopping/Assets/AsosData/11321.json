@@ -1,1 +1,2158 @@
-{"searchTerm": "", "categoryName": "Hoodies & Sweatshirts", "itemCount": 2251, "redirectUrl": "", "products": [{"id": 23622555, "name": "ASOS 4505 icon ultimate sweatshirt", "price": {"current": {"value": 29.0, "text": "$29.00"}, "previous": {"value": null, "text": ""}, "rrp": {"value": null, "text": ""}, "isMarkedDown": false, "isOutletPrice": false, "currency": "USD"}, "colour": "", "colourWayId": 60498258, "brandName": "ASOS 4505", "hasVariantColours": false, "hasMultiplePrices": false, "groupId": null, "productCode": 1967218, "productType": "Product", "url": "asos-4505/asos-4505-icon-ultimate-sweatshirt/prd/23622555?colourwayid=60498258", "imageUrl": "images.asos-media.com/products/asos-4505-icon-ultimate-sweatshirt/23622555-1-blue", "videoUrl": null, "isSellingFast": false, "customColours": ["Blues"]}, {"id": 22796947, "name": "Lacoste monogram logo hoodie in cream - part of a set", "price": {"current": {"value": 195.0, "text": "$195.00"}, "previous": {"value": null, "text": ""}, "rrp": {"value": null, "text": ""}, "isMarkedDown": false, "isOutletPrice": false, "currency": "USD"}, "colour": "", "colourWayId": 60426927, "brandName": "Lacoste", "hasVariantColours": false, "hasMultiplePrices": false, "groupId": null, "productCode": 1901667, "productType": "Product", "url": "lacoste/lacoste-monogram-logo-hoodie-in-cream-part-of-a-set/prd/22796947?colourwayid=60426927", "imageUrl": "images.asos-media.com/products/lacoste-monogram-logo-hoodie-in-cream-part-of-a-set/22796947-1-naturelclair", "videoUrl": null, "isSellingFast": false, "customColours": ["Naturel clair"]}, {"id": 23499539, "name": "ASYOU cropped hoodie in black", "price": {"current": {"value": 24.0, "text": "$24.00"}, "previous": {"value": null, "text": ""}, "rrp": {"value": null, "text": ""}, "isMarkedDown": false, "isOutletPrice": false, "currency": "USD"}, "colour": "", "colourWayId": 60488412, "brandName": "AsYou", "hasVariantColours": false, "hasMultiplePrices": false, "groupId": null, "productCode": 1957984, "productType": "Product", "url": "asyou/asyou-cropped-hoodie-in-black/prd/23499539?colourwayid=60488412", "imageUrl": "images.asos-media.com/products/asyou-cropped-hoodie-in-black/23499539-1-black", "videoUrl": null, "isSellingFast": false, "customColours": ["Black"]}, {"id": 23137024, "name": "ASOS Weekend Collective oversized sweatshirt with back logo in brown", "price": {"current": {"value": 46.0, "text": "$46.00"}, "previous": {"value": null, "text": ""}, "rrp": {"value": null, "text": ""}, "isMarkedDown": false, "isOutletPrice": false, "currency": "USD"}, "colour": "", "colourWayId": 60454063, "brandName": "ASOS Weekend Collective", "hasVariantColours": false, "hasMultiplePrices": false, "groupId": null, "productCode": 1927985, "productType": "Product", "url": "asos-weekend-collective/asos-weekend-collective-oversized-sweatshirt-with-back-logo-in-brown/prd/23137024?colourwayid=60454063", "imageUrl": "images.asos-media.com/products/asos-weekend-collective-oversized-sweatshirt-with-back-logo-in-brown/23137024-1-brown", "videoUrl": null, "isSellingFast": false, "customColours": ["Brown"]}, {"id": 23137019, "name": "ASOS Weekend Collective Curve oversized sweatshirt with back logo in brown", "price": {"current": {"value": 46.0, "text": "$46.00"}, "previous": {"value": null, "text": ""}, "rrp": {"value": null, "text": ""}, "isMarkedDown": false, "isOutletPrice": false, "currency": "USD"}, "colour": "", "colourWayId": 60454054, "brandName": "ASOS Weekend Collective", "hasVariantColours": false, "hasMultiplePrices": false, "groupId": null, "productCode": 1927992, "productType": "Product", "url": "asos-weekend-collective/asos-weekend-collective-curve-oversized-sweatshirt-with-back-logo-in-brown/prd/23137019?colourwayid=60454054", "imageUrl": "images.asos-media.com/products/asos-weekend-collective-curve-oversized-sweatshirt-with-back-logo-in-brown/23137019-1-brown", "videoUrl": null, "isSellingFast": false, "customColours": ["Brown"]}], "facets": [{"id": "range", "name": "Sale/New Season", "facetValues": [{"count": 1598, "id": "new_season", "name": "New Season", "isSelected": false}, {"count": 653, "id": "sale", "name": "Sale", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "attribute_1047", "name": "Product Type", "facetValues": [{"count": 85, "id": "10885", "name": "Fleeces", "isSelected": false}, {"count": 900, "id": "8391", "name": "Hoodies", "isSelected": false}, {"count": 1266, "id": "8405", "name": "Sweatshirts", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "brand", "name": "Brand", "facetValues": [{"count": 159, "id": "53", "name": "ASOS DESIGN", "isSelected": false}, {"count": 41, "id": "15643", "name": "ASOS 4505", "isSelected": false}, {"count": 46, "id": "13511", "name": "ASOS Curve", "isSelected": false}, {"count": 1, "id": "15169", "name": "ASOS MADE IN", "isSelected": false}, {"count": 29, "id": "13510", "name": "ASOS Maternity", "isSelected": false}, {"count": 13, "id": "13512", "name": "ASOS Petite", "isSelected": false}, {"count": 22, "id": "14162", "name": "ASOS Tall", "isSelected": false}, {"count": 2, "id": "12919", "name": "ASOS WHITE", "isSelected": false}, {"count": 4, "id": "15258", "name": "ASOS Maternity - Nursing", "isSelected": false}, {"count": 15, "id": "16119", "name": "& Other Stories", "isSelected": false}, {"count": 7, "id": "14370", "name": "Abercrombie & Fitch", "isSelected": false}, {"count": 64, "id": "18", "name": "adidas Originals", "isSelected": false}, {"count": 4, "id": "16346", "name": "adidas performance", "isSelected": false}, {"count": 5, "id": "12791", "name": "AllSaints", "isSelected": false}, {"count": 1, "id": "16045", "name": "Another Reason", "isSelected": false}, {"count": 1, "id": "16226", "name": "Another Reason Plus", "isSelected": false}, {"count": 28, "id": "16616", "name": "ASOS Weekend Collective", "isSelected": false}, {"count": 26, "id": "16575", "name": "AsYou", "isSelected": false}, {"count": 1, "id": "16129", "name": "AYM Studio", "isSelected": false}, {"count": 3, "id": "16548", "name": "BB Dakota", "isSelected": false}, {"count": 2, "id": "12113", "name": "Berghaus", "isSelected": false}, {"count": 39, "id": "15370", "name": "Bershka", "isSelected": false}, {"count": 1, "id": "3008", "name": "Billabong", "isSelected": false}, {"count": 4, "id": "105", "name": "Calvin Klein", "isSelected": false}, {"count": 3, "id": "12507", "name": "Calvin Klein Jeans", "isSelected": false}, {"count": 10, "id": "15926", "name": "Calvin Klein Performance", "isSelected": false}, {"count": 1, "id": "16622", "name": "Catch", "isSelected": false}, {"count": 2, "id": "16640", "name": "CD Femme", "isSelected": false}, {"count": 16, "id": "14513", "name": "Champion", "isSelected": false}, {"count": 17, "id": "13852", "name": "Chelsea Peers", "isSelected": false}, {"count": 128, "id": "15878", "name": "Collusion", "isSelected": false}, {"count": 23, "id": "15059", "name": "Columbia", "isSelected": false}, {"count": 2, "id": "131", "name": "Converse", "isSelected": false}, {"count": 14, "id": "16269", "name": "Cotton:On", "isSelected": false}, {"count": 2, "id": "16606", "name": "Cotton:On Plus", "isSelected": false}, {"count": 13, "id": "13017", "name": "Crooked Tongues", "isSelected": false}, {"count": 29, "id": "14023", "name": "Daisy Street", "isSelected": false}, {"count": 31, "id": "15058", "name": "Daisy Street Plus", "isSelected": false}, {"count": 5, "id": "16414", "name": "Damson Madder", "isSelected": false}, {"count": 1, "id": "12754", "name": "Dare 2b", "isSelected": false}, {"count": 2, "id": "3253", "name": "Dickies", "isSelected": false}, {"count": 1, "id": "16250", "name": "Dickies Girl", "isSelected": false}, {"count": 3, "id": "160", "name": "DKNY", "isSelected": false}, {"count": 2, "id": "15143", "name": "Dorina", "isSelected": false}, {"count": 6, "id": "166", "name": "Dr Denim", "isSelected": false}, {"count": 1, "id": "16395", "name": "Dr Denim Plus", "isSelected": false}, {"count": 1, "id": "16393", "name": "Eivy", "isSelected": false}, {"count": 2, "id": "14403", "name": "Element", "isSelected": false}, {"count": 7, "id": "14116", "name": "ellesse", "isSelected": false}, {"count": 6, "id": "15770", "name": "Fashionkilla", "isSelected": false}, {"count": 2, "id": "16050", "name": "Fashionkilla Petite", "isSelected": false}, {"count": 3, "id": "15773", "name": "Fashionkilla Plus", "isSelected": false}, {"count": 2, "id": "16043", "name": "Fashionkilla Tall", "isSelected": false}, {"count": 1, "id": "14284", "name": "Fashion Union", "isSelected": false}, {"count": 3, "id": "3492", "name": "FCUK", "isSelected": false}, {"count": 6, "id": "202", "name": "Fila", "isSelected": false}, {"count": 9, "id": "12731", "name": "Fiorucci", "isSelected": false}, {"count": 3, "id": "2943", "name": "Fred Perry", "isSelected": false}, {"count": 2, "id": "3454", "name": "Free People", "isSelected": false}, {"count": 1, "id": "15292", "name": "Free People Movement", "isSelected": false}, {"count": 10, "id": "12069", "name": "Gant", "isSelected": false}, {"count": 3, "id": "16415", "name": "Grimey", "isSelected": false}, {"count": 4, "id": "3735", "name": "G-Star", "isSelected": false}, {"count": 3, "id": "259", "name": "Guess", "isSelected": false}, {"count": 4, "id": "14334", "name": "Helly Hansen", "isSelected": false}, {"count": 4, "id": "15747", "name": "HIIT", "isSelected": false}, {"count": 10, "id": "14644", "name": "Hollister", "isSelected": false}, {"count": 1, "id": "304", "name": "Ichi", "isSelected": false}, {"count": 27, "id": "15900", "name": "In The Style", "isSelected": false}, {"count": 23, "id": "16191", "name": "In The Style Plus", "isSelected": false}, {"count": 3, "id": "16394", "name": "I Saw It First", "isSelected": false}, {"count": 5, "id": "14097", "name": "Jack Wills", "isSelected": false}, {"count": 2, "id": "14300", "name": "Jaded London", "isSelected": false}, {"count": 2, "id": "16342", "name": "Jagger and Stone", "isSelected": false}, {"count": 14, "id": "13991", "name": "JDY", "isSelected": false}, {"count": 3, "id": "14269", "name": "Jordan", "isSelected": false}, {"count": 3, "id": "14876", "name": "Kendall + Kylie", "isSelected": false}, {"count": 5, "id": "12431", "name": "Kickers", "isSelected": false}, {"count": 1, "id": "16434", "name": "Labelrail", "isSelected": false}, {"count": 5, "id": "391", "name": "Lacoste", "isSelected": false}, {"count": 20, "id": "401", "name": "Levi's", "isSelected": false}, {"count": 3, "id": "15171", "name": "Levi's Plus", "isSelected": false}, {"count": 12, "id": "15882", "name": "Lindex", "isSelected": false}, {"count": 2, "id": "407", "name": "Lipsy", "isSelected": false}, {"count": 1, "id": "16388", "name": "Little Sunny Bite", "isSelected": false}, {"count": 6, "id": "14006", "name": "Local Heroes", "isSelected": false}, {"count": 2, "id": "16556", "name": "Loose Threads", "isSelected": false}, {"count": 2, "id": "16555", "name": "Loose Threads Plus", "isSelected": false}, {"count": 1, "id": "14705", "name": "Lost Ink", "isSelected": false}, {"count": 7, "id": "14955", "name": "Loungeable", "isSelected": false}, {"count": 8, "id": "12359", "name": "Mama.licious", "isSelected": false}, {"count": 7, "id": "12117", "name": "Mango", "isSelected": false}, {"count": 3, "id": "16515", "name": "Minga", "isSelected": false}, {"count": 41, "id": "14590", "name": "Missguided", "isSelected": false}, {"count": 1, "id": "15067", "name": "Missguided Maternity", "isSelected": false}, {"count": 4, "id": "14803", "name": "Missguided Plus", "isSelected": false}, {"count": 3, "id": "14919", "name": "Missguided Tall", "isSelected": false}, {"count": 36, "id": "15128", "name": "Miss Selfridge", "isSelected": false}, {"count": 4, "id": "15129", "name": "Miss Selfridge Petite", "isSelected": false}, {"count": 6, "id": "14768", "name": "M Lounge", "isSelected": false}, {"count": 43, "id": "14012", "name": "Monki", "isSelected": false}, {"count": 4, "id": "16294", "name": "Mossimo", "isSelected": false}, {"count": 11, "id": "15883", "name": "NA-KD", "isSelected": false}, {"count": 13, "id": "15127", "name": "Napapijri", "isSelected": false}, {"count": 2, "id": "13687", "name": "Native Youth", "isSelected": false}, {"count": 1, "id": "16266", "name": "Native Youth Plus", "isSelected": false}, {"count": 7, "id": "499", "name": "New Balance", "isSelected": false}, {"count": 24, "id": "16022", "name": "New Girl Order", "isSelected": false}, {"count": 16, "id": "16128", "name": "New Girl Order Curve", "isSelected": false}, {"count": 59, "id": "13817", "name": "New Look", "isSelected": false}, {"count": 2, "id": "13843", "name": "New Look Maternity", "isSelected": false}, {"count": 2, "id": "14119", "name": "New Look Petite", "isSelected": false}, {"count": 2, "id": "13844", "name": "New Look Plus", "isSelected": false}, {"count": 2, "id": "14248", "name": "New Look Tall", "isSelected": false}, {"count": 74, "id": "2986", "name": "Nike", "isSelected": false}, {"count": 1, "id": "15720", "name": "Nike Football", "isSelected": false}, {"count": 1, "id": "15176", "name": "Nike Running", "isSelected": false}, {"count": 5, "id": "15177", "name": "Nike Training", "isSelected": false}, {"count": 3, "id": "15237", "name": "Nobody's Child", "isSelected": false}, {"count": 19, "id": "13927", "name": "Noisy May", "isSelected": false}, {"count": 10, "id": "16443", "name": "Noisy May Curve", "isSelected": false}, {"count": 5, "id": "14448", "name": "Noisy May Petite", "isSelected": false}, {"count": 7, "id": "14449", "name": "Noisy May Tall", "isSelected": false}, {"count": 3, "id": "14564", "name": "Object", "isSelected": false}, {"count": 15, "id": "13850", "name": "Only", "isSelected": false}, {"count": 2, "id": "16144", "name": "Only Curve", "isSelected": false}, {"count": 1, "id": "15827", "name": "Only Petite", "isSelected": false}, {"count": 1, "id": "15828", "name": "Only Tall", "isSelected": false}, {"count": 2, "id": "15576", "name": "ONZIE", "isSelected": false}, {"count": 7, "id": "15471", "name": "Outrageous Fortune", "isSelected": false}, {"count": 1, "id": "2978", "name": "People Tree", "isSelected": false}, {"count": 14, "id": "3040", "name": "Pieces", "isSelected": false}, {"count": 2, "id": "16544", "name": "Pieces Maternity", "isSelected": false}, {"count": 3, "id": "564", "name": "Pink Soda", "isSelected": false}, {"count": 8, "id": "3594", "name": "Polo Ralph Lauren", "isSelected": false}, {"count": 15, "id": "13685", "name": "Protest", "isSelected": false}, {"count": 10, "id": "14823", "name": "Public Desire", "isSelected": false}, {"count": 7, "id": "16296", "name": "Public Desire Curve", "isSelected": false}, {"count": 40, "id": "14126", "name": "Pull&Bear", "isSelected": false}, {"count": 62, "id": "589", "name": "Puma", "isSelected": false}, {"count": 15, "id": "13621", "name": "Quiksilver", "isSelected": false}, {"count": 28, "id": "12769", "name": "Reclaimed Vintage", "isSelected": false}, {"count": 19, "id": "2988", "name": "Reebok", "isSelected": false}, {"count": 3, "id": "13573", "name": "Rhythm", "isSelected": false}, {"count": 1, "id": "14251", "name": "Ripcurl", "isSelected": false}, {"count": 1, "id": "15622", "name": "Rip N Dip", "isSelected": false}, {"count": 29, "id": "12983", "name": "River Island", "isSelected": false}, {"count": 4, "id": "15230", "name": "River Island Petite", "isSelected": false}, {"count": 8, "id": "15068", "name": "River Island Plus", "isSelected": false}, {"count": 2, "id": "14447", "name": "Rokoko", "isSelected": false}, {"count": 2, "id": "15986", "name": "Rokoko Plus", "isSelected": false}, {"count": 1, "id": "3624", "name": "Roxy", "isSelected": false}, {"count": 5, "id": "13348", "name": "Russell Athletic", "isSelected": false}, {"count": 4, "id": "12840", "name": "Selected", "isSelected": false}, {"count": 10, "id": "15586", "name": "Simply Be", "isSelected": false}, {"count": 4, "id": "14920", "name": "Sixth June", "isSelected": false}, {"count": 2, "id": "16431", "name": "Sixth June Plus", "isSelected": false}, {"count": 1, "id": "12512", "name": "Skechers", "isSelected": false}, {"count": 6, "id": "14146", "name": "Skinnydip", "isSelected": false}, {"count": 7, "id": "16489", "name": "Skinnydip Curve", "isSelected": false}, {"count": 3, "id": "16554", "name": "SNDYS", "isSelected": false}, {"count": 8, "id": "13891", "name": "South Beach", "isSelected": false}, {"count": 33, "id": "15629", "name": "Stradivarius", "isSelected": false}, {"count": 3, "id": "16337", "name": "Style Cheat", "isSelected": false}, {"count": 1, "id": "12758", "name": "Surfanic", "isSelected": false}, {"count": 1, "id": "712", "name": "Ted Baker", "isSelected": false}, {"count": 17, "id": "15807", "name": "The Couture Club", "isSelected": false}, {"count": 46, "id": "3312", "name": "The North Face", "isSelected": false}, {"count": 6, "id": "16461", "name": "The O Dolls Collection", "isSelected": false}, {"count": 1, "id": "13942", "name": "The Ragged Priest", "isSelected": false}, {"count": 2, "id": "3029", "name": "Tommy Hilfiger", "isSelected": false}, {"count": 13, "id": "15631", "name": "Tommy Jeans", "isSelected": false}, {"count": 108, "id": "16305", "name": "Topshop", "isSelected": false}, {"count": 4, "id": "16306", "name": "Topshop Maternity", "isSelected": false}, {"count": 21, "id": "16307", "name": "Topshop Petite", "isSelected": false}, {"count": 4, "id": "16308", "name": "Topshop Tall", "isSelected": false}, {"count": 2, "id": "752", "name": "UGG", "isSelected": false}, {"count": 1, "id": "15203", "name": "Under Armour", "isSelected": false}, {"count": 1, "id": "14989", "name": "UNIQUE21", "isSelected": false}, {"count": 17, "id": "15413", "name": "Urban Bliss", "isSelected": false}, {"count": 1, "id": "16240", "name": "Urban Bliss Maternity", "isSelected": false}, {"count": 3, "id": "15610", "name": "Urban Bliss Plus", "isSelected": false}, {"count": 7, "id": "765", "name": "Vans", "isSelected": false}, {"count": 2, "id": "14784", "name": "Varley", "isSelected": false}, {"count": 12, "id": "3098", "name": "Vero Moda", "isSelected": false}, {"count": 4, "id": "15812", "name": "Vero Moda Curve", "isSelected": false}, {"count": 4, "id": "14304", "name": "Vero Moda Petite", "isSelected": false}, {"count": 3, "id": "14457", "name": "Vero Moda Tall", "isSelected": false}, {"count": 1, "id": "3663", "name": "Vila", "isSelected": false}, {"count": 11, "id": "16174", "name": "Vintage Supply", "isSelected": false}, {"count": 1, "id": "13881", "name": "Volcom", "isSelected": false}, {"count": 1, "id": "15872", "name": "We Are Hairy People", "isSelected": false}, {"count": 7, "id": "15734", "name": "Wednesday's Girl", "isSelected": false}, {"count": 2, "id": "16164", "name": "Wednesday's Girl Curve", "isSelected": false}, {"count": 45, "id": "14287", "name": "Weekday", "isSelected": false}, {"count": 2, "id": "3606", "name": "Whistles", "isSelected": false}, {"count": 1, "id": "3062", "name": "Wrangler", "isSelected": false}, {"count": 2, "id": "13987", "name": "Y.A.S", "isSelected": false}, {"count": 13, "id": "15034", "name": "Yours", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "base_colour", "name": "Color", "facetValues": [{"count": 439, "id": "4", "name": "Black", "isSelected": false}, {"count": 144, "id": "3", "name": "Blues", "isSelected": false}, {"count": 92, "id": "10", "name": "Brown", "isSelected": false}, {"count": 2, "id": "11", "name": "Gold", "isSelected": false}, {"count": 173, "id": "2", "name": "Green", "isSelected": false}, {"count": 368, "id": "16", "name": "Grey", "isSelected": false}, {"count": 75, "id": "17", "name": "Multi", "isSelected": false}, {"count": 55, "id": "33", "name": "Navy", "isSelected": false}, {"count": 133, "id": "37", "name": "Neutral", "isSelected": false}, {"count": 32, "id": "7", "name": "Orange", "isSelected": false}, {"count": 229, "id": "9", "name": "Pink", "isSelected": false}, {"count": 109, "id": "8", "name": "Purple", "isSelected": false}, {"count": 66, "id": "1", "name": "Red", "isSelected": false}, {"count": 2, "id": "12", "name": "Silver", "isSelected": false}, {"count": 299, "id": "5", "name": "White", "isSelected": false}, {"count": 33, "id": "6", "name": "Yellow", "isSelected": false}], "displayStyle": "Two-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "attribute_10155", "name": "Body Fit", "facetValues": [{"count": 1837, "id": "6764", "name": "Main Collection", "isSelected": false}, {"count": 62, "id": "6400", "name": "Maternity", "isSelected": false}, {"count": 53, "id": "6403", "name": "Petite", "isSelected": false}, {"count": 253, "id": "7699", "name": "Plus Size", "isSelected": false}, {"count": 45, "id": "6399", "name": "Tall", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "size", "name": "Size", "facetValues": [{"count": 17, "id": "14260", "name": "EU 42", "isSelected": false}, {"count": 2, "id": "14259", "name": "EU 40", "isSelected": false}, {"count": 15, "id": "14277", "name": "EU 38", "isSelected": false}, {"count": 3, "id": "14393", "name": "EU 36", "isSelected": false}, {"count": 12, "id": "14638", "name": "EU 34", "isSelected": false}, {"count": 1, "id": "14637", "name": "EU 32", "isSelected": false}, {"count": 3, "id": "40988", "name": "UK 34-36", "isSelected": false}, {"count": 5, "id": "40872", "name": "UK 30-32", "isSelected": false}, {"count": 5, "id": "40757", "name": "UK 28-30", "isSelected": false}, {"count": 18, "id": "20684", "name": "UK 26-28", "isSelected": false}, {"count": 32, "id": "40582", "name": "UK 24-26", "isSelected": false}, {"count": 20, "id": "20676", "name": "UK 22-24", "isSelected": false}, {"count": 27, "id": "40306", "name": "UK 20-22", "isSelected": false}, {"count": 19, "id": "20695", "name": "UK 18-20", "isSelected": false}, {"count": 10, "id": "39844", "name": "UK 16-20", "isSelected": false}, {"count": 32, "id": "39831", "name": "UK 16-18", "isSelected": false}, {"count": 4, "id": "18166", "name": "UK 14-16", "isSelected": false}, {"count": 57, "id": "18165", "name": "UK 12-14", "isSelected": false}, {"count": 19, "id": "18164", "name": "UK 10-12", "isSelected": false}, {"count": 59, "id": "18167", "name": "UK 8-10", "isSelected": false}, {"count": 4, "id": "17097", "name": "UK 6-8", "isSelected": false}, {"count": 51, "id": "41215", "name": "UK 4-6", "isSelected": false}, {"count": 1, "id": "1705", "name": "W33", "isSelected": false}, {"count": 1, "id": "1681", "name": "W31", "isSelected": false}, {"count": 3, "id": "1657", "name": "W29", "isSelected": false}, {"count": 3, "id": "1633", "name": "W27", "isSelected": false}, {"count": 5, "id": "1609", "name": "W25", "isSelected": false}, {"count": 3, "id": "6006", "name": "L-XL", "isSelected": false}, {"count": 5, "id": "5971", "name": "M-L", "isSelected": false}, {"count": 3, "id": "5983", "name": "S-M", "isSelected": false}, {"count": 21, "id": "5191", "name": "4XL", "isSelected": false}, {"count": 14, "id": "5143", "name": "3XL", "isSelected": false}, {"count": 3, "id": "5378", "name": "XXL", "isSelected": false}, {"count": 14, "id": "5119", "name": "2XL", "isSelected": false}, {"count": 346, "id": "5167", "name": "XL", "isSelected": false}, {"count": 590, "id": "5155", "name": "L", "isSelected": false}, {"count": 633, "id": "4409", "name": "M", "isSelected": false}, {"count": 705, "id": "4421", "name": "S", "isSelected": false}, {"count": 619, "id": "5179", "name": "XS", "isSelected": false}, {"count": 1, "id": "6552", "name": "XXS", "isSelected": false}, {"count": 57, "id": "5131", "name": "2XS", "isSelected": false}, {"count": 7, "id": "14503", "name": "US  14", "isSelected": false}, {"count": 12, "id": "14464", "name": "US  12", "isSelected": false}, {"count": 345, "id": "38", "name": "US 10", "isSelected": false}, {"count": 16, "id": "14486", "name": "US  10", "isSelected": false}, {"count": 20, "id": "14478", "name": "US  8", "isSelected": false}, {"count": 1, "id": "17089", "name": "US6", "isSelected": false}, {"count": 20, "id": "14470", "name": "US  6", "isSelected": false}, {"count": 400, "id": "74", "name": "US 0", "isSelected": false}, {"count": 72, "id": "118", "name": "US 00", "isSelected": false}, {"count": 15, "id": "14257", "name": "EU 46", "isSelected": false}, {"count": 1, "id": "14256", "name": "EU 44", "isSelected": false}, {"count": 15, "id": "210", "name": "US 26", "isSelected": false}, {"count": 48, "id": "198", "name": "US 24", "isSelected": false}, {"count": 31, "id": "186", "name": "US 22", "isSelected": false}, {"count": 102, "id": "174", "name": "US 20", "isSelected": false}, {"count": 65, "id": "165", "name": "US 18", "isSelected": false}, {"count": 142, "id": "144", "name": "US 16", "isSelected": false}, {"count": 294, "id": "62", "name": "US 14", "isSelected": false}, {"count": 471, "id": "50", "name": "US 12", "isSelected": false}, {"count": 508, "id": "26", "name": "US 8", "isSelected": false}, {"count": 410, "id": "14", "name": "US 6", "isSelected": false}, {"count": 571, "id": "98", "name": "US 4", "isSelected": false}, {"count": 392, "id": "86", "name": "US 2", "isSelected": false}, {"count": 10, "id": "15946", "name": "UK 30", "isSelected": false}, {"count": 24, "id": "15934", "name": "UK 28", "isSelected": false}, {"count": 40, "id": "15922", "name": "UK 26", "isSelected": false}, {"count": 69, "id": "15910", "name": "UK 24", "isSelected": false}, {"count": 87, "id": "15898", "name": "UK 22", "isSelected": false}, {"count": 99, "id": "15886", "name": "UK 20", "isSelected": false}, {"count": 134, "id": "15874", "name": "UK 18", "isSelected": false}, {"count": 138, "id": "15862", "name": "UK 16", "isSelected": false}, {"count": 4, "id": "15310", "name": "UK14", "isSelected": false}, {"count": 120, "id": "15850", "name": "UK 14", "isSelected": false}, {"count": 110, "id": "10990", "name": "UK 12", "isSelected": false}, {"count": 5, "id": "15308", "name": "UK 10", "isSelected": false}, {"count": 111, "id": "10989", "name": "UK 10", "isSelected": false}, {"count": 2, "id": "15313", "name": "UK8", "isSelected": false}, {"count": 153, "id": "10988", "name": "UK 8", "isSelected": false}, {"count": 4, "id": "9276", "name": "UK6", "isSelected": false}, {"count": 76, "id": "10987", "name": "UK 6", "isSelected": false}, {"count": 36, "id": "115", "name": "UK 4", "isSelected": false}, {"count": 36, "id": "130", "name": "UK 2", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "attribute_11905", "name": "Responsible", "facetValues": [{"count": 48, "id": "70018", "name": "Recycled", "isSelected": false}, {"count": 472, "id": "70017", "name": "Sustainable Materials", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "currentprice", "name": "Price Range", "facetValues": [{"count": 1, "id": "10.1", "name": "10.1", "isSelected": false}, {"count": 1, "id": "489.0", "name": "489.0", "isSelected": false}], "displayStyle": "Price-Slider", "facetType": "Range", "hasSelectedValues": false}], "diagnostics": {"requestId": "227237", "processingTime": 129, "queryTime": 48, "recommendationsEnabled": false, "recommendationsAnalytics": {"personalisationStatus": 3, "numberOfItems": 0, "numberOfRecs": 0, "personalisationType": "", "items": []}}, "searchPassMeta": {"isPartial": false, "isSpellcheck": false, "searchPass": [], "alternateSearchTerms": []}, "queryId": null, "discoverSearchProductTypes": [], "campaigns": {"promoBanners": []}}
+{
+  "searchTerm": "",
+  "categoryName": "Hoodies & Sweatshirts",
+  "itemCount": 2251,
+  "redirectUrl": "",
+  "products": [
+    {
+      "id": 23622555,
+      "name": "ASOS 4505 icon ultimate sweatshirt",
+      "price": {
+        "current": {
+          "value": 29.0,
+          "text": "$29.00"
+        },
+        "previous": {
+          "value": null,
+          "text": ""
+        },
+        "rrp": {
+          "value": null,
+          "text": ""
+        },
+        "isMarkedDown": false,
+        "isOutletPrice": false,
+        "currency": "USD"
+      },
+      "colour": "",
+      "colourWayId": 60498258,
+      "brandName": "ASOS 4505",
+      "hasVariantColours": false,
+      "hasMultiplePrices": false,
+      "groupId": null,
+      "productCode": 1967218,
+      "productType": "Product",
+      "url": "asos-4505/asos-4505-icon-ultimate-sweatshirt/prd/23622555?colourwayid=60498258",
+      "imageUrl": "images.asos-media.com/products/asos-4505-icon-ultimate-sweatshirt/23622555-1-blue",
+      "videoUrl": null,
+      "isSellingFast": false,
+      "customColours": [
+        "Blues"
+      ]
+    },
+    {
+      "id": 22796947,
+      "name": "Lacoste monogram logo hoodie in cream - part of a set",
+      "price": {
+        "current": {
+          "value": 195.0,
+          "text": "$195.00"
+        },
+        "previous": {
+          "value": null,
+          "text": ""
+        },
+        "rrp": {
+          "value": null,
+          "text": ""
+        },
+        "isMarkedDown": false,
+        "isOutletPrice": false,
+        "currency": "USD"
+      },
+      "colour": "",
+      "colourWayId": 60426927,
+      "brandName": "Lacoste",
+      "hasVariantColours": false,
+      "hasMultiplePrices": false,
+      "groupId": null,
+      "productCode": 1901667,
+      "productType": "Product",
+      "url": "lacoste/lacoste-monogram-logo-hoodie-in-cream-part-of-a-set/prd/22796947?colourwayid=60426927",
+      "imageUrl": "images.asos-media.com/products/lacoste-monogram-logo-hoodie-in-cream-part-of-a-set/22796947-1-naturelclair",
+      "videoUrl": null,
+      "isSellingFast": false,
+      "customColours": [
+        "Naturel clair"
+      ]
+    },
+    {
+      "id": 23499539,
+      "name": "ASYOU cropped hoodie in black",
+      "price": {
+        "current": {
+          "value": 24.0,
+          "text": "$24.00"
+        },
+        "previous": {
+          "value": null,
+          "text": ""
+        },
+        "rrp": {
+          "value": null,
+          "text": ""
+        },
+        "isMarkedDown": false,
+        "isOutletPrice": false,
+        "currency": "USD"
+      },
+      "colour": "",
+      "colourWayId": 60488412,
+      "brandName": "AsYou",
+      "hasVariantColours": false,
+      "hasMultiplePrices": false,
+      "groupId": null,
+      "productCode": 1957984,
+      "productType": "Product",
+      "url": "asyou/asyou-cropped-hoodie-in-black/prd/23499539?colourwayid=60488412",
+      "imageUrl": "images.asos-media.com/products/asyou-cropped-hoodie-in-black/23499539-1-black",
+      "videoUrl": null,
+      "isSellingFast": false,
+      "customColours": [
+        "Black"
+      ]
+    },
+    {
+      "id": 23137024,
+      "name": "ASOS Weekend Collective oversized sweatshirt with back logo in brown",
+      "price": {
+        "current": {
+          "value": 46.0,
+          "text": "$46.00"
+        },
+        "previous": {
+          "value": null,
+          "text": ""
+        },
+        "rrp": {
+          "value": null,
+          "text": ""
+        },
+        "isMarkedDown": false,
+        "isOutletPrice": false,
+        "currency": "USD"
+      },
+      "colour": "",
+      "colourWayId": 60454063,
+      "brandName": "ASOS Weekend Collective",
+      "hasVariantColours": false,
+      "hasMultiplePrices": false,
+      "groupId": null,
+      "productCode": 1927985,
+      "productType": "Product",
+      "url": "asos-weekend-collective/asos-weekend-collective-oversized-sweatshirt-with-back-logo-in-brown/prd/23137024?colourwayid=60454063",
+      "imageUrl": "images.asos-media.com/products/asos-weekend-collective-oversized-sweatshirt-with-back-logo-in-brown/23137024-1-brown",
+      "videoUrl": null,
+      "isSellingFast": false,
+      "customColours": [
+        "Brown"
+      ]
+    },
+    {
+      "id": 23137019,
+      "name": "ASOS Weekend Collective Curve oversized sweatshirt with back logo in brown",
+      "price": {
+        "current": {
+          "value": 46.0,
+          "text": "$46.00"
+        },
+        "previous": {
+          "value": null,
+          "text": ""
+        },
+        "rrp": {
+          "value": null,
+          "text": ""
+        },
+        "isMarkedDown": false,
+        "isOutletPrice": false,
+        "currency": "USD"
+      },
+      "colour": "",
+      "colourWayId": 60454054,
+      "brandName": "ASOS Weekend Collective",
+      "hasVariantColours": false,
+      "hasMultiplePrices": false,
+      "groupId": null,
+      "productCode": 1927992,
+      "productType": "Product",
+      "url": "asos-weekend-collective/asos-weekend-collective-curve-oversized-sweatshirt-with-back-logo-in-brown/prd/23137019?colourwayid=60454054",
+      "imageUrl": "images.asos-media.com/products/asos-weekend-collective-curve-oversized-sweatshirt-with-back-logo-in-brown/23137019-1-brown",
+      "videoUrl": null,
+      "isSellingFast": false,
+      "customColours": [
+        "Brown"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "id": "range",
+      "name": "Sale/New Season",
+      "facetValues": [
+        {
+          "count": 1598,
+          "id": "new_season",
+          "name": "New Season",
+          "isSelected": false
+        },
+        {
+          "count": 653,
+          "id": "sale",
+          "name": "Sale",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "attribute_1047",
+      "name": "Product Type",
+      "facetValues": [
+        {
+          "count": 85,
+          "id": "10885",
+          "name": "Fleeces",
+          "isSelected": false
+        },
+        {
+          "count": 900,
+          "id": "8391",
+          "name": "Hoodies",
+          "isSelected": false
+        },
+        {
+          "count": 1266,
+          "id": "8405",
+          "name": "Sweatshirts",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "brand",
+      "name": "Brand",
+      "facetValues": [
+        {
+          "count": 159,
+          "id": "53",
+          "name": "ASOS DESIGN",
+          "isSelected": false
+        },
+        {
+          "count": 41,
+          "id": "15643",
+          "name": "ASOS 4505",
+          "isSelected": false
+        },
+        {
+          "count": 46,
+          "id": "13511",
+          "name": "ASOS Curve",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15169",
+          "name": "ASOS MADE IN",
+          "isSelected": false
+        },
+        {
+          "count": 29,
+          "id": "13510",
+          "name": "ASOS Maternity",
+          "isSelected": false
+        },
+        {
+          "count": 13,
+          "id": "13512",
+          "name": "ASOS Petite",
+          "isSelected": false
+        },
+        {
+          "count": 22,
+          "id": "14162",
+          "name": "ASOS Tall",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "12919",
+          "name": "ASOS WHITE",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "15258",
+          "name": "ASOS Maternity - Nursing",
+          "isSelected": false
+        },
+        {
+          "count": 15,
+          "id": "16119",
+          "name": "& Other Stories",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "14370",
+          "name": "Abercrombie & Fitch",
+          "isSelected": false
+        },
+        {
+          "count": 64,
+          "id": "18",
+          "name": "adidas Originals",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "16346",
+          "name": "adidas performance",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "12791",
+          "name": "AllSaints",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "16045",
+          "name": "Another Reason",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "16226",
+          "name": "Another Reason Plus",
+          "isSelected": false
+        },
+        {
+          "count": 28,
+          "id": "16616",
+          "name": "ASOS Weekend Collective",
+          "isSelected": false
+        },
+        {
+          "count": 26,
+          "id": "16575",
+          "name": "AsYou",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "16129",
+          "name": "AYM Studio",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "16548",
+          "name": "BB Dakota",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "12113",
+          "name": "Berghaus",
+          "isSelected": false
+        },
+        {
+          "count": 39,
+          "id": "15370",
+          "name": "Bershka",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "3008",
+          "name": "Billabong",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "105",
+          "name": "Calvin Klein",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "12507",
+          "name": "Calvin Klein Jeans",
+          "isSelected": false
+        },
+        {
+          "count": 10,
+          "id": "15926",
+          "name": "Calvin Klein Performance",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "16622",
+          "name": "Catch",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "16640",
+          "name": "CD Femme",
+          "isSelected": false
+        },
+        {
+          "count": 16,
+          "id": "14513",
+          "name": "Champion",
+          "isSelected": false
+        },
+        {
+          "count": 17,
+          "id": "13852",
+          "name": "Chelsea Peers",
+          "isSelected": false
+        },
+        {
+          "count": 128,
+          "id": "15878",
+          "name": "Collusion",
+          "isSelected": false
+        },
+        {
+          "count": 23,
+          "id": "15059",
+          "name": "Columbia",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "131",
+          "name": "Converse",
+          "isSelected": false
+        },
+        {
+          "count": 14,
+          "id": "16269",
+          "name": "Cotton:On",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "16606",
+          "name": "Cotton:On Plus",
+          "isSelected": false
+        },
+        {
+          "count": 13,
+          "id": "13017",
+          "name": "Crooked Tongues",
+          "isSelected": false
+        },
+        {
+          "count": 29,
+          "id": "14023",
+          "name": "Daisy Street",
+          "isSelected": false
+        },
+        {
+          "count": 31,
+          "id": "15058",
+          "name": "Daisy Street Plus",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "16414",
+          "name": "Damson Madder",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "12754",
+          "name": "Dare 2b",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "3253",
+          "name": "Dickies",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "16250",
+          "name": "Dickies Girl",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "160",
+          "name": "DKNY",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "15143",
+          "name": "Dorina",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "166",
+          "name": "Dr Denim",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "16395",
+          "name": "Dr Denim Plus",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "16393",
+          "name": "Eivy",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "14403",
+          "name": "Element",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "14116",
+          "name": "ellesse",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "15770",
+          "name": "Fashionkilla",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "16050",
+          "name": "Fashionkilla Petite",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "15773",
+          "name": "Fashionkilla Plus",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "16043",
+          "name": "Fashionkilla Tall",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "14284",
+          "name": "Fashion Union",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "3492",
+          "name": "FCUK",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "202",
+          "name": "Fila",
+          "isSelected": false
+        },
+        {
+          "count": 9,
+          "id": "12731",
+          "name": "Fiorucci",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "2943",
+          "name": "Fred Perry",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "3454",
+          "name": "Free People",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15292",
+          "name": "Free People Movement",
+          "isSelected": false
+        },
+        {
+          "count": 10,
+          "id": "12069",
+          "name": "Gant",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "16415",
+          "name": "Grimey",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "3735",
+          "name": "G-Star",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "259",
+          "name": "Guess",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "14334",
+          "name": "Helly Hansen",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "15747",
+          "name": "HIIT",
+          "isSelected": false
+        },
+        {
+          "count": 10,
+          "id": "14644",
+          "name": "Hollister",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "304",
+          "name": "Ichi",
+          "isSelected": false
+        },
+        {
+          "count": 27,
+          "id": "15900",
+          "name": "In The Style",
+          "isSelected": false
+        },
+        {
+          "count": 23,
+          "id": "16191",
+          "name": "In The Style Plus",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "16394",
+          "name": "I Saw It First",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "14097",
+          "name": "Jack Wills",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "14300",
+          "name": "Jaded London",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "16342",
+          "name": "Jagger and Stone",
+          "isSelected": false
+        },
+        {
+          "count": 14,
+          "id": "13991",
+          "name": "JDY",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "14269",
+          "name": "Jordan",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "14876",
+          "name": "Kendall + Kylie",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "12431",
+          "name": "Kickers",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "16434",
+          "name": "Labelrail",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "391",
+          "name": "Lacoste",
+          "isSelected": false
+        },
+        {
+          "count": 20,
+          "id": "401",
+          "name": "Levi's",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "15171",
+          "name": "Levi's Plus",
+          "isSelected": false
+        },
+        {
+          "count": 12,
+          "id": "15882",
+          "name": "Lindex",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "407",
+          "name": "Lipsy",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "16388",
+          "name": "Little Sunny Bite",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "14006",
+          "name": "Local Heroes",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "16556",
+          "name": "Loose Threads",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "16555",
+          "name": "Loose Threads Plus",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "14705",
+          "name": "Lost Ink",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "14955",
+          "name": "Loungeable",
+          "isSelected": false
+        },
+        {
+          "count": 8,
+          "id": "12359",
+          "name": "Mama.licious",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "12117",
+          "name": "Mango",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "16515",
+          "name": "Minga",
+          "isSelected": false
+        },
+        {
+          "count": 41,
+          "id": "14590",
+          "name": "Missguided",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15067",
+          "name": "Missguided Maternity",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "14803",
+          "name": "Missguided Plus",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "14919",
+          "name": "Missguided Tall",
+          "isSelected": false
+        },
+        {
+          "count": 36,
+          "id": "15128",
+          "name": "Miss Selfridge",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "15129",
+          "name": "Miss Selfridge Petite",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "14768",
+          "name": "M Lounge",
+          "isSelected": false
+        },
+        {
+          "count": 43,
+          "id": "14012",
+          "name": "Monki",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "16294",
+          "name": "Mossimo",
+          "isSelected": false
+        },
+        {
+          "count": 11,
+          "id": "15883",
+          "name": "NA-KD",
+          "isSelected": false
+        },
+        {
+          "count": 13,
+          "id": "15127",
+          "name": "Napapijri",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "13687",
+          "name": "Native Youth",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "16266",
+          "name": "Native Youth Plus",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "499",
+          "name": "New Balance",
+          "isSelected": false
+        },
+        {
+          "count": 24,
+          "id": "16022",
+          "name": "New Girl Order",
+          "isSelected": false
+        },
+        {
+          "count": 16,
+          "id": "16128",
+          "name": "New Girl Order Curve",
+          "isSelected": false
+        },
+        {
+          "count": 59,
+          "id": "13817",
+          "name": "New Look",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "13843",
+          "name": "New Look Maternity",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "14119",
+          "name": "New Look Petite",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "13844",
+          "name": "New Look Plus",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "14248",
+          "name": "New Look Tall",
+          "isSelected": false
+        },
+        {
+          "count": 74,
+          "id": "2986",
+          "name": "Nike",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15720",
+          "name": "Nike Football",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15176",
+          "name": "Nike Running",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "15177",
+          "name": "Nike Training",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "15237",
+          "name": "Nobody's Child",
+          "isSelected": false
+        },
+        {
+          "count": 19,
+          "id": "13927",
+          "name": "Noisy May",
+          "isSelected": false
+        },
+        {
+          "count": 10,
+          "id": "16443",
+          "name": "Noisy May Curve",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "14448",
+          "name": "Noisy May Petite",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "14449",
+          "name": "Noisy May Tall",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "14564",
+          "name": "Object",
+          "isSelected": false
+        },
+        {
+          "count": 15,
+          "id": "13850",
+          "name": "Only",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "16144",
+          "name": "Only Curve",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15827",
+          "name": "Only Petite",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15828",
+          "name": "Only Tall",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "15576",
+          "name": "ONZIE",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "15471",
+          "name": "Outrageous Fortune",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "2978",
+          "name": "People Tree",
+          "isSelected": false
+        },
+        {
+          "count": 14,
+          "id": "3040",
+          "name": "Pieces",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "16544",
+          "name": "Pieces Maternity",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "564",
+          "name": "Pink Soda",
+          "isSelected": false
+        },
+        {
+          "count": 8,
+          "id": "3594",
+          "name": "Polo Ralph Lauren",
+          "isSelected": false
+        },
+        {
+          "count": 15,
+          "id": "13685",
+          "name": "Protest",
+          "isSelected": false
+        },
+        {
+          "count": 10,
+          "id": "14823",
+          "name": "Public Desire",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "16296",
+          "name": "Public Desire Curve",
+          "isSelected": false
+        },
+        {
+          "count": 40,
+          "id": "14126",
+          "name": "Pull&Bear",
+          "isSelected": false
+        },
+        {
+          "count": 62,
+          "id": "589",
+          "name": "Puma",
+          "isSelected": false
+        },
+        {
+          "count": 15,
+          "id": "13621",
+          "name": "Quiksilver",
+          "isSelected": false
+        },
+        {
+          "count": 28,
+          "id": "12769",
+          "name": "Reclaimed Vintage",
+          "isSelected": false
+        },
+        {
+          "count": 19,
+          "id": "2988",
+          "name": "Reebok",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "13573",
+          "name": "Rhythm",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "14251",
+          "name": "Ripcurl",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15622",
+          "name": "Rip N Dip",
+          "isSelected": false
+        },
+        {
+          "count": 29,
+          "id": "12983",
+          "name": "River Island",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "15230",
+          "name": "River Island Petite",
+          "isSelected": false
+        },
+        {
+          "count": 8,
+          "id": "15068",
+          "name": "River Island Plus",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "14447",
+          "name": "Rokoko",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "15986",
+          "name": "Rokoko Plus",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "3624",
+          "name": "Roxy",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "13348",
+          "name": "Russell Athletic",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "12840",
+          "name": "Selected",
+          "isSelected": false
+        },
+        {
+          "count": 10,
+          "id": "15586",
+          "name": "Simply Be",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "14920",
+          "name": "Sixth June",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "16431",
+          "name": "Sixth June Plus",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "12512",
+          "name": "Skechers",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "14146",
+          "name": "Skinnydip",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "16489",
+          "name": "Skinnydip Curve",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "16554",
+          "name": "SNDYS",
+          "isSelected": false
+        },
+        {
+          "count": 8,
+          "id": "13891",
+          "name": "South Beach",
+          "isSelected": false
+        },
+        {
+          "count": 33,
+          "id": "15629",
+          "name": "Stradivarius",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "16337",
+          "name": "Style Cheat",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "12758",
+          "name": "Surfanic",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "712",
+          "name": "Ted Baker",
+          "isSelected": false
+        },
+        {
+          "count": 17,
+          "id": "15807",
+          "name": "The Couture Club",
+          "isSelected": false
+        },
+        {
+          "count": 46,
+          "id": "3312",
+          "name": "The North Face",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "16461",
+          "name": "The O Dolls Collection",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "13942",
+          "name": "The Ragged Priest",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "3029",
+          "name": "Tommy Hilfiger",
+          "isSelected": false
+        },
+        {
+          "count": 13,
+          "id": "15631",
+          "name": "Tommy Jeans",
+          "isSelected": false
+        },
+        {
+          "count": 108,
+          "id": "16305",
+          "name": "Topshop",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "16306",
+          "name": "Topshop Maternity",
+          "isSelected": false
+        },
+        {
+          "count": 21,
+          "id": "16307",
+          "name": "Topshop Petite",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "16308",
+          "name": "Topshop Tall",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "752",
+          "name": "UGG",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15203",
+          "name": "Under Armour",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "14989",
+          "name": "UNIQUE21",
+          "isSelected": false
+        },
+        {
+          "count": 17,
+          "id": "15413",
+          "name": "Urban Bliss",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "16240",
+          "name": "Urban Bliss Maternity",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "15610",
+          "name": "Urban Bliss Plus",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "765",
+          "name": "Vans",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "14784",
+          "name": "Varley",
+          "isSelected": false
+        },
+        {
+          "count": 12,
+          "id": "3098",
+          "name": "Vero Moda",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "15812",
+          "name": "Vero Moda Curve",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "14304",
+          "name": "Vero Moda Petite",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "14457",
+          "name": "Vero Moda Tall",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "3663",
+          "name": "Vila",
+          "isSelected": false
+        },
+        {
+          "count": 11,
+          "id": "16174",
+          "name": "Vintage Supply",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "13881",
+          "name": "Volcom",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15872",
+          "name": "We Are Hairy People",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "15734",
+          "name": "Wednesday's Girl",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "16164",
+          "name": "Wednesday's Girl Curve",
+          "isSelected": false
+        },
+        {
+          "count": 45,
+          "id": "14287",
+          "name": "Weekday",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "3606",
+          "name": "Whistles",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "3062",
+          "name": "Wrangler",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "13987",
+          "name": "Y.A.S",
+          "isSelected": false
+        },
+        {
+          "count": 13,
+          "id": "15034",
+          "name": "Yours",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "base_colour",
+      "name": "Color",
+      "facetValues": [
+        {
+          "count": 439,
+          "id": "4",
+          "name": "Black",
+          "isSelected": false
+        },
+        {
+          "count": 144,
+          "id": "3",
+          "name": "Blues",
+          "isSelected": false
+        },
+        {
+          "count": 92,
+          "id": "10",
+          "name": "Brown",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "11",
+          "name": "Gold",
+          "isSelected": false
+        },
+        {
+          "count": 173,
+          "id": "2",
+          "name": "Green",
+          "isSelected": false
+        },
+        {
+          "count": 368,
+          "id": "16",
+          "name": "Grey",
+          "isSelected": false
+        },
+        {
+          "count": 75,
+          "id": "17",
+          "name": "Multi",
+          "isSelected": false
+        },
+        {
+          "count": 55,
+          "id": "33",
+          "name": "Navy",
+          "isSelected": false
+        },
+        {
+          "count": 133,
+          "id": "37",
+          "name": "Neutral",
+          "isSelected": false
+        },
+        {
+          "count": 32,
+          "id": "7",
+          "name": "Orange",
+          "isSelected": false
+        },
+        {
+          "count": 229,
+          "id": "9",
+          "name": "Pink",
+          "isSelected": false
+        },
+        {
+          "count": 109,
+          "id": "8",
+          "name": "Purple",
+          "isSelected": false
+        },
+        {
+          "count": 66,
+          "id": "1",
+          "name": "Red",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "12",
+          "name": "Silver",
+          "isSelected": false
+        },
+        {
+          "count": 299,
+          "id": "5",
+          "name": "White",
+          "isSelected": false
+        },
+        {
+          "count": 33,
+          "id": "6",
+          "name": "Yellow",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Two-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "attribute_10155",
+      "name": "Body Fit",
+      "facetValues": [
+        {
+          "count": 1837,
+          "id": "6764",
+          "name": "Main Collection",
+          "isSelected": false
+        },
+        {
+          "count": 62,
+          "id": "6400",
+          "name": "Maternity",
+          "isSelected": false
+        },
+        {
+          "count": 53,
+          "id": "6403",
+          "name": "Petite",
+          "isSelected": false
+        },
+        {
+          "count": 253,
+          "id": "7699",
+          "name": "Plus Size",
+          "isSelected": false
+        },
+        {
+          "count": 45,
+          "id": "6399",
+          "name": "Tall",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "size",
+      "name": "Size",
+      "facetValues": [
+        {
+          "count": 17,
+          "id": "14260",
+          "name": "EU 42",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "14259",
+          "name": "EU 40",
+          "isSelected": false
+        },
+        {
+          "count": 15,
+          "id": "14277",
+          "name": "EU 38",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "14393",
+          "name": "EU 36",
+          "isSelected": false
+        },
+        {
+          "count": 12,
+          "id": "14638",
+          "name": "EU 34",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "14637",
+          "name": "EU 32",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "40988",
+          "name": "UK 34-36",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "40872",
+          "name": "UK 30-32",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "40757",
+          "name": "UK 28-30",
+          "isSelected": false
+        },
+        {
+          "count": 18,
+          "id": "20684",
+          "name": "UK 26-28",
+          "isSelected": false
+        },
+        {
+          "count": 32,
+          "id": "40582",
+          "name": "UK 24-26",
+          "isSelected": false
+        },
+        {
+          "count": 20,
+          "id": "20676",
+          "name": "UK 22-24",
+          "isSelected": false
+        },
+        {
+          "count": 27,
+          "id": "40306",
+          "name": "UK 20-22",
+          "isSelected": false
+        },
+        {
+          "count": 19,
+          "id": "20695",
+          "name": "UK 18-20",
+          "isSelected": false
+        },
+        {
+          "count": 10,
+          "id": "39844",
+          "name": "UK 16-20",
+          "isSelected": false
+        },
+        {
+          "count": 32,
+          "id": "39831",
+          "name": "UK 16-18",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "18166",
+          "name": "UK 14-16",
+          "isSelected": false
+        },
+        {
+          "count": 57,
+          "id": "18165",
+          "name": "UK 12-14",
+          "isSelected": false
+        },
+        {
+          "count": 19,
+          "id": "18164",
+          "name": "UK 10-12",
+          "isSelected": false
+        },
+        {
+          "count": 59,
+          "id": "18167",
+          "name": "UK 8-10",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "17097",
+          "name": "UK 6-8",
+          "isSelected": false
+        },
+        {
+          "count": 51,
+          "id": "41215",
+          "name": "UK 4-6",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "1705",
+          "name": "W33",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "1681",
+          "name": "W31",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "1657",
+          "name": "W29",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "1633",
+          "name": "W27",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "1609",
+          "name": "W25",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "6006",
+          "name": "L-XL",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "5971",
+          "name": "M-L",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "5983",
+          "name": "S-M",
+          "isSelected": false
+        },
+        {
+          "count": 21,
+          "id": "5191",
+          "name": "4XL",
+          "isSelected": false
+        },
+        {
+          "count": 14,
+          "id": "5143",
+          "name": "3XL",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "5378",
+          "name": "XXL",
+          "isSelected": false
+        },
+        {
+          "count": 14,
+          "id": "5119",
+          "name": "2XL",
+          "isSelected": false
+        },
+        {
+          "count": 346,
+          "id": "5167",
+          "name": "XL",
+          "isSelected": false
+        },
+        {
+          "count": 590,
+          "id": "5155",
+          "name": "L",
+          "isSelected": false
+        },
+        {
+          "count": 633,
+          "id": "4409",
+          "name": "M",
+          "isSelected": false
+        },
+        {
+          "count": 705,
+          "id": "4421",
+          "name": "S",
+          "isSelected": false
+        },
+        {
+          "count": 619,
+          "id": "5179",
+          "name": "XS",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "6552",
+          "name": "XXS",
+          "isSelected": false
+        },
+        {
+          "count": 57,
+          "id": "5131",
+          "name": "2XS",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "14503",
+          "name": "US  14",
+          "isSelected": false
+        },
+        {
+          "count": 12,
+          "id": "14464",
+          "name": "US  12",
+          "isSelected": false
+        },
+        {
+          "count": 345,
+          "id": "38",
+          "name": "US 10",
+          "isSelected": false
+        },
+        {
+          "count": 16,
+          "id": "14486",
+          "name": "US  10",
+          "isSelected": false
+        },
+        {
+          "count": 20,
+          "id": "14478",
+          "name": "US  8",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "17089",
+          "name": "US6",
+          "isSelected": false
+        },
+        {
+          "count": 20,
+          "id": "14470",
+          "name": "US  6",
+          "isSelected": false
+        },
+        {
+          "count": 400,
+          "id": "74",
+          "name": "US 0",
+          "isSelected": false
+        },
+        {
+          "count": 72,
+          "id": "118",
+          "name": "US 00",
+          "isSelected": false
+        },
+        {
+          "count": 15,
+          "id": "14257",
+          "name": "EU 46",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "14256",
+          "name": "EU 44",
+          "isSelected": false
+        },
+        {
+          "count": 15,
+          "id": "210",
+          "name": "US 26",
+          "isSelected": false
+        },
+        {
+          "count": 48,
+          "id": "198",
+          "name": "US 24",
+          "isSelected": false
+        },
+        {
+          "count": 31,
+          "id": "186",
+          "name": "US 22",
+          "isSelected": false
+        },
+        {
+          "count": 102,
+          "id": "174",
+          "name": "US 20",
+          "isSelected": false
+        },
+        {
+          "count": 65,
+          "id": "165",
+          "name": "US 18",
+          "isSelected": false
+        },
+        {
+          "count": 142,
+          "id": "144",
+          "name": "US 16",
+          "isSelected": false
+        },
+        {
+          "count": 294,
+          "id": "62",
+          "name": "US 14",
+          "isSelected": false
+        },
+        {
+          "count": 471,
+          "id": "50",
+          "name": "US 12",
+          "isSelected": false
+        },
+        {
+          "count": 508,
+          "id": "26",
+          "name": "US 8",
+          "isSelected": false
+        },
+        {
+          "count": 410,
+          "id": "14",
+          "name": "US 6",
+          "isSelected": false
+        },
+        {
+          "count": 571,
+          "id": "98",
+          "name": "US 4",
+          "isSelected": false
+        },
+        {
+          "count": 392,
+          "id": "86",
+          "name": "US 2",
+          "isSelected": false
+        },
+        {
+          "count": 10,
+          "id": "15946",
+          "name": "UK 30",
+          "isSelected": false
+        },
+        {
+          "count": 24,
+          "id": "15934",
+          "name": "UK 28",
+          "isSelected": false
+        },
+        {
+          "count": 40,
+          "id": "15922",
+          "name": "UK 26",
+          "isSelected": false
+        },
+        {
+          "count": 69,
+          "id": "15910",
+          "name": "UK 24",
+          "isSelected": false
+        },
+        {
+          "count": 87,
+          "id": "15898",
+          "name": "UK 22",
+          "isSelected": false
+        },
+        {
+          "count": 99,
+          "id": "15886",
+          "name": "UK 20",
+          "isSelected": false
+        },
+        {
+          "count": 134,
+          "id": "15874",
+          "name": "UK 18",
+          "isSelected": false
+        },
+        {
+          "count": 138,
+          "id": "15862",
+          "name": "UK 16",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "15310",
+          "name": "UK14",
+          "isSelected": false
+        },
+        {
+          "count": 120,
+          "id": "15850",
+          "name": "UK 14",
+          "isSelected": false
+        },
+        {
+          "count": 110,
+          "id": "10990",
+          "name": "UK 12",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "15308",
+          "name": "UK 10",
+          "isSelected": false
+        },
+        {
+          "count": 111,
+          "id": "10989",
+          "name": "UK 10",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "15313",
+          "name": "UK8",
+          "isSelected": false
+        },
+        {
+          "count": 153,
+          "id": "10988",
+          "name": "UK 8",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "9276",
+          "name": "UK6",
+          "isSelected": false
+        },
+        {
+          "count": 76,
+          "id": "10987",
+          "name": "UK 6",
+          "isSelected": false
+        },
+        {
+          "count": 36,
+          "id": "115",
+          "name": "UK 4",
+          "isSelected": false
+        },
+        {
+          "count": 36,
+          "id": "130",
+          "name": "UK 2",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "attribute_11905",
+      "name": "Responsible",
+      "facetValues": [
+        {
+          "count": 48,
+          "id": "70018",
+          "name": "Recycled",
+          "isSelected": false
+        },
+        {
+          "count": 472,
+          "id": "70017",
+          "name": "Sustainable Materials",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "currentprice",
+      "name": "Price Range",
+      "facetValues": [
+        {
+          "count": 1,
+          "id": "10.1",
+          "name": "10.1",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "489.0",
+          "name": "489.0",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Price-Slider",
+      "facetType": "Range",
+      "hasSelectedValues": false
+    }
+  ],
+  "diagnostics": {
+    "requestId": "227237",
+    "processingTime": 129,
+    "queryTime": 48,
+    "recommendationsEnabled": false,
+    "recommendationsAnalytics": {
+      "personalisationStatus": 3,
+      "numberOfItems": 0,
+      "numberOfRecs": 0,
+      "personalisationType": "",
+      "items": []
+    }
+  },
+  "searchPassMeta": {
+    "isPartial": false,
+    "isSpellcheck": false,
+    "searchPass": [],
+    "alternateSearchTerms": []
+  },
+  "queryId": null,
+  "discoverSearchProductTypes": [],
+  "campaigns": {
+    "promoBanners": []
+  }
+}
