@@ -1,0 +1,37 @@
+//All colours to filter
+
+Light wash blue -Light Blue
+Black
+Khaki - Brown
+White Marl - White
+Vapourous Gray - Gray
+Blues - Blue
+Naturel Clair - Brown
+Brown
+Multi
+White
+NAVY - Blue
+Mid wash - Blue
+wash black - Black
+
+
+//New Colours
+Blue
+Black
+Brown
+White
+Gray
+Multi
+
+
+
+//All Brands to filter
+
+ASOS
+Nike
+Missguided
+Collusion
+Stradivarus
+Urban Bliss
+Lacoste
+AsYou

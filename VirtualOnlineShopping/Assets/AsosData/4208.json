@@ -1,1 +1,1498 @@
-{"searchTerm": "", "categoryName": "Jeans", "itemCount": 1471, "redirectUrl": "", "products": [{"id": 10999428, "name": "ASOS DESIGN spray on jeans in power stretch denim in black with knee rip", "price": {"current": {"value": 35.0, "text": "$35.00"}, "previous": {"value": null, "text": ""}, "rrp": {"value": null, "text": ""}, "isMarkedDown": false, "isOutletPrice": false, "currency": "USD"}, "colour": "", "colourWayId": 16345294, "brandName": "ASOS DESIGN", "hasVariantColours": false, "hasMultiplePrices": false, "groupId": null, "productCode": 1378528, "productType": "Product", "url": "asos-design/asos-design-spray-on-jeans-in-power-stretch-denim-in-black-with-knee-rip/prd/10999428?colourwayid=16345294", "imageUrl": "images.asos-media.com/products/asos-design-spray-on-jeans-in-power-stretch-denim-in-black-with-knee-rip/10999428-1-black", "videoUrl": null, "isSellingFast": true, "customColours": ["Black"]}, {"id": 21231492, "name": "ASOS DESIGN classic rigid jeans in tinted light wash blue", "price": {"current": {"value": 32.0, "text": "$32.00"}, "previous": {"value": null, "text": ""}, "rrp": {"value": null, "text": ""}, "isMarkedDown": false, "isOutletPrice": false, "currency": "USD"}, "colour": "", "colourWayId": 60149481, "brandName": "ASOS DESIGN", "hasVariantColours": false, "hasMultiplePrices": false, "groupId": null, "productCode": 1782638, "productType": "Product", "url": "asos-design/asos-design-classic-rigid-jeans-in-tinted-light-wash-blue/prd/21231492?colourwayid=60149481", "imageUrl": "images.asos-media.com/products/asos-design-classic-rigid-jeans-in-tinted-light-wash-blue/21231492-1-lightwashblue", "videoUrl": null, "isSellingFast": true, "customColours": ["Light wash blue"]}, {"id": 20344406, "name": "ASOS DESIGN spray on jeans in power stretch denim in black", "price": {"current": {"value": 29.0, "text": "$29.00"}, "previous": {"value": null, "text": ""}, "rrp": {"value": null, "text": ""}, "isMarkedDown": false, "isOutletPrice": false, "currency": "USD"}, "colour": "", "colourWayId": 60045457, "brandName": "ASOS DESIGN", "hasVariantColours": false, "hasMultiplePrices": false, "groupId": null, "productCode": 1713810, "productType": "Product", "url": "asos-design/asos-design-spray-on-jeans-in-power-stretch-denim-in-black/prd/20344406?colourwayid=60045457", "imageUrl": "images.asos-media.com/products/asos-design-spray-on-jeans-in-power-stretch-denim-in-black/20344406-1-black", "videoUrl": null, "isSellingFast": true, "customColours": ["Black"]}, {"id": 9874156, "name": "ASOS DESIGN skinny jeans in light wash blue cut and sew panelling", "price": {"current": {"value": 50.0, "text": "$50.00"}, "previous": {"value": null, "text": ""}, "rrp": {"value": null, "text": ""}, "isMarkedDown": false, "isOutletPrice": false, "currency": "USD"}, "colour": "", "colourWayId": 15076239, "brandName": "ASOS DESIGN", "hasVariantColours": false, "hasMultiplePrices": false, "groupId": null, "productCode": 1284013, "productType": "Product", "url": "asos-design/asos-design-skinny-jeans-in-light-wash-blue-cut-and-sew-panelling/prd/9874156?colourwayid=15076239", "imageUrl": "images.asos-media.com/products/asos-design-skinny-jeans-in-light-wash-blue-cut-and-sew-panelling/9874156-1-lightwashblue", "videoUrl": "video.asos-media.com/products/asos-design-skinny-jeans-in-light-wash-blue-cut-and-sew-panelling/9874156-catwalk-AVS", "isSellingFast": true, "customColours": ["Light wash blue"]}, {"id": 20867122, "name": "ASOS DESIGN spray on jeans in power stretch denim with knee rips in black", "price": {"current": {"value": 32.0, "text": "$32.00"}, "previous": {"value": null, "text": ""}, "rrp": {"value": null, "text": ""}, "isMarkedDown": false, "isOutletPrice": false, "currency": "USD"}, "colour": "", "colourWayId": 60095569, "brandName": "ASOS DESIGN", "hasVariantColours": false, "hasMultiplePrices": false, "groupId": null, "productCode": 1755884, "productType": "Product", "url": "asos-design/asos-design-spray-on-jeans-in-power-stretch-denim-with-knee-rips-in-black/prd/20867122?colourwayid=60095569", "imageUrl": "images.asos-media.com/products/asos-design-spray-on-jeans-in-power-stretch-denim-with-knee-rips-in-black/20867122-1-black", "videoUrl": null, "isSellingFast": true, "customColours": ["Black"]}], "facets": [{"id": "range", "name": "Sale/New Season", "facetValues": [{"count": 1119, "id": "new_season", "name": "New Season", "isSelected": false}, {"count": 352, "id": "sale", "name": "Sale", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "attribute_1046", "name": "Style", "facetValues": [{"count": 2, "id": "8333", "name": "Bootcut", "isSelected": false}, {"count": 33, "id": "8335", "name": "Cropped", "isSelected": false}, {"count": 2, "id": "8352", "name": "Denim", "isSelected": false}, {"count": 2, "id": "61473", "name": "Extreme Super Skinny", "isSelected": false}, {"count": 1, "id": "8428", "name": "Flare", "isSelected": false}, {"count": 6, "id": "8337", "name": "High Waisted", "isSelected": false}, {"count": 52, "id": "8426", "name": "Loose", "isSelected": false}, {"count": 1, "id": "10801", "name": "Mom Jeans", "isSelected": false}, {"count": 67, "id": "61468", "name": "Other", "isSelected": false}, {"count": 50, "id": "8192", "name": "Regular", "isSelected": false}, {"count": 380, "id": "8195", "name": "Skinny", "isSelected": false}, {"count": 339, "id": "8205", "name": "Slim", "isSelected": false}, {"count": 215, "id": "8310", "name": "Straight Leg", "isSelected": false}, {"count": 209, "id": "8429", "name": "Super Skinny", "isSelected": false}, {"count": 166, "id": "8430", "name": "Tapered", "isSelected": false}, {"count": 22, "id": "8306", "name": "Wide Leg", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "base_colour", "name": "Color", "facetValues": [{"count": 349, "id": "4", "name": "Black", "isSelected": false}, {"count": 950, "id": "3", "name": "Blues", "isSelected": false}, {"count": 8, "id": "10", "name": "Brown", "isSelected": false}, {"count": 6, "id": "2", "name": "Green", "isSelected": false}, {"count": 96, "id": "16", "name": "Grey", "isSelected": false}, {"count": 6, "id": "17", "name": "Multi", "isSelected": false}, {"count": 15, "id": "33", "name": "Navy", "isSelected": false}, {"count": 21, "id": "37", "name": "Neutral", "isSelected": false}, {"count": 4, "id": "8", "name": "Purple", "isSelected": false}, {"count": 1, "id": "1", "name": "Red", "isSelected": false}, {"count": 13, "id": "5", "name": "White", "isSelected": false}, {"count": 2, "id": "6", "name": "Yellow", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "brand", "name": "Brand", "facetValues": [{"count": 598, "id": "53", "name": "ASOS DESIGN", "isSelected": false}, {"count": 3, "id": "12919", "name": "ASOS WHITE", "isSelected": false}, {"count": 2, "id": "12791", "name": "AllSaints", "isSelected": false}, {"count": 3, "id": "12136", "name": "Armani Exchange", "isSelected": false}, {"count": 87, "id": "15370", "name": "Bershka", "isSelected": false}, {"count": 5, "id": "298", "name": "BOSS", "isSelected": false}, {"count": 1, "id": "15155", "name": "Burton Menswear", "isSelected": false}, {"count": 5, "id": "12507", "name": "Calvin Klein Jeans", "isSelected": false}, {"count": 1, "id": "16280", "name": "Carrots", "isSelected": false}, {"count": 29, "id": "15878", "name": "Collusion", "isSelected": false}, {"count": 2, "id": "13773", "name": "Criminal Damage", "isSelected": false}, {"count": 6, "id": "156", "name": "Diesel", "isSelected": false}, {"count": 5, "id": "15226", "name": "Duke", "isSelected": false}, {"count": 5, "id": "177", "name": "Edwin", "isSelected": false}, {"count": 3, "id": "3060", "name": "Emporio Armani", "isSelected": false}, {"count": 7, "id": "13529", "name": "Esprit", "isSelected": false}, {"count": 8, "id": "3497", "name": "Farah", "isSelected": false}, {"count": 3, "id": "14490", "name": "Good For Nothing", "isSelected": false}, {"count": 19, "id": "3735", "name": "G-Star", "isSelected": false}, {"count": 9, "id": "259", "name": "Guess", "isSelected": false}, {"count": 1, "id": "14644", "name": "Hollister", "isSelected": false}, {"count": 3, "id": "15139", "name": "HUGO", "isSelected": false}, {"count": 49, "id": "12461", "name": "Jack & Jones", "isSelected": false}, {"count": 7, "id": "14300", "name": "Jaded London", "isSelected": false}, {"count": 125, "id": "401", "name": "Levi's", "isSelected": false}, {"count": 3, "id": "15503", "name": "LEVIS SKATEBOARDING", "isSelected": false}, {"count": 4, "id": "14423", "name": "Liquor N Poker", "isSelected": false}, {"count": 3, "id": "15199", "name": "Mennace", "isSelected": false}, {"count": 44, "id": "13817", "name": "New Look", "isSelected": false}, {"count": 1, "id": "14468", "name": "Nicce", "isSelected": false}, {"count": 24, "id": "512", "name": "Nudie Jeans", "isSelected": false}, {"count": 35, "id": "14441", "name": "Only & Sons", "isSelected": false}, {"count": 1, "id": "3594", "name": "Polo Ralph Lauren", "isSelected": false}, {"count": 1, "id": "13872", "name": "PS Paul Smith", "isSelected": false}, {"count": 76, "id": "14126", "name": "Pull&Bear", "isSelected": false}, {"count": 19, "id": "12769", "name": "Reclaimed Vintage", "isSelected": false}, {"count": 6, "id": "608", "name": "Religion", "isSelected": false}, {"count": 77, "id": "12983", "name": "River Island", "isSelected": false}, {"count": 14, "id": "14159", "name": "Selected Homme", "isSelected": false}, {"count": 7, "id": "14164", "name": "SikSilk", "isSelected": false}, {"count": 3, "id": "14920", "name": "Sixth June", "isSelected": false}, {"count": 1, "id": "15807", "name": "The Couture Club", "isSelected": false}, {"count": 1, "id": "13942", "name": "The Ragged Priest", "isSelected": false}, {"count": 12, "id": "15631", "name": "Tommy Jeans", "isSelected": false}, {"count": 121, "id": "16236", "name": "Topman", "isSelected": false}, {"count": 32, "id": "14287", "name": "Weekday", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "attribute_11317", "name": "Denim Wash Color", "facetValues": [{"count": 5, "id": "5677", "name": "Acid Wash", "isSelected": false}, {"count": 120, "id": "61440", "name": "Colored Denim", "isSelected": false}, {"count": 538, "id": "6944", "name": "Dark Wash", "isSelected": false}, {"count": 310, "id": "60743", "name": "Light Wash", "isSelected": false}, {"count": 472, "id": "60744", "name": "Mid Wash", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "attribute_10143", "name": "Product Fit", "facetValues": [{"count": 6, "id": "61456", "name": "Extreme Skinny", "isSelected": false}, {"count": 1, "id": "61457", "name": "Extreme Super Skinny", "isSelected": false}, {"count": 3, "id": "53001", "name": "Oversized", "isSelected": false}, {"count": 100, "id": "53002", "name": "Regular", "isSelected": false}, {"count": 40, "id": "53003", "name": "Relaxed", "isSelected": false}, {"count": 387, "id": "61453", "name": "Skinny", "isSelected": false}, {"count": 372, "id": "61452", "name": "Slim", "isSelected": false}, {"count": 146, "id": "61458", "name": "Straight", "isSelected": false}, {"count": 215, "id": "61454", "name": "Super Skinny", "isSelected": false}, {"count": 135, "id": "61459", "name": "Tapered", "isSelected": false}, {"count": 15, "id": "61460", "name": "Wide", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "attribute_10155", "name": "Body Fit", "facetValues": [{"count": 1388, "id": "6764", "name": "Main Collection", "isSelected": false}, {"count": 66, "id": "7699", "name": "Plus Size", "isSelected": false}, {"count": 39, "id": "6399", "name": "Tall", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "size", "name": "Size", "facetValues": [{"count": 1, "id": "11986", "name": "W44", "isSelected": false}, {"count": 3, "id": "11985", "name": "W42", "isSelected": false}, {"count": 8, "id": "1753", "name": "W38", "isSelected": false}, {"count": 26, "id": "1741", "name": "W36", "isSelected": false}, {"count": 28, "id": "1717", "name": "W34", "isSelected": false}, {"count": 31, "id": "1693", "name": "W32", "isSelected": false}, {"count": 28, "id": "1669", "name": "W30", "isSelected": false}, {"count": 25, "id": "1645", "name": "W28", "isSelected": false}, {"count": 14, "id": "4940", "name": "W48 L34", "isSelected": false}, {"count": 16, "id": "4870", "name": "W48 L32", "isSelected": false}, {"count": 14, "id": "4858", "name": "W48 L30", "isSelected": false}, {"count": 1, "id": "4936", "name": "W46 L36", "isSelected": false}, {"count": 13, "id": "4822", "name": "W46 L34", "isSelected": false}, {"count": 26, "id": "4810", "name": "W46 L32", "isSelected": false}, {"count": 20, "id": "4798", "name": "W46 L30", "isSelected": false}, {"count": 2, "id": "4786", "name": "W44 L38", "isSelected": false}, {"count": 17, "id": "4762", "name": "W44 L34", "isSelected": false}, {"count": 39, "id": "4750", "name": "W44 L32", "isSelected": false}, {"count": 36, "id": "4738", "name": "W44 L30", "isSelected": false}, {"count": 1, "id": "4726", "name": "W42 L38", "isSelected": false}, {"count": 2, "id": "4714", "name": "W42 L36", "isSelected": false}, {"count": 32, "id": "4702", "name": "W42 L34", "isSelected": false}, {"count": 47, "id": "4690", "name": "W42 L32", "isSelected": false}, {"count": 39, "id": "4678", "name": "W42 L30", "isSelected": false}, {"count": 4, "id": "46316", "name": "W40 Regular", "isSelected": false}, {"count": 2, "id": "4654", "name": "W40 L36", "isSelected": false}, {"count": 34, "id": "4642", "name": "W40 L34", "isSelected": false}, {"count": 50, "id": "4630", "name": "W40 L32", "isSelected": false}, {"count": 41, "id": "4618", "name": "W40 L30", "isSelected": false}, {"count": 10, "id": "1546", "name": "W38 L38", "isSelected": false}, {"count": 10, "id": "1534", "name": "W38 L36", "isSelected": false}, {"count": 196, "id": "4603", "name": "W38 L34", "isSelected": false}, {"count": 287, "id": "4591", "name": "W38 L32", "isSelected": false}, {"count": 153, "id": "4579", "name": "W38 L30", "isSelected": false}, {"count": 1, "id": "15264", "name": "W38L34", "isSelected": false}, {"count": 10, "id": "15209", "name": "W36L34", "isSelected": false}, {"count": 7, "id": "15198", "name": "W36L32", "isSelected": false}, {"count": 13, "id": "1582", "name": "W36 L38", "isSelected": false}, {"count": 22, "id": "1510", "name": "W36 L36", "isSelected": false}, {"count": 335, "id": "845", "name": "W36 L34", "isSelected": false}, {"count": 529, "id": "833", "name": "W36 L32", "isSelected": false}, {"count": 162, "id": "821", "name": "W36 L30", "isSelected": false}, {"count": 10, "id": "15165", "name": "W34L34", "isSelected": false}, {"count": 16, "id": "15154", "name": "W34L32", "isSelected": false}, {"count": 10, "id": "15143", "name": "W34L30", "isSelected": false}, {"count": 25, "id": "1578", "name": "W34 L38", "isSelected": false}, {"count": 33, "id": "1462", "name": "W34 L36", "isSelected": false}, {"count": 438, "id": "773", "name": "W34 L34", "isSelected": false}, {"count": 636, "id": "761", "name": "W34 L32", "isSelected": false}, {"count": 373, "id": "749", "name": "W34 L30", "isSelected": false}, {"count": 1, "id": "15110", "name": "W33L34", "isSelected": false}, {"count": 3, "id": "15099", "name": "W33L32", "isSelected": false}, {"count": 1, "id": "15088", "name": "W33L30", "isSelected": false}, {"count": 95, "id": "737", "name": "W33 L34", "isSelected": false}, {"count": 135, "id": "725", "name": "W33 L32", "isSelected": false}, {"count": 88, "id": "713", "name": "W33 L30", "isSelected": false}, {"count": 21, "id": "1426", "name": "W32 L38", "isSelected": false}, {"count": 38, "id": "1414", "name": "W32 L36", "isSelected": false}, {"count": 452, "id": "701", "name": "W32 L34", "isSelected": false}, {"count": 14, "id": "15066", "name": "W32L34", "isSelected": false}, {"count": 738, "id": "689", "name": "W32 L32", "isSelected": false}, {"count": 18, "id": "15055", "name": "W32L32", "isSelected": false}, {"count": 500, "id": "677", "name": "W32 L30", "isSelected": false}, {"count": 18, "id": "15044", "name": "W32L30", "isSelected": false}, {"count": 71, "id": "665", "name": "W31 L34", "isSelected": false}, {"count": 2, "id": "15011", "name": "W31L34", "isSelected": false}, {"count": 282, "id": "653", "name": "W31 L32", "isSelected": false}, {"count": 8, "id": "15000", "name": "W31L32", "isSelected": false}, {"count": 3, "id": "14989", "name": "W31L30", "isSelected": false}, {"count": 117, "id": "641", "name": "W31 L30", "isSelected": false}, {"count": 34, "id": "1366", "name": "W30 L36", "isSelected": false}, {"count": 8, "id": "14967", "name": "W30L34", "isSelected": false}, {"count": 286, "id": "629", "name": "W30 L34", "isSelected": false}, {"count": 762, "id": "617", "name": "W30 L32", "isSelected": false}, {"count": 22, "id": "14956", "name": "W30L32", "isSelected": false}, {"count": 13, "id": "14945", "name": "W30L30", "isSelected": false}, {"count": 538, "id": "605", "name": "W30 L30", "isSelected": false}, {"count": 2, "id": "593", "name": "W29 L34", "isSelected": false}, {"count": 2, "id": "14912", "name": "W29L34", "isSelected": false}, {"count": 5, "id": "14901", "name": "W29L32", "isSelected": false}, {"count": 232, "id": "581", "name": "W29 L32", "isSelected": false}, {"count": 2, "id": "14890", "name": "W29L30", "isSelected": false}, {"count": 102, "id": "569", "name": "W29 L30", "isSelected": false}, {"count": 3, "id": "557", "name": "W28 L34", "isSelected": false}, {"count": 608, "id": "545", "name": "W28 L32", "isSelected": false}, {"count": 19, "id": "14857", "name": "W28L32", "isSelected": false}, {"count": 11, "id": "14846", "name": "W28L30", "isSelected": false}, {"count": 430, "id": "533", "name": "W28 L30", "isSelected": false}, {"count": 1, "id": "1052", "name": "W28 L28", "isSelected": false}, {"count": 1, "id": "14758", "name": "W26L32", "isSelected": false}, {"count": 72, "id": "473", "name": "W26 L32", "isSelected": false}, {"count": 226, "id": "461", "name": "W26 L30", "isSelected": false}, {"count": 2, "id": "1004", "name": "W26 L28", "isSelected": false}, {"count": 5, "id": "1621", "name": "W26", "isSelected": false}, {"count": 3, "id": "5167", "name": "XL", "isSelected": false}, {"count": 6, "id": "5155", "name": "L", "isSelected": false}, {"count": 6, "id": "4409", "name": "M", "isSelected": false}, {"count": 13, "id": "4421", "name": "S", "isSelected": false}, {"count": 6, "id": "5179", "name": "XS", "isSelected": false}, {"count": 1, "id": "5131", "name": "2XS", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "attribute_11905", "name": "Responsible", "facetValues": [{"count": 45, "id": "70018", "name": "Recycled", "isSelected": false}, {"count": 788, "id": "70017", "name": "Sustainable Materials", "isSelected": false}], "displayStyle": "Single-Column", "facetType": "TextMultiSelect", "hasSelectedValues": false}, {"id": "currentprice", "name": "Price Range", "facetValues": [{"count": 1, "id": "16.15", "name": "16.15", "isSelected": false}, {"count": 2, "id": "210.0", "name": "210.0", "isSelected": false}], "displayStyle": "Price-Slider", "facetType": "Range", "hasSelectedValues": false}], "diagnostics": {"requestId": "235731", "processingTime": 95, "queryTime": 32, "recommendationsEnabled": false, "recommendationsAnalytics": {"personalisationStatus": 3, "numberOfItems": 0, "numberOfRecs": 0, "personalisationType": "", "items": []}}, "searchPassMeta": {"isPartial": false, "isSpellcheck": false, "searchPass": [], "alternateSearchTerms": []}, "queryId": null, "discoverSearchProductTypes": [], "campaigns": {"promoBanners": []}}
+{
+  "searchTerm": "",
+  "categoryName": "Jeans",
+  "itemCount": 1471,
+  "redirectUrl": "",
+  "products": [
+    {
+      "id": 10999428,
+      "name": "ASOS DESIGN spray on jeans in power stretch denim in black with knee rip",
+      "price": {
+        "current": {
+          "value": 35.0,
+          "text": "$35.00"
+        },
+        "previous": {
+          "value": null,
+          "text": ""
+        },
+        "rrp": {
+          "value": null,
+          "text": ""
+        },
+        "isMarkedDown": false,
+        "isOutletPrice": false,
+        "currency": "USD"
+      },
+      "colour": "",
+      "colourWayId": 16345294,
+      "brandName": "ASOS DESIGN",
+      "hasVariantColours": false,
+      "hasMultiplePrices": false,
+      "groupId": null,
+      "productCode": 1378528,
+      "productType": "Product",
+      "url": "asos-design/asos-design-spray-on-jeans-in-power-stretch-denim-in-black-with-knee-rip/prd/10999428?colourwayid=16345294",
+      "imageUrl": "images.asos-media.com/products/asos-design-spray-on-jeans-in-power-stretch-denim-in-black-with-knee-rip/10999428-1-black",
+      "videoUrl": null,
+      "isSellingFast": true,
+      "customColours": [
+        "Black"
+      ]
+    },
+    {
+      "id": 21231492,
+      "name": "ASOS DESIGN classic rigid jeans in tinted light wash blue",
+      "price": {
+        "current": {
+          "value": 32.0,
+          "text": "$32.00"
+        },
+        "previous": {
+          "value": null,
+          "text": ""
+        },
+        "rrp": {
+          "value": null,
+          "text": ""
+        },
+        "isMarkedDown": false,
+        "isOutletPrice": false,
+        "currency": "USD"
+      },
+      "colour": "",
+      "colourWayId": 60149481,
+      "brandName": "ASOS DESIGN",
+      "hasVariantColours": false,
+      "hasMultiplePrices": false,
+      "groupId": null,
+      "productCode": 1782638,
+      "productType": "Product",
+      "url": "asos-design/asos-design-classic-rigid-jeans-in-tinted-light-wash-blue/prd/21231492?colourwayid=60149481",
+      "imageUrl": "images.asos-media.com/products/asos-design-classic-rigid-jeans-in-tinted-light-wash-blue/21231492-1-lightwashblue",
+      "videoUrl": null,
+      "isSellingFast": true,
+      "customColours": [
+        "Light wash blue"
+      ]
+    },
+    {
+      "id": 20344406,
+      "name": "ASOS DESIGN spray on jeans in power stretch denim in black",
+      "price": {
+        "current": {
+          "value": 29.0,
+          "text": "$29.00"
+        },
+        "previous": {
+          "value": null,
+          "text": ""
+        },
+        "rrp": {
+          "value": null,
+          "text": ""
+        },
+        "isMarkedDown": false,
+        "isOutletPrice": false,
+        "currency": "USD"
+      },
+      "colour": "",
+      "colourWayId": 60045457,
+      "brandName": "ASOS DESIGN",
+      "hasVariantColours": false,
+      "hasMultiplePrices": false,
+      "groupId": null,
+      "productCode": 1713810,
+      "productType": "Product",
+      "url": "asos-design/asos-design-spray-on-jeans-in-power-stretch-denim-in-black/prd/20344406?colourwayid=60045457",
+      "imageUrl": "images.asos-media.com/products/asos-design-spray-on-jeans-in-power-stretch-denim-in-black/20344406-1-black",
+      "videoUrl": null,
+      "isSellingFast": true,
+      "customColours": [
+        "Black"
+      ]
+    },
+    {
+      "id": 9874156,
+      "name": "ASOS DESIGN skinny jeans in light wash blue cut and sew panelling",
+      "price": {
+        "current": {
+          "value": 50.0,
+          "text": "$50.00"
+        },
+        "previous": {
+          "value": null,
+          "text": ""
+        },
+        "rrp": {
+          "value": null,
+          "text": ""
+        },
+        "isMarkedDown": false,
+        "isOutletPrice": false,
+        "currency": "USD"
+      },
+      "colour": "",
+      "colourWayId": 15076239,
+      "brandName": "ASOS DESIGN",
+      "hasVariantColours": false,
+      "hasMultiplePrices": false,
+      "groupId": null,
+      "productCode": 1284013,
+      "productType": "Product",
+      "url": "asos-design/asos-design-skinny-jeans-in-light-wash-blue-cut-and-sew-panelling/prd/9874156?colourwayid=15076239",
+      "imageUrl": "images.asos-media.com/products/asos-design-skinny-jeans-in-light-wash-blue-cut-and-sew-panelling/9874156-1-lightwashblue",
+      "videoUrl": "video.asos-media.com/products/asos-design-skinny-jeans-in-light-wash-blue-cut-and-sew-panelling/9874156-catwalk-AVS",
+      "isSellingFast": true,
+      "customColours": [
+        "Light wash blue"
+      ]
+    },
+    {
+      "id": 20867122,
+      "name": "ASOS DESIGN spray on jeans in power stretch denim with knee rips in black",
+      "price": {
+        "current": {
+          "value": 32.0,
+          "text": "$32.00"
+        },
+        "previous": {
+          "value": null,
+          "text": ""
+        },
+        "rrp": {
+          "value": null,
+          "text": ""
+        },
+        "isMarkedDown": false,
+        "isOutletPrice": false,
+        "currency": "USD"
+      },
+      "colour": "",
+      "colourWayId": 60095569,
+      "brandName": "ASOS DESIGN",
+      "hasVariantColours": false,
+      "hasMultiplePrices": false,
+      "groupId": null,
+      "productCode": 1755884,
+      "productType": "Product",
+      "url": "asos-design/asos-design-spray-on-jeans-in-power-stretch-denim-with-knee-rips-in-black/prd/20867122?colourwayid=60095569",
+      "imageUrl": "images.asos-media.com/products/asos-design-spray-on-jeans-in-power-stretch-denim-with-knee-rips-in-black/20867122-1-black",
+      "videoUrl": null,
+      "isSellingFast": true,
+      "customColours": [
+        "Black"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "id": "range",
+      "name": "Sale/New Season",
+      "facetValues": [
+        {
+          "count": 1119,
+          "id": "new_season",
+          "name": "New Season",
+          "isSelected": false
+        },
+        {
+          "count": 352,
+          "id": "sale",
+          "name": "Sale",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "attribute_1046",
+      "name": "Style",
+      "facetValues": [
+        {
+          "count": 2,
+          "id": "8333",
+          "name": "Bootcut",
+          "isSelected": false
+        },
+        {
+          "count": 33,
+          "id": "8335",
+          "name": "Cropped",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "8352",
+          "name": "Denim",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "61473",
+          "name": "Extreme Super Skinny",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "8428",
+          "name": "Flare",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "8337",
+          "name": "High Waisted",
+          "isSelected": false
+        },
+        {
+          "count": 52,
+          "id": "8426",
+          "name": "Loose",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "10801",
+          "name": "Mom Jeans",
+          "isSelected": false
+        },
+        {
+          "count": 67,
+          "id": "61468",
+          "name": "Other",
+          "isSelected": false
+        },
+        {
+          "count": 50,
+          "id": "8192",
+          "name": "Regular",
+          "isSelected": false
+        },
+        {
+          "count": 380,
+          "id": "8195",
+          "name": "Skinny",
+          "isSelected": false
+        },
+        {
+          "count": 339,
+          "id": "8205",
+          "name": "Slim",
+          "isSelected": false
+        },
+        {
+          "count": 215,
+          "id": "8310",
+          "name": "Straight Leg",
+          "isSelected": false
+        },
+        {
+          "count": 209,
+          "id": "8429",
+          "name": "Super Skinny",
+          "isSelected": false
+        },
+        {
+          "count": 166,
+          "id": "8430",
+          "name": "Tapered",
+          "isSelected": false
+        },
+        {
+          "count": 22,
+          "id": "8306",
+          "name": "Wide Leg",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "base_colour",
+      "name": "Color",
+      "facetValues": [
+        {
+          "count": 349,
+          "id": "4",
+          "name": "Black",
+          "isSelected": false
+        },
+        {
+          "count": 950,
+          "id": "3",
+          "name": "Blues",
+          "isSelected": false
+        },
+        {
+          "count": 8,
+          "id": "10",
+          "name": "Brown",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "2",
+          "name": "Green",
+          "isSelected": false
+        },
+        {
+          "count": 96,
+          "id": "16",
+          "name": "Grey",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "17",
+          "name": "Multi",
+          "isSelected": false
+        },
+        {
+          "count": 15,
+          "id": "33",
+          "name": "Navy",
+          "isSelected": false
+        },
+        {
+          "count": 21,
+          "id": "37",
+          "name": "Neutral",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "8",
+          "name": "Purple",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "1",
+          "name": "Red",
+          "isSelected": false
+        },
+        {
+          "count": 13,
+          "id": "5",
+          "name": "White",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "6",
+          "name": "Yellow",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "brand",
+      "name": "Brand",
+      "facetValues": [
+        {
+          "count": 598,
+          "id": "53",
+          "name": "ASOS DESIGN",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "12919",
+          "name": "ASOS WHITE",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "12791",
+          "name": "AllSaints",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "12136",
+          "name": "Armani Exchange",
+          "isSelected": false
+        },
+        {
+          "count": 87,
+          "id": "15370",
+          "name": "Bershka",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "298",
+          "name": "BOSS",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15155",
+          "name": "Burton Menswear",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "12507",
+          "name": "Calvin Klein Jeans",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "16280",
+          "name": "Carrots",
+          "isSelected": false
+        },
+        {
+          "count": 29,
+          "id": "15878",
+          "name": "Collusion",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "13773",
+          "name": "Criminal Damage",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "156",
+          "name": "Diesel",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "15226",
+          "name": "Duke",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "177",
+          "name": "Edwin",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "3060",
+          "name": "Emporio Armani",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "13529",
+          "name": "Esprit",
+          "isSelected": false
+        },
+        {
+          "count": 8,
+          "id": "3497",
+          "name": "Farah",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "14490",
+          "name": "Good For Nothing",
+          "isSelected": false
+        },
+        {
+          "count": 19,
+          "id": "3735",
+          "name": "G-Star",
+          "isSelected": false
+        },
+        {
+          "count": 9,
+          "id": "259",
+          "name": "Guess",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "14644",
+          "name": "Hollister",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "15139",
+          "name": "HUGO",
+          "isSelected": false
+        },
+        {
+          "count": 49,
+          "id": "12461",
+          "name": "Jack & Jones",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "14300",
+          "name": "Jaded London",
+          "isSelected": false
+        },
+        {
+          "count": 125,
+          "id": "401",
+          "name": "Levi's",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "15503",
+          "name": "LEVIS SKATEBOARDING",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "14423",
+          "name": "Liquor N Poker",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "15199",
+          "name": "Mennace",
+          "isSelected": false
+        },
+        {
+          "count": 44,
+          "id": "13817",
+          "name": "New Look",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "14468",
+          "name": "Nicce",
+          "isSelected": false
+        },
+        {
+          "count": 24,
+          "id": "512",
+          "name": "Nudie Jeans",
+          "isSelected": false
+        },
+        {
+          "count": 35,
+          "id": "14441",
+          "name": "Only & Sons",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "3594",
+          "name": "Polo Ralph Lauren",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "13872",
+          "name": "PS Paul Smith",
+          "isSelected": false
+        },
+        {
+          "count": 76,
+          "id": "14126",
+          "name": "Pull&Bear",
+          "isSelected": false
+        },
+        {
+          "count": 19,
+          "id": "12769",
+          "name": "Reclaimed Vintage",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "608",
+          "name": "Religion",
+          "isSelected": false
+        },
+        {
+          "count": 77,
+          "id": "12983",
+          "name": "River Island",
+          "isSelected": false
+        },
+        {
+          "count": 14,
+          "id": "14159",
+          "name": "Selected Homme",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "14164",
+          "name": "SikSilk",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "14920",
+          "name": "Sixth June",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15807",
+          "name": "The Couture Club",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "13942",
+          "name": "The Ragged Priest",
+          "isSelected": false
+        },
+        {
+          "count": 12,
+          "id": "15631",
+          "name": "Tommy Jeans",
+          "isSelected": false
+        },
+        {
+          "count": 121,
+          "id": "16236",
+          "name": "Topman",
+          "isSelected": false
+        },
+        {
+          "count": 32,
+          "id": "14287",
+          "name": "Weekday",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "attribute_11317",
+      "name": "Denim Wash Color",
+      "facetValues": [
+        {
+          "count": 5,
+          "id": "5677",
+          "name": "Acid Wash",
+          "isSelected": false
+        },
+        {
+          "count": 120,
+          "id": "61440",
+          "name": "Colored Denim",
+          "isSelected": false
+        },
+        {
+          "count": 538,
+          "id": "6944",
+          "name": "Dark Wash",
+          "isSelected": false
+        },
+        {
+          "count": 310,
+          "id": "60743",
+          "name": "Light Wash",
+          "isSelected": false
+        },
+        {
+          "count": 472,
+          "id": "60744",
+          "name": "Mid Wash",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "attribute_10143",
+      "name": "Product Fit",
+      "facetValues": [
+        {
+          "count": 6,
+          "id": "61456",
+          "name": "Extreme Skinny",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "61457",
+          "name": "Extreme Super Skinny",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "53001",
+          "name": "Oversized",
+          "isSelected": false
+        },
+        {
+          "count": 100,
+          "id": "53002",
+          "name": "Regular",
+          "isSelected": false
+        },
+        {
+          "count": 40,
+          "id": "53003",
+          "name": "Relaxed",
+          "isSelected": false
+        },
+        {
+          "count": 387,
+          "id": "61453",
+          "name": "Skinny",
+          "isSelected": false
+        },
+        {
+          "count": 372,
+          "id": "61452",
+          "name": "Slim",
+          "isSelected": false
+        },
+        {
+          "count": 146,
+          "id": "61458",
+          "name": "Straight",
+          "isSelected": false
+        },
+        {
+          "count": 215,
+          "id": "61454",
+          "name": "Super Skinny",
+          "isSelected": false
+        },
+        {
+          "count": 135,
+          "id": "61459",
+          "name": "Tapered",
+          "isSelected": false
+        },
+        {
+          "count": 15,
+          "id": "61460",
+          "name": "Wide",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "attribute_10155",
+      "name": "Body Fit",
+      "facetValues": [
+        {
+          "count": 1388,
+          "id": "6764",
+          "name": "Main Collection",
+          "isSelected": false
+        },
+        {
+          "count": 66,
+          "id": "7699",
+          "name": "Plus Size",
+          "isSelected": false
+        },
+        {
+          "count": 39,
+          "id": "6399",
+          "name": "Tall",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "size",
+      "name": "Size",
+      "facetValues": [
+        {
+          "count": 1,
+          "id": "11986",
+          "name": "W44",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "11985",
+          "name": "W42",
+          "isSelected": false
+        },
+        {
+          "count": 8,
+          "id": "1753",
+          "name": "W38",
+          "isSelected": false
+        },
+        {
+          "count": 26,
+          "id": "1741",
+          "name": "W36",
+          "isSelected": false
+        },
+        {
+          "count": 28,
+          "id": "1717",
+          "name": "W34",
+          "isSelected": false
+        },
+        {
+          "count": 31,
+          "id": "1693",
+          "name": "W32",
+          "isSelected": false
+        },
+        {
+          "count": 28,
+          "id": "1669",
+          "name": "W30",
+          "isSelected": false
+        },
+        {
+          "count": 25,
+          "id": "1645",
+          "name": "W28",
+          "isSelected": false
+        },
+        {
+          "count": 14,
+          "id": "4940",
+          "name": "W48 L34",
+          "isSelected": false
+        },
+        {
+          "count": 16,
+          "id": "4870",
+          "name": "W48 L32",
+          "isSelected": false
+        },
+        {
+          "count": 14,
+          "id": "4858",
+          "name": "W48 L30",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "4936",
+          "name": "W46 L36",
+          "isSelected": false
+        },
+        {
+          "count": 13,
+          "id": "4822",
+          "name": "W46 L34",
+          "isSelected": false
+        },
+        {
+          "count": 26,
+          "id": "4810",
+          "name": "W46 L32",
+          "isSelected": false
+        },
+        {
+          "count": 20,
+          "id": "4798",
+          "name": "W46 L30",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "4786",
+          "name": "W44 L38",
+          "isSelected": false
+        },
+        {
+          "count": 17,
+          "id": "4762",
+          "name": "W44 L34",
+          "isSelected": false
+        },
+        {
+          "count": 39,
+          "id": "4750",
+          "name": "W44 L32",
+          "isSelected": false
+        },
+        {
+          "count": 36,
+          "id": "4738",
+          "name": "W44 L30",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "4726",
+          "name": "W42 L38",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "4714",
+          "name": "W42 L36",
+          "isSelected": false
+        },
+        {
+          "count": 32,
+          "id": "4702",
+          "name": "W42 L34",
+          "isSelected": false
+        },
+        {
+          "count": 47,
+          "id": "4690",
+          "name": "W42 L32",
+          "isSelected": false
+        },
+        {
+          "count": 39,
+          "id": "4678",
+          "name": "W42 L30",
+          "isSelected": false
+        },
+        {
+          "count": 4,
+          "id": "46316",
+          "name": "W40 Regular",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "4654",
+          "name": "W40 L36",
+          "isSelected": false
+        },
+        {
+          "count": 34,
+          "id": "4642",
+          "name": "W40 L34",
+          "isSelected": false
+        },
+        {
+          "count": 50,
+          "id": "4630",
+          "name": "W40 L32",
+          "isSelected": false
+        },
+        {
+          "count": 41,
+          "id": "4618",
+          "name": "W40 L30",
+          "isSelected": false
+        },
+        {
+          "count": 10,
+          "id": "1546",
+          "name": "W38 L38",
+          "isSelected": false
+        },
+        {
+          "count": 10,
+          "id": "1534",
+          "name": "W38 L36",
+          "isSelected": false
+        },
+        {
+          "count": 196,
+          "id": "4603",
+          "name": "W38 L34",
+          "isSelected": false
+        },
+        {
+          "count": 287,
+          "id": "4591",
+          "name": "W38 L32",
+          "isSelected": false
+        },
+        {
+          "count": 153,
+          "id": "4579",
+          "name": "W38 L30",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15264",
+          "name": "W38L34",
+          "isSelected": false
+        },
+        {
+          "count": 10,
+          "id": "15209",
+          "name": "W36L34",
+          "isSelected": false
+        },
+        {
+          "count": 7,
+          "id": "15198",
+          "name": "W36L32",
+          "isSelected": false
+        },
+        {
+          "count": 13,
+          "id": "1582",
+          "name": "W36 L38",
+          "isSelected": false
+        },
+        {
+          "count": 22,
+          "id": "1510",
+          "name": "W36 L36",
+          "isSelected": false
+        },
+        {
+          "count": 335,
+          "id": "845",
+          "name": "W36 L34",
+          "isSelected": false
+        },
+        {
+          "count": 529,
+          "id": "833",
+          "name": "W36 L32",
+          "isSelected": false
+        },
+        {
+          "count": 162,
+          "id": "821",
+          "name": "W36 L30",
+          "isSelected": false
+        },
+        {
+          "count": 10,
+          "id": "15165",
+          "name": "W34L34",
+          "isSelected": false
+        },
+        {
+          "count": 16,
+          "id": "15154",
+          "name": "W34L32",
+          "isSelected": false
+        },
+        {
+          "count": 10,
+          "id": "15143",
+          "name": "W34L30",
+          "isSelected": false
+        },
+        {
+          "count": 25,
+          "id": "1578",
+          "name": "W34 L38",
+          "isSelected": false
+        },
+        {
+          "count": 33,
+          "id": "1462",
+          "name": "W34 L36",
+          "isSelected": false
+        },
+        {
+          "count": 438,
+          "id": "773",
+          "name": "W34 L34",
+          "isSelected": false
+        },
+        {
+          "count": 636,
+          "id": "761",
+          "name": "W34 L32",
+          "isSelected": false
+        },
+        {
+          "count": 373,
+          "id": "749",
+          "name": "W34 L30",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15110",
+          "name": "W33L34",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "15099",
+          "name": "W33L32",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "15088",
+          "name": "W33L30",
+          "isSelected": false
+        },
+        {
+          "count": 95,
+          "id": "737",
+          "name": "W33 L34",
+          "isSelected": false
+        },
+        {
+          "count": 135,
+          "id": "725",
+          "name": "W33 L32",
+          "isSelected": false
+        },
+        {
+          "count": 88,
+          "id": "713",
+          "name": "W33 L30",
+          "isSelected": false
+        },
+        {
+          "count": 21,
+          "id": "1426",
+          "name": "W32 L38",
+          "isSelected": false
+        },
+        {
+          "count": 38,
+          "id": "1414",
+          "name": "W32 L36",
+          "isSelected": false
+        },
+        {
+          "count": 452,
+          "id": "701",
+          "name": "W32 L34",
+          "isSelected": false
+        },
+        {
+          "count": 14,
+          "id": "15066",
+          "name": "W32L34",
+          "isSelected": false
+        },
+        {
+          "count": 738,
+          "id": "689",
+          "name": "W32 L32",
+          "isSelected": false
+        },
+        {
+          "count": 18,
+          "id": "15055",
+          "name": "W32L32",
+          "isSelected": false
+        },
+        {
+          "count": 500,
+          "id": "677",
+          "name": "W32 L30",
+          "isSelected": false
+        },
+        {
+          "count": 18,
+          "id": "15044",
+          "name": "W32L30",
+          "isSelected": false
+        },
+        {
+          "count": 71,
+          "id": "665",
+          "name": "W31 L34",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "15011",
+          "name": "W31L34",
+          "isSelected": false
+        },
+        {
+          "count": 282,
+          "id": "653",
+          "name": "W31 L32",
+          "isSelected": false
+        },
+        {
+          "count": 8,
+          "id": "15000",
+          "name": "W31L32",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "14989",
+          "name": "W31L30",
+          "isSelected": false
+        },
+        {
+          "count": 117,
+          "id": "641",
+          "name": "W31 L30",
+          "isSelected": false
+        },
+        {
+          "count": 34,
+          "id": "1366",
+          "name": "W30 L36",
+          "isSelected": false
+        },
+        {
+          "count": 8,
+          "id": "14967",
+          "name": "W30L34",
+          "isSelected": false
+        },
+        {
+          "count": 286,
+          "id": "629",
+          "name": "W30 L34",
+          "isSelected": false
+        },
+        {
+          "count": 762,
+          "id": "617",
+          "name": "W30 L32",
+          "isSelected": false
+        },
+        {
+          "count": 22,
+          "id": "14956",
+          "name": "W30L32",
+          "isSelected": false
+        },
+        {
+          "count": 13,
+          "id": "14945",
+          "name": "W30L30",
+          "isSelected": false
+        },
+        {
+          "count": 538,
+          "id": "605",
+          "name": "W30 L30",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "593",
+          "name": "W29 L34",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "14912",
+          "name": "W29L34",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "14901",
+          "name": "W29L32",
+          "isSelected": false
+        },
+        {
+          "count": 232,
+          "id": "581",
+          "name": "W29 L32",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "14890",
+          "name": "W29L30",
+          "isSelected": false
+        },
+        {
+          "count": 102,
+          "id": "569",
+          "name": "W29 L30",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "557",
+          "name": "W28 L34",
+          "isSelected": false
+        },
+        {
+          "count": 608,
+          "id": "545",
+          "name": "W28 L32",
+          "isSelected": false
+        },
+        {
+          "count": 19,
+          "id": "14857",
+          "name": "W28L32",
+          "isSelected": false
+        },
+        {
+          "count": 11,
+          "id": "14846",
+          "name": "W28L30",
+          "isSelected": false
+        },
+        {
+          "count": 430,
+          "id": "533",
+          "name": "W28 L30",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "1052",
+          "name": "W28 L28",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "14758",
+          "name": "W26L32",
+          "isSelected": false
+        },
+        {
+          "count": 72,
+          "id": "473",
+          "name": "W26 L32",
+          "isSelected": false
+        },
+        {
+          "count": 226,
+          "id": "461",
+          "name": "W26 L30",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "1004",
+          "name": "W26 L28",
+          "isSelected": false
+        },
+        {
+          "count": 5,
+          "id": "1621",
+          "name": "W26",
+          "isSelected": false
+        },
+        {
+          "count": 3,
+          "id": "5167",
+          "name": "XL",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "5155",
+          "name": "L",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "4409",
+          "name": "M",
+          "isSelected": false
+        },
+        {
+          "count": 13,
+          "id": "4421",
+          "name": "S",
+          "isSelected": false
+        },
+        {
+          "count": 6,
+          "id": "5179",
+          "name": "XS",
+          "isSelected": false
+        },
+        {
+          "count": 1,
+          "id": "5131",
+          "name": "2XS",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "attribute_11905",
+      "name": "Responsible",
+      "facetValues": [
+        {
+          "count": 45,
+          "id": "70018",
+          "name": "Recycled",
+          "isSelected": false
+        },
+        {
+          "count": 788,
+          "id": "70017",
+          "name": "Sustainable Materials",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Single-Column",
+      "facetType": "TextMultiSelect",
+      "hasSelectedValues": false
+    },
+    {
+      "id": "currentprice",
+      "name": "Price Range",
+      "facetValues": [
+        {
+          "count": 1,
+          "id": "16.15",
+          "name": "16.15",
+          "isSelected": false
+        },
+        {
+          "count": 2,
+          "id": "210.0",
+          "name": "210.0",
+          "isSelected": false
+        }
+      ],
+      "displayStyle": "Price-Slider",
+      "facetType": "Range",
+      "hasSelectedValues": false
+    }
+  ],
+  "diagnostics": {
+    "requestId": "235731",
+    "processingTime": 95,
+    "queryTime": 32,
+    "recommendationsEnabled": false,
+    "recommendationsAnalytics": {
+      "personalisationStatus": 3,
+      "numberOfItems": 0,
+      "numberOfRecs": 0,
+      "personalisationType": "",
+      "items": []
+    }
+  },
+  "searchPassMeta": {
+    "isPartial": false,
+    "isSpellcheck": false,
+    "searchPass": [],
+    "alternateSearchTerms": []
+  },
+  "queryId": null,
+  "discoverSearchProductTypes": [],
+  "campaigns": {
+    "promoBanners": []
+  }
+}
