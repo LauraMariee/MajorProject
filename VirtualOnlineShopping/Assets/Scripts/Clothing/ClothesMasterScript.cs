@@ -12,6 +12,7 @@ namespace Clothing
         private string root; 
 
         public static readonly List<ClothingObject> LoadedClothes = new List<ClothingObject>();
+        private static string _categoryString;
 
         private void Start()
         {
@@ -47,11 +48,13 @@ namespace Clothing
                 else
                 {
                     LoadedClothes.AddRange(items.products);
+                    _categoryString = items.categoryName; 
                 }
             }
-            AssignToGameObjects(filename);
+            AssignToGameObjects();
         }
-        private static void AssignToGameObjects(string itemType)
+
+        private static void AssignToGameObjects()
         {
            
             foreach (var loadedCloth in LoadedClothes)
@@ -68,10 +71,12 @@ namespace Clothing
                 clothingDetailObject.productCode = loadedCloth.productCode;
                 clothingDetailObject.url = loadedCloth.url;
                 clothingDetailObject.imageUrl = loadedCloth.imageUrl;
-                clothingDetailObject.itemType = itemType; 
+                clothingDetailObject.itemType = _categoryString;
+                
                 clothingDetailObject.customColours = loadedCloth.customColours;
             }
         }
+        
         public static List<ClothingObject> GetLoadedClothes()
         {
             return LoadedClothes;

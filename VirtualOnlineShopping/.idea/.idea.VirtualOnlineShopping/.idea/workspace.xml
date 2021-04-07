@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ab07c5-3983-4822-be13-3f52bc908caf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VirtualOnlineShopping.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VirtualOnlineShopping.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/15/1517c5aa96df1f24eafbbbd41046f59b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4a/4a370dab301d8da70d6a0b0445fa53d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/50/503e85a33414fbba645b7754cf4e95e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b6/b68adfc8d497f7f6b18b40acff461237" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b9/b94bef7bf8d53c21e287c1be99107c8a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c1/c195a6ae8988bfc66076048ff718dfa9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e4/e4b44d275c2c065aeb3fb0e9a80face5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f0/f0059c7fd8abf4c19147c862173250d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f5/f5aee5e55cd68477fc5698f115957f14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f6/f63a2c0a34e9605277fef81bd996966e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f8/f8fa1ccd587deaf76fa763447499cf96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/1e6052-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Filtering/ClothesMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/SetActiveModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/dd/cc3b36ba/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/ca/35d2c45a/TextReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Filtering/Buttons/ColourDetails.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -61,13 +85,13 @@
       <option value="$PROJECT_DIR$/Assets/AsosData/18797.json" />
       <option value="$PROJECT_DIR$/Assets/AsosData/8799.json" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingDetail.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" />
       <option value="$PROJECT_DIR$/Assets/AsosData/4208.json" />
       <option value="$PROJECT_DIR$/Assets/AsosData/11321.json" />
       <option value="$PROJECT_DIR$/Assets/AsosData/5668.json" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothingObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oL2WvdJNIR2XK0r6scNu5JCUfc" />
@@ -77,7 +101,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35036203" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -96,10 +120,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="4596">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="4596" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -144,6 +168,7 @@
       <workItem from="1617616921756" duration="23790000" />
       <workItem from="1617697138500" duration="9120000" />
       <workItem from="1617712093165" duration="1303000" />
+      <workItem from="1617800519278" duration="9660000" />
     </task>
     <servers />
   </component>
@@ -168,6 +193,36 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs</url>
+          <line>85</line>
+          <properties documentPath="C:\Users\Laura\Documents\MajorProject\VirtualOnlineShopping\Assets\Scripts\Filtering\FilterController.cs" initialLine="85" containingFunctionPresentation="method 'FilterClothes'">
+            <startOffsets>
+              <option value="3205" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3268" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs</url>
+          <line>73</line>
+          <properties documentPath="C:\Users\Laura\Documents\MajorProject\VirtualOnlineShopping\Assets\Scripts\Clothing\ClothesMasterScript.cs" initialLine="73" containingFunctionPresentation="method 'AssignToGameObjects'">
+            <startOffsets>
+              <option value="2722" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2770" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#UnityEngine.GameObject" memberName="gameObject" />

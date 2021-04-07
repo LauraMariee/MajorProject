@@ -7,11 +7,12 @@ namespace Clothing
     [Serializable]
     public class CategorySearchResult
     {
+        public string categoryName{ get; set; }
         public List<ClothingObject> products { get; set; }
     }
     public class Price
     {
-        public Current current;
+        public Current current{ get; set; }
     }
     
     [Serializable] 
@@ -32,6 +33,7 @@ namespace Clothing
         public int productCode{get; set;}
         public string url{get; set;}
         public string imageUrl{get; set;}
+        public string itemType{get; set;}
         public List<string> customColours{get; set;}
 
     }
