@@ -16,26 +16,20 @@ namespace Filtering
         
         private ClothesMasterScript clothesMasterScript;
         private FilterUI filterUIScript;
-        
-        private string colourMenu;
-        private GameObject colourMenuObject;
-        
+
         //Filter variables
         private List<string> filterColours; //Get from FilterUI
         private List<string> filterBrandNames; //Get from FilterUI
         private List<string> filterType;
-        private string name; //Get from FilterUI
-        
+
         private void Start()
         {
             clothesMasterScriptObject = GameObject.Find("Environment");
             clothesMasterScript = clothesMasterScriptObject.GetComponent<ClothesMasterScript>();//Find ClothesMasterScript
-            ClothesMasterScript.GetLoadedClothes();
+            clothesMasterScript.GetLoadedClothes();
 
             filterScriptObject = GameObject.Find("UI/Canvas/FilterUI");
             filterUIScript = filterScriptObject.GetComponent<FilterUI>();
-
-            colourMenu = "Colour";
         }
         private void GetFilterLists()
         {
@@ -50,21 +44,9 @@ namespace Filtering
             GetFilterLists();
             FilterClothes();
         }
-        
-        private static bool DetailMenuCheck()
-        {
-            var detailPanel = GameObject.Find("UI/Canvas/FilterUI/detailsMenu");//find detail model check
-            return detailPanel.activeInHierarchy;//if detail model is active return true else false
-        }
-        
-        public void OpenColourDetailPanel()
-        {
-            colourMenuObject = GameObject.Find("DetailsMenu/Viewport/Content/" + colourMenu); //find gameobject on name
-            //Hide other open colours
-        }
 
         private void FilterClothes(){
-            clothesList = ClothesMasterScript.GetLoadedClothes();
+            clothesList = clothesMasterScript.GetLoadedClothes();
             foreach (var clothItem in clothesList)//Go through all loaded clothes,
             {
                 if (clothItem.customColours.Any(cloth => filterColours.Any(colour => cloth == colour)))

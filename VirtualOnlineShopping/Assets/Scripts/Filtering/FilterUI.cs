@@ -19,8 +19,11 @@ namespace Filtering
         public List<string> selectedColours;
         public List<string> selectedBrands;
         public List<string> selectedType;
-        
-        
+
+        private string buttonOverview;
+        public static string detailMenu;
+
+
         public void BrandClick()
         {
             brandName = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
@@ -103,7 +106,65 @@ namespace Filtering
                 priceButton.colors = priceButtonBlock;
                 Debug.Log("Added " + type);
             }
+        }
+        public void DetailPanelClick()
+        {
+            buttonOverview = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
+            Debug.Log("current button is " + buttonOverview);
+            var button = GameObject.Find(buttonOverview).GetComponent<Button>();
+            var buttonBlock = button.colors;
+            
+            switch (buttonOverview)
+            {
+                case "Colour":
+                    buttonBlock.selectedColor = Color.green; //Add highlight
+                    button.colors = buttonBlock;
+                    detailMenu = "Colour";
+                    ShowDetailMenu();
+                    break;
+                case "Brand":
+                    buttonBlock.selectedColor = Color.green; //Add highlight
+                    button.colors = buttonBlock;
+                    detailMenu = "Brand";
+                    ShowDetailMenu();
+                    break;
+                case "Price":
+                    buttonBlock.selectedColor = Color.green; //Add highlight
+                    button.colors = buttonBlock;
+                    detailMenu = "Price";
+                    ShowDetailMenu();
+                    break;
+                case "Type":
+                    buttonBlock.selectedColor = Color.green; //Add highlight
+                    button.colors = buttonBlock;
+                    detailMenu = "Type";
+                    ShowDetailMenu();
+                    break;
+                default:
+                    detailMenu = "Empty";
+                    break;
+            }
+            //switch statement on button clicked 
+        }
+        
+        private static void ShowDetailMenu()
+        {
+            var detailPanel = GameObject.Find("UI/Canvas/FilterUI/DetailsMenu/Viewport/Content/" + detailMenu);//find detail model check
+            
+            var detailContent = GameObject.Find("UI/Canvas/FilterUI/DetailsMenu/Viewport/Content");
+            var childLimit = detailContent.transform.childCount;
+            
+            Debug.Log("There are " + childLimit + " children");
 
+
+            if (detailPanel.activeInHierarchy) return;
+            for (var i = 0; i < childLimit; i++)//check if any children are active. 
+            {
+                detailContent.transform.GetChild(i).gameObject.SetActive(false);
+                Debug.Log("Child " + i + " is disabled");
+                
+            }
+            detailPanel.SetActive(true);
         }
     }
 }

@@ -81,7 +81,7 @@ namespace Clothing
             }
         }
         
-        public static List<ClothingObject> GetLoadedClothes()
+        public List<ClothingObject> GetLoadedClothes()
         {
             return LoadedClothes;
         }
