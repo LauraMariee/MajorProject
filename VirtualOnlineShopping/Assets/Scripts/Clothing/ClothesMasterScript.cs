@@ -2,6 +2,7 @@
 using System.IO;
 using UnityEngine;
 using Valve.Newtonsoft.Json;
+using Valve.Newtonsoft.Json.Utilities;
 
 namespace Clothing
 {
@@ -12,7 +13,6 @@ namespace Clothing
         private string root; 
 
         public static readonly List<ClothingObject> LoadedClothes = new List<ClothingObject>();
-        private static string _categoryString;
 
         private void Start()
         {
@@ -22,6 +22,7 @@ namespace Clothing
             {
                 //Debug.Log(filename);
                 ReadInJson(root + filename);
+                
             }
         }
 
@@ -40,18 +41,21 @@ namespace Clothing
             {
                 var json = r.ReadToEnd();
                 var items = JsonConvert.DeserializeObject<CategorySearchResult>(json);// separate strings on file
-                if (items == null)
-                {
-                    // todo some error handling
-                    Debug.Log( "Error");
-                }
-                else
-                {
-                    LoadedClothes.AddRange(items.products);
-                    _categoryString = items.categoryName; 
-                }
+                var categoryString = items.categoryName;
+                LoadedClothes.AddRange(AssignItemType(items, categoryString).products);
             }
             AssignToGameObjects();
+        }
+        
+        
+        private static CategorySearchResult AssignItemType(CategorySearchResult items, string category)
+        {
+            foreach (var clothes in items.products)
+            {
+                clothes.itemType = category; 
+            }
+
+            return items;
         }
 
         private static void AssignToGameObjects()
@@ -71,7 +75,7 @@ namespace Clothing
                 clothingDetailObject.productCode = loadedCloth.productCode;
                 clothingDetailObject.url = loadedCloth.url;
                 clothingDetailObject.imageUrl = loadedCloth.imageUrl;
-                clothingDetailObject.itemType = _categoryString;
+                clothingDetailObject.itemType = loadedCloth.itemType;
                 
                 clothingDetailObject.customColours = loadedCloth.customColours;
             }
