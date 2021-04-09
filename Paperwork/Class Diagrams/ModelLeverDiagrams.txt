@@ -1,18 +1,19 @@
 classDiagram
-    MaleModel <|-- ModelInformation
-    FemaleModel <|-- ModelInformation
+    AbstractModel <|-- MaleModel
+    AbstractModel <|-- FemaleModel
+    AbstractModel <|-- ModelInformation
     ModelInformation <|-- ModelSlider
-    ModelController  <|-- FemaleModel
-    ModelController  <|-- MaleModel
+    AbstractModel --|> ModelController
+
 
 
    class ModelSlider{
-    -GameObject startPoint
-    -GameObject endPoint
-    +int minSize
-    +int maxSize
-    +GameObject physicalHandle
-    +Text handleText
+    -startPoint : GameObject
+    -endPoint : GameObject
+    +minSize : int
+    +maxSize : int
+    +physicalHandle : GameObject
+    +handleText : Text
     -PositionToValue(Vector3 position)
     -ValueToPosition(float value)
     -GetHandlePosition()
@@ -25,9 +26,9 @@ classDiagram
 
 
     class ModelController{
-    -Vector3 spawnPosition
-    -Vector3 activeModelOrigin
-    +GameObject activeModel
+    -spawnPosition : Vector3
+    -activeModelOrigin : Vector3
+    +activeModel : GameObject 
     +List<GameObject> switchModelButtons
     +Start()
     +Update()
@@ -35,24 +36,24 @@ classDiagram
     }
     
     class ModelInformation{
-    -int bustMeasurement
-    -int hipsMeasurement
-    -int waistMeasurement
-    -int shoulderMeasurement
-    -int neckMeasurement
-    -float MINScale
-    -float MAXScale
-    -List<string> modelVariables
-    +List<GameObject> bustBones
-    +List<GameObject> hipBones
-    +List<GameObject> waistBones
-    +List<GameObject> shoulderBones
-    +List<GameObject> neckBones  
-    +ModelSlider bustSliderObject
-    +ModelSlider hipSliderObject
-    +ModelSlider waistSliderObject
-    +ModelSlider shoulderSliderObject
-    +ModelSlider neckSliderObject
+    -bustMeasurement : int 
+    -hipsMeasurement : int 
+    -waistMeasurement : int 
+    -shoulderMeasurement : int 
+    -neckMeasurement : int 
+    -MINScale : float 
+    -MAXScale : float 
+    -modelVariables : List<string> 
+    +bustBones : List<GameObject> 
+    +hipBones : +List<GameObject> 
+    +waistBones : +List<GameObject> 
+    +shoulderBones : List<GameObject> 
+    +neckBones : List<GameObject> 
+    +bustSliderObject : ModelSlider 
+    +hipSliderObject : ModelSlider 
+    +waistSliderObject : ModelSlider 
+    +shoulderSliderObject : ModelSlider 
+    +neckSliderObject : ModelSlider 
     -CreateSliderObjects()
     -SetHandleValue(float minScale, float maxScale, ModelSlider handle, int currentValue)
     -ScaleByValue(float scaleValue, IEnumerable<GameObject> bones)
@@ -61,19 +62,21 @@ classDiagram
     +UpdateHandleValue(ModelSlider bustHandle, ModelSlider hipHandle, ModelSlider waistHandle, ModelSlider shoulderHandle, ModelSlider neckHandle, <br>float minScale, float maxScale, float minShoulder, float maxShoulder)</br>
     }
 
+
+    class AbstractModel{
+     -Start()
+     -SetBones(string gender)
+     -FindAndAddBoneToList(string, string, ICollection<GameObject>)
+     -Update()
+    }
+
     class MaleModel{
-      -readonly Dictionary boneDictionary <string, string>
-      +Update()
-      +Start()
-      -FindAndAddBoneToList()
-      -AssignBones()
+      -boneDictionary <string, string> : readonly Dictionary 
+      +Dictionary<string, string> GetBones()
     }
 
     class FemaleModel{
-      -readonly Dictionary boneDictionary <string, string>
-      +Update()
-      +Start()
-      -FindAndAddBoneToList()
-      -AssignBones()
+      -boneDictionary <string, string> : readonly Dictionary 
+      +Dictionary<string, string> GetBones()
     }
             

@@ -2,6 +2,7 @@
 using System.IO;
 using UnityEngine;
 using Valve.Newtonsoft.Json;
+using Valve.Newtonsoft.Json.Utilities;
 
 namespace Clothing
 {
@@ -21,6 +22,7 @@ namespace Clothing
             {
                 //Debug.Log(filename);
                 ReadInJson(root + filename);
+                
             }
         }
 
@@ -39,19 +41,24 @@ namespace Clothing
             {
                 var json = r.ReadToEnd();
                 var items = JsonConvert.DeserializeObject<CategorySearchResult>(json);// separate strings on file
-                if (items == null)
-                {
-                    // todo some error handling
-                    Debug.Log( "Error");
-                }
-                else
-                {
-                    LoadedClothes.AddRange(items.products);
-                }
+                var categoryString = items.categoryName;
+                LoadedClothes.AddRange(AssignItemType(items, categoryString).products);
             }
-            AssignToGameObjects(filename);
+            AssignToGameObjects();
         }
-        private static void AssignToGameObjects(string itemType)
+        
+        
+        private static CategorySearchResult AssignItemType(CategorySearchResult items, string category)
+        {
+            foreach (var clothes in items.products)
+            {
+                clothes.itemType = category; 
+            }
+
+            return items;
+        }
+
+        private static void AssignToGameObjects()
         {
            
             foreach (var loadedCloth in LoadedClothes)
@@ -68,10 +75,12 @@ namespace Clothing
                 clothingDetailObject.productCode = loadedCloth.productCode;
                 clothingDetailObject.url = loadedCloth.url;
                 clothingDetailObject.imageUrl = loadedCloth.imageUrl;
-                clothingDetailObject.itemType = itemType; 
+                clothingDetailObject.itemType = loadedCloth.itemType;
+                
                 clothingDetailObject.customColours = loadedCloth.customColours;
             }
         }
+        
         public static List<ClothingObject> GetLoadedClothes()
         {
             return LoadedClothes;

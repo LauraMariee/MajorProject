@@ -23,6 +23,7 @@ namespace Filtering
         //Filter variables
         private List<string> filterColours; //Get from FilterUI
         private List<string> filterBrandNames; //Get from FilterUI
+        private List<string> filterType;
         private string name; //Get from FilterUI
         
         private void Start()
@@ -40,6 +41,7 @@ namespace Filtering
         {
             filterColours = filterUIScript.selectedColours;
             filterBrandNames = filterUIScript.selectedBrands;
+            filterType = filterUIScript.selectedType;
         }
         
         public void Search()
@@ -81,8 +83,9 @@ namespace Filtering
                         filteredClothesList?.Add(clothItem);
                     }
                 }
-                else if(clothItem.name == name)
+                else if (filterType.Any(itemType => clothItem.itemType == itemType))
                 {
+                    Debug.Log("Added to filtered list: " + clothItem.name);;
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);

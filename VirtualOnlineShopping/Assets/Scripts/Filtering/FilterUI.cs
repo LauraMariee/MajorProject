@@ -10,6 +10,7 @@ namespace Filtering
     {
         private string colour;
         private string brandName;
+        private string type;
         
         public float upperPrice;
         public float lowerPrice;
@@ -17,8 +18,9 @@ namespace Filtering
 
         public List<string> selectedColours;
         public List<string> selectedBrands;
-
-
+        public List<string> selectedType;
+        
+        
         public void BrandClick()
         {
             brandName = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
@@ -79,6 +81,28 @@ namespace Filtering
             
             priceButtonBlock.selectedColor = Color.green; //Add highlight
             priceButton.colors = priceButtonBlock;
+
+        }
+        public void TypeClick()
+        {
+            type = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
+            var priceButton = GameObject.Find(type).GetComponent<Button>();
+            var priceButtonBlock = priceButton.colors;
+            
+            if (selectedType.Contains(type))
+            {
+                selectedType.Remove(type);
+                priceButtonBlock.selectedColor = Color.red; //Remove highlight
+                priceButton.colors = priceButtonBlock;
+                Debug.Log("Removed " + type);
+            }
+            else if (!selectedType.Contains(type))
+            {
+                selectedType.Add(type);
+                priceButtonBlock.selectedColor = Color.green; //Add highlight
+                priceButton.colors = priceButtonBlock;
+                Debug.Log("Added " + type);
+            }
 
         }
     }
