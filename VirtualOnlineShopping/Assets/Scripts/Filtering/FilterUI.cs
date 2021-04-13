@@ -35,14 +35,14 @@ namespace Filtering
                 selectedBrands.Remove(brandName);
                 brandButtonBlock.selectedColor = Color.red; //Remove highlight
                 brandButton.colors = brandButtonBlock;
-                Debug.Log("Removed " + colour);
+                //Debug.Log("Removed " + colour);
             }
             else if (!selectedBrands.Contains(brandName))
             {
                 selectedBrands.Add(brandName);
                 brandButtonBlock.selectedColor = Color.green; //Add highlight
                 brandButton.colors = brandButtonBlock;
-                Debug.Log("Added " + colour);
+                //Debug.Log("Added " + colour);
             }
             
         }
@@ -110,7 +110,7 @@ namespace Filtering
         public void DetailPanelClick()
         {
             buttonOverview = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
-            Debug.Log("current button is " + buttonOverview);
+           // Debug.Log("current button is " + buttonOverview);
             var button = GameObject.Find(buttonOverview).GetComponent<Button>();
             var buttonBlock = button.colors;
             
@@ -146,7 +146,6 @@ namespace Filtering
             }
             //switch statement on button clicked 
         }
-        
         private static void ShowDetailMenu()
         {
             var detailPanel = GameObject.Find("UI/Canvas/FilterUI/DetailsMenu/Viewport/Content/" + detailMenu);//find detail model check
@@ -154,14 +153,14 @@ namespace Filtering
             var detailContent = GameObject.Find("UI/Canvas/FilterUI/DetailsMenu/Viewport/Content");
             var childLimit = detailContent.transform.childCount;
             
-            Debug.Log("There are " + childLimit + " children");
+          //  Debug.Log("There are " + childLimit + " children");
 
 
             if (detailPanel.activeInHierarchy) return;
             for (var i = 0; i < childLimit; i++)//check if any children are active. 
             {
                 detailContent.transform.GetChild(i).gameObject.SetActive(false);
-                Debug.Log("Child " + i + " is disabled");
+            //    Debug.Log("Child " + i + " is disabled");
                 
             }
             detailPanel.SetActive(true);

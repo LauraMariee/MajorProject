@@ -22,6 +22,9 @@ namespace Filtering
         private List<string> filterBrandNames; //Get from FilterUI
         private List<string> filterType;
 
+        private GameObject machineCountParent;
+        private int ClothingIndexValue;
+
         private void Start()
         {
             clothesMasterScriptObject = GameObject.Find("Environment");
@@ -30,6 +33,9 @@ namespace Filtering
 
             filterScriptObject = GameObject.Find("UI/Canvas/FilterUI");
             filterUIScript = filterScriptObject.GetComponent<FilterUI>();
+
+            machineCountParent = GameObject.Find("Models/ClothesMachines");
+            ClothingIndexValue = 0; 
         }
         private void GetFilterLists()
         {
@@ -43,6 +49,7 @@ namespace Filtering
             Debug.Log("Search Clicked");
             GetFilterLists();
             FilterClothes();
+            DisplayClothes();
         }
 
         private void FilterClothes(){
@@ -51,7 +58,7 @@ namespace Filtering
             {
                 if (clothItem.customColours.Any(cloth => filterColours.Any(colour => cloth == colour)))
                 {
-                    Debug.Log("Added to filtered list: " + clothItem.name);;
+                    //Debug.Log("Added to filtered list: " + clothItem.name);;
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
@@ -59,7 +66,7 @@ namespace Filtering
                 }
                 else if (filterBrandNames.Any(brand => clothItem.brandName == brand))
                 {
-                    Debug.Log("Added to filtered list: " + clothItem.name);;
+                    //Debug.Log("Added to filtered list: " + clothItem.name);;
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
@@ -67,7 +74,7 @@ namespace Filtering
                 }
                 else if (filterType.Any(itemType => clothItem.itemType == itemType))
                 {
-                    Debug.Log("Added to filtered list: " + clothItem.name);;
+                    //Debug.Log("Added to filtered list: " + clothItem.name);;
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
@@ -83,12 +90,11 @@ namespace Filtering
                 }
 
                 if (filteredClothesList == null) continue;
-                foreach (var clothing in filteredClothesList)
+                /*foreach (var clothing in filteredClothesList)
                 {
                     Debug.Log(clothing.name);
                 }
-                //load new list of clothes into the machine
-                //show two at a time
+                */
             }
         }
 
@@ -100,6 +106,37 @@ namespace Filtering
         private void Update()
         {
             GetFilterLists();
+            
+        }
+
+        private int FindClothesMachines()
+        {
+            return machineCountParent.transform.childCount;
+        }
+        
+        private void SpawnClothingItem(int objectID, GameObject machineSpawnPoint)
+        {
+            var machineCloth = Resources.Load<GameObject>("Clothes/" + objectID); //Spawn into machine
+            Instantiate(machineCloth, machineSpawnPoint.transform.localPosition, Quaternion.identity);//Get correct scale and spawn point
+        }
+        
+        private void DisplayClothes()
+        {
+            var clothesMachines = FindClothesMachines(); //get number of machines in hiarchy
+            for (var i = 0; i <= clothesMachines; i++)
+            {
+                if (ClothingIndexValue >= clothesMachines)
+                {
+                    Debug.Log("Index is higher than machine count");
+                    return;
+                }
+                var currentChild = machineCountParent.transform.GetChild(i); //get machine via index
+                var machineSpawnPoint = GameObject.Find("spawnPoint");
+                currentChild.GetComponent<ClothesMachine>().clothingObject 
+                    = filteredClothesList[ClothingIndexValue]; //assign clothes equal to machine children
+                SpawnClothingItem(currentChild.GetComponent<ClothesMachine>().clothingObject.id,
+                    machineSpawnPoint);
+            }
         }
     }
 }

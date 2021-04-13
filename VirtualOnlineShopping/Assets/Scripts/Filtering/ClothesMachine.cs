@@ -1,13 +1,16 @@
-﻿using UnityEngine;
+﻿using Clothing;
+using UnityEditor.U2D;
+using UnityEngine;
 
 namespace Filtering
 {
     public class ClothesMachine : MonoBehaviour
     {
-        private string itemName;
-        private string size;
+        public ClothingObject clothingObject{ get; set; }
         
-        
+        //find gameObject in resources
+
+
         // Start is called before the first frame update
         void Start()
         {
