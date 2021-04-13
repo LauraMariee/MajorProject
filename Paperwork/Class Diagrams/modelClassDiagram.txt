@@ -1,0 +1,21 @@
+classDiagram
+    AbstractModel <.. MaleModel
+    AbstractModel <.. FemaleModel
+
+    class AbstractModel{
+     -Start()
+     -SetBones(string gender)
+     -FindAndAddBoneToList(string, string, ICollection<GameObject>)
+     -Update()
+    }
+
+    class MaleModel{
+      -boneDictionary <string, string> : readonly Dictionary 
+      +Dictionary<string, string> GetBones()
+    }
+
+    class FemaleModel{
+      -boneDictionary <string, string> : readonly Dictionary 
+      +Dictionary<string, string> GetBones()
+    }
+            
