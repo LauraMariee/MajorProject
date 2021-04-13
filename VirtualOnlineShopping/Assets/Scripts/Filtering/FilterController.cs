@@ -117,13 +117,13 @@ namespace Filtering
         private void SpawnClothingItem(int objectID, GameObject machineSpawnPoint)
         {
             var machineCloth = Resources.Load<GameObject>("Clothes/" + objectID); //Spawn into machine
-            Instantiate(machineCloth, machineSpawnPoint.transform.localPosition, Quaternion.identity);//Get correct scale and spawn point
+            Instantiate(machineCloth, machineSpawnPoint.transform.position, Quaternion.identity);//Get correct scale and spawn point
         }
         
         private void DisplayClothes()
         {
             var clothesMachines = FindClothesMachines(); //get number of machines in hiarchy
-            for (var i = 0; i <= clothesMachines; i++)
+            for (var i = 0; i < clothesMachines; i++)
             {
                 if (ClothingIndexValue >= clothesMachines)
                 {
