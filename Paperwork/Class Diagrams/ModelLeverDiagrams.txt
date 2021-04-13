@@ -1,9 +1,9 @@
 classDiagram
-    AbstractModel <|-- MaleModel
-    AbstractModel <|-- FemaleModel
-    AbstractModel <|-- ModelInformation
-    ModelInformation <|-- ModelSlider
-    AbstractModel --|> ModelController
+    AbstractModel <.. MaleModel
+    AbstractModel <.. FemaleModel
+    AbstractModel .. ModelInformation
+    ModelInformation <.. ModelSlider
+    AbstractModel ..> ModelController
 
 
 
@@ -45,8 +45,8 @@ classDiagram
     -MAXScale : float 
     -modelVariables : List<string> 
     +bustBones : List<GameObject> 
-    +hipBones : +List<GameObject> 
-    +waistBones : +List<GameObject> 
+    +hipBones : List<GameObject> 
+    +waistBones : List<GameObject> 
     +shoulderBones : List<GameObject> 
     +neckBones : List<GameObject> 
     +bustSliderObject : ModelSlider 
@@ -59,7 +59,7 @@ classDiagram
     -ScaleByValue(float scaleValue, IEnumerable<GameObject> bones)
     -ScaleByValueShoulder(float xValueLeft, float xValueRight, IEnumerable<GameObject> bones)
     +Start()
-    +UpdateHandleValue(ModelSlider bustHandle, ModelSlider hipHandle, ModelSlider waistHandle, ModelSlider shoulderHandle, ModelSlider neckHandle, <br>float minScale, float maxScale, float minShoulder, float maxShoulder)</br>
+    +UpdateHandleValue(ModelSlider bustHandle, ModelSlider hipHandle, ModelSlider waistHandle, ModelSlider shoulderHandle, ModelSlider neckHandle, float minScale, float maxScale, float minShoulder, float maxShoulder)
     }
 
 
