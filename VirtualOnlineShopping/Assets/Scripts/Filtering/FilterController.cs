@@ -26,7 +26,7 @@ namespace Filtering
         
         //Lists that get used to create filter display strings
         private List<string> colourList; 
-        private readonly List<string> brandList = new List<string>(); 
+        private List<string> brandList = new List<string>(); 
 
         
         //Filter variables
@@ -94,11 +94,13 @@ namespace Filtering
                     {
                         filteredClothesList?.Add(clothItem);
                         brandList.Add(clothItem.brandName);
-                        DisplayFilterChoices(BuildBrandUIString(), brandTextBox);;
+                        DisplayFilterChoices(BuildBrandUIString(), brandTextBox);
+                    }
+                    else {
+                        brandList.Remove(clothItem.brandName);  //Remove from BrandUI string
+                        DisplayFilterChoices(BuildBrandUIString(), brandTextBox);
                     }
 
-                    brandList.Remove(clothItem.brandName);  //Remove from BrandUI string
-                    DisplayFilterChoices(BuildBrandUIString(), brandTextBox);
                 }
                 else if (filterType.Any(itemType => clothItem.itemType == itemType))
                 {
@@ -133,16 +135,12 @@ namespace Filtering
         
         private string BuildBrandUIString()
         {
-            foreach (var brands in brandList)
-            {
-                Debug.Log("Brand string created is: " + brands);
-            }
-            
-            return brandList.Aggregate("", (current, brandName) => current + brandName + " , ");
+            return string.Join(", ", brandList);
         }
 
         private static void DisplayFilterChoices(string textValue, Text textObject)
         {
+            Debug.Log("Text changed to " + textValue);
             textObject.text = textValue;
         }
         
