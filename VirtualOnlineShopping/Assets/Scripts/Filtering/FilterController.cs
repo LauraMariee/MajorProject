@@ -114,7 +114,7 @@ namespace Filtering
             return machineCountParent.transform.childCount;
         }
         
-        private void SpawnClothingItem(int objectID, GameObject machineSpawnPoint)
+        private void SpawnClothingItem(int objectID, Component machineSpawnPoint)
         {
             var machineCloth = Resources.Load<GameObject>("Clothes/" + objectID); //Spawn into machine
             Instantiate(machineCloth, machineSpawnPoint.transform.position, Quaternion.identity);//Get correct scale and spawn point
@@ -123,7 +123,7 @@ namespace Filtering
         private void DisplayClothes()
         {
             var clothesMachines = FindClothesMachines(); //get number of machines in hiarchy
-            for (var i = 0; i < clothesMachines; i++)
+            for (var i = 0; i <= clothesMachines; i++)
             {
                 if (ClothingIndexValue >= clothesMachines)
                 {
@@ -131,9 +131,9 @@ namespace Filtering
                     return;
                 }
                 var currentChild = machineCountParent.transform.GetChild(i); //get machine via index
-                var machineSpawnPoint = GameObject.Find("spawnPoint");
+                var machineSpawnPoint = currentChild.Find("spawnPoint");
                 currentChild.GetComponent<ClothesMachine>().clothingObject 
-                    = filteredClothesList[ClothingIndexValue]; //assign clothes equal to machine children
+                    = filteredClothesList[ClothingIndexValue++]; //assign clothes equal to machine children
                 SpawnClothingItem(currentChild.GetComponent<ClothesMachine>().clothingObject.id,
                     machineSpawnPoint);
             }
