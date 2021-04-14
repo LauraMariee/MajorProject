@@ -2,6 +2,7 @@
 using System.Linq;
 using Clothing;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Filtering
 {
@@ -17,13 +18,24 @@ namespace Filtering
         private ClothesMasterScript clothesMasterScript;
         private FilterUI filterUIScript;
 
+        //Text boxes that update 
+        private Text brandTextBox;
+        private Text colourTextBox;
+        private Text priceTextBox;
+        private Text typeTextBox;
+        
+        //Lists that get used to create filter display strings
+        private List<string> colourList; 
+        private readonly List<string> brandList = new List<string>(); 
+
+        
         //Filter variables
         private List<string> filterColours; //Get from FilterUI
         private List<string> filterBrandNames; //Get from FilterUI
         private List<string> filterType;
 
         private GameObject machineCountParent;
-        private int ClothingIndexValue;
+        private int clothingIndexValue;
 
         private void Start()
         {
@@ -35,7 +47,14 @@ namespace Filtering
             filterUIScript = filterScriptObject.GetComponent<FilterUI>();
 
             machineCountParent = GameObject.Find("Models/ClothesMachines");
-            ClothingIndexValue = 0; 
+            clothingIndexValue = 0;
+
+            brandTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Brands/" +
+                                           "BrandsTextListItem").GetComponent<Text>();
+            
+            colourTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Colours/" +
+                                           "ColoursTextListItem").GetComponent<Text>();
+
         }
         private void GetFilterLists()
         {
@@ -62,7 +81,11 @@ namespace Filtering
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
+                        //BuildColourUIString();//build ColourUI string
+                        
                     }
+                    //Remove from ColourUI string
+                    //rebuild ColourUI string
                 }
                 else if (filterBrandNames.Any(brand => clothItem.brandName == brand))
                 {
@@ -70,7 +93,12 @@ namespace Filtering
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
+                        brandList.Add(clothItem.brandName);
+                        DisplayFilterChoices(BuildBrandUIString(), brandTextBox);;
                     }
+
+                    brandList.Remove(clothItem.brandName);  //Remove from BrandUI string
+                    DisplayFilterChoices(BuildBrandUIString(), brandTextBox);
                 }
                 else if (filterType.Any(itemType => clothItem.itemType == itemType))
                 {
@@ -97,7 +125,27 @@ namespace Filtering
                 */
             }
         }
+        
+        private string BuildColourUIString()
+        {
+            return colourList.Aggregate("", (current, colourName) => current + colourName + " , ");
+        }
+        
+        private string BuildBrandUIString()
+        {
+            foreach (var brands in brandList)
+            {
+                Debug.Log("Brand string created is: " + brands);
+            }
+            
+            return brandList.Aggregate("", (current, brandName) => current + brandName + " , ");
+        }
 
+        private static void DisplayFilterChoices(string textValue, Text textObject)
+        {
+            textObject.text = textValue;
+        }
+        
         private bool IsInList(ClothingObject cloth)
         {
             return filteredClothesList.Contains(cloth);
@@ -125,7 +173,7 @@ namespace Filtering
             var clothesMachines = FindClothesMachines(); //get number of machines in hiarchy
             for (var i = 0; i <= clothesMachines; i++)
             {
-                if (ClothingIndexValue >= clothesMachines)
+                if (clothingIndexValue >= clothesMachines)
                 {
                     Debug.Log("Index is higher than machine count");
                     return;
@@ -133,7 +181,7 @@ namespace Filtering
                 var currentChild = machineCountParent.transform.GetChild(i); //get machine via index
                 var machineSpawnPoint = currentChild.Find("spawnPoint");
                 currentChild.GetComponent<ClothesMachine>().clothingObject 
-                    = filteredClothesList[ClothingIndexValue++]; //assign clothes equal to machine children
+                    = filteredClothesList[clothingIndexValue++]; //assign clothes equal to machine children
                 SpawnClothingItem(currentChild.GetComponent<ClothesMachine>().clothingObject.id,
                     machineSpawnPoint);
             }
