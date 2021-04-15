@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Valve.Newtonsoft.Json.Utilities;
 
 namespace Filtering
 {
@@ -14,15 +16,37 @@ namespace Filtering
         
         public float upperPrice;
         public float lowerPrice;
-        private string priceName; //Used to get button and change it's colour
+        public string priceName; //Used to get button and change it's colour
 
         public List<string> selectedColours;
         public List<string> selectedBrands;
         public List<string> selectedType;
+        public List<string> selectedPrice;
 
         private string buttonOverview;
-        public static string detailMenu;
+        private static string detailMenu;
 
+
+        //Text boxes that update 
+        private Text brandTextBox;
+        private Text colourTextBox;
+        private Text priceTextBox;
+        private Text typeTextBox;
+        
+        public void Start()
+        {
+            brandTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Brands/" +
+                                           "BrandsTextListItem").GetComponent<Text>();
+            
+            colourTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Colours/" +
+                                            "ColoursTextListItem").GetComponent<Text>();
+            
+            typeTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Types/" +
+                                          "TypesTextListItem").GetComponent<Text>();
+            
+            priceTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Prices/" +
+                                           "PricesTextListItem").GetComponent<Text>();
+        }
 
         public void BrandClick()
         {
@@ -44,6 +68,7 @@ namespace Filtering
                 brandButton.colors = brandButtonBlock;
                 //Debug.Log("Added " + colour);
             }
+            DisplayFilterChoices(BuildUIString(selectedBrands), brandTextBox);
             
         }
         public void ColourClick()
@@ -66,12 +91,14 @@ namespace Filtering
                  colourButton.colors = colorButtonBlock;
                  //Debug.Log("Added " + colour);
              }
+             DisplayFilterChoices(BuildUIString(selectedColours), colourTextBox);
         }
         public void PriceClick()
         {
             priceName = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
             var priceButton = GameObject.Find(priceName).GetComponent<Button>();
             var priceButtonBlock = priceButton.colors;
+            selectedPrice.Add(priceName);
             
              //Set variables
             var priceString = priceName.Split("-"[0]);
@@ -81,9 +108,22 @@ namespace Filtering
             //replace + change colour
             upperPrice = upperRange;
             lowerPrice = lowerRange;
+
+            //For UI display
+            if (selectedBrands.Contains(priceName)) return;
+            
+            //Ensures only one value is displayed
+            if (selectedPrice.Any())
+            {
+                selectedPrice.Clear();
+                selectedPrice.Add(priceName);
+            }
+            
+            DisplayFilterChoices(BuildUIString(selectedPrice), priceTextBox);
             
             priceButtonBlock.selectedColor = Color.green; //Add highlight
             priceButton.colors = priceButtonBlock;
+            //Debug.Log("Added " + colour);
 
         }
         public void TypeClick()
@@ -97,15 +137,16 @@ namespace Filtering
                 selectedType.Remove(type);
                 priceButtonBlock.selectedColor = Color.red; //Remove highlight
                 priceButton.colors = priceButtonBlock;
-                Debug.Log("Removed " + type);
+                //Debug.Log("Removed " + type);
             }
             else if (!selectedType.Contains(type))
             {
                 selectedType.Add(type);
                 priceButtonBlock.selectedColor = Color.green; //Add highlight
                 priceButton.colors = priceButtonBlock;
-                Debug.Log("Added " + type);
+                //Debug.Log("Added " + type);
             }
+            DisplayFilterChoices(BuildUIString(selectedType), typeTextBox);
         }
         public void DetailPanelClick()
         {
@@ -164,6 +205,15 @@ namespace Filtering
                 
             }
             detailPanel.SetActive(true);
+        }
+        private static string BuildUIString(IEnumerable<string> stringList)
+        {
+            return string.Join(", ", stringList);
+        }
+        private static void DisplayFilterChoices(string textValue, Text textObject)
+        {
+            Debug.Log("Text changed to " + textValue);
+            textObject.text = textValue;
         }
     }
 }

@@ -2,6 +2,7 @@
 using System.Linq;
 using Clothing;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Filtering
 {
@@ -16,14 +17,14 @@ namespace Filtering
         
         private ClothesMasterScript clothesMasterScript;
         private FilterUI filterUIScript;
-
+        
         //Filter variables
         private List<string> filterColours; //Get from FilterUI
         private List<string> filterBrandNames; //Get from FilterUI
         private List<string> filterType;
 
         private GameObject machineCountParent;
-        private int ClothingIndexValue;
+        private int clothingIndexValue;
 
         private void Start()
         {
@@ -35,7 +36,8 @@ namespace Filtering
             filterUIScript = filterScriptObject.GetComponent<FilterUI>();
 
             machineCountParent = GameObject.Find("Models/ClothesMachines");
-            ClothingIndexValue = 0; 
+            clothingIndexValue = 0;
+
         }
         private void GetFilterLists()
         {
@@ -43,7 +45,6 @@ namespace Filtering
             filterBrandNames = filterUIScript.selectedBrands;
             filterType = filterUIScript.selectedType;
         }
-        
         public void Search()
         {
             Debug.Log("Search Clicked");
@@ -51,7 +52,6 @@ namespace Filtering
             FilterClothes();
             DisplayClothes();
         }
-
         private void FilterClothes(){
             clothesList = clothesMasterScript.GetLoadedClothes();
             foreach (var clothItem in clothesList)//Go through all loaded clothes,
@@ -70,6 +70,7 @@ namespace Filtering
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
+                        
                     }
                 }
                 else if (filterType.Any(itemType => clothItem.itemType == itemType))
@@ -78,6 +79,7 @@ namespace Filtering
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
+                        
                     }
                 }
                 else if(clothItem.price.current.value >= filterUIScript.lowerPrice && clothItem.price.current.value <= 
@@ -102,30 +104,26 @@ namespace Filtering
         {
             return filteredClothesList.Contains(cloth);
         }
-        // Update is called once per frame
         private void Update()
         {
             GetFilterLists();
             
         }
-
         private int FindClothesMachines()
         {
             return machineCountParent.transform.childCount;
         }
-        
-        private void SpawnClothingItem(int objectID, Component machineSpawnPoint)
+        private static void SpawnClothingItem(int objectID, Component machineSpawnPoint)
         {
             var machineCloth = Resources.Load<GameObject>("Clothes/" + objectID); //Spawn into machine
             Instantiate(machineCloth, machineSpawnPoint.transform.position, Quaternion.identity);//Get correct scale and spawn point
         }
-        
         private void DisplayClothes()
         {
             var clothesMachines = FindClothesMachines(); //get number of machines in hiarchy
-            for (var i = 0; i <= clothesMachines; i++)
+            for (var i = 0; i < clothesMachines; i++)
             {
-                if (ClothingIndexValue >= clothesMachines)
+                if (clothingIndexValue >= clothesMachines)
                 {
                     Debug.Log("Index is higher than machine count");
                     return;
@@ -133,7 +131,7 @@ namespace Filtering
                 var currentChild = machineCountParent.transform.GetChild(i); //get machine via index
                 var machineSpawnPoint = currentChild.Find("spawnPoint");
                 currentChild.GetComponent<ClothesMachine>().clothingObject 
-                    = filteredClothesList[ClothingIndexValue++]; //assign clothes equal to machine children
+                    = filteredClothesList[clothingIndexValue++]; //assign clothes equal to machine children
                 SpawnClothingItem(currentChild.GetComponent<ClothesMachine>().clothingObject.id,
                     machineSpawnPoint);
             }
