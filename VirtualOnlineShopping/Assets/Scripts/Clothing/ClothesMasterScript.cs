@@ -25,7 +25,6 @@ namespace Clothing
                 
             }
         }
-
         private static List<string> ReadInCategories()
         {
             using (var r = new StreamReader("Assets/AsosData/categories.json"))// Read in json file
@@ -46,8 +45,6 @@ namespace Clothing
             }
             AssignToGameObjects();
         }
-        
-        
         private static CategorySearchResult AssignItemType(CategorySearchResult items, string category)
         {
             foreach (var clothes in items.products)
@@ -57,10 +54,8 @@ namespace Clothing
 
             return items;
         }
-
         private static void AssignToGameObjects()
         {
-           
             foreach (var loadedCloth in LoadedClothes)
             {
                 if (!(Resources.Load("Clothes/" + loadedCloth.id, typeof(GameObject)) is GameObject foundClothes))
@@ -80,7 +75,6 @@ namespace Clothing
                 clothingDetailObject.customColours = loadedCloth.customColours;
             }
         }
-        
         public List<ClothingObject> GetLoadedClothes()
         {
             return LoadedClothes;
