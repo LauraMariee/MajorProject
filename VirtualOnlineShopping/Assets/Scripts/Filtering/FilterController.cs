@@ -24,10 +24,6 @@ namespace Filtering
         private Text priceTextBox;
         private Text typeTextBox;
         
-        //Lists that get used to create filter display strings
-        private List<string> colourList; 
-        private List<string> brandList = new List<string>(); 
-
         
         //Filter variables
         private List<string> filterColours; //Get from FilterUI
@@ -54,6 +50,12 @@ namespace Filtering
             
             colourTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Colours/" +
                                            "ColoursTextListItem").GetComponent<Text>();
+            
+            typeTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Types/" +
+                                            "TypesTextListItem").GetComponent<Text>();
+            
+            priceTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Prices/" +
+                                            "PricesTextListItem").GetComponent<Text>();
 
         }
         private void GetFilterLists()
@@ -62,7 +64,6 @@ namespace Filtering
             filterBrandNames = filterUIScript.selectedBrands;
             filterType = filterUIScript.selectedType;
         }
-        
         public void Search()
         {
             Debug.Log("Search Clicked");
@@ -70,7 +71,6 @@ namespace Filtering
             FilterClothes();
             DisplayClothes();
         }
-
         private void FilterClothes(){
             clothesList = clothesMasterScript.GetLoadedClothes();
             foreach (var clothItem in clothesList)//Go through all loaded clothes,
@@ -81,11 +81,13 @@ namespace Filtering
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
-                        //BuildColourUIString();//build ColourUI string
+                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedColours), colourTextBox);
                         
                     }
-                    //Remove from ColourUI string
-                    //rebuild ColourUI string
+                    else 
+                    {
+                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedColours), colourTextBox);
+                    }
                 }
                 else if (filterBrandNames.Any(brand => clothItem.brandName == brand))
                 {
@@ -93,12 +95,11 @@ namespace Filtering
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
-                        brandList.Add(clothItem.brandName);
-                        DisplayFilterChoices(BuildBrandUIString(), brandTextBox);
+                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedBrands), brandTextBox);
                     }
-                    else {
-                        brandList.Remove(clothItem.brandName);  //Remove from BrandUI string
-                        DisplayFilterChoices(BuildBrandUIString(), brandTextBox);
+                    else 
+                    {
+                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedBrands), brandTextBox);
                     }
 
                 }
@@ -108,7 +109,13 @@ namespace Filtering
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
+                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedType), typeTextBox);
                     }
+                    else
+                    {
+                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedType), typeTextBox);
+                    }
+
                 }
                 else if(clothItem.price.current.value >= filterUIScript.lowerPrice && clothItem.price.current.value <= 
                     filterUIScript.upperPrice)//Get two values and check if model price is between the two prices
@@ -116,6 +123,7 @@ namespace Filtering
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
+                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedPrice), priceTextBox);
                     }
                 }
 
@@ -128,48 +136,38 @@ namespace Filtering
             }
         }
         
-        private string BuildColourUIString()
+        private static string BuildUIString(IEnumerable<string> stringList)
         {
-            return colourList.Aggregate("", (current, colourName) => current + colourName + " , ");
+            return string.Join(", ", stringList);
         }
-        
-        private string BuildBrandUIString()
-        {
-            return string.Join(", ", brandList);
-        }
-
         private static void DisplayFilterChoices(string textValue, Text textObject)
         {
             Debug.Log("Text changed to " + textValue);
             textObject.text = textValue;
         }
-        
+
         private bool IsInList(ClothingObject cloth)
         {
             return filteredClothesList.Contains(cloth);
         }
-        // Update is called once per frame
         private void Update()
         {
             GetFilterLists();
             
         }
-
         private int FindClothesMachines()
         {
             return machineCountParent.transform.childCount;
         }
-        
-        private void SpawnClothingItem(int objectID, Component machineSpawnPoint)
+        private static void SpawnClothingItem(int objectID, Component machineSpawnPoint)
         {
             var machineCloth = Resources.Load<GameObject>("Clothes/" + objectID); //Spawn into machine
             Instantiate(machineCloth, machineSpawnPoint.transform.position, Quaternion.identity);//Get correct scale and spawn point
         }
-        
         private void DisplayClothes()
         {
             var clothesMachines = FindClothesMachines(); //get number of machines in hiarchy
-            for (var i = 0; i <= clothesMachines; i++)
+            for (var i = 0; i < clothesMachines; i++)
             {
                 if (clothingIndexValue >= clothesMachines)
                 {

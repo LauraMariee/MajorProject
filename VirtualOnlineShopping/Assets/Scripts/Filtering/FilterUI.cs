@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Valve.Newtonsoft.Json.Utilities;
 
 namespace Filtering
 {
@@ -14,14 +16,15 @@ namespace Filtering
         
         public float upperPrice;
         public float lowerPrice;
-        private string priceName; //Used to get button and change it's colour
+        public string priceName; //Used to get button and change it's colour
 
         public List<string> selectedColours;
         public List<string> selectedBrands;
         public List<string> selectedType;
+        public List<string> selectedPrice;
 
         private string buttonOverview;
-        public static string detailMenu;
+        private static string detailMenu;
 
 
         public void BrandClick()
@@ -72,6 +75,7 @@ namespace Filtering
             priceName = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
             var priceButton = GameObject.Find(priceName).GetComponent<Button>();
             var priceButtonBlock = priceButton.colors;
+            selectedPrice.Add(priceName);
             
              //Set variables
             var priceString = priceName.Split("-"[0]);
@@ -81,9 +85,20 @@ namespace Filtering
             //replace + change colour
             upperPrice = upperRange;
             lowerPrice = lowerRange;
+
+            //For UI display
+            if (selectedBrands.Contains(priceName)) return;
+            
+            //Ensures only one value is displayed
+            if (selectedPrice.Any())
+            {
+                selectedPrice.Clear();
+                selectedPrice.Add(priceName);
+            }
             
             priceButtonBlock.selectedColor = Color.green; //Add highlight
             priceButton.colors = priceButtonBlock;
+            //Debug.Log("Added " + colour);
 
         }
         public void TypeClick()
