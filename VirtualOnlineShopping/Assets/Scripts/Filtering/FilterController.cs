@@ -17,13 +17,6 @@ namespace Filtering
         
         private ClothesMasterScript clothesMasterScript;
         private FilterUI filterUIScript;
-
-        //Text boxes that update 
-        private Text brandTextBox;
-        private Text colourTextBox;
-        private Text priceTextBox;
-        private Text typeTextBox;
-        
         
         //Filter variables
         private List<string> filterColours; //Get from FilterUI
@@ -44,18 +37,6 @@ namespace Filtering
 
             machineCountParent = GameObject.Find("Models/ClothesMachines");
             clothingIndexValue = 0;
-
-            brandTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Brands/" +
-                                           "BrandsTextListItem").GetComponent<Text>();
-            
-            colourTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Colours/" +
-                                           "ColoursTextListItem").GetComponent<Text>();
-            
-            typeTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Types/" +
-                                            "TypesTextListItem").GetComponent<Text>();
-            
-            priceTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Prices/" +
-                                            "PricesTextListItem").GetComponent<Text>();
 
         }
         private void GetFilterLists()
@@ -81,12 +62,6 @@ namespace Filtering
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
-                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedColours), colourTextBox);
-                        
-                    }
-                    else 
-                    {
-                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedColours), colourTextBox);
                     }
                 }
                 else if (filterBrandNames.Any(brand => clothItem.brandName == brand))
@@ -95,13 +70,8 @@ namespace Filtering
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
-                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedBrands), brandTextBox);
+                        
                     }
-                    else 
-                    {
-                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedBrands), brandTextBox);
-                    }
-
                 }
                 else if (filterType.Any(itemType => clothItem.itemType == itemType))
                 {
@@ -109,13 +79,8 @@ namespace Filtering
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
-                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedType), typeTextBox);
+                        
                     }
-                    else
-                    {
-                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedType), typeTextBox);
-                    }
-
                 }
                 else if(clothItem.price.current.value >= filterUIScript.lowerPrice && clothItem.price.current.value <= 
                     filterUIScript.upperPrice)//Get two values and check if model price is between the two prices
@@ -123,7 +88,6 @@ namespace Filtering
                     if (!IsInList(clothItem))
                     {
                         filteredClothesList?.Add(clothItem);
-                        DisplayFilterChoices(BuildUIString(filterUIScript.selectedPrice), priceTextBox);
                     }
                 }
 
@@ -134,16 +98,6 @@ namespace Filtering
                 }
                 */
             }
-        }
-        
-        private static string BuildUIString(IEnumerable<string> stringList)
-        {
-            return string.Join(", ", stringList);
-        }
-        private static void DisplayFilterChoices(string textValue, Text textObject)
-        {
-            Debug.Log("Text changed to " + textValue);
-            textObject.text = textValue;
         }
 
         private bool IsInList(ClothingObject cloth)

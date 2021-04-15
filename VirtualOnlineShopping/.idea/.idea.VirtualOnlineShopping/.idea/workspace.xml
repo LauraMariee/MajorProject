@@ -2,26 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ab07c5-3983-4822-be13-3f52bc908caf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Clothes/23145192.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Clothes/23145192.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Clothes/23145192.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Clothes/23145192.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VirtualOnlineShopping.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VirtualOnlineShopping.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0e/0eeecd621ec301c64673872722703547" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1f/1f79999df99e4f0ba2edfcfe348e1fb4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/41/41740ea79b0cf8fed4ebf5741ba47fa8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/46/46fa7da933a585a585f4949361b110d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/73/73f2ac65d612796ab76913c006747132" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ad/ad71cc936185271af3ba2b139dffbeb1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/af/af85953080cac359383a060bfcc98971" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fa/fa6096ba5ef70e8993dcbd1d746e3a45" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/02/021864f919b8326ef81e7bf67f656dae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0e/0e3c5aee5e0976cd9164a99532786cf0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/17/1746af3978c345638e4310dc72ed0fc3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/25/25ca47bc96a35f90356654a2ee4fe84c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/27/271e2b1e82314caf589a66e7fdefe205" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3b/3bacf2241b3624761b8014af60e6a9b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3f/3f3887d318c0a92d9604342d98c9b55c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/55/5526c42431ccd5250007641cd1300e9d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/71/719384acafa18a58721b55ea7ea02ba3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/71/71ec922eff6a1fdaef4378912c6c34d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7a/7a8be449d7a3d334a9b3df8435cb9101" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/82/82bb0355be271b7ffb8c26458aaf43b1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a3/a38a556f0701b2216173fa5d59116df2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a6/a647c433fc995a2571b05a8ead5202ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ea/ea09b0f4bab5f76840bbd33f403a95e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f1/f11c60d8873d7a9d6ef773e2fc69442f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/8c2ac3-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/8c2ac3-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c893e-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c893e-mainStage.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +88,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Clothing/ClothesMasterScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/ClothesMachine.cs" />
       <option value="$PROJECT_DIR$/Assets/AsosData/8799.json" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oL2WvdJNIR2XK0r6scNu5JCUfc" />

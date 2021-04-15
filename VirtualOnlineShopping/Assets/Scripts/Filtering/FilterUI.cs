@@ -27,6 +27,27 @@ namespace Filtering
         private static string detailMenu;
 
 
+        //Text boxes that update 
+        private Text brandTextBox;
+        private Text colourTextBox;
+        private Text priceTextBox;
+        private Text typeTextBox;
+        
+        public void Start()
+        {
+            brandTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Brands/" +
+                                           "BrandsTextListItem").GetComponent<Text>();
+            
+            colourTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Colours/" +
+                                            "ColoursTextListItem").GetComponent<Text>();
+            
+            typeTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Types/" +
+                                          "TypesTextListItem").GetComponent<Text>();
+            
+            priceTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Prices/" +
+                                           "PricesTextListItem").GetComponent<Text>();
+        }
+
         public void BrandClick()
         {
             brandName = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
@@ -47,6 +68,7 @@ namespace Filtering
                 brandButton.colors = brandButtonBlock;
                 //Debug.Log("Added " + colour);
             }
+            DisplayFilterChoices(BuildUIString(selectedBrands), brandTextBox);
             
         }
         public void ColourClick()
@@ -69,6 +91,7 @@ namespace Filtering
                  colourButton.colors = colorButtonBlock;
                  //Debug.Log("Added " + colour);
              }
+             DisplayFilterChoices(BuildUIString(selectedColours), colourTextBox);
         }
         public void PriceClick()
         {
@@ -96,6 +119,8 @@ namespace Filtering
                 selectedPrice.Add(priceName);
             }
             
+            DisplayFilterChoices(BuildUIString(selectedPrice), priceTextBox);
+            
             priceButtonBlock.selectedColor = Color.green; //Add highlight
             priceButton.colors = priceButtonBlock;
             //Debug.Log("Added " + colour);
@@ -112,15 +137,16 @@ namespace Filtering
                 selectedType.Remove(type);
                 priceButtonBlock.selectedColor = Color.red; //Remove highlight
                 priceButton.colors = priceButtonBlock;
-                Debug.Log("Removed " + type);
+                //Debug.Log("Removed " + type);
             }
             else if (!selectedType.Contains(type))
             {
                 selectedType.Add(type);
                 priceButtonBlock.selectedColor = Color.green; //Add highlight
                 priceButton.colors = priceButtonBlock;
-                Debug.Log("Added " + type);
+                //Debug.Log("Added " + type);
             }
+            DisplayFilterChoices(BuildUIString(selectedType), typeTextBox);
         }
         public void DetailPanelClick()
         {
@@ -179,6 +205,15 @@ namespace Filtering
                 
             }
             detailPanel.SetActive(true);
+        }
+        private static string BuildUIString(IEnumerable<string> stringList)
+        {
+            return string.Join(", ", stringList);
+        }
+        private static void DisplayFilterChoices(string textValue, Text textObject)
+        {
+            Debug.Log("Text changed to " + textValue);
+            textObject.text = textValue;
         }
     }
 }
