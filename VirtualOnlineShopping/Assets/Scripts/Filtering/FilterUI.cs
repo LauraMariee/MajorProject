@@ -47,7 +47,6 @@ namespace Filtering
             priceTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Prices/" +
                                            "PricesTextListItem").GetComponent<Text>();
         }
-
         public void BrandClick()
         {
             brandName = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject

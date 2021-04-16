@@ -61,11 +61,11 @@ namespace Model
 
         private void Update()
         {
-            AssignText();
+            GetPositionValue();
         }
 
 
-        public int AssignText()
+        public int GetPositionValue()
         {
             var positionValue = PositionToValue(GetHandlePosition());
             handleText.text = positionValue.ToString(); 

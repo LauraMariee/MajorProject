@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1308
-  m_MinSize: {x: 578, y: 342}
-  m_MaxSize: {x: 12003, y: 8042}
+  m_MinSize: {x: 578, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 117
+  controlID: 74
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -120,14 +120,14 @@ MonoBehaviour:
     y: 705
     width: 2003
     height: 603
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 19}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1358
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -216,10 +216,10 @@ MonoBehaviour:
     y: 0
     width: 2003
     height: 1308
-  m_MinSize: {x: 303, y: 342}
-  m_MaxSize: {x: 8003, y: 8042}
+  m_MinSize: {x: 303, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 118
+  controlID: 46
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 119
+  controlID: 47
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -314,15 +314,31 @@ MonoBehaviour:
     xOffset: 0
   m_TestTypeToolbarIndex: 1
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 0}
-    newResultList: []
+    m_Window: {fileID: 12}
+    newResultList:
+    - id: 1008
+      uniqueId: '[VirtualOnlineShopping][suite]'
+      name: VirtualOnlineShopping
+      fullName: VirtualOnlineShopping
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
     m_ResultText: 
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 
+      m_ExpandedIDs: c6433c77ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -346,7 +362,8 @@ MonoBehaviour:
       NotRunHidden: 0
       m_SearchString: 
       selectedCategoryMask: 0
-      availableCategories: []
+      availableCategories:
+      - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
     m_Window: {fileID: 12}
@@ -355,9 +372,9 @@ MonoBehaviour:
       uniqueId: '[VirtualOnlineShopping][suite]'
       name: VirtualOnlineShopping
       fullName: VirtualOnlineShopping
-      resultStatus: 1
-      duration: 0.1641835
-      messages: 
+      resultStatus: 2
+      duration: 0.1770573
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -371,9 +388,9 @@ MonoBehaviour:
       uniqueId: '[Tests.dll][suite]'
       name: Tests.dll
       fullName: C:/Users/Laura/Documents/MajorProject/VirtualOnlineShopping/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 1
-      duration: 0.0639559
-      messages: 
+      resultStatus: 2
+      duration: 0.0785011
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -387,9 +404,9 @@ MonoBehaviour:
       uniqueId: Tests.dll/[Tests][suite]
       name: Tests
       fullName: Tests
-      resultStatus: 1
-      duration: 0.0532846
-      messages: 
+      resultStatus: 2
+      duration: 0.0746175
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -404,7 +421,7 @@ MonoBehaviour:
       name: ClothesTests
       fullName: Tests.ClothesTests
       resultStatus: 1
-      duration: 0.0500198
+      duration: 0.0284287
       messages: 
       output: 
       stacktrace: 
@@ -415,12 +432,12 @@ MonoBehaviour:
       categories: []
       parentId: 1006
       parentUniqueId: Tests.dll/[Tests][suite]
-    - id: 1002
-      uniqueId: Tests.dll/Tests/ClothesTests/[Tests][Tests.ClothesTests.NewTestScriptSimplePasses]
-      name: NewTestScriptSimplePasses
-      fullName: Tests.ClothesTests.NewTestScriptSimplePasses
+    - id: 1005
+      uniqueId: Tests.dll/Tests/ClothesTests/[Tests][Tests.ClothesTests.AssignToObjectTest]
+      name: AssignToObjectTest
+      fullName: Tests.ClothesTests.AssignToObjectTest
       resultStatus: 1
-      duration: 0.0063326
+      duration: 0.0111191
       messages: 
       output: 
       stacktrace: 
@@ -449,12 +466,67 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/Tests/[Tests][Tests.ClothesTests][suite]
+    - id: 1009
+      uniqueId: Tests.dll/Tests/[Tests][Tests.EditorTests][suite]
+      name: EditorTests
+      fullName: Tests.EditorTests
+      resultStatus: 2
+      duration: 0.0718835
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: Tests.dll/[Tests][suite]
     - id: 1004
-      uniqueId: Tests.dll/Tests/ClothesTests/[Tests][Tests.ClothesTests.TestMethod]
-      name: TestMethod
-      fullName: Tests.ClothesTests.TestMethod
+      uniqueId: Tests.dll/Tests/EditorTests/[Tests][Tests.EditorTests.FilterControllerTests][suite]
+      name: FilterControllerTests
+      fullName: Tests.EditorTests.FilterControllerTests
+      resultStatus: 2
+      duration: 0.0623462
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.EditorTests][suite]
+    - id: 1006
+      uniqueId: Tests.dll/Tests/EditorTests/FilterControllerTests/[Tests][Tests.EditorTests.FilterControllerTests.GetFilterListTest]
+      name: GetFilterListTest
+      fullName: Tests.EditorTests.FilterControllerTests.GetFilterListTest
+      resultStatus: 2
+      duration: 0.0145313
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at Tests.EditorTests.FilterControllerTests.GetFilterListTest
+        () [0x00007] in C:\\Users\\Laura\\Documents\\MajorProject\\VirtualOnlineShopping\\Assets\\Tests\\EditorTests\\FilterControllerTests.cs:24
+        \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
+        at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: Tests.dll/Tests/EditorTests/[Tests][Tests.EditorTests.FilterControllerTests][suite]
+    - id: 1005
+      uniqueId: Tests.dll/Tests/EditorTests/FilterControllerTests/[Tests][Tests.EditorTests.FilterControllerTests.NewTestScriptWithEnumeratorPasses]
+      name: NewTestScriptWithEnumeratorPasses
+      fullName: Tests.EditorTests.FilterControllerTests.NewTestScriptWithEnumeratorPasses
       resultStatus: 1
-      duration: 0.0041697
+      duration: 0.0226041
       messages: 
       output: 
       stacktrace: 
@@ -464,15 +536,26 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.ClothesTests][suite]
-    m_ResultText: TestMethod (0.004s)
-    m_ResultStacktrace: 
+      parentId: 1004
+      parentUniqueId: Tests.dll/Tests/EditorTests/[Tests][Tests.EditorTests.FilterControllerTests][suite]
+    m_ResultText: "GetFilterListTest (0.015s)\n---\nSystem.NullReferenceException
+      : Object reference not set to an instance of an object\n---\nat Tests.EditorTests.FilterControllerTests.GetFilterListTest
+      () [0x00007] in C:\\Users\\Laura\\Documents\\MajorProject\\VirtualOnlineShopping\\Assets\\Tests\\EditorTests\\FilterControllerTests.cs:24
+      \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
+      at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0"
+    m_ResultStacktrace: "  at Tests.EditorTests.FilterControllerTests.GetFilterListTest
+      () [0x00007] in C:\\Users\\Laura\\Documents\\MajorProject\\VirtualOnlineShopping\\Assets\\Tests\\EditorTests\\FilterControllerTests.cs:24
+      \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
+      at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0 "
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a2ed7ead
-      m_LastClickedID: -1384190558
-      m_ExpandedIDs: e557abf7e9ece11b8359db41a255a65827915459c6433c77ffffff7f
+      m_SelectedIDs: b65d81dd
+      m_LastClickedID: -578724426
+      m_ExpandedIDs: bc12738ce557abf744217df9e9ece11b8359db4155790b4ba255a65827915459c6433c77ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -563,20 +646,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Tests
+    - Assets/Tests/RuntimeTests
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Tests
+  - Assets/Tests/RuntimeTests
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Laura\Documents\MajorProject\VirtualOnlineShopping
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 425a0000
-    m_LastClickedID: 23106
-    m_ExpandedIDs: 00000000684700006a4700006c4700006e4700007047000072470000744700007647000078470000385a000000ca9a3b
+    m_SelectedIDs: 485c0000
+    m_LastClickedID: 23624
+    m_ExpandedIDs: 000000006a4700006c4700006e47000070470000724700007447000076470000784700007a470000525c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -604,7 +687,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000684700006a4700006c4700006e4700007047000072470000744700007647000078470000
+    m_ExpandedIDs: 000000006a4700006c4700006e47000070470000724700007447000076470000784700007a470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -629,8 +712,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 56340000
-    m_LastClickedInstanceID: 13398
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -648,7 +731,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -727,9 +810,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 56340000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: aecbffffb0d3ffffacdbffffb8e3ffff5cebffff00f3fffff0faffff
+      m_ExpandedIDs: 3cc9ffff30d1ffff24d9ffffc4e0ffff10ebffff00f3fffff0faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

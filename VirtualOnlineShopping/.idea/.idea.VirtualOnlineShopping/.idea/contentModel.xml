@@ -364,8 +364,11 @@
           <e p="SteamVR_Input_Initialization.cs" t="Include" />
         </e>
         <e p="Tests" t="Include">
-          <e p="ClothesTests.cs" t="Include" />
-          <e p="Tests.asmdef" t="Include" />
+          <e p="EditorTests" t="Include">
+            <e p="ClothesTests.cs" t="Include" />
+            <e p="FilterControllerTests.cs" t="Include" />
+            <e p="Tests.asmdef" t="Include" />
+          </e>
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">

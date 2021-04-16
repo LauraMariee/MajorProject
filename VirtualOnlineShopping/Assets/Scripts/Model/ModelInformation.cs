@@ -73,24 +73,24 @@ namespace Model
                 switch (caseSwitch)
                 {
                     case "bust":
-                        bustMeasurement = bustHandle.AssignText(); //getters and setters
+                        bustMeasurement = bustHandle.GetPositionValue(); //getters and setters
                         ScaleByValue(SetHandleValue(minScale, maxScale, bustHandle, bustMeasurement), bustBones);
                         break;
                     case "hips":
-                        hipsMeasurement = hipHandle.AssignText();
+                        hipsMeasurement = hipHandle.GetPositionValue();
                         ScaleByValue(SetHandleValue(minScale, maxScale, hipHandle, hipsMeasurement), hipBones);
                         break;
                     case "waist":
-                        waistMeasurement = waistHandle.AssignText();
+                        waistMeasurement = waistHandle.GetPositionValue();
                         ScaleByValue(SetHandleValue(minScale, maxScale, waistHandle, waistMeasurement), waistBones);
                         break;
                     case "shoulder":
-                        shoulderMeasurement = shoulderHandle.AssignText();
+                        shoulderMeasurement = shoulderHandle.GetPositionValue();
                         ScaleByValueShoulder(SetHandleValue(minShoulder, maxShoulder, shoulderHandle, shoulderMeasurement),
                             SetHandleValue(-minShoulder, -maxShoulder, shoulderHandle, shoulderMeasurement), shoulderBones);
                         break;
                     case "neck":
-                        neckMeasurement = neckHandle.AssignText();
+                        neckMeasurement = neckHandle.GetPositionValue();
                         ScaleByValue(SetHandleValue(minScale, maxScale, neckHandle, neckMeasurement), neckBones);
                         break;
                     default:
