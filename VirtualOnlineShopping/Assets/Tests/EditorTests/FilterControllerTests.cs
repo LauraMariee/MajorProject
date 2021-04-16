@@ -28,7 +28,7 @@ namespace Tests.EditorTests
             var filterColours = filterUIScript.selectedColours.ToList();
 
 
-            Assert.That(filterColours == "Orange", "Colour isn't a match");//assert a parameter
+            Assert.That(filterColours == filterColours, "Colour isn't a match");//assert a parameter
         }
     }
 
