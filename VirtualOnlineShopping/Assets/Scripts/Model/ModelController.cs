@@ -25,7 +25,7 @@ namespace Model
                 var switchButton = button.GetComponent<SwitchModel>();
                 if (!switchButton.HasButtonBeenPressed()) continue;
                 var oldActive = activeModel;
-                activeModel = switchButton.GETModel();
+                activeModel = switchButton.GetModel();
                 switchButton.ResetButton();
                 // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
                 MoveModel(oldActive, activeModel);

@@ -24,7 +24,7 @@ namespace Model
             clicked = false;
         }
         
-        public GameObject GETModel()
+        public GameObject GetModel()
         {
             return model;
         }

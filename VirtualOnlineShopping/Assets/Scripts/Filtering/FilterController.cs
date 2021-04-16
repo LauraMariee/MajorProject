@@ -99,7 +99,6 @@ namespace Filtering
                 */
             }
         }
-
         private bool IsInList(ClothingObject cloth)
         {
             return filteredClothesList.Contains(cloth);
@@ -107,7 +106,6 @@ namespace Filtering
         private void Update()
         {
             GetFilterLists();
-            
         }
         private int FindClothesMachines()
         {
