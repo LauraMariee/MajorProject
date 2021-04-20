@@ -13,6 +13,8 @@ namespace Filtering
         private string colour;
         private string brandName;
         private string type;
+
+        public int intIndex;
         
         public float upperPrice;
         public float lowerPrice;
@@ -46,6 +48,8 @@ namespace Filtering
             
             priceTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Prices/" +
                                            "PricesTextListItem").GetComponent<Text>();
+
+            intIndex = 0;
         }
         public void BrandClick()
         {
@@ -146,6 +150,10 @@ namespace Filtering
                 //Debug.Log("Added " + type);
             }
             DisplayFilterChoices(BuildUIString(selectedType), typeTextBox);
+        }
+        public void NextClick()
+        {
+            intIndex++;
         }
         public void DetailPanelClick()
         {

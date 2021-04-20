@@ -39,8 +39,7 @@ namespace Filtering
 
             machineCountParent = GameObject.Find("Models/ClothesMachines");
             
-            clothingIndexValue = 0;
-
+            clothingIndexValue = filterUIScript.intIndex;
         }
         private void GetFilterLists()
         {
@@ -48,16 +47,22 @@ namespace Filtering
             filterBrandNames = filterUIScript.selectedBrands;
             filterType = filterUIScript.selectedType;
         }
+        private void GetIndexValue()
+        {
+            clothingIndexValue = filterUIScript.intIndex;
+        }
         public void Search()
         {
             Debug.Log("Search Clicked");
-            //Reset models and respawn
             GetFilterLists();
             FilterClothes();
             DisplayClothes();
-            
         }
-
+        public void Next(){
+            Debug.Log("Next Clicked");
+            GetIndexValue();
+            DisplayClothes();
+        }
         private void FilterClothes(){
             clothesList = clothesMasterScript.GetLoadedClothes();
             foreach (var clothItem in clothesList)//Go through all loaded clothes,
@@ -112,6 +117,7 @@ namespace Filtering
         private void Update()
         {
             GetFilterLists();
+            GetIndexValue();
         }
         private int FindClothesMachines()
         {
@@ -130,13 +136,20 @@ namespace Filtering
                 var currentChild = machineCountParent.transform.GetChild(i); //get machine via index
                 var machineSpawnPoint = currentChild.Find("spawnPoint");
 
-                currentChild.GetComponent<ClothesMachine>().clothingObject 
+                try
+                {
+                    currentChild.GetComponent<ClothesMachine>().clothingObject 
                     = filteredClothesList[clothingIndexValue++]; //assign clothes equal to machine children
+                }
+                catch (ArgumentOutOfRangeException e)
+                {
+                    Console.WriteLine(e);
+                    throw;
+                }
 
                 var childCount = currentChild.transform.childCount; //check if it has more than 4 children
                 if (childCount > 4)
                 {
-                    
                     Destroy(currentChild.transform.GetChild(4).gameObject); //destroy extra child
                 }
                 

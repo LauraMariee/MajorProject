@@ -8,7 +8,8 @@ namespace Filtering
     {
         public ClothingObject clothingObject{ get; set; }
         
-        //find gameObject in resources
+        //spawn button
+        //sizing buttons
 
 
         // Start is called before the first frame update
