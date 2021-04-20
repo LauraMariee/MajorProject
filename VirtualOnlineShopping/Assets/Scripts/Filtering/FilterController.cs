@@ -51,6 +51,10 @@ namespace Filtering
         {
             clothingIndexValue = filterUIScript.intIndex;
         }
+        private void SetIndexValue(int newValue)
+        {
+            filterUIScript.intIndex = newValue;
+        }
         public void Search()
         {
             Debug.Log("Search Clicked");
@@ -133,9 +137,16 @@ namespace Filtering
             var clothesMachines = FindClothesMachines(); //get number of machines in hiarchy
             for (var i = 0; i < clothesMachines; i++)
             {
+                Debug.Log("ClothingIndexValue is " + clothingIndexValue + " , Total in list is " + filteredClothesList.Count);
+                
                 var currentChild = machineCountParent.transform.GetChild(i); //get machine via index
                 var machineSpawnPoint = currentChild.Find("spawnPoint");
 
+                if (clothingIndexValue >= filteredClothesList.Count)
+                {
+                    SetIndexValue(clothingIndexValue = 0);
+                }
+                
                 try
                 {
                     currentChild.GetComponent<ClothesMachine>().clothingObject 
