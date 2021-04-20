@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1308
-  m_MinSize: {x: 677, y: 342}
-  m_MaxSize: {x: 12002, y: 8042}
+  m_MinSize: {x: 679, y: 342}
+  m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
-  controlID: 89
+  controlID: 121
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,15 +64,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 2003
+    x: 2000
     y: 0
-    width: 557
+    width: 560
     height: 1308
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -92,13 +92,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 496
-    height: 705
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+    width: 495
+    height: 696
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -117,15 +117,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 705
-    width: 2003
-    height: 603
+    y: 696
+    width: 2000
+    height: 612
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 19}
+  - {fileID: 13}
+  - {fileID: 18}
   m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &6
@@ -214,12 +214,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2003
+    width: 2000
     height: 1308
-  m_MinSize: {x: 402, y: 342}
-  m_MaxSize: {x: 8002, y: 8042}
+  m_MinSize: {x: 403, y: 342}
+  m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 124
+  controlID: 63
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,12 +239,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2003
-    height: 705
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+    width: 2000
+    height: 696
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 125
+  controlID: 64
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,328 +260,20 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 496
+    x: 495
     y: 0
-    width: 1507
-    height: 705
+    width: 1505
+    height: 696
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
+  - {fileID: 16}
   - {fileID: 17}
-  - {fileID: 18}
-  - {fileID: 13}
   - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Test Runner
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 496
-    y: 72.66667
-    width: 1505
-    height: 684
-  m_ViewDataDictionary: {fileID: 0}
-  m_Spl:
-    ID: 151
-    splitterInitialOffset: 0
-    currentActiveSplitter: -1
-    realSizes: cc0100009a000000
-    relativeSizes:
-    - 0.75
-    - 0.25
-    minSizes: 2000000020000000
-    maxSizes: 0000000000000000
-    lastTotalSize: 614
-    splitSize: 6
-    xOffset: 0
-  m_TestTypeToolbarIndex: 1
-  m_PlayModeTestListGUI:
-    m_Window: {fileID: 12}
-    newResultList:
-    - id: 1008
-      uniqueId: '[VirtualOnlineShopping][suite]'
-      name: VirtualOnlineShopping
-      fullName: VirtualOnlineShopping
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    m_ResultText: 
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: c6433c77ffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
-    m_SelectedOption: 0
-  m_EditModeTestListGUI:
-    m_Window: {fileID: 12}
-    newResultList:
-    - id: 1000
-      uniqueId: '[VirtualOnlineShopping][suite]'
-      name: VirtualOnlineShopping
-      fullName: VirtualOnlineShopping
-      resultStatus: 2
-      duration: 0.1770573
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    - id: 1005
-      uniqueId: '[Tests.dll][suite]'
-      name: Tests.dll
-      fullName: C:/Users/Laura/Documents/MajorProject/VirtualOnlineShopping/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 2
-      duration: 0.0785011
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1000
-      parentUniqueId: '[VirtualOnlineShopping][suite]'
-    - id: 1006
-      uniqueId: Tests.dll/[Tests][suite]
-      name: Tests
-      fullName: Tests
-      resultStatus: 2
-      duration: 0.0746175
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1005
-      parentUniqueId: '[Tests.dll][suite]'
-    - id: 1001
-      uniqueId: Tests.dll/Tests/[Tests][Tests.ClothesTests][suite]
-      name: ClothesTests
-      fullName: Tests.ClothesTests
-      resultStatus: 1
-      duration: 0.0284287
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1006
-      parentUniqueId: Tests.dll/[Tests][suite]
-    - id: 1005
-      uniqueId: Tests.dll/Tests/ClothesTests/[Tests][Tests.ClothesTests.AssignToObjectTest]
-      name: AssignToObjectTest
-      fullName: Tests.ClothesTests.AssignToObjectTest
-      resultStatus: 1
-      duration: 0.0111191
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.ClothesTests][suite]
-    - id: 1003
-      uniqueId: Tests.dll/Tests/ClothesTests/[Tests][Tests.ClothesTests.NewTestScriptWithEnumeratorPasses]
-      name: NewTestScriptWithEnumeratorPasses
-      fullName: Tests.ClothesTests.NewTestScriptWithEnumeratorPasses
-      resultStatus: 1
-      duration: 0.0200069
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.ClothesTests][suite]
-    - id: 1009
-      uniqueId: Tests.dll/Tests/[Tests][Tests.EditorTests][suite]
-      name: EditorTests
-      fullName: Tests.EditorTests
-      resultStatus: 2
-      duration: 0.0718835
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1008
-      parentUniqueId: Tests.dll/[Tests][suite]
-    - id: 1004
-      uniqueId: Tests.dll/Tests/EditorTests/[Tests][Tests.EditorTests.FilterControllerTests][suite]
-      name: FilterControllerTests
-      fullName: Tests.EditorTests.FilterControllerTests
-      resultStatus: 2
-      duration: 0.0623462
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1009
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.EditorTests][suite]
-    - id: 1006
-      uniqueId: Tests.dll/Tests/EditorTests/FilterControllerTests/[Tests][Tests.EditorTests.FilterControllerTests.GetFilterListTest]
-      name: GetFilterListTest
-      fullName: Tests.EditorTests.FilterControllerTests.GetFilterListTest
-      resultStatus: 2
-      duration: 0.0145313
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
-      output: 
-      stacktrace: "  at Tests.EditorTests.FilterControllerTests.GetFilterListTest
-        () [0x00007] in C:\\Users\\Laura\\Documents\\MajorProject\\VirtualOnlineShopping\\Assets\\Tests\\EditorTests\\FilterControllerTests.cs:24
-        \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
-        at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0 "
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: Tests.dll/Tests/EditorTests/[Tests][Tests.EditorTests.FilterControllerTests][suite]
-    - id: 1005
-      uniqueId: Tests.dll/Tests/EditorTests/FilterControllerTests/[Tests][Tests.EditorTests.FilterControllerTests.NewTestScriptWithEnumeratorPasses]
-      name: NewTestScriptWithEnumeratorPasses
-      fullName: Tests.EditorTests.FilterControllerTests.NewTestScriptWithEnumeratorPasses
-      resultStatus: 1
-      duration: 0.0226041
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: Tests.dll/Tests/EditorTests/[Tests][Tests.EditorTests.FilterControllerTests][suite]
-    m_ResultText: "GetFilterListTest (0.015s)\n---\nSystem.NullReferenceException
-      : Object reference not set to an instance of an object\n---\nat Tests.EditorTests.FilterControllerTests.GetFilterListTest
-      () [0x00007] in C:\\Users\\Laura\\Documents\\MajorProject\\VirtualOnlineShopping\\Assets\\Tests\\EditorTests\\FilterControllerTests.cs:24
-      \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
-      at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
-      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
-      culture) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0"
-    m_ResultStacktrace: "  at Tests.EditorTests.FilterControllerTests.GetFilterListTest
-      () [0x00007] in C:\\Users\\Laura\\Documents\\MajorProject\\VirtualOnlineShopping\\Assets\\Tests\\EditorTests\\FilterControllerTests.cs:24
-      \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
-      at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
-      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
-      culture) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0 "
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b65d81dd
-      m_LastClickedID: -578724426
-      m_ExpandedIDs: bc12738ce557abf744217df9e9ece11b8359db4155790b4ba255a65827915459c6433c77ffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
---- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -602,12 +294,12 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 496
-    y: 72.66667
-    width: 1505
-    height: 684
+    x: 468
+    y: 181
+    width: 973
+    height: 501
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &14
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -629,9 +321,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 778
-    width: 2002
-    height: 582
+    y: 768.6667
+    width: 1999
+    height: 591
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -646,20 +338,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Tests/RuntimeTests
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Tests/RuntimeTests
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Laura\Documents\MajorProject\VirtualOnlineShopping
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 48480000
-    m_LastClickedID: 18504
-    m_ExpandedIDs: 00000000124800001448000016480000184800001a4800001c4800001e48000020480000224800004248000000ca9a3b
+    m_SelectedIDs: 9e460000
+    m_LastClickedID: 18078
+    m_ExpandedIDs: 00000000a2460000a4460000a6460000a8460000aa460000ac460000ae460000b0460000b2460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -687,7 +379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000124800001448000016480000184800001a4800001c4800001e4800002048000022480000
+    m_ExpandedIDs: 00000000a2460000a4460000a6460000a8460000aa460000ac460000ae460000b0460000b2460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -731,7 +423,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -742,8 +434,8 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 316
---- !u!114 &15
+  m_DirectoriesAreaWidth: 115
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -764,9 +456,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2003.3334
+    x: 2000
     y: 72.66667
-    width: 556
+    width: 559
     height: 1287
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
@@ -781,7 +473,7 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -804,15 +496,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72.66667
-    width: 495
-    height: 684
+    width: 494
+    height: 675
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 86e0ffff
       m_LastClickedID: 0
-      m_ExpandedIDs: 62fbffff6a3c0000643d0000da3e0000
+      m_ExpandedIDs: 54fbffff663c0000603d0000d43e0000163f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -835,8 +527,8 @@ MonoBehaviour:
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: aab19ee2931ff304ab488f96c5bef5b4
---- !u!114 &17
+  m_WindowGUID: d8e947e59cb333e43b39a4c1050d1156
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -857,13 +549,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 496
+    x: 495.33334
     y: 72.66667
-    width: 1505
-    height: 684
+    width: 1503
+    height: 675
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
-  m_WindowGUID: be1c5003eb6c9254bbc54f0c94700cf9
+  m_WindowGUID: 5aab122138f59b946ad11b2648b56d20
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -872,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.8977985, y: 5.50738, z: 6.801175}
+    m_Target: {x: -3.3487377, y: 0.92528534, z: 3.7244148}
     speed: 2
-    m_Value: {x: -7.8977985, y: 5.50738, z: 6.801175}
+    m_Value: {x: -3.3487377, y: 0.92528534, z: 3.7244148}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -920,13 +612,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.011468397, y: 0.70573956, z: 0.011427204, w: -0.7082863}
+    m_Target: {x: -0.10269063, y: 0.8445155, z: -0.17498425, w: -0.49560943}
     speed: 2
-    m_Value: {x: 0.011468398, y: 0.7057396, z: 0.011427205, w: -0.70828635}
+    m_Value: {x: -0.10269063, y: 0.8445155, z: -0.17498425, w: -0.49560943}
   m_Size:
-    m_Target: 0.592605
+    m_Target: 10
     speed: 2
-    m_Value: 0.592605
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -951,7 +643,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -972,10 +664,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 496
+    x: 495.33334
     y: 72.66667
-    width: 1505
-    height: 684
+    width: 1503
+    height: 675
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -985,7 +677,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 2257.5, y: 994.5}
+  m_TargetSize: {x: 1503, y: 654}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1000,10 +692,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -752.5
-    m_HBaseRangeMax: 752.5
-    m_VBaseRangeMin: -331.5
-    m_VBaseRangeMax: 331.5
+    m_HBaseRangeMin: -501
+    m_HBaseRangeMax: 501
+    m_VBaseRangeMin: -218
+    m_VBaseRangeMax: 218
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1021,29 +713,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1505
-      height: 663
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 752.5, y: 331.5}
+      width: 1503
+      height: 654
+    m_Scale: {x: 1.4748974, y: 1.4748974}
+    m_Translation: {x: 751.5, y: 327}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -752.5
-      y: -331.5
-      width: 1505
-      height: 663
+      x: -509.52698
+      y: -221.71034
+      width: 1019.05396
+      height: 443.4207
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 2257.5, y: 1026}
+  m_LastWindowPixelSize: {x: 2254.5, y: 1012.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 00000000000000000000
+  m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1065,11 +757,11 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 778
-    width: 2002
-    height: 582
+    y: 768.6667
+    width: 1999
+    height: 591
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &20
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}

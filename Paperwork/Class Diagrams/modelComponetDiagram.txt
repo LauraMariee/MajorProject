@@ -1,0 +1,30 @@
+classDiagram
+
+ModelController <|-- SwitchModel
+
+SetActiveModel --|> AbstractModel
+
+ModelController <|-- AbstractModel
+
+AbstractModel <|-- BoxCollider
+
+
+class BoxCollider{
+    <<component>>
+}
+
+class ModelController{
+    <<component>>
+}
+
+class SetActiveModel{
+    <<component>>
+}
+
+class SwitchModel{
+    <<component>>
+}
+
+class AbstractModel{
+    <<component>>
+}

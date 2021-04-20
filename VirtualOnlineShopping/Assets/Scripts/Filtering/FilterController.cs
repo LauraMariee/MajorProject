@@ -38,6 +38,7 @@ namespace Filtering
             filterUIScript = filterScriptObject.GetComponent<FilterUI>();
 
             machineCountParent = GameObject.Find("Models/ClothesMachines");
+            
             clothingIndexValue = 0;
 
         }
@@ -55,12 +56,6 @@ namespace Filtering
             FilterClothes();
             DisplayClothes();
             
-        }
-
-        private void Reset(Object machine)
-        {
-            
-            //Destroy object
         }
 
         private void FilterClothes(){
@@ -132,21 +127,19 @@ namespace Filtering
             var clothesMachines = FindClothesMachines(); //get number of machines in hiarchy
             for (var i = 0; i < clothesMachines; i++)
             {
-                
-                if (clothingIndexValue >= clothesMachines)
-                {
-                    Debug.Log("Index is higher than machine count");
-                    return;
-                }
-                
                 var currentChild = machineCountParent.transform.GetChild(i); //get machine via index
                 var machineSpawnPoint = currentChild.Find("spawnPoint");
-                
-                Destroy(currentChild.GetChild(GetComponent<ClothesMachine>().clothingObject.id));//Find child
-                currentChild.GetComponent<ClothesMachine>().clothingObject = null;
-                
+
                 currentChild.GetComponent<ClothesMachine>().clothingObject 
                     = filteredClothesList[clothingIndexValue++]; //assign clothes equal to machine children
+
+                var childCount = currentChild.transform.childCount; //check if it has more than 4 children
+                if (childCount > 4)
+                {
+                    
+                    Destroy(currentChild.transform.GetChild(4).gameObject); //destroy extra child
+                }
+                
                 SpawnClothingItem(currentChild.GetComponent<ClothesMachine>().clothingObject.id,
                     machineSpawnPoint, currentChild);
             }
