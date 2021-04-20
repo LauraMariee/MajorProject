@@ -1,8 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Clothing;
 using UnityEngine;
 using UnityEngine.UI;
+using Object = System.Object;
 
 namespace Filtering
 {
@@ -36,6 +38,7 @@ namespace Filtering
             filterUIScript = filterScriptObject.GetComponent<FilterUI>();
 
             machineCountParent = GameObject.Find("Models/ClothesMachines");
+            
             clothingIndexValue = 0;
 
         }
@@ -48,10 +51,13 @@ namespace Filtering
         public void Search()
         {
             Debug.Log("Search Clicked");
+            //Reset models and respawn
             GetFilterLists();
             FilterClothes();
             DisplayClothes();
+            
         }
+
         private void FilterClothes(){
             clothesList = clothesMasterScript.GetLoadedClothes();
             foreach (var clothItem in clothesList)//Go through all loaded clothes,
@@ -111,27 +117,31 @@ namespace Filtering
         {
             return machineCountParent.transform.childCount;
         }
-        private static void SpawnClothingItem(int objectID, Component machineSpawnPoint)
+        private static void SpawnClothingItem(int objectID, Component machineSpawnPoint, Transform machine)
         {
             var machineCloth = Resources.Load<GameObject>("Clothes/" + objectID); //Spawn into machine
-            Instantiate(machineCloth, machineSpawnPoint.transform.position, Quaternion.identity);//Get correct scale and spawn point
+            Instantiate(machineCloth, machineSpawnPoint.transform.position, Quaternion.identity).transform.parent = machine;//Get correct scale and spawn point and spawn as machine child
         }
         private void DisplayClothes()
         {
             var clothesMachines = FindClothesMachines(); //get number of machines in hiarchy
             for (var i = 0; i < clothesMachines; i++)
             {
-                if (clothingIndexValue >= clothesMachines)
-                {
-                    Debug.Log("Index is higher than machine count");
-                    return;
-                }
                 var currentChild = machineCountParent.transform.GetChild(i); //get machine via index
                 var machineSpawnPoint = currentChild.Find("spawnPoint");
+
                 currentChild.GetComponent<ClothesMachine>().clothingObject 
                     = filteredClothesList[clothingIndexValue++]; //assign clothes equal to machine children
+
+                var childCount = currentChild.transform.childCount; //check if it has more than 4 children
+                if (childCount > 4)
+                {
+                    
+                    Destroy(currentChild.transform.GetChild(4).gameObject); //destroy extra child
+                }
+                
                 SpawnClothingItem(currentChild.GetComponent<ClothesMachine>().clothingObject.id,
-                    machineSpawnPoint);
+                    machineSpawnPoint, currentChild);
             }
         }
     }
