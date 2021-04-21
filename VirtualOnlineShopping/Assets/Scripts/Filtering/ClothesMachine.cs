@@ -64,7 +64,7 @@ namespace Filtering
                 case "Hoodies":
                     return "Top";
                 case "Tops":
-                    return "Bottom";
+                    return "Top";
                 default:
                     return "";
             }
