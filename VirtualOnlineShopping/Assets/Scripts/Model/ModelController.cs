@@ -39,7 +39,6 @@ namespace Model
             {
                 previousActive.GetComponent<Transform>().position = activeModelOrigin;
             }
-
             // move active model into spotlight
             if (newActive == null) return;
             // remember where it came from so that we can move it back there

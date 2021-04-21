@@ -8,6 +8,9 @@ namespace Model
     {
         private readonly ModelInformation modelInformation = new ModelInformation();
         
+        public Vector3 topSpawn;
+        public Vector3 bottomSpawn;
+        
         private void Start()
         {
             modelInformation.Start();
@@ -19,8 +22,8 @@ namespace Model
             {
                 SetBones("MaleModel");
             }
+            SetSpawnPoints();
         }
-
         private void SetBones(string gender)
         {
             var model = this.gameObject; 
@@ -52,7 +55,6 @@ namespace Model
                 }
             }
         }
-        
         private static void FindAndAddBoneToList(string boneOneAddress, string boneTwoAddress, ICollection<GameObject> boneList)
         {
             var boneOne = GameObject.Find(boneOneAddress);
@@ -73,6 +75,11 @@ namespace Model
                     modelInformation.shoulderSliderObject, modelInformation.neckSliderObject, 1f, 1.9f, 0.002f, 0.0035f);
             }
             
+        }
+        private void SetSpawnPoints()
+        {
+            topSpawn = GameObject.Find("ClothingSpawnPoints/TopPosition").GetComponent<Vector3>();
+            bottomSpawn = GameObject.Find("ClothingSpawnPoints/BottomPosition").GetComponent<Vector3>();
         }
     }
 }
