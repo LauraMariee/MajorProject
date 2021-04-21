@@ -155,6 +155,11 @@ namespace Filtering
         {
             intIndex++;
         }
+        public void GetItemToSpawn()
+        {
+            //Get parent machine
+            //Send to controller
+        }
         public void DetailPanelClick()
         {
             buttonOverview = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
