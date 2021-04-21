@@ -8,9 +8,10 @@ namespace Model
     {
         private readonly ModelInformation modelInformation = new ModelInformation();
         
-        public Vector3 topSpawn;
-        public Vector3 bottomSpawn;
-        
+        public Transform topSpawn;
+        public Transform bottomSpawn;
+        public Transform middleSpawn;
+
         private void Start()
         {
             modelInformation.Start();
@@ -78,8 +79,9 @@ namespace Model
         }
         private void SetSpawnPoints()
         {
-            topSpawn = GameObject.Find("ClothingSpawnPoints/TopPosition").GetComponent<Vector3>();
-            bottomSpawn = GameObject.Find("ClothingSpawnPoints/BottomPosition").GetComponent<Vector3>();
+            topSpawn = GameObject.Find("ClothingSpawnPoints/TopPosition").GetComponent<Transform>();
+            bottomSpawn = GameObject.Find("ClothingSpawnPoints/BottomPosition").GetComponent<Transform>();
+            middleSpawn = GameObject.Find("ClothingSpawnPoints/MiddlePosition").GetComponent<Transform>();
         }
     }
 }

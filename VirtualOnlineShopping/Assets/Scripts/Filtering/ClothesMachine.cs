@@ -41,15 +41,21 @@ namespace Filtering
             
             if(SpawnLocationCheck().Equals("Top"))
             {
-                Debug.Log("Spawned Item at " + modelController.activeModel.GetComponent<AbstractModel>().topSpawn);
-                Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().topSpawn,
-                                Quaternion.identity);
+                Debug.Log("Spawned Top Item at " + modelController.activeModel.GetComponent<AbstractModel>().topSpawn);
+                Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().topSpawn.localPosition,
+                                Quaternion.Euler(0, 90, 0));
             }
             if(SpawnLocationCheck().Equals("Bottom"))
             {
-                Debug.Log("Spawned Item at " + modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn);
-                Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn,
-                    Quaternion.identity);
+                Debug.Log("Spawned Bottom Item at " + modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn);
+                Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn.localPosition,
+                    Quaternion.Euler(0, 90,0));
+            }
+            if(SpawnLocationCheck().Equals("Dress"))
+            {
+                Debug.Log("Spawned Dress Item at " + modelController.activeModel.GetComponent<AbstractModel>().middleSpawn);
+                Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().middleSpawn.localPosition,
+                    Quaternion.Euler(0, 90,0));
             }
         }
 
@@ -61,10 +67,14 @@ namespace Filtering
                     return "Bottom";
                 case "Loungewear":
                     return "Bottom";
-                case "Hoodies":
-                    return "Top";
                 case "Tops":
-                    return "Bottom";
+                    return "Top";
+                case "Hoodies & Sweatshirts":
+                    return "Top";
+                case "T-Shirts & Tanks":
+                    return "Top";
+                case "Dresses":
+                    return "Dress";
                 default:
                     return "";
             }
