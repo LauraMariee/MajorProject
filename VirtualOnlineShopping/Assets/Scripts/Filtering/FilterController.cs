@@ -130,8 +130,9 @@ namespace Filtering
         private static void SpawnClothingItem(int objectID, Component machineSpawnPoint, Transform machine)
         {
             var machineCloth = Resources.Load<GameObject>("Clothes/" + objectID); //Spawn into machine
-            var clothingObject =Instantiate(machineCloth, machineSpawnPoint.transform.position, Quaternion.identity).transform.parent = machine;//Get correct scale and spawn point and spawn as machine child
-            clothingObject.transform.localScale = new Vector3(1, 1, 1); // change its local scale in x y z format
+            var clothingObject =Instantiate(machineCloth, machineSpawnPoint.transform.position, Quaternion.identity);//Get correct scale and spawn point and spawn as machine child
+            clothingObject.transform.localScale = new Vector3(1f, 1f, 1f); // change its local scale in x y z format
+            clothingObject.transform.SetParent(machine);//set parent 
             Debug.Log("Scale is " + clothingObject.transform.localScale);
         }
         private void DisplayClothes()

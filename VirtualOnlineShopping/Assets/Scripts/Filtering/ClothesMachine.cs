@@ -42,20 +42,23 @@ namespace Filtering
             if(SpawnLocationCheck().Equals("Top"))
             {
                 Debug.Log("Spawned Top Item at " + modelController.activeModel.GetComponent<AbstractModel>().topSpawn);
-                Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().topSpawn.localPosition,
-                                Quaternion.Euler(0, 90, 0));
+                var clothes = Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().topSpawn.position,
+                                Quaternion.identity);
+                clothes.transform.SetParent(modelController.activeModel.transform);
             }
             if(SpawnLocationCheck().Equals("Bottom"))
             {
                 Debug.Log("Spawned Bottom Item at " + modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn);
-                Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn.localPosition,
-                    Quaternion.Euler(0, 90,0));
+                var clothes = Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn.position,
+                    Quaternion.identity);
+                clothes.transform.SetParent(modelController.activeModel.transform);
             }
             if(SpawnLocationCheck().Equals("Dress"))
             {
                 Debug.Log("Spawned Dress Item at " + modelController.activeModel.GetComponent<AbstractModel>().middleSpawn);
-                Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().middleSpawn.localPosition,
-                    Quaternion.Euler(0, 90,0));
+                var clothes = Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().middleSpawn.position,
+                    Quaternion.identity);
+                clothes.transform.SetParent(modelController.activeModel.transform);
             }
         }
 
