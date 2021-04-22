@@ -21,7 +21,7 @@ namespace Filtering
         // Start is called before the first frame update
         private void Start()
         {
-            modelController = GameObject.Find("Environment/Base/CurrentModelController").GetComponent<ModelController>();
+            modelController = GameObject.Find("Environment/Base/CurrentModelController/").GetComponent<ModelController>();
             AssignMachineButtons(GetMachineName());
         }
         private string GetMachineName()
@@ -39,24 +39,36 @@ namespace Filtering
         {
             var machineCloth = Resources.Load<GameObject>("Clothes/" + clothingObject.id); //Spawn into machine
             
+            var childCount = modelController.activeModel.transform.childCount; //check if it has more than 4 children
+            if (childCount > 3)
+            {
+                Destroy(modelController.activeModel.transform.GetChild(3).gameObject); //destroy extra child
+            }
+            
             if(SpawnLocationCheck().Equals("Top"))
             {
                 Debug.Log("Spawned Top Item at " + modelController.activeModel.GetComponent<AbstractModel>().topSpawn);
-                Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().topSpawn.localPosition,
+                var clothes = Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().topSpawn.position,
                                 Quaternion.Euler(0, 90, 0));
+                clothes.transform.SetParent(modelController.activeModel.transform);
             }
             if(SpawnLocationCheck().Equals("Bottom"))
             {
                 Debug.Log("Spawned Bottom Item at " + modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn);
-                Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn.localPosition,
-                    Quaternion.Euler(0, 90,0));
+                var clothes = Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn.position,
+                    Quaternion.Euler(0, 90, 0));
+                clothes.transform.SetParent(modelController.activeModel.transform);
             }
             if(SpawnLocationCheck().Equals("Dress"))
             {
                 Debug.Log("Spawned Dress Item at " + modelController.activeModel.GetComponent<AbstractModel>().middleSpawn);
-                Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().middleSpawn.localPosition,
-                    Quaternion.Euler(0, 90,0));
+                var clothes = Instantiate(machineCloth, modelController.activeModel.GetComponent<AbstractModel>().middleSpawn.position,
+                    Quaternion.Euler(0, 90, 0));
+                clothes.transform.SetParent(modelController.activeModel.transform);
             }
+            
+        
+
         }
 
         private string SpawnLocationCheck()
