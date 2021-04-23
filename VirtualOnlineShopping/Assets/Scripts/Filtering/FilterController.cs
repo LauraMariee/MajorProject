@@ -79,7 +79,7 @@ namespace Filtering
                         filteredClothesList?.Add(clothItem);
                     }
                 }
-                else if (filterBrandNames.Any(brand => clothItem.brandName == brand))
+                if (filterBrandNames.Any(brand => clothItem.brandName == brand))
                 {
                     //Debug.Log("Added to filtered list: " + clothItem.name);;
                     if (!IsInList(clothItem))
@@ -88,7 +88,7 @@ namespace Filtering
                         
                     }
                 }
-                else if (filterType.Any(itemType => clothItem.itemType == itemType))
+                if (filterType.Any(itemType => clothItem.itemType == itemType))
                 {
                     //Debug.Log("Added to filtered list: " + clothItem.name);;
                     if (!IsInList(clothItem))
@@ -97,7 +97,7 @@ namespace Filtering
                         
                     }
                 }
-                else if(clothItem.price.current.value >= filterUIScript.lowerPrice && clothItem.price.current.value <= 
+                if(clothItem.price.current.value >= filterUIScript.lowerPrice && clothItem.price.current.value <= 
                     filterUIScript.upperPrice)//Get two values and check if model price is between the two prices
                 {
                     if (!IsInList(clothItem))
