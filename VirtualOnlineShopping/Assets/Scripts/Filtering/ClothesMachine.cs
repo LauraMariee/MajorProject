@@ -56,6 +56,9 @@ namespace Filtering
                     Debug.Log("Spawned " + machineCloth.name);
                     bottomCount++;
                     break;
+                case"Location not set":
+                    Debug.Log("Location not set for " + machineCloth.name);
+                    break;
                 default:
                     break;
             }
@@ -70,10 +73,16 @@ namespace Filtering
 
         private string SpawnLocationCheck()
         {
-            if(topStringCategories.Contains(clothingObject.itemType)){return "Top";}
-            else if(bottomStringCategories.Contains(clothingObject.itemType)){return "Bottom";}
-            else if(middleStringCategories.Contains(clothingObject.itemType)){return "Middle";}
-            else return "";
+            if (topStringCategories.Any(category =>
+                clothingObject.itemType.Equals(category))) return "Top";
+            
+            else if (bottomStringCategories.Any(category =>
+                clothingObject.itemType.Equals(category))) return "Bottom";
+
+            else if (middleStringCategories.Any(category =>
+                clothingObject.itemType.Equals(category))) return "Middle";
+            
+            return "Location not set";
         }
 
         private GameObject GetActiveModel()
@@ -98,6 +107,7 @@ namespace Filtering
             if (!categoryStrings.Any(category =>
                 currentChild.GetComponent<ClothingDetail>().itemType.Equals(category))) return;
             Destroy(currentChild); //destroy extra child
+            Debug.Log(currentChild.name + " is destroyed");
         }
         
     }
