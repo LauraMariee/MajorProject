@@ -1,11 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using Clothing;
 using Model;
 using UnityEngine;
-using UnityEngine.UI;
-using ClothingDetail = Tests.ClothingDetail;
 
 namespace Filtering
 {
