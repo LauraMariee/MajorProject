@@ -7,7 +7,7 @@ namespace Model
     {
         private Vector3 spawnPosition;
         
-        public GameObject activeModel; //find models in hierarchy
+        public GameObject activeModel{ get; private set; } //find models in hierarchy
         private Vector3 activeModelOrigin;
         
         public List<GameObject> switchModelButtons;
@@ -43,8 +43,8 @@ namespace Model
             if (newActive == null) return;
             // remember where it came from so that we can move it back there
             activeModelOrigin = newActive.GetComponent<Transform>().position;
-
-            // WE WANT TO MOVE IT, MOVE IT! MOVE IT!
+            
+            //Move model
             newActive.GetComponent<Transform>().position = spawnPosition;
         }
     }
