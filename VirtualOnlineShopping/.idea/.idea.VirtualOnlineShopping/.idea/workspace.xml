@@ -2,17 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ab07c5-3983-4822-be13-3f52bc908caf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Paperwork/Virtual Online Shopping.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Paperwork/Virtual Online Shopping.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VirtualOnlineShopping/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VirtualOnlineShopping.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VirtualOnlineShopping.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Filtering/ClothesMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Filtering/ClothesMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5f/5f12dba63a05e1774333a17763ba190f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f2/f2330f92c3bea97eb41724d92e1250e3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/18/183e73876c1b693d10dcca10dbcdcd2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/21/2175b538833b97e3429103638c76b712" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/21/217e9684c7df94cd300ecf96e53f9e01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/29/2928ef2dbabd193b162ed953822537dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/29/299cc0fa1812efed19dd678b67de35ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3d/3db7c011c1ee7dee8a2bbf5c70e6a589" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/45/45cfcb3e44f58a06456529d443db2a2a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/57/57d5760b75489e7f469a33ed51685b10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5e/5e7c732ade681bb7586daa9eaedfcdae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/72/723a6890c34377606acc872b7fd61b0f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/83/8392a23d32387c9bf04cdab1f19b5457" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/83/83bbbccba1743f29f53f03d11cafd001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9c/9c3078838bdbdac8ce3b0c4967fde19e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9e/9e7457ebd553d9746f7df80213a6cec8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a9/a958338b042bbcc6b12ed3c661721dce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/af/aff62cae71499c440ad4541c90960509" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b4/b41a1010c0774e681988c2c3e4cfbeb9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b6/b680d07d2b3034251351415cfbc8563b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/cb/cb19143f5f657b1c980eeffbdfaf3bbe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e2/e2ea5ddbba18d73f184873203a13d995" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ea/ea92e03ba199b166f1c252aeb449bc25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ee/eecf502d5a7ed1b98c5d9ef3fb6af6cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f5/f53f8769a8669de7896c8f1d06918f48" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/6d9e2c-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/6d9e2c-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/7393fe-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/7393fe-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/EZhex1991.EZSoftBone.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/EZhex1991.EZSoftBone.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/SteamVR.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/SteamVR.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/SteamVR_Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/SteamVR_Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/SteamVR_Windows_EditorHelper.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/SteamVR_Windows_EditorHelper.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +112,11 @@
       <option value="$PROJECT_DIR$/Assets/Tests/RuntimeTests/FilterControllerTests.cs" />
       <option value="$PROJECT_DIR$/Assets/Tests/RuntimeTests/PlaytimeTests.asmdef" />
       <option value="$PROJECT_DIR$/Assets/Tests/EditorTests/FilterControllerTests.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/AbstractModel.cs" />
       <option value="$PROJECT_DIR$/Assets/AsosData/7616.json" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Model/ModelController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/FilterUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Filtering/ClothesMachine.cs" />
     </changedPaths>
   </component>
@@ -119,10 +146,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="4448">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="4448" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -179,6 +206,7 @@
       <workItem from="1619290721461" duration="5908000" />
       <workItem from="1619532843578" duration="840000" />
       <workItem from="1619546677101" duration="6000" />
+      <workItem from="1619548492417" duration="6183000" />
     </task>
     <servers />
   </component>

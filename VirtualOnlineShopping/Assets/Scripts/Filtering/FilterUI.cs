@@ -34,6 +34,9 @@ namespace Filtering
         private Text colourTextBox;
         private Text priceTextBox;
         private Text typeTextBox;
+
+
+        private bool hintPressed = false;
         
         public void Start()
         {
@@ -155,11 +158,6 @@ namespace Filtering
         {
             intIndex++;
         }
-        public void GetItemToSpawn()
-        {
-            //Get parent machine
-            //Send to controller
-        }
         public void DetailPanelClick()
         {
             buttonOverview = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
@@ -198,6 +196,12 @@ namespace Filtering
                     break;
             }
             //switch statement on button clicked 
+        }
+        public void HintPanelClick()
+        {
+            hintPressed = !hintPressed;
+            var hintPanel = GameObject.Find("UI/Canvas/HintViewPanel");
+            hintPanel.SetActive(!hintPressed);
         }
         private static void ShowDetailMenu()
         {

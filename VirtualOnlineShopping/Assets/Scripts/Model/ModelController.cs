@@ -7,7 +7,7 @@ namespace Model
     {
         private Vector3 spawnPosition;
         
-        public GameObject activeModel{ get; private set; } //find models in hierarchy
+        public GameObject activeModel{ get; set; } //find models in hierarchy
         private Vector3 activeModelOrigin;
         
         public List<GameObject> switchModelButtons;

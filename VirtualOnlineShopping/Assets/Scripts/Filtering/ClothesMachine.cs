@@ -1,8 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Timers;
 using Clothing;
 using Model;
 using UnityEngine;
+using Timer = System.Timers.Timer;
 
 namespace Filtering
 {
@@ -10,8 +15,6 @@ namespace Filtering
     {
         public ClothingObject clothingObject{ get; set; }
         private ModelController modelController;
-
-        private GameObject activeModel;
 
         private int topCount;
         private int bottomCount;
@@ -21,53 +24,49 @@ namespace Filtering
         private readonly List<string> bottomStringCategories = new List<string>(){"Jeans", "Loungewear"};
         private readonly List<string> middleStringCategories = new List<string>(){"Dresses"};
 
+        private bool showModelErrorUI;
+        private GameObject errorUI;
+
         // Start is called before the first frame update
         private void Start()
         {
             modelController = GameObject.Find("Environment/Base/CurrentModelController/").GetComponent<ModelController>();
-            activeModel = GetActiveModel();
             SetClothingCount();
+            errorUI = GameObject.Find("UI/Canvas/NoActiveModelHint");
+            showModelErrorUI = false; 
         }
-        public void SpawnItemOnModel()
+
+        public void Update()
         {
-            activeModel = GetActiveModel();
-            var machineCloth = Resources.Load<GameObject>("Clothes/" + clothingObject.id); //Spawn into machine
-
-            switch (SpawnLocationCheck())
-            {
-                case "Top":
-                    ClothingDestroy(topCount, topStringCategories);
-                    SpawnItem(modelController.activeModel.GetComponent<AbstractModel>().topSpawn.position, machineCloth);
-                    Debug.Log("Spawned " + machineCloth.name);
-                    topCount++;
-                    break;
-                case "Middle":
-                    ClothingDestroy(middleCount, middleStringCategories);
-                    SpawnItem(modelController.activeModel.GetComponent<AbstractModel>().middleSpawn.position, machineCloth);
-                    Debug.Log("Spawned " + machineCloth.name);
-                    middleCount++;
-                    break;
-                case "Bottom":
-                    ClothingDestroy(bottomCount, bottomStringCategories);
-                    SpawnItem(modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn.position, machineCloth);
-                    Debug.Log("Spawned " + machineCloth.name);
-                    bottomCount++;
-                    break;
-                case"Location not set":
-                    Debug.Log("Location not set for " + machineCloth.name);
-                    break;
-                default:
-                    break;
-            }
+            errorUI.SetActive(showModelErrorUI);
+            Debug.Log(showModelErrorUI);
         }
-
-        private void SpawnItem(Vector3 position, GameObject clothing)
+        
+        private void DisplayErrorUI()
         {
-            var clothes = Instantiate(clothing, position,
-                Quaternion.Euler(0, 90, 0));
-            clothes.transform.SetParent(activeModel.transform);
+            showModelErrorUI = true;
+            var aTimer = new Timer {Interval = 5000, Enabled = true};
+            aTimer.Elapsed+=(SetModelErrorUIFalse);
         }
+        private void SetModelErrorUIFalse(object source, ElapsedEventArgs e)
+        {
+            showModelErrorUI = false;
+            //Debug.Log("show error is " + showModelErrorUI);
+        }
+        
+        
+        private void ClothingDestroy(int count, IEnumerable<string> categoryStrings)
+        {
+            if (count < 1) return;
+            var childCount = modelController.activeModel.transform.childCount;
+            if (childCount <= 3) return;
+            var currentChild = modelController.activeModel.transform.GetChild(4);
 
+            if (!categoryStrings.Any(category =>
+                currentChild.GetComponent<ClothingDetail>().itemType.Equals(category))) return;
+            Destroy(currentChild); //destroy extra child
+            Debug.Log(currentChild.name + " is destroyed");
+        }
         private string SpawnLocationCheck()
         {
             if (topStringCategories.Any(category =>
@@ -81,12 +80,75 @@ namespace Filtering
             
             return "Location not set";
         }
+        private void SpawnItemFromMachine(GameObject machineCloth, int count, Vector3 spawnPoint, IEnumerable<string> categories)
+        {
+            ClothingDestroy(count, categories);
+            var clothes = Instantiate(machineCloth, spawnPoint,
+                    Quaternion.Euler(0, 90, 0));
+            clothes.transform.SetParent(modelController.activeModel.transform);
+            Debug.Log("Spawned " + machineCloth.name);
+            count++;
+        }
+        public void SpawnItemOnModel()
+        {
+            modelController.activeModel = GetActiveModel();
+            var machineCloth = Resources.Load<GameObject>("Clothes/" + clothingObject.id); //Spawn into machine
 
+            switch (SpawnLocationCheck())
+            {
+                case "Top":
+                    try
+                    {
+                        SpawnItemFromMachine(machineCloth, topCount,
+                        modelController.activeModel.GetComponent<AbstractModel>().topSpawn.position,
+                        topStringCategories);
+                    }
+                    catch (Exception ex)
+                    { 
+                        DisplayErrorUI();
+                        Debug.Log(ex);
+                    }
+                    
+                    break;
+                case "Middle":
+                    try
+                    {
+                        SpawnItemFromMachine(machineCloth, middleCount,
+                        modelController.activeModel.GetComponent<AbstractModel>().middleSpawn.position,
+                        middleStringCategories);
+                    }
+                    catch (Exception ex)
+                    { 
+                        DisplayErrorUI();
+                        Debug.Log(ex);
+                    }
+                    break;
+                case "Bottom":
+                    try
+                    {
+                        SpawnItemFromMachine(machineCloth, bottomCount,
+                        modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn.position,
+                        bottomStringCategories);
+                    }
+                    catch (Exception ex)
+                    { 
+                        DisplayErrorUI();
+                        Debug.Log(ex);
+                    }
+                    break;
+                case"Location not set":
+                    //Debug.Log("Location not set for " + machineCloth.name);
+                    break;
+                default:
+                    break;
+            }
+        }
+        
+        
         private GameObject GetActiveModel()
         {
             return modelController.activeModel;
         }
-        
         private void SetClothingCount()
         {
             topCount = 0;
@@ -94,18 +156,6 @@ namespace Filtering
             bottomCount = 0; 
         }
         
-        private void ClothingDestroy(int count, IEnumerable<string> categoryStrings)
-        {
-            if (count < 1) return;
-            var childCount = activeModel.transform.childCount;
-            if (childCount <= 3) return;
-            var currentChild = activeModel.transform.GetChild(4);
-
-            if (!categoryStrings.Any(category =>
-                currentChild.GetComponent<ClothingDetail>().itemType.Equals(category))) return;
-            Destroy(currentChild); //destroy extra child
-            Debug.Log(currentChild.name + " is destroyed");
-        }
         
     }
 }
