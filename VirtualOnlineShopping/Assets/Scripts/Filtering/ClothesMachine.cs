@@ -17,7 +17,7 @@ namespace Filtering
         private int bottomCount;
         private int middleCount;
 
-        private readonly List<string> topStringCategories = new List<string>(){"Tops and Tanks", "Tops", "Hoodies and Sweatshirts"};
+        private readonly List<string> topStringCategories = new List<string>(){"Tops and Tanks", "Tops", "Hoodies & Sweatshirts"};
         private readonly List<string> bottomStringCategories = new List<string>(){"Jeans", "Loungewear"};
         private readonly List<string> middleStringCategories = new List<string>(){"Dresses"};
 
