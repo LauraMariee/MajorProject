@@ -39,7 +39,7 @@ namespace Filtering
         public void Update()
         {
             errorUI.SetActive(showModelErrorUI);
-            Debug.Log(showModelErrorUI);
+            //Debug.Log(showModelErrorUI);
         }
         
         private void DisplayErrorUI()

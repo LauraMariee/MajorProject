@@ -1,8 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 using Valve.Newtonsoft.Json;
-using Valve.Newtonsoft.Json.Utilities;
+
 
 namespace Clothing
 {
@@ -13,6 +15,7 @@ namespace Clothing
         private string root; 
 
         public static readonly List<ClothingObject> LoadedClothes = new List<ClothingObject>();
+        
 
         private void Start()
         {
@@ -73,7 +76,9 @@ namespace Clothing
                 clothingDetailObject.itemType = loadedCloth.itemType;
                 
                 clothingDetailObject.customColours = loadedCloth.customColours;
+                
             }
+            Debug.Log("Details Loaded for " + LoadedClothes.Count);
         }
         public List<ClothingObject> GetLoadedClothes()
         {
