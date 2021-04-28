@@ -16,6 +16,7 @@ namespace Clothing
 
         public static readonly List<ClothingObject> LoadedClothes = new List<ClothingObject>();
         
+        private GameObject clothingDetailPanel;
 
         private void Start()
         {
@@ -27,6 +28,7 @@ namespace Clothing
                 ReadInJson(root + filename);
                 
             }
+            clothingDetailPanel = GameObject.Find("UI/Canvas/ClothesDetailPanel");
         }
         private static List<string> ReadInCategories()
         {
@@ -78,11 +80,51 @@ namespace Clothing
                 clothingDetailObject.customColours = loadedCloth.customColours;
                 
             }
-            Debug.Log("Details Loaded for " + LoadedClothes.Count);
         }
         public List<ClothingObject> GetLoadedClothes()
         {
             return LoadedClothes;
+        }
+        private void ShowDetailUI(ClothingDetail clothes)
+        {
+            var numberOfFields = clothingDetailPanel.transform.childCount; 
+            for(var i = 0; i <= numberOfFields; i++)
+            {
+                var clothingItem = clothingDetailPanel.transform.GetChild(i).gameObject;
+                var field = clothingDetailPanel.transform.GetChild(i).GetComponent<Text>();
+                
+                switch (clothingItem.name)
+                {
+                    case "itemName":
+                        field.text = clothes.itemName;
+                        Debug.Log(clothes.itemName);
+                        break;
+                    case "price":
+                        field.text = clothes.price.ToString();
+                        Debug.Log(clothes.price.ToString());
+                        break;
+                    case "brandName":
+                        field.text = clothes.brandName;
+                        Debug.Log(clothes.brandName);
+                        break;
+                    case "colour":
+                        field.text = BuildUIString(clothes.customColours);
+                        Debug.Log(BuildUIString(clothes.customColours));
+                        break;
+                    default:
+                        break;
+                }
+                
+            }
+        }
+        private static string BuildUIString(IEnumerable<string> stringList)
+        {
+            return string.Join(", ", stringList);
+        }
+
+        public void Update()
+        {
+            
         }
     }
 }

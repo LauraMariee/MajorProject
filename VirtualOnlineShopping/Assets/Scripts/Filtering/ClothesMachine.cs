@@ -100,7 +100,7 @@ namespace Filtering
                     try
                     {
                         SpawnItemFromMachine(machineCloth, topCount,
-                        modelController.activeModel.GetComponent<AbstractModel>().topSpawn.position,
+                        modelController.activeModel.GetComponent<BaseModel>().topSpawn.position,
                         topStringCategories);
                     }
                     catch (Exception ex)
@@ -114,7 +114,7 @@ namespace Filtering
                     try
                     {
                         SpawnItemFromMachine(machineCloth, middleCount,
-                        modelController.activeModel.GetComponent<AbstractModel>().middleSpawn.position,
+                        modelController.activeModel.GetComponent<BaseModel>().middleSpawn.position,
                         middleStringCategories);
                     }
                     catch (Exception ex)
@@ -127,7 +127,7 @@ namespace Filtering
                     try
                     {
                         SpawnItemFromMachine(machineCloth, bottomCount,
-                        modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn.position,
+                        modelController.activeModel.GetComponent<BaseModel>().bottomSpawn.position,
                         bottomStringCategories);
                     }
                     catch (Exception ex)
