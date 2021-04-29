@@ -60,6 +60,7 @@
             <e p="SetActiveModel.cs" t="Include" />
             <e p="SwitchModel.cs" t="Include" />
           </e>
+          <e p="PointingHand.cs" t="Include" />
         </e>
         <e p="SteamVR" t="Include">
           <e p="Editor" t="Include">

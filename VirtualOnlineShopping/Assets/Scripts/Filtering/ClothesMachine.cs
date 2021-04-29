@@ -36,12 +36,6 @@ namespace Filtering
             showModelErrorUI = false; 
         }
 
-        public void Update()
-        {
-            errorUI.SetActive(showModelErrorUI);
-            //Debug.Log(showModelErrorUI);
-        }
-        
         private void DisplayErrorUI()
         {
             showModelErrorUI = true;
@@ -53,8 +47,6 @@ namespace Filtering
             showModelErrorUI = false;
             //Debug.Log("show error is " + showModelErrorUI);
         }
-        
-        
         private void ClothingDestroy(int count, IEnumerable<string> categoryStrings)
         {
             if (count < 1) return;
@@ -143,8 +135,6 @@ namespace Filtering
                     break;
             }
         }
-        
-        
         private GameObject GetActiveModel()
         {
             return modelController.activeModel;
