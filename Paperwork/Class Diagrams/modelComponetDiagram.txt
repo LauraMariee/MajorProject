@@ -6,7 +6,7 @@ SetActiveModel --|> AbstractModel
 
 ModelController <|-- AbstractModel
 
-AbstractModel <|-- BoxCollider
+BaseModel <|-- BoxCollider
 
 
 class BoxCollider{
@@ -25,6 +25,6 @@ class SwitchModel{
     <<component>>
 }
 
-class AbstractModel{
+class BaseModel{
     <<component>>
 }

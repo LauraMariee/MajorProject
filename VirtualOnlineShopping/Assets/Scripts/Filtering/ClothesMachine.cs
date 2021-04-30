@@ -36,12 +36,6 @@ namespace Filtering
             showModelErrorUI = false; 
         }
 
-        public void Update()
-        {
-            errorUI.SetActive(showModelErrorUI);
-            Debug.Log(showModelErrorUI);
-        }
-        
         private void DisplayErrorUI()
         {
             showModelErrorUI = true;
@@ -53,8 +47,6 @@ namespace Filtering
             showModelErrorUI = false;
             //Debug.Log("show error is " + showModelErrorUI);
         }
-        
-        
         private void ClothingDestroy(int count, IEnumerable<string> categoryStrings)
         {
             if (count < 1) return;
@@ -100,7 +92,7 @@ namespace Filtering
                     try
                     {
                         SpawnItemFromMachine(machineCloth, topCount,
-                        modelController.activeModel.GetComponent<AbstractModel>().topSpawn.position,
+                        modelController.activeModel.GetComponent<BaseModel>().topSpawn.position,
                         topStringCategories);
                     }
                     catch (Exception ex)
@@ -114,7 +106,7 @@ namespace Filtering
                     try
                     {
                         SpawnItemFromMachine(machineCloth, middleCount,
-                        modelController.activeModel.GetComponent<AbstractModel>().middleSpawn.position,
+                        modelController.activeModel.GetComponent<BaseModel>().middleSpawn.position,
                         middleStringCategories);
                     }
                     catch (Exception ex)
@@ -127,7 +119,7 @@ namespace Filtering
                     try
                     {
                         SpawnItemFromMachine(machineCloth, bottomCount,
-                        modelController.activeModel.GetComponent<AbstractModel>().bottomSpawn.position,
+                        modelController.activeModel.GetComponent<BaseModel>().bottomSpawn.position,
                         bottomStringCategories);
                     }
                     catch (Exception ex)
@@ -143,8 +135,6 @@ namespace Filtering
                     break;
             }
         }
-        
-        
         private GameObject GetActiveModel()
         {
             return modelController.activeModel;
