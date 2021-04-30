@@ -1,0 +1,20 @@
+classDiagram
+
+ClothingObject --|> Environment : implements
+Clothes --|> Environment : implements
+
+
+
+class ClothingObject{
+    <<interface>>
+}
+
+class Environment{
+    <<component>>
+	ClothingController
+}
+
+class Clothes{
+    <<component>>
+	ClothingDetail
+}

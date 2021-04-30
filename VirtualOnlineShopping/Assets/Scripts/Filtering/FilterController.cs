@@ -1,8 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Clothing;
 using UnityEngine;
 using UnityEngine.UI;
+using Object = System.Object;
 
 namespace Filtering
 {
@@ -36,8 +38,8 @@ namespace Filtering
             filterUIScript = filterScriptObject.GetComponent<FilterUI>();
 
             machineCountParent = GameObject.Find("Models/ClothesMachines");
-            clothingIndexValue = 0;
-
+            
+            clothingIndexValue = filterUIScript.intIndex;
         }
         private void GetFilterLists()
         {
@@ -45,11 +47,24 @@ namespace Filtering
             filterBrandNames = filterUIScript.selectedBrands;
             filterType = filterUIScript.selectedType;
         }
+        private void GetIndexValue()
+        {
+            clothingIndexValue = filterUIScript.intIndex;
+        }
+        private void SetIndexValue(int newValue)
+        {
+            filterUIScript.intIndex = newValue;
+        }
         public void Search()
         {
             Debug.Log("Search Clicked");
             GetFilterLists();
             FilterClothes();
+            DisplayClothes();
+        }
+        public void Next(){
+            Debug.Log("Next Clicked");
+            GetIndexValue();
             DisplayClothes();
         }
         private void FilterClothes(){
@@ -64,7 +79,7 @@ namespace Filtering
                         filteredClothesList?.Add(clothItem);
                     }
                 }
-                else if (filterBrandNames.Any(brand => clothItem.brandName == brand))
+                if (filterBrandNames.Any(brand => clothItem.brandName == brand))
                 {
                     //Debug.Log("Added to filtered list: " + clothItem.name);;
                     if (!IsInList(clothItem))
@@ -73,7 +88,7 @@ namespace Filtering
                         
                     }
                 }
-                else if (filterType.Any(itemType => clothItem.itemType == itemType))
+                if (filterType.Any(itemType => clothItem.itemType == itemType))
                 {
                     //Debug.Log("Added to filtered list: " + clothItem.name);;
                     if (!IsInList(clothItem))
@@ -82,7 +97,7 @@ namespace Filtering
                         
                     }
                 }
-                else if(clothItem.price.current.value >= filterUIScript.lowerPrice && clothItem.price.current.value <= 
+                if(clothItem.price.current.value >= filterUIScript.lowerPrice && clothItem.price.current.value <= 
                     filterUIScript.upperPrice)//Get two values and check if model price is between the two prices
                 {
                     if (!IsInList(clothItem))
@@ -106,32 +121,55 @@ namespace Filtering
         private void Update()
         {
             GetFilterLists();
+            GetIndexValue();
         }
         private int FindClothesMachines()
         {
             return machineCountParent.transform.childCount;
         }
-        private static void SpawnClothingItem(int objectID, Component machineSpawnPoint)
+        private static void SpawnClothingItem(int objectID, Component machineSpawnPoint, Transform machine)
         {
             var machineCloth = Resources.Load<GameObject>("Clothes/" + objectID); //Spawn into machine
-            Instantiate(machineCloth, machineSpawnPoint.transform.position, Quaternion.identity);//Get correct scale and spawn point
+            var clothingObject =Instantiate(machineCloth, machineSpawnPoint.transform.position, Quaternion.identity);//Get correct scale and spawn point and spawn as machine child
+            clothingObject.transform.localScale = new Vector3(1f, 1f, 1f); // change its local scale in x y z format
+            clothingObject.transform.SetParent(machine);//set parent 
+            Debug.Log("Scale is " + clothingObject.transform.localScale);
         }
         private void DisplayClothes()
         {
             var clothesMachines = FindClothesMachines(); //get number of machines in hiarchy
             for (var i = 0; i < clothesMachines; i++)
             {
-                if (clothingIndexValue >= clothesMachines)
-                {
-                    Debug.Log("Index is higher than machine count");
-                    return;
-                }
+                Debug.Log("ClothingIndexValue is " + clothingIndexValue + " , Total in list is " + filteredClothesList.Count);
+                
                 var currentChild = machineCountParent.transform.GetChild(i); //get machine via index
                 var machineSpawnPoint = currentChild.Find("spawnPoint");
-                currentChild.GetComponent<ClothesMachine>().clothingObject 
+
+                if (clothingIndexValue >= filteredClothesList.Count)
+                {
+                    SetIndexValue(clothingIndexValue = 0);
+                }
+                
+                try
+                {
+                    currentChild.GetComponent<ClothesMachine>().clothingObject 
                     = filteredClothesList[clothingIndexValue++]; //assign clothes equal to machine children
+                }
+                catch (ArgumentOutOfRangeException e)
+                {
+                    Console.WriteLine(e);
+                    throw;
+                }
+
+                var childCount = currentChild.transform.childCount; //check if it has more than 4 children
+                if (childCount > 4)
+                {
+                    Destroy(currentChild.transform.GetChild(4).gameObject); //destroy extra child
+                }
+                
                 SpawnClothingItem(currentChild.GetComponent<ClothesMachine>().clothingObject.id,
-                    machineSpawnPoint);
+                    machineSpawnPoint, currentChild);
+                
             }
         }
     }

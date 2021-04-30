@@ -13,6 +13,8 @@ namespace Filtering
         private string colour;
         private string brandName;
         private string type;
+
+        public int intIndex;
         
         public float upperPrice;
         public float lowerPrice;
@@ -32,6 +34,9 @@ namespace Filtering
         private Text colourTextBox;
         private Text priceTextBox;
         private Text typeTextBox;
+
+
+        private bool hintPressed = false;
         
         public void Start()
         {
@@ -46,6 +51,8 @@ namespace Filtering
             
             priceTextBox = GameObject.Find("UI/Canvas/FilterUI/FilterViewPanel/FilterText/Prices/" +
                                            "PricesTextListItem").GetComponent<Text>();
+
+            intIndex = 0;
         }
         public void BrandClick()
         {
@@ -147,6 +154,10 @@ namespace Filtering
             }
             DisplayFilterChoices(BuildUIString(selectedType), typeTextBox);
         }
+        public void NextClick()
+        {
+            intIndex++;
+        }
         public void DetailPanelClick()
         {
             buttonOverview = EventSystem.current.currentSelectedGameObject.name; //Get name of the gameObject
@@ -185,6 +196,12 @@ namespace Filtering
                     break;
             }
             //switch statement on button clicked 
+        }
+        public void HintPanelClick()
+        {
+            hintPressed = !hintPressed;
+            var hintPanel = GameObject.Find("UI/Canvas/HintViewPanel");
+            hintPanel.SetActive(!hintPressed);
         }
         private static void ShowDetailMenu()
         {

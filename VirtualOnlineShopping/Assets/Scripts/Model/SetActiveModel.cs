@@ -11,9 +11,9 @@ namespace Model
             
             //if (!modelObject.tag.Equals("Model")) return;
 
-            if (!(modelObject.GetComponentInParent(typeof(AbstractModel)) as AbstractModel)) return;
+            if (!(modelObject.GetComponentInParent(typeof(BaseModel)) as BaseModel)) return;
             Debug.Log("Model is enabled");
-            modelObject.GetComponentInParent<AbstractModel>().enabled = true;
+            modelObject.GetComponentInParent<BaseModel>().enabled = true;
 
         }
 
@@ -24,9 +24,9 @@ namespace Model
             
             //if (!other.gameObject.tag.Equals("Model")) return;
 
-            if (!(modelObject.GetComponentInParent(typeof(AbstractModel)) as AbstractModel)) return;
+            if (!(modelObject.GetComponentInParent(typeof(BaseModel)) as BaseModel)) return;
             Debug.Log("Model is disabled");
-            modelObject.GetComponentInParent<AbstractModel>().enabled = false;
+            modelObject.GetComponentInParent<BaseModel>().enabled = false;
         }
     }
 }

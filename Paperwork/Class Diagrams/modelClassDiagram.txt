@@ -1,8 +1,8 @@
 classDiagram
-    AbstractModel <.. MaleModel
-    AbstractModel <.. FemaleModel
+    BaseModel <.. MaleModel
+    BaseModel <.. FemaleModel
 
-    class AbstractModel{
+    class BaseModel{
      -Start()
      -SetBones(string gender)
      -FindAndAddBoneToList(string, string, ICollection<GameObject>)

@@ -51,7 +51,7 @@
             <e p="FilterUI.cs" t="Include" />
           </e>
           <e p="Model" t="Include">
-            <e p="AbstractModel.cs" t="Include" />
+            <e p="BaseModel.cs" t="Include" />
             <e p="FemaleModel.cs" t="Include" />
             <e p="MaleModel.cs" t="Include" />
             <e p="ModelController.cs" t="Include" />
