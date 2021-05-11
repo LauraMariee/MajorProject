@@ -20,34 +20,27 @@ namespace Clothing
 
         private void Start()
         {
-            root = "Assets/AsosData/"; 
             filenames = ReadInCategories(); 
             foreach (var filename in filenames)
             {
                 //Debug.Log(filename);
-                ReadInJson(root + filename);
+                ReadInJson(filename);
                 
             }
             clothingDetailPanel = GameObject.Find("UI/Canvas/ClothesDetailPanel");
         }
         private static List<string> ReadInCategories()
         {
-            using (var r = new StreamReader("Assets/AsosData/categories.json"))// Read in json file
-            {
-                var json = r.ReadToEnd();
-                var filenames = JsonConvert.DeserializeObject<List<string>>(json);// separate strings on file
-                return filenames;
-            }
+            var filepath = Resources.Load<TextAsset>("AsosData/categories");
+            var filenames = JsonConvert.DeserializeObject<List<string>>(filepath.text);// separate strings on file
+            return filenames;
         }
         private static void ReadInJson(string filename)
         {
-            using (var r = new StreamReader(filename + ".json"))// Read in json file
-            {
-                var json = r.ReadToEnd();
-                var items = JsonConvert.DeserializeObject<CategorySearchResult>(json);// separate strings on file
-                var categoryString = items.categoryName;
-                LoadedClothes.AddRange(AssignItemType(items, categoryString).products);
-            }
+            var file = Resources.Load<TextAsset>("AsosData/" + filename);
+            var items = JsonConvert.DeserializeObject<CategorySearchResult>(file.text);// separate strings on file
+            var categoryString = items.categoryName;
+            LoadedClothes.AddRange(AssignItemType(items, categoryString).products);
             AssignToGameObjects();
         }
         private static CategorySearchResult AssignItemType(CategorySearchResult items, string category)
